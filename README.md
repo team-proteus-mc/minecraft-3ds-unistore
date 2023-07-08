@@ -1,2 +1,2 @@
 # minecraft-3ds-unistore
-A Unistore for installing custom content for Minecraft: New Nintendo 3DS Edition. For use with the Universal-Updater.
+The official Unistore for all Minecraft 3DS Community content. Content is added simultaneous with the website.
