@@ -28,6 +28,8 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for
     * Sheeptastic mod port
 * ENDERMANYK
     * Shaders
+* GenSpace
+    * Minecraft 3DS Modernization map
 * oliverimcDISC
     * LoCity map
 * PokéTube
