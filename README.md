@@ -5,13 +5,6 @@ The OFFICIAL Minecraft 3DS Community UniStore, and the #1 place to get custom co
 ![Minecraft 3DS UniStore QR Code](https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/blob/main/img/unistore-qr-logo-375.png?raw=true)
 
 ## Information
-Old repos (timeline):
-
-https://github.com/susbaconhairman/mc-3ds-unistore
-
-https://github.com/bigskribbz/mc-3ds-unistore (I deleted it because I got reported and shadowbanned for having stuff I wasn't supposed to there)
-
-https://github.com/susbaconhairman/minecraft-3ds-unistore
 
 ## Credits
 
@@ -19,7 +12,7 @@ https://github.com/susbaconhairman/minecraft-3ds-unistore
 Minecraft 3DS Community and Universal-Server Discord servers
 
 ### Testing
-Mr.Dingus#7918, Pk11, myself (skribbler#1095), various people from the Minecraft 3DS Community Discord server
+skribbler#1095, DarkForPresident, various people from the Minecraft 3DS Community Discord server
 
 ### Editing
 https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for find and replace tool, GitHub code editor, Ohana3DS for texture conversion, Piskel and Pixlr for image editing, Tex3DS for spritesheet compilation, https://codepen.io/jsnelders/pen/qBByqQy for turning line breaks into "\n"'s, and PineTools for their (batch) image flipper.
@@ -43,4 +36,3 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for
 * ENDERMANYK
     * Shaders
 
-**ALL CONTENT HAS THE APPROVAL OF THEIR RESPECTIVE CREATORS TO BE IN THIS STORE**
