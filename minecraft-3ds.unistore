@@ -5,9 +5,9 @@
       "file":"minecraft-3ds.unistore",
       "revision":0,
       "sheet":"atlas.t3x",
-      "sheetURL":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/atlas.t3x",
+      "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
-      "url":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/minecraft-3ds.unistore",
+      "url":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/minecraft-3ds.unistore",
       "version":3
    },
    "storeContent":[
@@ -28,11 +28,11 @@
             "screenshots": [
                {
                   "description": "Textures show-off",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/kharri2-a.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/kharri2-a.png"
                },
                {
                   "description": "Texture's icon",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/kharri2-b.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/kharri2-b.png"
                }
             ],
             "icon_index":2,
@@ -41,7 +41,7 @@
          },
          "Kharrii2 Face Textures (USA)":[
             {
-               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/textures/kharrii2_textures.zip",
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/kharrii2_textures.zip",
                "output":"sdmc:/Minecraft 3DS/kharrii2_textures.zip",
                "type":"downloadFile"
             },
@@ -79,7 +79,7 @@
          ],
          "Kharrii2 Face Textures (EUR)":[
             {
-               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/textures/kharrii2_textures.zip",
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/kharrii2_textures.zip",
                "output":"sdmc:/Minecraft 3DS/kharrii2_textures.zip",
                "type":"downloadFile"
             },
@@ -117,7 +117,7 @@
          ],
          "Kharrii2 Face Textures (JPN)":[
             {
-               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/textures/kharrii2_textures.zip",
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/kharrii2_textures.zip",
                "output":"sdmc:/Minecraft 3DS/kharrii2_textures.zip",
                "type":"downloadFile"
             },
@@ -171,11 +171,11 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/dragon-slayer-a.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/dragon-slayer-a.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/dragon-slayer-b.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/dragon-slayer-b.png"
                }
             ],
             "icon_index":6,
@@ -184,7 +184,7 @@
          },
          "LEGO Dragon Slayer Skin (USA)":[
             {
-               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/skins/3DS-LEGO-Dragon-Slayer.zip",
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/3DS-LEGO-Dragon-Slayer.zip",
                "output":"sdmc:/Minecraft 3DS/3DS-LEGO-Dragon-Slayer.zip",
                "type":"downloadFile"
             },
@@ -206,7 +206,7 @@
          ],
          "LEGO Dragon Slayer Skin (EUR)":[
             {
-               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/skins/3DS-LEGO-Dragon-Slayer.zip",
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/3DS-LEGO-Dragon-Slayer.zip",
                "output":"sdmc:/Minecraft 3DS/3DS-LEGO-Dragon-Slayer.zip",
                "type":"downloadFile"
             },
@@ -228,7 +228,7 @@
          ],
          "LEGO Dragon Slayer Skin (JPN)":[
             {
-               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/skins/3DS-LEGO-Dragon-Slayer.zip",
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/3DS-LEGO-Dragon-Slayer.zip",
                "output":"sdmc:/Minecraft 3DS/3DS-LEGO-Dragon-Slayer.zip",
                "type":"downloadFile"
             },
@@ -266,7 +266,7 @@
             "screenshots": [
                {
                   "description": "No image is available. Sorry.",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
                }
             ],
             "icon_index":7,
@@ -450,15 +450,15 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/2b2t-skins-a.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/2b2t-skins-a.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/2b2t-skins-b.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/2b2t-skins-b.png"
                },
                {
                   "description": "Image #3",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/2b2t-skins-c.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/2b2t-skins-c.png"
                }
             ], 
             "icon_index":4,
@@ -467,7 +467,7 @@
          },
          "2b2t Legends (USA)":[
             {
-               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/skins/2b2t_legends.zip",
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/2b2t_legends.zip",
                "output":"sdmc:/Minecraft 3DS/2b2t_legends.zip",
                "type":"downloadFile"
             },
@@ -494,7 +494,7 @@
          ],
          "2b2t Legends (EUR)":[
             {
-               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/skins/2b2t_legends.zip",
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/2b2t_legends.zip",
                "output":"sdmc:/Minecraft 3DS/2b2t_legends.zip",
                "type":"downloadFile"
             },
@@ -521,7 +521,7 @@
          ],
          "2b2t Legends (JPN)":[
             {
-               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/skins/2b2t_legends.zip",
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/2b2t_legends.zip",
                "output":"sdmc:/Minecraft 3DS/2b2t_legends.zip",
                "type":"downloadFile"
             },
@@ -565,11 +565,11 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/drones-a.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/drones-a.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/drones-b.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/drones-b.png"
                }
             ],
             "icon_index":5,
@@ -578,7 +578,7 @@
          },
          "Murder Drones (USA)":[
             {
-               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/skins/murder-drones.zip",
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/murder-drones.zip",
                "output":"sdmc:/Minecraft 3DS/murder-drones.zip",
                "type":"downloadFile"
             },
@@ -600,7 +600,7 @@
          ],
          "Murder Drones (EUR)":[
             {
-               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/skins/murder-drones.zip",
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/murder-drones.zip",
                "output":"sdmc:/Minecraft 3DS/murder-drones.zip",
                "type":"downloadFile"
             },
@@ -622,7 +622,7 @@
          ],
          "Murder Drones (JPN)":[
             {
-               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/skins/murder-drones.zip",
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/murder-drones.zip",
                "output":"sdmc:/Minecraft 3DS/murder-drones.zip",
                "type":"downloadFile"
             },
@@ -661,19 +661,19 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/new-skins-a.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/new-skins-a.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/new-skins-b.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/new-skins-b.png"
                },
                {
                   "description": "Image #3",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/new-skins-c.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/new-skins-c.png"
                },
                {
                   "description": "Image #4",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/new-skins-d.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/new-skins-d.png"
                }
             ],
             "icon_index":3,
@@ -684,7 +684,7 @@
             "size": "309.24 KB, 2 blocks",
             "script":[
                {
-                  "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/skins/new-default-skins.zip",
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/new-default-skins.zip",
                   "output":"sdmc:/Minecraft 3DS/new-default-skins.zip",
                   "type":"downloadFile"
                },
@@ -709,7 +709,7 @@
             "size": "309.24 KB, 2 blocks",
             "script":[
                {
-                  "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/skins/new-default-skins.zip",
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/new-default-skins.zip",
                   "output":"sdmc:/Minecraft 3DS/new-default-skins.zip",
                   "type":"downloadFile"
                },
@@ -734,7 +734,7 @@
             "size": "309.24 KB, 2 blocks",
             "script":[
                {
-                  "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/skins/new-default-skins.zip",
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/new-default-skins.zip",
                   "output":"sdmc:/Minecraft 3DS/new-default-skins.zip",
                   "type":"downloadFile"
                },
@@ -773,19 +773,19 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg2-a.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg2-a.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg2-b.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg2-b.png"
                },
                {
                   "description": "Image #3",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg2-c.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg2-c.png"
                },
                {
                   "description": "Image #4",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg2-d.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg2-d.png"
                }
             ],
             "icon_index":0,
@@ -797,7 +797,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/worlds/wewelsburg-2.zip",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/wewelsburg-2.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/wewelsburg-2.zip"
                },
                {
@@ -835,19 +835,19 @@
             "screenshots": [
                {
                   "description": "200% larger sun",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/sun-moon-a.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/sun-moon-a.png"
                },
                {
                   "description": "200% larger moon",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/sun-moon-b.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/sun-moon-b.png"
                },
                {
                   "description": "Blood moon",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/sun-moon-c.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/sun-moon-c.png"
                },
                {
                   "description": "Full moon",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/sun-moon-d.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/sun-moon-d.png"
                }
             ],
             "icon_index":1,
@@ -859,7 +859,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-moon.zip",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-moon.zip",
                   "output": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip"
                },
                {
@@ -895,7 +895,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-moon.zip",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-moon.zip",
                   "output": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip"
                },
                {
@@ -931,7 +931,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-moon.zip",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-moon.zip",
                   "output": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip"
                },
                {
@@ -967,7 +967,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-phases.zip",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-phases.zip",
                   "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip"
                },
                {
@@ -1003,7 +1003,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-phases.zip",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-phases.zip",
                   "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip"
                },
                {
@@ -1039,7 +1039,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-phases.zip",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-phases.zip",
                   "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip"
                },
                {
@@ -1075,7 +1075,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-full-moon.zip",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-full-moon.zip",
                   "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip"
                },
                {
@@ -1111,7 +1111,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-full-moon.zip",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-full-moon.zip",
                   "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip"
                },
                {
@@ -1147,7 +1147,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-full-moon.zip",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-full-moon.zip",
                   "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip"
                },
                {
@@ -1183,7 +1183,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-full-moon.zip",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-full-moon.zip",
                   "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip"
                },
                {
@@ -1219,7 +1219,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-full-moon.zip",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-full-moon.zip",
                   "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip"
                },
                {
@@ -1255,7 +1255,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-full-moon.zip",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-full-moon.zip",
                   "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip"
                },
                {
@@ -1304,11 +1304,11 @@
             "screenshots": [
                {
                   "description": "Steve",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/new-base-skins-a.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/new-base-skins-a.png"
                },
                {
                   "description": "Alex",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/new-base-skins-b.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/new-base-skins-b.png"
                }
             ],
             "icon_index":9,
@@ -1317,7 +1317,7 @@
          },
          "New Base Skins (USA)":[
             {
-               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/skins/new-base-skins.zip",
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/new-base-skins.zip",
                "output":"sdmc:/Minecraft 3DS/new-base-skins.zip",
                "type":"downloadFile"
             },
@@ -1344,7 +1344,7 @@
          ],
          "New Base Skins (EUR)":[
             {
-               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/skins/new-base-skins.zip",
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/new-base-skins.zip",
                "output":"sdmc:/Minecraft 3DS/new-base-skins.zip",
                "type":"downloadFile"
             },
@@ -1371,7 +1371,7 @@
          ],
          "New Base Skins (JPN)":[
             {
-               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/skins/new-base-skins.zip",
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/new-base-skins.zip",
                "output":"sdmc:/Minecraft 3DS/new-base-skins.zip",
                "type":"downloadFile"
             },
@@ -1414,7 +1414,7 @@
             "screenshots": [
                {
                   "description": "Some of the skins (sorry for poor quality, not my fault)",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/legacy-skins.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/legacy-skins.png"
                }
             ],
             "icon_index":8,
@@ -1423,7 +1423,7 @@
          },
          "Legacy Console Skins (USA)":[
             {
-               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/skins/legacy_console_default.zip",
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/legacy_console_default.zip",
                "output":"sdmc:/Minecraft 3DS/legacy_console_default.zip",
                "type":"downloadFile"
             },
@@ -1450,7 +1450,7 @@
          ],
          "Legacy Console Skins (EUR)":[
             {
-               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/skins/legacy_console_default.zip",
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/legacy_console_default.zip",
                "output":"sdmc:/Minecraft 3DS/legacy_console_default.zip",
                "type":"downloadFile"
             },
@@ -1477,7 +1477,7 @@
          ],
          "Legacy Console Skins (JPN)":[
             {
-               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/skins/legacy_console_default.zip",
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/legacy_console_default.zip",
                "output":"sdmc:/Minecraft 3DS/legacy_console_default.zip",
                "type":"downloadFile"
             },
@@ -1521,23 +1521,23 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/gui-a.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gui-a.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/gui-b.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gui-b.png"
                },
                {
                   "description": "Image #3",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/gui-c.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gui-c.png"
                },
                {
                   "description": "Image #4",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/gui-d.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gui-d.png"
                },
                {
                   "description": "Image #5",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/gui-e.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gui-e.png"
                }
             ],
             "icon_index":10,
@@ -1551,7 +1551,7 @@
                "count":1
             },
             {
-               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_2.0.rar",
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_2.0.rar",
                "output":"sdmc:/Minecraft 3DS/Cleannslick_GUI_2.0.rar",
                "type":"downloadFile"
             },
@@ -1583,7 +1583,7 @@
                "count":1
             },
             {
-               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_2.0.rar",
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_2.0.rar",
                "output":"sdmc:/Minecraft 3DS/Cleannslick_GUI_2.0.rar",
                "type":"downloadFile"
             },
@@ -1615,7 +1615,7 @@
                "count":1
             },
             {
-               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_2.0.rar",
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_2.0.rar",
                "output":"sdmc:/Minecraft 3DS/Cleannslick_GUI_2.0.rar",
                "type":"downloadFile"
             },
@@ -1660,23 +1660,23 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/shader.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/shader.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/endermanyk-a.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/endermanyk-a.png"
                },
                {
                   "description": "Image #3",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/endermanyk-b.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/endermanyk-b.png"
                },
                {
                   "description": "Image #4",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/endermanyk-c.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/endermanyk-c.png"
                },
                {
                   "description": "Image #5",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/endermanyk-d.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/endermanyk-d.png"
                }
             ],
             "icon_index":11,
@@ -1685,7 +1685,7 @@
          },
          "ENDERMANYK's Shaders (USA)":[
             {
-               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/mods/renderchunk.shbin",
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/renderchunk.shbin",
                "output":"sdmc:/luma/titles/00040000001B8700/romfs/shaders/3DS/renderchunk.shbin",
                "type":"downloadFile"
             },
@@ -1697,7 +1697,7 @@
          ],
          "ENDERMANYK's Shaders (EUR)":[
             {
-               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/mods/renderchunk.shbin",
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/renderchunk.shbin",
                "output":"sdmc:/luma/titles/000400000017CA00/romfs/shaders/3DS/renderchunk.shbin",
                "type":"downloadFile"
             },
@@ -1709,7 +1709,7 @@
          ],
          "ENDERMANYK's Shaders (JPN)":[
             {
-               "file":"https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/mods/renderchunk.shbin",
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/renderchunk.shbin",
                "output":"sdmc:/luma/titles/000400000017FD00/romfs/shaders/3DS/renderchunk.shbin",
                "type":"downloadFile"
             },
@@ -1737,7 +1737,7 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/screenshots/superflat-survival.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/superflat-survival.png"
                }
             ],
             "icon_index":12,
@@ -1749,7 +1749,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/susbaconhairman/minecraft-3ds-unistore/raw/main/res/worlds/superflat-survival.zip",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/superflat-survival.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/superflat-survival.zip"
                },
                {
@@ -1772,5 +1772,4 @@
       }
    ]
 }
-
 
