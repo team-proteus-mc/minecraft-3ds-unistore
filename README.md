@@ -1,10 +1,8 @@
-# MOVED AGAIN TO https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore
-
 # Minecraft 3DS UniStore
 The NEW Minecraft 3DS UniStore, no pirated content or stuff that I haven't gotten permission to add.
 
 ## QR Code for installing on the Universal Updater
-![Minecraft 3DS UniStore QR Code](https://github.com/susbaconhairman/minecraft-3ds-unistore/blob/main/img/unistore-qr-logo-375.png?raw=true)
+![Minecraft 3DS UniStore QR Code](https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/blob/main/img/unistore-qr-logo-375.png?raw=true)
 
 ## Information
 Old repos:
@@ -12,6 +10,8 @@ Old repos:
 https://github.com/susbaconhairman/mc-3ds-unistore
 
 https://github.com/bigskribbz/mc-3ds-unistore (I deleted it because I got reported and shadowbanned for having stuff I wasn't supposed to there)
+
+https://github.com/susbaconhairman/minecraft-3ds-unistore
 
 ## Credits
 
