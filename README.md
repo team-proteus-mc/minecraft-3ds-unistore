@@ -5,7 +5,7 @@ The OFFICIAL Minecraft 3DS Community UniStore, and the #1 place to get custom co
 ![Minecraft 3DS UniStore QR Code](https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/blob/main/img/unistore-qr-logo-375.png?raw=true)
 
 ## Information
-Old repos:
+Old repos (timeline):
 
 https://github.com/susbaconhairman/mc-3ds-unistore
 
