@@ -1,5 +1,5 @@
 # Minecraft 3DS UniStore
-The NEW Minecraft 3DS UniStore, no pirated content or stuff that I haven't gotten permission to add.
+The OFFICIAL Minecraft 3DS Community UniStore, and the #1 place to get custom content for the game.
 
 ## QR Code for installing on the Universal Updater
 ![Minecraft 3DS UniStore QR Code](https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/blob/main/img/unistore-qr-logo-375.png?raw=true)
