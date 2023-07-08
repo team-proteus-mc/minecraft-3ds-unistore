@@ -38,3 +38,4 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for
 * ENDERMANYK
     * Shaders
 
+**ALL CONTENT HAS THE APPROVAL OF THEIR RESPECIVE CREATORS TO BE IN THIS STORE**
