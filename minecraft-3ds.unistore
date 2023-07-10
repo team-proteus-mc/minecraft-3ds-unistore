@@ -1956,27 +1956,27 @@
                   "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/poketube-past.png"
                }
             ],
-            "icon_index":13,
+            "icon_index":14,
             "sheet_index":0,
             "last_updated":"2023-07-08 at 00:00 (UTC)"
          },
-         "PokeTube City v1":{
-            "size":"9.52 MB",
+         "PokeTube City: Past":{
+            "size":"9.27 MB",
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/poketube-1.zip",
-                  "output": "sdmc:/Minecraft 3DS/worlds/poketube-1.zip"
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/poketube-past.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/poketube-past.zip"
                },
                {
                   "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/worlds/poketube-1.zip",
-                  "input": "PokeTube City/PokeTube City/",
-                  "output": "sdmc:/Minecraft 3DS/worlds/Poketube City"
+                  "file": "sdmc:/Minecraft 3DS/worlds/poketube-past.zip",
+                  "input": "PokeTube City Past/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Poketube City: Past"
                },
                {
                   "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/worlds/poketube-1.zip"
+                  "file": "sdmc:/Minecraft 3DS/worlds/poketube-past.zip"
                },
                {
                   "type": "promptMessage",
@@ -1985,5 +1985,6 @@
                }
             ]
          }
+      }
    ]
 }
