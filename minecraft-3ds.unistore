@@ -2327,6 +2327,170 @@
                "count":1
             }
          ]
+      },
+      {
+         "info":{
+            "title":"Ender Dragon Elytra Texture",
+            "author":"Babylion122",
+            "version":"1",
+            "category":[
+               "texture pack"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"This texture pack changes the Elytra Wings to make them look like the Ender Dragon's wings",
+            "license":"unknown",
+            "releasenotes": "This texture pack changes the Elytra Wings to make them look like the Ender Dragon's wings\n\nCreator: Babylion122",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ender-elytra-a.png"
+               },
+               {
+                  "description": "Image #2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ender-elytra-b.png"
+               }
+            ],
+            "icon_index":18,
+            "sheet_index":0,
+            "last_updated":"2022-10-24 at 00:00 (UTC)"
+         },
+         "Ender Dragon Elytra (USA)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/dragon-elytra.zip",
+               "output":"sdmc:/Minecraft 3DS/dragon-elytra.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/dragon-elytra.zip",
+               "input":"Ender Dragon Elytra/elytra model/elytra.3dst",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/models/armor/elytra.3dst"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/dragon-elytra.zip",
+               "input":"Ender Dragon Elytra/elytra.3dst",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/items/elytra.3dst"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/dragon-elytra.zip",
+               "input":"Ender Dragon Elytra/broken_elytra.3dst",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/items/broken_elytra.3dst"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/dragon-elytra.zip",
+               "input":"Ender Dragon Elytra/atlas.items.meta_79954554_0.3dst",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/atlas/atlas.items.meta_79954554_0.3dst"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/dragon-elytra.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            },
+            {
+               "type":"promptMessage",
+               "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+               "count":1
+            }
+         ],
+         "Ender Dragon Elytra (EUR)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/dragon-elytra.zip",
+               "output":"sdmc:/Minecraft 3DS/dragon-elytra.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/dragon-elytra.zip",
+               "input":"Ender Dragon Elytra/elytra model/elytra.3dst",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/models/armor/elytra.3dst"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/dragon-elytra.zip",
+               "input":"Ender Dragon Elytra/elytra.3dst",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/items/elytra.3dst"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/dragon-elytra.zip",
+               "input":"Ender Dragon Elytra/broken_elytra.3dst",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/items/broken_elytra.3dst"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/dragon-elytra.zip",
+               "input":"Ender Dragon Elytra/atlas.items.meta_79954554_0.3dst",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/atlas/atlas.items.meta_79954554_0.3dst"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/dragon-elytra.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            },
+            {
+               "type":"promptMessage",
+               "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+               "count":1
+            }
+         ],
+         "Ender Dragon Elytra (JPN)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/dragon-elytra.zip",
+               "output":"sdmc:/Minecraft 3DS/dragon-elytra.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/dragon-elytra.zip",
+               "input":"Ender Dragon Elytra/elytra model/elytra.3dst",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/models/armor/elytra.3dst"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/dragon-elytra.zip",
+               "input":"Ender Dragon Elytra/elytra.3dst",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/items/elytra.3dst"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/dragon-elytra.zip",
+               "input":"Ender Dragon Elytra/broken_elytra.3dst",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/items/broken_elytra.3dst"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/dragon-elytra.zip",
+               "input":"Ender Dragon Elytra/atlas.items.meta_79954554_0.3dst",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/atlas/atlas.items.meta_79954554_0.3dst"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/dragon-elytra.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            },
+            {
+               "type":"promptMessage",
+               "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+               "count":1
+            }
+         ]
       }
    ]
 }
