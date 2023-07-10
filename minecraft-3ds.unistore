@@ -1985,6 +1985,222 @@
                }
             ]
          }
+      },
+      {
+         "info":{
+            "title":"Technoblade Skin",
+            "author":"DarkForPresident",
+            "version":"`",
+            "category":[
+               "skin"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"The iconic skin of one of the greatest Minecraft players of all time. Rest in Peace.",
+            "license":"none",
+            "releasenotes": "The iconic skin of one of the greatest Minecraft players of all time. Rest in Peace.\n\nSkins - 1\n\nPorter - DarkForPresident\n\nCreator - Technoblade\n\nAlexander 'Technoblade'\n1999-2022",
+            "screenshots": [
+               {
+                  "description": "Technoblade skin",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/technoblade-skin.png"
+               }
+            ],
+            "icon_index":15,
+            "sheet_index":0,
+            "last_updated":"2022-07-29 at 00:00 (UTC)"
+         },
+         "Technoblade Skin (USA)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/techno-skin.zip",
+               "output":"sdmc:/Minecraft 3DS/techno-skin.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/techno-skin.zip",
+               "input":"Technoblade 3DS Skin/steve.3dst",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base/steve.3dst"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/techno-skin.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "Technoblade Skin (EUR)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/techno-skin.zip",
+               "output":"sdmc:/Minecraft 3DS/techno-skin.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/techno-skin.zip",
+               "input":"Technoblade 3DS Skin/steve.3dst",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base/steve.3dst"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/techno-skin.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "Technoblade Skin (JPN)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/techno-skin.zip",
+               "output":"sdmc:/Minecraft 3DS/techno-skin.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/techno-skin.zip",
+               "input":"Technoblade 3DS Skin/steve.3dst",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Base/steve.3dst"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/techno-skin.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ]
+      },
+      {
+         "info":{
+            "title":"Technoblade's Crown",
+            "author":"DarkForPresident",
+            "version":"1",
+            "category":[
+               "texture pack"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"This texture pack gives every pig Technoblade's iconic crown.",
+            "license":"none",
+            "releasenotes": "This texture pack gives every pig Technoblade's iconic crown.\n\nSupport for other texture packs will come soon.\n\nCreator: DarkForPresident\n\nAlexander 'Technoblade'\n1999-2022",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/techno-crown-a.png"
+               },
+               {
+                  "description": "Image #2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/techno-crown-b.png"
+               }
+            ],  
+            "icon_index":16,
+            "sheet_index":0,
+            "last_updated":"2022-09-29 at 00:00 (UTC)"
+         },
+         "Technoblade's Crown (USA)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/techno-crown.zip",
+               "output":"sdmc:/Minecraft 3DS/techno-crown.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/entity",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/techno-crown.zip",
+               "input":"Technoblade_s Crown 3DS/pig/",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/entity/pig/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/techno-crown.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            },
+            {
+               "type":"promptMessage",
+               "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+               "count":1
+            }
+         ],
+         "Technoblade's Crown (EUR)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/techno-crown.zip",
+               "output":"sdmc:/Minecraft 3DS/techno-crown.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/entity",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/techno-crown.zip",
+               "input":"Technoblade_s Crown 3DS/pig/",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/entity/pig/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/techno-crown.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            },
+            {
+               "type":"promptMessage",
+               "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+               "count":1
+            }
+         ],
+         "Technoblade's Crown (JPN)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/techno-crown.zip",
+               "output":"sdmc:/Minecraft 3DS/techno-crown.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/entity",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/techno-crown.zip",
+               "input":"Technoblade_s Crown 3DS/pig/",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/entity/pig/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/techno-crown.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            },
+            {
+               "type":"promptMessage",
+               "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+               "count":1
+            }
+         ]
       }
    ]
 }
