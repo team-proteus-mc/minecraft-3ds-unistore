@@ -2201,6 +2201,132 @@
                "count":1
             }
          ]
+      },
+      {
+         "info":{
+            "title":"Breaking Bad Skins",
+            "author":"DarkForPresident",
+            "version":"1",
+            "category":[
+               "skin pack"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"This skin pack includes six iconic characters from the Breaking Bad and Better Call Saul television shows.",
+            "license":"unknown",
+            "releasenotes": "This skin pack includes six iconic characters from the Breaking Bad and Better Call Saul television shows.\n\nThis skin pack replaces certain skins in the free 'Holiday 2015' skin pack, which is referred to as 'Festive' in the game's files. Unfortunately, due to some skins having unchangeable 3D elements, I was only able to replace 6 of the skins properly. These are:\nWalter White - sweater_steve.3dst\nJesse Pinkman - gingerbread.3dst\nSaul Goodman - parka_steve.3dst\nMike Ehrmantraut - Festive_Snow_Suit_Kid.3dst\nGustavo Fring - ruldolph.3dst\nKim Wexler - mrs_claus_slim.3dst\n\nSkins - 6\n\nPorter - DarkForPresident",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/breaking-bad-a.png"
+               },
+               {
+                  "description": "Image #2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/breaking-bad-b.png"
+               },
+               {
+                  "description": "Image #3",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/breaking-bad-c.png"
+               },
+               {
+                  "description": "Image #4",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/breaking-bad-d.png"
+               },
+               {
+                  "description": "Image #5",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/breaking-bad-e.png"
+               },
+               {
+                  "description": "Image #6",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/breaking-bad-f.png"
+               }
+            ],
+            "icon_index":17,
+            "sheet_index":0,
+            "last_updated":"2022-10-20 at 00:00 (UTC)"
+         },
+         "Breaking Bad Skins (USA)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/breaking-bad.zip",
+               "output":"sdmc:/Minecraft 3DS/breaking-bad.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Festive",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/breaking-bad.zip",
+               "input":"Minecraft 3DS Breaking Bad/Festive/",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Festive/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/breaking-bad.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "Breaking Bad Skins (EUR)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/breaking-bad.zip",
+               "output":"sdmc:/Minecraft 3DS/breaking-bad.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Festive",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/breaking-bad.zip",
+               "input":"Minecraft 3DS Breaking Bad/Festive/",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Festive/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/breaking-bad.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "Breaking Bad Skins (JPN)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/breaking-bad.zip",
+               "output":"sdmc:/Minecraft 3DS/breaking-bad.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Festive",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/breaking-bad.zip",
+               "input":"Minecraft 3DS Breaking Bad/Festive/",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Festive/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/breaking-bad.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ]
       }
    ]
 }
