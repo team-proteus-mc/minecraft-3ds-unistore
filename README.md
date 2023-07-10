@@ -20,12 +20,16 @@ skribbler#1095, DarkForPresident, various people from the Minecraft 3DS Communit
 https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for find and replace tool, GitHub code editor, Ohana3DS for texture conversion, Piskel and Pixlr for image editing, Tex3DS for spritesheet compilation, https://codepen.io/jsnelders/pen/qBByqQy for turning line breaks into "\n"'s, and PineTools for their (batch) image flipper.
 
 ### Item creators
+* Babylion122
+    * Ender Dragon Elytra
 * DarkForPresident
     * Technoblade Skin
     * Technoblade's Crown
     * Skyblock map port
     * Breaking Bad skins
     * Sheeptastic mod port
+    * Giant Baby Zombie mod
+    * Broken Stronghold Chest Fix
 * ENDERMANYK
     * Shaders
 * GenSpace
@@ -34,6 +38,8 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for
     * LoCity map
 * PokéTube
     * PokéTube City map
+* RetroRemade
+    * Better Creepers mod
 * susbaconhairman
     * kharrii2 texture pack port
     * New Default Skins port
