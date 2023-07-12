@@ -2491,6 +2491,176 @@
                "count":1
             }
          ]
+      },
+      {
+         "info":{
+            "title":"Sheeptastic",
+            "author":"DarkForPresident",
+            "version":"2",
+            "category":[
+               "mod"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Created by Falkenvergh, Sheeptastic is a fantastic mod which makes sheep much more useful.",
+            "license":"unknown",
+            "releasenotes": "Sheeptastic is a fantastic mod which makes sheep much more useful. You'll be able to use them for things such as a riding mount or as a cute, harmless pet. And if you really wanna try your chances then you can summon the Black Sheep and fight your (probably first ever) boss battle against a huge sheep. Full instructions are in the read me files.\n\nNOTE - This is a Bedrock Edition add-on that has been ported to New 3DS.\n\nPorter - DarkForPresident\n\nCreator - Falkenvergh\n\nVersion - 1.9.19\n\nKNOWN BUG:\n\nIt is not possible to shear any sheep while using this mod. This bug will be fixed in due time.",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/sheeptastic-a.png"
+               },
+               {
+                  "description": "Image #2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/sheeptastic-b.png"
+               },
+               {
+                  "description": "Image #3",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/sheeptastic-c.png"
+               },
+               {
+                  "description": "Image #4",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/sheeptastic-d.png"
+               },
+               {
+                  "description": "Image #5",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/sheeptastic-e.png"
+               }
+            ],
+            "icon_index":19,
+            "sheet_index":0,
+            "last_updated":"2023-02-07 at 18:02 (UTC)"
+         },
+         "Sheeptastic (USA)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/sheeptastic.zip",
+               "output":"sdmc:/Minecraft 3DS/mods/sheeptastic.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities",
+               "required":false
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/loot_tables/entities",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/mods/sheeptastic.zip",
+               "input":"Sheeptastic 3DS Port/entities/sheep.json",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities/sheep.json"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/3Minecraft 3DS/modsds/sheeptastic.zip",
+               "input":"Sheeptastic 3DS Port/loot_tables/entities/",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/loot_tables/entities/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/mods/sheeptastic.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            },
+            {
+               "type":"promptMessage",
+               "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+               "count":1
+            }
+         ],
+         "Sheeptastic (EUR)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/sheeptastic.zip",
+               "output":"sdmc:/Minecraft 3DS/mods/sheeptastic.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/entities",
+               "required":false
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/loot_tables/entities",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/mods/sheeptastic.zip",
+               "input":"Sheeptastic 3DS Port/entities/sheep.json",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/entities/sheep.json"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/mods/sheeptastic.zip",
+               "input":"Sheeptastic 3DS Port/loot_tables/entities/",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/loot_tables/entities/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/mods/sheeptastic.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            },
+            {
+               "type":"promptMessage",
+               "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+               "count":1
+            }
+         ],
+         "Sheeptastic (JPN)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/sheeptastic.zip",
+               "output":"sdmc:/Minecraft 3DS/mods/sheeptastic.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/entities",
+               "required":false
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/loot_tables/entities",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/mods/sheeptastic.zip",
+               "input":"Sheeptastic 3DS Port/entities/sheep.json",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/entities/sheep.json"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/mods/sheeptastic.zip",
+               "input":"Sheeptastic 3DS Port/loot_tables/entities/",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/loot_tables/entities/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/mods/sheeptastic.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            },
+            {
+               "type":"promptMessage",
+               "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+               "count":1
+            }
+         ]
       }
    ]
 }
