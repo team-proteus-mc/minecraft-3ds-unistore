@@ -2767,6 +2767,112 @@
                "count":1
             }
          ]
+      },
+      {
+         "info":{
+            "title":"Giant Baby Zombie Mod",
+            "author":"DarkForPresident",
+            "version":"1",
+            "category":[
+               "mod"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"This mod makes baby zombies over 8 times the size of normal zombies, aside from the head. That's it.",
+            "license":"unknown",
+            "releasenotes": "This mod makes baby zombies over 8 times the size of normal zombies, aside from the head. That's it.\n\nCreator - DarkForPresident",
+            "screenshots": [
+               {
+                  "description": "Giant baby zombie",
+                  "url": "https://github.com/bigskribbz/mc-3ds-unistore/raw/main/screenshots/giant-baby-zombie.png"
+               }
+            ],
+            "icon_index":21,
+            "sheet_index":0,
+            "last_updated":"2023-01-09 at 00:00 (UTC)"
+         },
+         "Giant Baby Zombie (USA)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/giant-baby-zombie.zip",
+               "output":"sdmc:/Minecraft 3DS/mods/giant-baby-zombie.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/mods/giant-baby-zombie.zip",
+               "input":"Giant Baby Zombie Mod/zombie.json",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities/zombie.json"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/mods/giant-baby-zombie.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            },
+            {
+               "type":"promptMessage",
+               "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+               "count":1
+            }
+         ],
+         "Giant Baby Zombie (EUR)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/giant-baby-zombie.zip",
+               "output":"sdmc:/Minecraft 3DS/mods/giant-baby-zombie.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/mods/giant-baby-zombie.zip",
+               "input":"Giant Baby Zombie Mod/zombie.json",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/entities/zombie.json"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/mods/giant-baby-zombie.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            },
+            {
+               "type":"promptMessage",
+               "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+               "count":1
+            }
+         ],
+         "Giant Baby Zombie (JPN)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/giant-baby-zombie.zip",
+               "output":"sdmc:/Minecraft 3DS/mods/giant-baby-zombie.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/mods/giant-baby-zombie.zip",
+               "input":"Giant Baby Zombie Mod/zombie.json",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/entities/zombie.json"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/mods/giant-baby-zombie.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            },
+            {
+               "type":"promptMessage",
+               "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+               "count":1
+            }
+         ]
       }
    ]
 }
