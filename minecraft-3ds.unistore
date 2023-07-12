@@ -2873,6 +2873,112 @@
                "count":1
             }
          ]
+      },
+      {
+         "info":{
+            "title":"Broken Stronghold Chest Fix",
+            "author":"DarkForPresident",
+            "version":"1",
+            "category":[
+               "mod"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"This mod makes it impossible for a broken map to spawn inside a stronghold library chest, preventing the map crash.",
+            "license":"unknown",
+            "releasenotes": "This mod makes it impossible for a broken map to spawn inside a stronghold library chest, preventing the map crash.\n\nCreator - DarkForPresident",
+            "screenshots": [
+               {
+                  "description": "No image is available. Sorry.",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+               }
+            ],
+            "icon_index":22,
+            "sheet_index":0,
+            "last_updated":"2022-09-01 at 00:00 (UTC)"
+         },
+         "Broken Stronghold Chest Fix (USA)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/anti-map-crash.zip",
+               "output":"sdmc:/Minecraft 3DS/mods/anti-map-crash.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/mods/anti-map-crash.zip",
+               "input":"Anti Map Crash Mod/stronghold_library.json",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/loot_tables/stronghold_library.json"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/mods/anti-map-crash.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            },
+            {
+               "type":"promptMessage",
+               "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+               "count":1
+            }
+         ],
+         "Broken Stronghold Chest Fix (EUR)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/anti-map-crash.zip",
+               "output":"sdmc:/Minecraft 3DS/mods/anti-map-crash.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/mods/anti-map-crash.zip",
+               "input":"Anti Map Crash Mod/stronghold_library.json",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/loot_tables/stronghold_library.json"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/mods/anti-map-crash.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            },
+            {
+               "type":"promptMessage",
+               "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+               "count":1
+            }
+         ],
+         "Broken Stronghold Chest Fix (JPN)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/anti-map-crash.zip",
+               "output":"sdmc:/Minecraft 3DS/mods/anti-map-crash.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/mods/anti-map-crash.zip",
+               "input":"Anti Map Crash Mod/stronghold_library.json",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/loot_tables/stronghold_library.json"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/mods/anti-map-crash.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            },
+            {
+               "type":"promptMessage",
+               "message":"This mod will only work when\nthe Vanilla texture pack is enabled.",
+               "count":1
+            }
+         ]
       }
    ]
 }
