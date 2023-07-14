@@ -3115,6 +3115,56 @@
                }
             ]
          }
+      },
+      {
+         "info":{
+            "title":"Fun Walk",
+            "author":"PokeTube",
+            "version":"1",
+            "category":[
+               "worlds"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"There are 100 levels to play, as well as fun minigames.",
+            "license":"unknown",
+            "releasenotes": "There are 100 levels to play, as well as fun minigames to play in local multiplayer or just try by yourself for the best score.\n\nCreator - PokeTube",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/funwalk.png"
+               }
+            ],
+            "icon_index":25,
+            "sheet_index":0,
+            "last_updated":"2022-11-14 at 14:36 (UTC)"
+         },
+         "Fun Walk":{
+            "size":"2.29 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/funwalk.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/funwalk.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/funwalk.zip",
+                  "input": "Fun Walk/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Fun Walk/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/funwalk.zip"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         }
       }
    ]
 }
