@@ -21,7 +21,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for
 
 ### Item creators
 * ArcModzzz
-    World in Jar 3DS
+    * World in Jar 3DS
 * Babylion122
     * Ender Dragon Elytra
     * Lapiz's Funland map
