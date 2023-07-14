@@ -28,11 +28,11 @@
             "screenshots": [
                {
                   "description": "Textures show-off",
-                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/kharri2-a.png"
+                  "url": "https://raw.githubusercontent.com/Minecraft-3DS-Community/minecraft-3ds-unistore/main/res/screenshots/kharri2-a.png"
                },
                {
                   "description": "Texture's icon",
-                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/kharri2-b.png"
+                  "url": "https://raw.githubusercontent.com/Minecraft-3DS-Community/minecraft-3ds-unistore/main/res/screenshots/kharri2-b.png"
                }
             ],
             "icon_index":2,
