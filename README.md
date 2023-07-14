@@ -22,6 +22,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for
 ### Item creators
 * Babylion122
     * Ender Dragon Elytra
+    * Lapiz's Funland map
 * DarkForPresident
     * Technoblade Skin
     * Technoblade's Crown
