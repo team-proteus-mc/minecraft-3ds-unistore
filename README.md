@@ -66,5 +66,6 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for
     * Superflat Survival
 * Virtual Overtime
     * LavaCity PVP map
+    * FNAF Hide and Seek map
 
 **ALL CONTENT HAS THE APPROVAL OF THEIR RESPECIVE CREATORS TO BE IN THIS STORE**
