@@ -3165,6 +3165,72 @@
                }
             ]
          }
+      },
+      {
+         "info":{
+            "title":"GenSpace's Skyblock",
+            "author":"GenSpace",
+            "version":"1",
+            "category":[
+               "worlds"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"A custom Skyblock map with 16 different islands.",
+            "license":"unknown",
+            "releasenotes": "Embark on an adventure through a familiar Minecraft map concept, but expanded upon! Explore 16 unique islands as you go about surviving in GenSpace's Skyblock. Some islands include boss fights, special structures, and hidden items!\n\nCreator - GenSpace",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gen-skyblock-a.png"
+               },
+               {
+                  "description": "Image #2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gen-skyblock-b.png"
+               },
+               {
+                  "description": "Image #3",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gen-skyblock-c.png"
+               },
+               {
+                  "description": "Image #4",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gen-skyblock-d.png"
+               },
+               {
+                  "description": "Image #5",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gen-skyblock-e.png"
+               }
+            ],
+            "icon_index":26,
+            "sheet_index":0,
+            "last_updated":"2022-10-28 at 00:16 (UTC)"
+         },
+         "GenSpace's Skyblock":{
+            "size":"353.9 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/gen-skyblock.7z",
+                  "output": "sdmc:/Minecraft 3DS/worlds/gen-skyblock.7z"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/gen-skyblock.7z",
+                  "input": "Gen's Skyblock/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/GenSpace's Skyblock/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/gen-skyblock.7z"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         }
       }
    ]
 }
