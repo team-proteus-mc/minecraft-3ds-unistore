@@ -3045,6 +3045,76 @@
                }
             ]
          }
+      },
+      {
+         "info":{
+            "title":"PanGames",
+            "author":"PanguinBoi",
+            "version":"1",
+            "category":[
+               "worlds"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"PanGames is a collection of games and attractions made to play with friends or alone.",
+            "license":"unknown",
+            "releasenotes": "PanGames is a collection of games and attractions made to play with friends or alone. It's basically an amusement park. This is an early release, more updates will come in the future.\n\nCreator - PanguinBoi",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/pangames-a.png"
+               },
+               {
+                  "description": "Image #2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/pangames-b.png"
+               },
+               {
+                  "description": "Image #3",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/pangames-c.png"
+               },
+               {
+                  "description": "Image #4",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/pangames-d.png"
+               },
+               {
+                  "description": "Image #5",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/pangames-e.png"
+               },
+               {
+                  "description": "Image #6",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/pangames-f.png"
+               }
+            ],
+            "icon_index":24,
+            "sheet_index":0,
+            "last_updated":"2023-07-07 at 09:12 (UTC)"
+         },
+         "Locity 1.0":{
+            "size":"1.71 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/pangames.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/pangames.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/pangames.zip",
+                  "input": "PanGames/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/PanGames/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/pangames.zip"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         }
       }
    ]
 }
