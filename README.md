@@ -36,6 +36,8 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for
     * Minecraft 3DS Modernization map
 * oliverimcDISC
     * LoCity map
+* PanguinBoi
+    * PanGames
 * PokéTube
     * PokéTube City map
 * RetroRemade
