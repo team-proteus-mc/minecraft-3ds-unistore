@@ -28,6 +28,8 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for
 * Babylion122
     * Ender Dragon Elytra
     * Lapiz's Funland map
+* CZX
+    * The Dropper: 3DS Remaster
 * DarkForPresident
     * Technoblade Skin
     * Technoblade's Crown
@@ -43,6 +45,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for
     * Shaders
 * GenSpace
     * Minecraft 3DS Modernization map
+    * The Dropper: 3DS Remaster
 * oliverimcDISC
     * LoCity map
 * PanguinBoi
@@ -51,6 +54,8 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for
     * PokéTube City map
 * RetroRemade
     * Better Creepers mod
+* Ruff64
+    * The Dropper: 3DS Remaster
 * susbaconhairman
     * kharrii2 texture pack port
     * New Default Skins port
@@ -71,5 +76,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for
 * Virtual Overtime
     * LavaCity PVP map
     * FNAF Hide and Seek map
+* WaterMelon
+    * The Dropper: 3DS Remaster
 
 **ALL CONTENT HAS THE APPROVAL OF THEIR RESPECIVE CREATORS TO BE IN THIS STORE**
