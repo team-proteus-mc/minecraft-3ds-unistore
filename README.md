@@ -43,6 +43,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for
     * Broken Stronghold Chest Fix
     * 3DSpleef
     * Building Time map
+    * Randoms map demo
 * DeadSkullzJr
     * Void world (used for the creation of other worlds in the store, the void world itself is not available on this store or on the Minecraft 3DS website)
 * ENDERMANYK
