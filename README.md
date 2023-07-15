@@ -29,6 +29,8 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for
     * Ender Dragon Elytra
     * Lapiz's Funland map
     * Stampy's Lovely World map port
+* CleetusMcfarln
+    * DanTDM's Lab
 * CZX
     * The Dropper: 3DS Remaster
 * DarkForPresident
