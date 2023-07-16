@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":2,
+      "revision":3,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -760,7 +760,7 @@
          "info":{
             "title":"Wewelsburg",
             "author":"ThorMode9",
-            "version":"2",
+            "version":"0.0.2",
             "category":[
                "worlds"
             ],
@@ -804,7 +804,7 @@
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/worlds/wewelsburg-2.zip",
                   "input": "Minecraft 3DS Wewelsburg (Original) 2023 New/",
-                  "output": "sdmc:/Minecraft 3DS/worlds/Wewelsburg New/"
+                  "output": "sdmc:/Minecraft 3DS/worlds/Wewelsburg v0.0.2/"
                },
                {
                   "type": "deleteFile",
