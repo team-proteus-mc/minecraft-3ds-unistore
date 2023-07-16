@@ -6,6 +6,8 @@ The OFFICIAL Minecraft 3DS Community UniStore, and the #1 place to get custom co
 
 ## Information
 
+If you have any other, older Minecraft 3DS UniStores on your console, made by susbaconhairman, then delete them because they no longer work/are outdated.
+
 You need custom firmware (CFW) on your 3DS console to use this store. If your console isn't hacked already, go to https://3ds.hacks.guide to get started.
 
 To install the UniStore with the QR Code provided above, launch the Universal-Updater, go to Settings > Select UniStore..., and press the plus button on the bottom screen. Then, press the QR Code icon on the bottom screen, and scan the QR Code. The UniStore will automatically update when a new revision is released.
