@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":16,
+      "revision":17,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -3862,6 +3862,60 @@
                {
                   "type": "deleteFile",
                   "file": "sdmc:/Minecraft 3DS/worlds/stampys-world-11-snap.zip"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"DanTDM's Lab",
+            "author":"CleetusMcfarln",
+            "version":"1",
+            "category":[
+               "worlds"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"DanTDM’s lab recreated as accurately as possibly.",
+            "license":"unknown",
+            "releasenotes": "DanTDM’s lab recreated as accurately as possibly; the seed isn’t perfect.\n\nOriginal Creator - DanTDM",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/dantdm-a.png"
+               },
+               {
+                  "description": "Image #2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/dantdm-b.png"
+               }
+            ],
+            "icon_index":37,
+            "sheet_index":0,
+            "last_updated":"2022-03-27 at 02:47 (UTC)"
+         },
+         "DanTDM's Lab":{
+            "size":"1.08 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/dantdm-lab.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/dantdm-lab.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/dantdm-lab.zip",
+                  "input": "DanTDM Lab/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/DanTDM's Lab/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/dantdm-lab.zip"
                },
                {
                   "type": "promptMessage",
