@@ -53,6 +53,8 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for
 * GenSpace
     * Minecraft 3DS Modernization map
     * The Dropper: 3DS Remaster
+* Glonk
+    * Broken Stronghold Chest Fix
 * oliverimcDISC
     * LoCity map
 * PanguinBoi
