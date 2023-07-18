@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":10,
+      "revision":11,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -3447,6 +3447,114 @@
                {
                   "type": "deleteFile",
                   "file": "sdmc:/Minecraft 3DS/worlds/3dspleef.zip"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"World in a Jar 3DS",
+            "author":"ArcModzzz",
+            "version":"1",
+            "category":[
+               "worlds"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"A basic survival but you are in a jar in the sky.",
+            "license":"unknown",
+            "releasenotes": "A basic survival but you are in a jar in the sky.\nChallenge :\n1 : Make a farm\n2 : Find the secret chest (not the jar library)\n3 : Mine the entire jar spawn and make a house\n\nCreator - ArcModzzz",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/world-in-jar-a.png"
+               },
+               {
+                  "description": "Image #2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/world-in-jar-b.png"
+               }
+            ],
+            "icon_index":30,
+            "sheet_index":0,
+            "last_updated":"2022-05-05 at 13:02 (UTC)"
+         },
+         "World in a Jar 3DS":{
+            "size":"2.08 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/world-in-jar.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/world-in-jar.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/world-in-jar.zip",
+                  "input": "World in Jar 3DS by ArcModzzz/KwIAAH6MBwA=/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/World in a Jar 3DS/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/world-in-jar.zip"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"Find the Button",
+            "author":"ArcModzzz",
+            "version":"1",
+            "category":[
+               "worlds"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"This map in the classic Find the Button genre has four levels.",
+            "license":"unknown",
+            "releasenotes": "This map in the classic Find the Button genre has four levels.\n\nCreator - ArcModzzz",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/find-the-button-a.png"
+               },
+               {
+                  "description": "Image #2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/find-the-button-b.png"
+               }
+            ],
+            "icon_index":31,
+            "sheet_index":0,
+            "last_updated":"2022-04-29 at 11:07 (UTC)"
+         },
+         "Find the Button":{
+            "size":"1.29 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/find-the-button.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/find-the-button.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/find-the-button.zip",
+                  "input": "Find the Button 3DS/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Find the Button/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/find-the-button.zip"
                },
                {
                   "type": "promptMessage",
