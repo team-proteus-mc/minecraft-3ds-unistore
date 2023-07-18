@@ -6,7 +6,7 @@ The OFFICIAL Minecraft 3DS Community UniStore, and the #1 place to get custom co
 
 ## Information
 
-If you have any other, older Minecraft 3DS UniStores on your console, made by susbaconhairman, then delete them because they no longer work/are outdated.
+**If you have any other, older Minecraft 3DS UniStores on your console, made by susbaconhairman, then delete them because they no longer work/are outdated.**
 
 You need custom firmware (CFW) on your 3DS console to use this store. If your console isn't hacked already, go to https://3ds.hacks.guide to get started.
 
@@ -70,6 +70,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for
     * Murder Drones skin pack port
     * LEGO Minecraft Dragon Slayer skin port
     * Customization remover
+    * Better icons :eyes:
 * TheRustico36
     * New GUI
     * New Base Skins port
