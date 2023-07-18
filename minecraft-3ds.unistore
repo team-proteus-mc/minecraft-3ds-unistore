@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":9,
+      "revision":10,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -2877,7 +2877,7 @@
       {
          "info":{
             "title":"Broken Stronghold Chest Fix",
-            "author":"DarkForPresident",
+            "author":"DarkForPresident, Glonk",
             "version":"1",
             "category":[
                "mod"
@@ -2887,7 +2887,7 @@
             ],
             "description":"This mod makes it impossible for a broken map to spawn inside a stronghold library chest, preventing the map crash.",
             "license":"unknown",
-            "releasenotes": "This mod makes it impossible for a broken map to spawn inside a stronghold library chest, preventing the map crash.\n\nCreator - DarkForPresident",
+            "releasenotes": "This mod makes it impossible for a broken map to spawn inside a stronghold library chest, preventing the map crash.\n\nCreators - DarkForPresident, Glonk",
             "screenshots": [
                {
                   "description": "No image is available. Sorry.",
