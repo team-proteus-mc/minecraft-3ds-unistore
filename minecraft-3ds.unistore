@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":5,
+      "revision":6,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -3231,6 +3231,97 @@
                }
             ]
          }
+      },
+      {
+         "info":{
+            "title":"Minecraft 3DS Modernization",
+            "author":"GenSpace",
+            "version":"1",
+            "category":[
+               "worlds"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"This map includes a small sample of what was included in each update following Minecraft 3DS's discontinuation",
+            "license":"unknown",
+            "releasenotes": "This revolutionary map by GenSpace Gaming includes a small sample of what was included in each update following Minecraft 3DS's discontinuation, from the 1.13 all the way to the 1.18 updates!\n\nCreator: GenSpace",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernization-a.png"
+               },
+               {
+                  "description": "Image #2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernization-b.png"
+               },
+               {
+                  "description": "Image #3",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernization-c.png"
+               },
+               {
+                  "description": "Image #4",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernization-d.png"
+               },
+               {
+                  "description": "Image #5",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/modernization-e.png"
+               }
+            ],
+            "icon_index":27,
+            "sheet_index":0,
+            "last_updated":"2022-09-29 at 17:15 (UTC)"
+         },
+         "Modernization Survival":{
+            "size":"12.35 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/modernization-survival.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/modernization-survival.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/modernization-survival.zip",
+                  "input": "MC Modern S/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Minecraft 3DS Modernization - Survival/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/modernization-survival.zip"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         },
+         "Modernization Creative":{
+            "size":"12.37 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/modernization-creative.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/modernization-creative.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/modernization-creative.zip",
+                  "input": "MC Modern C/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Minecraft 3DS Modernization - Creative/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/modernization-creative.zip"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         },
       }
    ]
 }
