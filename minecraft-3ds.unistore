@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":14,
+      "revision":15,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -1822,7 +1822,7 @@
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/worlds/poketube-1.zip",
                   "input": "PokeTube City/PokeTube City/",
-                  "output": "sdmc:/Minecraft 3DS/worlds/Poketube City"
+                  "output": "sdmc:/Minecraft 3DS/worlds/Poketube City/"
                },
                {
                   "type": "deleteFile",
