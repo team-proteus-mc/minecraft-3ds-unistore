@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":7,
+      "revision":8,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -3314,6 +3314,139 @@
                {
                   "type": "deleteFile",
                   "file": "sdmc:/Minecraft 3DS/worlds/modernization-creative.zip"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"Lapiz's Funland",
+            "author":"Babylion122",
+            "version":"1.1",
+            "category":[
+               "worlds"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Basically a theme park.",
+            "license":"unknown",
+            "releasenotes": "A world with 20 total buildings. around 6 of which being minigames. Basically a theme park.\n\nCreator - Babylion122",
+            "screenshots": [
+               {
+                  "description": "v1.0",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/lapiz-funland-a.png"
+               },
+               {
+                  "description": "v1.1 - City and Snow",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/lapiz-funland-b.png"
+               }
+            ],
+            "icon_index":28,
+            "sheet_index":0,
+            "last_updated":"2022-10-28 at 00:16 (UTC)"
+         },
+         "Lapiz's Funland v1.0":{
+            "size":"1.33 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/lapiz-funland.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/lapiz-funland.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/lapiz-funland.zip",
+                  "input": "Lapiz_s Funland/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Lapiz's Funland v1.0/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/lapiz-funland.zip"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         },
+         "Lapiz's Funland v1.1 - City and Snow":{
+            "size":"1.33 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/lapiz-funland-11.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/lapiz-funland-11.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/lapiz-funland-11.zip",
+                  "input": "Lapiz Funland 1_1 City and Snow/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Lapiz's Funland v1.1 - City and Snow/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/lapiz-funland-11.zip"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"3DSpleef",
+            "author":"DarkForPresident",
+            "version":"1",
+            "category":[
+               "worlds"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"The classic multiplayer pvp minigame is now in Minecraft 3DS!",
+            "license":"unknown",
+            "releasenotes": "The classic multiplayer pvp minigame is now in Minecraft 3DS! Use shovels to mine the snow underneath your opponent to send them falling into the void. There is currently one spleef "arena", which is 32 blocks by 32 blocks. To reset the arena, simply quit without saving and rejoin.\n\nCreator - DarkForPresident\nVoid world - DeadSkullzJr",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/3dspleef-a.png"
+               },
+               {
+                  "description": "Image #2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/3dspleef-b.png"
+               }
+            ],
+            "icon_index":29,
+            "sheet_index":0,
+            "last_updated":"2022-10-28 at 00:16 (UTC)"
+         },
+         "3DSpleef":{
+            "size":"373.9 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/3dspleef.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/3dspleef.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dspleef.zip",
+                  "input": "3DSpleef/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/3DSpleef/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dspleef.zip"
                },
                {
                   "type": "promptMessage",
