@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":11,
+      "revision":12,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -3555,6 +3555,114 @@
                {
                   "type": "deleteFile",
                   "file": "sdmc:/Minecraft 3DS/worlds/find-the-button.zip"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"LavaCity PVP",
+            "author":"Virtual Overtime",
+            "version":"1",
+            "category":[
+               "worlds"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"A small PVP map taking place in a flooded building.",
+            "license":"unknown",
+            "releasenotes": "A small PVP map taking place in a flooded building.\n\nCreator - Virtual Overtime",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/lavacity-pvp-a.png"
+               },
+               {
+                  "description": "Image #2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/lavacity-pvp-b.png"
+               }
+            ],
+            "icon_index":32,
+            "sheet_index":0,
+            "last_updated":"2022-01-24 at 09:12 (UTC)"
+         },
+         "LavaCity PVP":{
+            "size":"172.9 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/lavacity-pvp.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/lavacity-pvp.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/lavacity-pvp.zip",
+                  "input": "LavaCityPVP/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/LavaCity PVP/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/lavacity-pvp.zip"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         }
+      }
+      {
+         "info":{
+            "title":"FNaF Hide and Seek",
+            "author":"Virtual Overtime",
+            "version":"1",
+            "category":[
+               "worlds"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"This is a hide and seek map themed around the popular Five Nights at Freddy's game.",
+            "license":"unknown",
+            "releasenotes": "This is a hide and seek map themed around the popular Five Nights at Freddy's game.\n\nCreator - Virtual Overtime",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/fnaf-hide-seek-a.png"
+               },
+               {
+                  "description": "Image #2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/fnaf-hide-seek-b.png"
+               }
+            ],
+            "icon_index":33,
+            "sheet_index":0,
+            "last_updated":"2022-01-27 at 12:05 (UTC)"
+         },
+         "FNaF Hide and Seek":{
+            "size":"277.3 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/fnaf-hide-seek.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/fnaf-hide-seek.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/fnaf-hide-seek.zip",
+                  "input": "FNAFhideseek/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/FNaF Hide and Seek/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/fnaf-hide-seek.zip"
                },
                {
                   "type": "promptMessage",
