@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":17,
+      "revision":18,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -3916,6 +3916,106 @@
                {
                   "type": "deleteFile",
                   "file": "sdmc:/Minecraft 3DS/worlds/dantdm-lab.zip"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"Building Time",
+            "author":"DarkForPresident",
+            "version":"1",
+            "category":[
+               "worlds"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"The classic Stampy series is now in Minecraft 3DS.",
+            "license":"unknown",
+            "releasenotes": "The classic Stampy series is now in Minecraft 3DS. Note: this does not include the podium-like structures. Everything in this world is visible in the screenshot.\n\Creator - DarkForPresident",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/building-time.png"
+               }
+            ],
+            "icon_index":38,
+            "sheet_index":0,
+            "last_updated":"2022-03-07 at 12:02 (UTC)"
+         },
+         "Building Time":{
+            "size":"244.8 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/building-time.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/building-time.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/building-time.zip",
+                  "input": "Building Time/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Building Time/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/building-time.zip"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"Randoms",
+            "author":"DarkForPresident",
+            "version":"1",
+            "category":[
+               "worlds"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"A nostalgic adventure map (played by Stampy and Squid) where each level is completely random!",
+            "license":"unknown",
+            "releasenotes": "A nostalgic adventure map (played by Stampy and Squid) where each level is completely random!\n\Creator - Joker2039",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/randoms.png"
+               }
+            ],
+            "icon_index":39,
+            "sheet_index":0,
+            "last_updated":"2022-11-05 at 04:22 (UTC)"
+         },
+         "Randoms Demo":{
+            "size":"317.7 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/randoms-demo.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/randoms-demo.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/randoms-demo.zip",
+                  "input": "Randoms Demo/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Randoms Demo/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/randoms-demo.zip"
                },
                {
                   "type": "promptMessage",
