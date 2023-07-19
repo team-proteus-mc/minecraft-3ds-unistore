@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":23,
+      "revision":24,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -3988,7 +3988,7 @@
             ],
             "description":"A nostalgic adventure map (played by Stampy and Squid) where each level is completely random!",
             "license":"unknown",
-            "releasenotes": "A nostalgic adventure map (played by Stampy and Squid) where each level is completely random!\n\Creator - Joker2039",
+            "releasenotes": "A nostalgic adventure map (played by Stampy and Squid) where each level is completely random!\n\nCreator - Joker2039",
             "screenshots": [
                {
                   "description": "Image #1",
@@ -4088,7 +4088,7 @@
             ],
             "description":"A simple dropper recreated in Minecraft 3DS.",
             "license":"unknown",
-            "releasenotes": "A simple dropper recreated in Minecraft 3DS.\n\Creator - Unknown",
+            "releasenotes": "A simple dropper recreated in Minecraft 3DS.\n\nCreator - Unknown",
             "screenshots": [
                {
                   "description": "Image #1",
