@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":18,
+      "revision":19,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -4016,6 +4016,106 @@
                {
                   "type": "deleteFile",
                   "file": "sdmc:/Minecraft 3DS/worlds/randoms-demo.zip"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"DualFlow",
+            "author":"Unknown",
+            "version":"1",
+            "category":[
+               "worlds"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Dual Flow is a fairly simple parkour map mainly using two colors: white and black.",
+            "license":"unknown",
+            "releasenotes": "Dual Flow is a fairly simple parkour map mainly using two colors: white and black. You'll need to be quick to beat each level, as once you start, you'll have to keep moving as the platforms behind you disappear.\n\nCreator - Unknown",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/dualflow.png"
+               }
+            ],
+            "icon_index":40,
+            "sheet_index":0,
+            "last_updated":"2022-08-06 at 12:06 (UTC)"
+         },
+         "Randoms Demo":{
+            "size":"2.14 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/dualflow-demo.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/dualflow-demo.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/dualflow-demo.zip",
+                  "input": "DualFlowDemo/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/DualFlow Demo/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/dualflow-demo.zip"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"Mega Dropper",
+            "author":"Unknown",
+            "version":"1",
+            "category":[
+               "worlds"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"A simple dropper recreated in Minecraft 3DS.",
+            "license":"unknown",
+            "releasenotes": "A simple dropper recreated in Minecraft 3DS.\n\Creator - Unknown",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mega-dropper.png"
+               }
+            ],
+            "icon_index":41,
+            "sheet_index":0,
+            "last_updated":"2022-06-30 at 16:09 (UTC)"
+         },
+         "Mega Dropper Demo":{
+            "size":"1.92 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/mega-dropper-demo.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/mega-dropper-demo.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/mega-dropper-demo.zip",
+                  "input": "Mega Dropper Demo/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Mega Dropper Demo/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/mega-dropper-demo.zip"
                },
                {
                   "type": "promptMessage",
