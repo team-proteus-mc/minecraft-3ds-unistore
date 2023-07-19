@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":20,
+      "revision":21,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -3805,7 +3805,7 @@
             ],
             "description":"Stampy's iconic let's-play world.",
             "license":"unknown",
-            "releasenotes": "Stampy's iconic let's play world. This version only includes his house, but the rest of his world will come in a later update.\n\nCreator - Stampylonghead,
+            "releasenotes": "Stampy's iconic let's play world. This version only includes his house, but the rest of his world will come in a later update.\n\nCreator - Stampylonghead",
             "screenshots": [
                {
                   "description": "Image #1",
