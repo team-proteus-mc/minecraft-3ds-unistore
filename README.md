@@ -21,7 +21,7 @@ Minecraft 3DS Community and Universal-Server Discord servers
 skribbler#1095, DarkForPresident, various people from the Minecraft 3DS Community Discord server
 
 ### Editing
-https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for find and replace tool, GitHub code editor, Ohana3DS for texture conversion, Piskel and Pixlr for image editing, Tex3DS for spritesheet compilation, https://codepen.io/jsnelders/pen/qBByqQy for turning line breaks into "\n"'s, and PineTools for their (batch) image flipper.
+https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for find and replace tool, GitHub code editor, Ohana3DS for texture conversion, Piskel and Pixlr for image editing, Tex3DS for spritesheet compilation, https://codepen.io/jsnelders/pen/qBByqQy for turning line breaks into "\n"'s, PineTools for their (batch) image flipper, and https://www.airtightinteractive.com/demos/js/imageglitcher/ for image glitcher.
 
 ### Item creators
 * ArcModzzz
