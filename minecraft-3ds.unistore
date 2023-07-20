@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":24,
+      "revision":25,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -4121,6 +4121,85 @@
                   "type": "promptMessage",
                   "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
                   "count": 1
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"Seed Collection",
+            "author":"Various people",
+            "version":"1",
+            "category":[
+               "worlds"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"A collection of seeds submitted by many people.",
+            "license":"unknown",
+            "releasenotes": "MINECRAFT 3DS SEEDS\nRevision 3\nALL SEEDS WERE SUBMITTED TO THE MINECRAFT 3DS WEBSITE\nhttps://www.minecraft3ds.net/all-seeds\n-------------------\nSeed: 1047059101\n\nSubmitter: CZX\nType: Structures\n\nOverworld Structures:\n800, 70, 0 - Village \n437, 75, 4 - Village \n356, 77, -284 - Village \n261, 70, -380 - Village \n1028, 74, -236 - Village \n853, 57, -540 - Village \n740, 70, -955 - Village \n661, 72, -636 - Village \n559, 60, -859 - Spider Spawner \n1669, 60, -50 - Spider Spawner \n1338, 75, -710 - Desert Temple \n1242, 75, -150 - Desert Temple \n645, 38, -890 - End Portal\n1415, 75, -683 - Desert Well \n719, 69, -967 - Desert Well \n445, 75, -553 - Desert well\n573, 69, -370 - Desert well \n673, 77, -329 - Desert well \n646, 80, 3 - Desert well \n421, 70, -48 - Desert well \n-------------------\nSeed: 992826707\n\nSubmitter: DarkForPresident\nType: Structures\n\nOverworld Sturctures:\n52, 69, 351 - Village\n-614, 64, -599 - Village\n-------------------\nSeed: 4049728941\n\nSubmitter: Balloon911\nType: Structures\n\nOverworld Sturctures:\n423, 72, 692 - Village\n471, 36, 749 - End Portal \n-------------------\nSeed: 907040147\n\nSubmitter: DarkForPresident\nType: Strucures\n\nOverworld Structures:\n861, 64, 542 - Desert Well\n-------------------\nSeed: 3307311791\n\nSubmitter: DarkForPresident\nType: Structures\n\nOverworld Sturctures:\n-30, 68, -97 - Woodland Mansion\n-------------------\nSeed: 240274091\n\nSubmitter: DarkForPresident\nType: Sturctures\n\nOverworld Structures:\n14, 71, 37 - Village\n-------------------\nSeed: 1005263763\n\nSubmitter: CZX\nType: Structures\n\nOverworld Structures:\n200, 69, 150 - Woodland Mansion\n-------------------\nSeed: 3593409258\n\nSubmitter: CZX\nType: Structures\n\nOverworld Structures:\n622, 74, -31 - Woodland Mansion\n979, 48, -89 - Stronghold\n-------------------\nSeed: 1869582515\n\nSubmitter: FallTheVillan\nType: Structures\n\nOverworld Structures:\n-114, 69, -47 - Woodland Mansion\n-------------------\nSeed: 66898262\n\nSubmitter: RedLegoFerrari\nType: Structures, Speedrun\n\nOverworld Structures:\n165, 76, 212 - Acacia Village \n837, 74, 277 - Acacia Village \n1061, 70, 261 - Desert Village \n1413, 76, 21 - Desert Village \n1524, 70, -347 - Oak Village \n1050, 75, 234 - Desert Temple \n778, 75, 74 - Desert Temple \n1562, 66, -502 - Desert Temple \n810, 69, 11 - Desert Well \n1128, 57, 679 - Ocean Monument \n731, 66, -853 - Witch Hut \n843, 35, -27 - Spider Spawner \n1659, 13, 977 - Spider Spawner \n813, 30, 467 - Zombie Spawner \n886, 33, -19 - Skeleton Spawner \n\nOverworld Terrain:\n1092,65,67 - Lava Pool \n101, 79, 993 - Spruce Forest \n874, 74, -613 - Pumpkins \n\nEnd Structures:\n863, 14, -29 - End Portal \n494, 95, -433 - End Ship \n\nNether Sturctures:\n251, 65, 151 - Blaze Spawner \n139, 65, 316 - Blaze Spawner ",
+            "screenshots": [
+               {
+                  "description": "Seed: 1047059101",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/seed-a.png"
+               },
+               {
+                  "description": "Seed: 992826707, Part 1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/seed-b1.png"
+               },
+               {
+                  "description": "Seed: 992826707, Part 2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/seed-b2.png"
+               },
+               {
+                  "description": "Seed: 992826707, Part 3",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/seed-b3.png"
+               },
+               {
+                  "description": "Seed: 4049728941",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/seed-c.png"
+               },
+               {
+                  "description": "Seed: 907040147",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/seed-d.png"
+               },
+               {
+                  "description": "Seed: 3307311791",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/seed-e.png"
+               },
+               {
+                  "description": "Seed: 240274091",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/seed-f.png"
+               },
+               {
+                  "description": "Seed: 1005263763",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/seed-g.png"
+               },
+               {
+                  "description": "Seed: 3593409258",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/seed-h.png"
+               },
+               {
+                  "description": "Seed: 1869582515",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/seed-i.png"
+               },
+               {
+                  "description": "Seed: 66898262",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/seed-j.png"
+               }
+            ],
+            "icon_index":42,
+            "sheet_index":0,
+            "last_updated":"2023-07-20 at 16:00 (UTC)"
+         },
+         "seeds.txt":{
+            "size":"2.63 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/misc/seeds.txt",
+                  "output": "sdmc:/Minecraft 3DS/seeds.txt"
                }
             ]
          }
