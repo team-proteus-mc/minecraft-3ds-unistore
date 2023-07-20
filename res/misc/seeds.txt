@@ -1,5 +1,5 @@
 MINECRAFT 3DS SEEDS
-Revision 2
+Revision 3
 ALL SEEDS WERE SUBMITTED TO THE MINECRAFT 3DS WEBSITE
 https://www.minecraft3ds.net/all-seeds
 -------------------
@@ -82,7 +82,7 @@ Overworld Structures:
 -------------------
 Seed: 3593409258
 
-Submitter: FallTheVillan
+Submitter: CZX
 Type: Structures
 
 Overworld Structures:
@@ -91,7 +91,7 @@ Overworld Structures:
 -------------------
 Seed: 1869582515
 
-Submitter: CZX
+Submitter: FallTheVillan
 Type: Structures
 
 Overworld Structures:
