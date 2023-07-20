@@ -1,0 +1,130 @@
+MINECRAFT 3DS SEEDS
+-------------------
+Seed: 1047059101
+
+Submitter: CZX
+Type: Structures
+
+Overworld Structures:
+800, 70, 0 - Village 
+437, 75, 4 - Village 
+356, 77, -284 - Village 
+261, 70, -380 - Village 
+1028, 74, -236 - Village 
+853, 57, -540 - Village 
+740, 70, -955 - Village 
+661, 72, -636 - Village 
+559, 60, -859 - Spider Spawner 
+1669, 60, -50 - Spider Spawner 
+1338, 75, -710 - Desert Temple 
+1242, 75, -150 - Desert Temple 
+645, 38, -890 - End Portal
+1415, 75, -683 - Desert Well 
+719, 69, -967 - Desert Well 
+445, 75, -553 - Desert well
+573, 69, -370 - Desert well 
+673, 77, -329 - Desert well 
+646, 80, 3 - Desert well 
+421, 70, -48 - Desert well 
+-------------------
+Seed: 992826707
+
+Submitter: DarkForPresident
+Type: Structures
+
+Overworld Sturctures:
+52, 69, 351 - Village
+-614, 64, -599 - Village
+-------------------
+Seed: 4049728941
+
+Submitter: Balloon911
+Type: Structures
+
+Overworld Sturctures:
+423, 72, 692 - Village
+471, 36, 749 - End Portal 
+-------------------
+Seed: 907040147
+
+Submitter: DarkForPresident
+Type: Strucures
+
+Overworld Structures:
+861, 64, 542 - Desert Well
+-------------------
+Seed: 3307311791
+
+Submitter: DarkForPresident
+Type: Structures
+
+Overworld Sturctures:
+-30, 68, -97 - Woodland Mansion
+-------------------
+Seed: 240274091
+
+Submitter: DarkForPresident
+Type: Sturctures
+
+Overworld Structures:
+14, 71, 37 - Village
+-------------------
+Seed: 1005263763
+
+Submitter: CZX
+Type: Structures
+
+Overworld Structures:
+200, 69, 150 - Woodland Mansion
+-------------------
+Seed: 3593409258
+
+Submitter: FallTheVillan
+Type: Structures
+
+Overworld Structures:
+622, 74, -31 - Woodland Mansion
+979, 48, -89 - Stronghold
+-------------------
+Seed: 1869582515
+
+Submitter: CZX
+Type: Structures
+
+Overworld Structures:
+-114, 69, -47 - Woodland Mansion
+-------------------
+Seed: 66898262
+
+Submitter: RedLegoFerrari
+Type: Structures, Speedrun
+
+Overworld Structures:
+165, 76, 212 - Acacia Village 
+837, 74, 277 - Acacia Village 
+1061, 70, 261 - Desert Village 
+1413, 76, 21 - Desert Village 
+1524, 70, -347 - Oak Village 
+1050, 75, 234 - Desert Temple 
+778, 75, 74 - Desert Temple 
+1562, 66, -502 - Desert Temple 
+810, 69, 11 - Desert Well 
+1128, 57, 679 - Ocean Monument 
+731, 66, -853 - Witch Hut 
+843, 35, -27 - Spider Spawner 
+1659, 13, 977 - Spider Spawner 
+813, 30, 467 - Zombie Spawner 
+886, 33, -19 - Skeleton Spawner 
+
+Overworld Terrain:
+1092,65,67 - Lava Pool 
+101, 79, 993 - Spruce Forest 
+874, 74, -613 - Pumpkins 
+
+End Structures:
+863, 14, -29 - End Portal 
+494, 95, -433 - End Ship 
+
+Nether Sturctures:
+251, 65, 151 - Blaze Spawner 
+139, 65, 316 - Blaze Spawner 
