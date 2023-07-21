@@ -72,7 +72,6 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for
     * Murder Drones skin pack port
     * LEGO Minecraft Dragon Slayer skin port
     * Customization remover
-    * Better icons :eyes:
 * TheRustico36
     * New GUI
     * New Base Skins port
@@ -88,5 +87,22 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for
     * FNAF Hide and Seek map
 * WaterMelon
     * The Dropper: 3DS Remaster
+ 
+### Seed submitters
+* Balloon911
+    * 4049728941
+* CZX
+    * 1005263763
+    * 1047059101
+    * 3593409258
+* DarkForPresident
+    * 240274091
+    * 3307311791
+    * 907040147
+    * 992826707
+* FallTheVillan
+    * 1869582515
+* RedLegoFerrari
+    * 66898262
 
-**ALL CONTENT HAS THE APPROVAL OF THEIR RESPECIVE CREATORS TO BE IN THIS STORE**
+**ALL CONTENT HAS THE APPROVAL OF THEIR RESPECIVE CREATORS/SUBMITTERS TO BE IN THIS STORE**
