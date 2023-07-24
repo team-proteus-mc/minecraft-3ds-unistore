@@ -4131,7 +4131,7 @@
             "author":"Various people",
             "version":"1",
             "category":[
-               "worlds"
+               "misc"
             ],
             "console":[
                "3DS"
@@ -4200,6 +4200,53 @@
                   "type": "downloadFile",
                   "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/misc/seeds.txt",
                   "output": "sdmc:/Minecraft 3DS/seeds.txt"
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"Glitches",
+            "author":"Various people",
+            "version":"1",
+            "category":[
+               "misc"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"A bunch of glitches.",
+            "license":"unknown",
+            "releasenotes": "MINECRAFT 3DS GLITCHES\nRevision 1\nALL GLITCHES WERE SUBMITTED TO THE MINECRAFT 3DS WEBSITE\nhttps://www.minecraft3ds.net/misc/glitches\n-------------------\nDuplication\n\nhttps://youtu.be/xi4KImUx8y4\n\nDuplicating stackable items is actually super simple in this version! It's also possible to dupe un-stackable items, but it's a bit more complicated. Watch the above video to find out how.\n-------------------\nIce Boating\n\nhttps://youtu.be/0i_lzyWyKI4\n\nUnder normal circumstances, boating on ice barely increases your speed. However, if you start boating on ice and the go onto blocks with buttons or string on them, your speed increases dramatically.\n-------------------\nFour Lines of Text\n\nIt's actually incredibly easy to access the fourth line of text on a sign in this version! Once you place a sign, press cancel, and then press up, and boom.\n-------------------\nEnder Dragon Boat\n\nIn this version, you can use a boat to trap the ender dragon! This glitch is very helpful during speedruns.",
+            "screenshots": [
+               {
+                  "description": "Duplication: https://youtu.be/xi4KImUx8y4",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/glitch-a.png"
+               },
+               {
+                  "description": "Ice Boating: https://youtu.be/0i_lzyWyKI4",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/glitch-b.png"
+               },
+               {
+                  "description": "Four Lines of Text",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/glitch-c.png"
+               },
+               {
+                  "description": "Ender Dragon Boat",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/glitch-d.png"
+               }
+            ],
+            "icon_index":43,
+            "sheet_index":0,
+            "last_updated":"2023-07-24 at 17:00 (CST)"
+         },
+         "glitches.txt":{
+            "size":"992 Bytes",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/misc/glitches.txt",
+                  "output": "sdmc:/Minecraft 3DS/glitches.txt"
                }
             ]
          }
