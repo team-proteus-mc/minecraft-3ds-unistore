@@ -1,5 +1,5 @@
 MINECRAFT 3DS FREQUENTLY ASKED QUESTIONS
-Revision 1
+Revision 2
 ALL PROMPTS WERE TAKEN FROM THE MINECRAFT 3DS WEBSITE
 https://www.minecraft3ds.net/misc/faq/questions
 -------------------
@@ -53,7 +53,7 @@ The block height limit it 128 blocks.
 -------------------
 What are the world sizes?
 
-"Small" worlds are 672x672 blocks, "Medium" worlds are 1344x1344 blocks, and "Large" worlds are 2016x2016 blocks. These sizes are even bigger than the Legacy Console world sizes. The size of your world cannot be changed in-game after creation.
+'Small' worlds are 672x672 blocks, 'Medium' worlds are 1344x1344 blocks, and 'Large' worlds are 2016x2016 blocks. These sizes are even bigger than the Legacy Console world sizes. The size of your world cannot be changed in-game after creation.
 -------------------
 What are the mob caps?
 
@@ -168,7 +168,7 @@ Yes, your Nintendo 3DS/2DS needs to be homebrewed with Luma to download use any 
 -------------------
 What seed do speedrunners use?
 
-Those who speedrun Minecraft 3DS in the "Set Seed Glitched" category use the seed 1472235109. Set Seed Glitched means the speedrunner is allowed to use any seed they want and use any glitches/exploits they want. Those who speedrun Minecraft 3DS in the "Set Seed Glitchless" category use the seed 149577394. Set Seed Glitchless means the speedrunner is allowed to use any seed they want but is not allowed to use any glitches/exploits.
+Those who speedrun Minecraft 3DS in the 'Set Seed Glitched' category use the seed 1472235109. Set Seed Glitched means the speedrunner is allowed to use any seed they want and use any glitches/exploits they want. Those who speedrun Minecraft 3DS in the 'Set Seed Glitchless' category use the seed 149577394. Set Seed Glitchless means the speedrunner is allowed to use any seed they want but is not allowed to use any glitches/exploits.
 -------------------
 What is the speedrun world record?
 
@@ -178,9 +178,9 @@ The world record for the following categories are:
 - Random Seed Glitched - 18m 48s, achieved by CZX on 3/08/2022
 Random Seed Glitchess has no world record as nobody has completed a run. Maybe you could be the first!
 -------------------
-What does "RSG" mean?
+What does 'RSG' mean?
 
-Minecraft speedrunners use the term "RSG" to refer to Random Seed Glitchless. "RS" is Random Seed Glitched, "SSG" is Set Seed Glitchless, "SS" is Set Seed Glitched, "IL" is Individual Levels (Short categories, an example is "Obtain Melon"), and "CE" is Category Extensions (Medium categories, an example is "Reach Closest Border").
+Minecraft speedrunners use the term 'RSG' to refer to Random Seed Glitchless. 'RS' is Random Seed Glitched, 'SSG' is Set Seed Glitchless, 'SS' is Set Seed Glitched, 'IL' is Individual Levels (Short categories, an example is 'Obtain Melon'), and 'CE' is Category Extensions (Medium categories, an example is 'Reach Closest Border').
 -------------------
 Where can I download mods?
 
@@ -188,4 +188,4 @@ To download mods like Sheeptastic, Better Creepers, and Giant Baby Zombie, navig
 -------------------
 Where can I make mods?
 
-You can use our Mod Maker tool to create simple Mods that change the behavior of the mobs in the game. Navigate to our Mods section and press the "Mod Maker" button to access it.
+You can use our Mod Maker tool to create simple Mods that change the behavior of the mobs in the game. Navigate to our Mods section and press the 'Mod Maker' button to access it.
