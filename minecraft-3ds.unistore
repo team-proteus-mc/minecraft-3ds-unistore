@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":29,
+      "revision":30,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -4282,6 +4282,89 @@
                   "type": "downloadFile",
                   "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/misc/faq.txt",
                   "output": "sdmc:/Minecraft 3DS/faq.txt"
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"Screenshots",
+            "author":"Various people",
+            "version":"1",
+            "category":[
+               "misc"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Some Minecraft 3DS screenshots; see screenshots and release notes for this item.",
+            "license":"unknown",
+            "releasenotes": "MINECRAFT 3DS SCREENSHOTS\nRevision 1\nALL SCREENSHOTS WERE TAKEN FROM THE MINECRAFT 3DS WEBSITE\nhttps://www.minecraft3ds.net/misc/screenshots\n-------------------\nHatred and Sorrow\n\nSubmitted on 3/26/2023 by Marshadow\n-------------------\nFunny\n\nSubmitted on 3/26/2023 by Marshadow\n-------------------\nStuck\n\nSubmitted on 3/26/2023 by Marshadow\n-------------------\nHeck\n\nSubmitted on 3/26/2023 by Marshadow\n-------------------\nSwamp\n\nSubmitted on 3/26/2023 by Marshadow\n-------------------\nMushroom Cow\n\nSubmitted on 3/26/2023 by Marshadow\n-------------------\nIlluminated Cave\n\nSubmitted on 3/26/2023 by susbaconhairman\n-------------------\nNormal Behavior\n\nSubmitted on 10/20/2022 by DarkForPresident\n-------------------\nHello\n\nSubmitted on 10/20/2022 by DarkForPresident\n-------------------\nPumpkin Head\n\nSubmitted on 10/18/2022 by DarkForPresident\n-------------------\nThe Death Hole\n\nSubmitted on 10/18/2022 by DarkForPresident\n-------------------\nCut-off Portal\n\nSubmitted on 10/18/2022 by DarkForPresident\n-------------------\nMountain Goats\n\nSubmitted on 10/18/2022 by DarkForPresident",
+            "screenshots": [
+               {
+                  "description": "Mountain Goats",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-a.png"
+               },
+               {
+                  "description": "Cut-off Portal",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-b.png"
+               },
+               {
+                  "description": "The Death Hole",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-c.png"
+               },
+               {
+                  "description": "Pumpkin Head",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-d.png"
+               },
+               {
+                  "description": "Hello",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-e.png"
+               },
+               {
+                  "description": "Normal Behavior",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-f.png"
+               },
+               {
+                  "description": "Illuminated Cave",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-g.png"
+               },
+               {
+                  "description": "Mushroom Cow",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-h.png"
+               },
+               {
+                  "description": "Swamp",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-i.png"
+               },
+               {
+                  "description": "Heck",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-j.png"
+               },
+               {
+                  "description": "Stuck",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-k.png"
+               },
+               {
+                  "description": "Funny",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-l.png"
+               },
+               {
+                  "description": "Hatred and Sorrow",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-m.png"
+               }
+            ],
+            "icon_index":45,
+            "sheet_index":0,
+            "last_updated":"2023-07-25 at 06:46 (CST)"
+         },
+         "screenshots.txt":{
+            "size":"1.06 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/misc/screenshots.txt",
+                  "output": "sdmc:/Minecraft 3DS/screenshots.txt"
                }
             ]
          }
