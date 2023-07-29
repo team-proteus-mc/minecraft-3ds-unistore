@@ -33,8 +33,6 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for
     * Stampy's Lovely World map port
 * CleetusMcfarln
     * DanTDM's Lab
-* CrashRook950 (formerly WaterMelon)
-    * The Dropper: 3DS Remaster
 * CZX
     * The Dropper: 3DS Remaster
 * DarkForPresident
@@ -88,6 +86,8 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, Google Docs for
 * Virtual Overtime
     * LavaCity PVP map
     * FNAF Hide and Seek map
+* WaterMelon
+    * The Dropper: 3DS Remaster
  
 ### Seed submitters
 * Balloon911
