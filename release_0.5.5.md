@@ -1,0 +1,3 @@
+## Bug Fixes
+* Fixed a few bugs and enhanced the "help" and "?" command.
+* Python Source should now work. Whoops! Forgot people want the source to work....
