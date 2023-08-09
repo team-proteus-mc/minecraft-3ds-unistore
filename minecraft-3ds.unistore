@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":34,
+      "revision":35,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -4499,7 +4499,7 @@
             ],
             "description":"Port of Niebieski250's Better Clouds textures.",
             "license":"none",
-            "releasenotes": "Minecraft - New Nintendo 3DS Edition (v1.9.19)\nBetter Clouds (for Bedrock Edition)\n\n32x Minecraft 1.16.5 Realistic Texture Pack for Vanilla.\nCreates more realistic clouds with color depth and better shape variations.\n_______________________________________________________________________________\n\nOriginal textures by:\nNiebieski250\nhttps://www.planetminecraft.com/texture-pack/better-clouds-for-bedrock-edition/\n\nPorted by:\nThorMode9\n_______________________________________________________________________________\n\nContents:\nMinecraft 3DS Better Clouds (for Bedrock Edition)\n_______________________________________________________________________________\n\nInstructions:\nPlace the appropriate contents provided based on your region into the 'titles'\nfolder on your New Nintendo 3DS/2DS micro SD card as shown below:\n\nSD:/luma/titles/00040000001B8700 (USA)\nSD:/luma/titles/000400000017CA00 (Europe)\nSD:/luma/titles/000400000017FD00 (Japan)\n\nInsert the micro SD into your New Nintendo 3DS/2DS.\n\nTo enable game patching, power on the system on while holding 'Select' to access the\nLuma3DS configuration menu. Highlight 'Enable Game Patching' and press 'A' to enable.\nPress 'Start' to save the configuration settings.\n\nOpen Minecraft - New Nintendo 3DS Edition to access the updated content.",
+            "releasenotes":"Minecraft - New Nintendo 3DS Edition (v1.9.19)\nBetter Clouds (for Bedrock Edition)\n\nCreates more realistic clouds with color depth and better shape\nvariations for all texture packs.\n_______________________________________________________________\n\nOriginal textures by:\nNiebieski250\nhttps://www.planetminecraft.com/texture-pack/\nbetter-clouds-for-bedrock-edition/\n\nPorted by:\nThorMode9\n_______________________________________________________________\n\nContents:\nBetter Clouds (for Bedrock Edition)\n32x Minecraft 1.16.5 Realistic Clouds Texture Pack\n_______________________________________________________________\n\nInstructions:\nPlace the appropriate contents provided based on your region\ninto the 'titles' folder on your New Nintendo 3DS/2DS micro SD\ncard as shown below:\n\nSD:/luma/titles/00040000001B8700 (USA)\nSD:/luma/titles/000400000017CA00 (Europe)\nSD:/luma/titles/000400000017FD00 (Japan)\n\nInsert the micro SD into your New Nintendo 3DS/2DS.\n\nTo enable game patching, power the system on while holding\n'Select' to access the Luma3DS configuration menu. Highlight\n'Enable Game Patching' and press 'A' to enable. Press 'Start'\nto save the configuration settings.\n\nOpen Minecraft - New Nintendo 3DS Edition to access the updated\ncontent.",
             "screenshots": [
                {
                   "description": "Image #1",
@@ -4516,7 +4516,7 @@
             ],
             "icon_index":46,
             "sheet_index":0,
-            "last_updated":"2023-08-02 at 12:36 (CST)"
+            "last_updated":"2023-08-09 at 16:14 (CST)"
          },
          "Better Clouds (USA)":{
             "size":"21.3 KB",
@@ -4540,11 +4540,6 @@
                   "type":"promptMessage",
                   "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
                   "count":1
-               },
-               {
-                  "type": "promptMessage",
-                  "message": "This will only work when the\nnatural textures are enabled.",
-                  "count": 1
                }
             ]
          },
@@ -4570,11 +4565,6 @@
                   "type":"promptMessage",
                   "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
                   "count":1
-               },
-               {
-                  "type": "promptMessage",
-                  "message": "This will only work when the\nnatural textures are enabled.",
-                  "count": 1
                }
             ]
          },
@@ -4600,11 +4590,6 @@
                   "type":"promptMessage",
                   "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
                   "count":1
-               },
-               {
-                  "type": "promptMessage",
-                  "message": "This will only work when the\nnatural textures are enabled.",
-                  "count": 1
                }
             ]
          }
