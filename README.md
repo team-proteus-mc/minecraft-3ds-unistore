@@ -47,8 +47,6 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * Building Time map
     * Randoms map demo
     * Frequently Asked Questions
-* DeadSkullzJr
-    * Void world (used for the creation of other worlds in the store, the void world itself is not available on this store or on the Minecraft 3DS website)
 * ENDERMANYK
     * Shaders
 * GenSpace
