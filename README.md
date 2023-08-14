@@ -81,6 +81,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * Realistic 200% Larger Sun + Moon Collection
     * Superflat Survival
     * Better Clouds port
+    * Norse Mythology Texture Pack and Skins port
 * Vicrtl345
     * SkyDen map port
 * Virtual Overtime
