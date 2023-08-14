@@ -71,6 +71,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * Murder Drones skin pack port
     * LEGO Minecraft Dragon Slayer skin port
     * Customization remover
+    * Vanilla Tweaks
 * TheRustico36
     * New GUI
     * New Base Skins port
