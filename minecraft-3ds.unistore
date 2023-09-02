@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":38,
+      "revision":39,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -1507,7 +1507,7 @@
          "info":{
             "title":"New GUI",
             "author":"TheRustico36",
-            "version":"2.0",
+            "version":"3.0",
             "category":[
                "texture pack",
                "textures"
@@ -1520,24 +1520,24 @@
             "releasenotes": "This texture pack adds a new, darker look to Minecraft 3DS.\n\nCreator - TheRustico36",
             "screenshots": [
                {
-                  "description": "1.0, A",
-                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/new-gui-a.png"
+                  "description": "3.0, A",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gui-3-a.png"
                },
                {
-                  "description": "1.0, B",
-                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/new-gui-b.png"
+                  "description": "3.0, B",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gui-3-b.png"
                },
                {
-                  "description": "1.0, C",
-                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/new-gui-c.png"
+                  "description": "3.0, C",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gui-3-c.png"
                },
                {
-                  "description": "1.0, D",
-                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/new-gui-d.png"
+                  "description": "3.0, D",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gui-3-d.png"
                },
                {
-                  "description": "1.0, E",
-                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/new-gui-e.png"
+                  "description": "3.0, E",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gui-3-e.png"
                },
                {
                   "description": "2.0, A",
@@ -1558,37 +1558,58 @@
                {
                   "description": "2.0, E",
                   "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gui-e.png"
+               },
+               {
+                  "description": "1.0, A",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/new-gui-a.png"
+               },
+               {
+                  "description": "1.0, B",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/new-gui-b.png"
+               },
+               {
+                  "description": "1.0, C",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/new-gui-c.png"
+               },
+               {
+                  "description": "1.0, D",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/new-gui-d.png"
+               },
+               {
+                  "description": "1.0, E",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/new-gui-e.png"
                }
             ],
             "icon_index":10,
             "sheet_index":0,
-            "last_updated":"2023-04-22 at 06:44 (CST)"
+            "last_updated":"2023-08-08 at 11:09 (CST)"
          },
-         "New GUI (USA)":[
+         "New GUI 3.0 (USA)":[
             {
                "type":"promptMessage",
                "message":"Make sure you install this AFTER installing\na full texture pack, otherwise this will\n be overwritten by the new textures.",
                "count":1
             },
             {
-               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/new-gui.zip",
-               "output":"sdmc:/Minecraft 3DS/new-gui.zip",
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_3.0.rar",
+               "output":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.0.rar",
                "type":"downloadFile"
-            },
+            }
             {
-               "type":"rmdir",
-               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui",
-               "required":false
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.0.rar",
+               "input":"Cleann'slick_GUI_3.0/map/",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/map/"
             },
             {
                "type":"extractFile",
-               "file":"sdmc:/Minecraft 3DS/new-gui.zip",
-               "input":"MC3DS_NEW_GUI/gui/",
+               "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.0.rar",
+               "input":"Cleann'slick_GUI_3.0/gui/",
                "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/"
             },
             {
                "type":"deleteFile",
-               "file":"sdmc:/Minecraft 3DS/new-gui.zip"
+               "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.0.rar"
             },
             {
                "type":"promptMessage",
@@ -1596,31 +1617,32 @@
                "count":1
             }
          ],
-         "New GUI (EUR)":[
+         "New GUI 3.0 (EUR)":[
             {
                "type":"promptMessage",
                "message":"Make sure you install this AFTER installing\na full texture pack, otherwise this will\n be overwritten by the new textures.",
                "count":1
             },
             {
-               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/new-gui.zip",
-               "output":"sdmc:/Minecraft 3DS/new-gui.zip",
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_3.0.rar",
+               "output":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.0.rar",
                "type":"downloadFile"
-            },
+            }
             {
-               "type":"rmdir",
-               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui",
-               "required":false
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.0.rar",
+               "input":"Cleann'slick_GUI_3.0/map/",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/map/"
             },
             {
                "type":"extractFile",
-               "file":"sdmc:/Minecraft 3DS/new-gui.zip",
-               "input":"MC3DS_NEW_GUI/gui/",
+               "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.0.rar",
+               "input":"Cleann'slick_GUI_3.0/gui/",
                "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/"
             },
             {
                "type":"deleteFile",
-               "file":"sdmc:/Minecraft 3DS/new-gui.zip"
+               "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.0.rar"
             },
             {
                "type":"promptMessage",
@@ -1628,31 +1650,32 @@
                "count":1
             }
          ],
-         "New GUI (JPN)":[
+         "New GUI 3.0 (JPN)":[
             {
                "type":"promptMessage",
                "message":"Make sure you install this AFTER installing\na full texture pack, otherwise this will\n be overwritten by the new textures.",
                "count":1
             },
             {
-               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/new-gui.zip",
-               "output":"sdmc:/Minecraft 3DS/new-gui.zip",
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_3.0.rar",
+               "output":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.0.rar",
                "type":"downloadFile"
-            },
+            }
             {
-               "type":"rmdir",
-               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/gui",
-               "required":false
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.0.rar",
+               "input":"Cleann'slick_GUI_3.0/map/",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/gui/map/"
             },
             {
                "type":"extractFile",
-               "file":"sdmc:/Minecraft 3DS/new-gui.zip",
-               "input":"MC3DS_NEW_GUI/gui/",
+               "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.0.rar",
+               "input":"Cleann'slick_GUI_3.0/gui/",
                "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/gui/"
             },
             {
                "type":"deleteFile",
-               "file":"sdmc:/Minecraft 3DS/new-gui.zip"
+               "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.0.rar"
             },
             {
                "type":"promptMessage",
@@ -1749,6 +1772,102 @@
             {
                "type":"deleteFile",
                "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_2.0.rar"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "New GUI (USA)":[
+            {
+               "type":"promptMessage",
+               "message":"Make sure you install this AFTER installing\na full texture pack, otherwise this will\n be overwritten by the new textures.",
+               "count":1
+            },
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/new-gui.zip",
+               "output":"sdmc:/Minecraft 3DS/new-gui.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/new-gui.zip",
+               "input":"MC3DS_NEW_GUI/gui/",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/new-gui.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "New GUI (EUR)":[
+            {
+               "type":"promptMessage",
+               "message":"Make sure you install this AFTER installing\na full texture pack, otherwise this will\n be overwritten by the new textures.",
+               "count":1
+            },
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/new-gui.zip",
+               "output":"sdmc:/Minecraft 3DS/new-gui.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/new-gui.zip",
+               "input":"MC3DS_NEW_GUI/gui/",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/new-gui.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "New GUI (JPN)":[
+            {
+               "type":"promptMessage",
+               "message":"Make sure you install this AFTER installing\na full texture pack, otherwise this will\n be overwritten by the new textures.",
+               "count":1
+            },
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/new-gui.zip",
+               "output":"sdmc:/Minecraft 3DS/new-gui.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/gui",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/new-gui.zip",
+               "input":"MC3DS_NEW_GUI/gui/",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/gui/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/new-gui.zip"
             },
             {
                "type":"promptMessage",
