@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":39,
+      "revision":40,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -1594,7 +1594,7 @@
                "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_3.0.rar",
                "output":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.0.rar",
                "type":"downloadFile"
-            }
+            },
             {
                "type":"extractFile",
                "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.0.rar",
@@ -1627,7 +1627,7 @@
                "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_3.0.rar",
                "output":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.0.rar",
                "type":"downloadFile"
-            }
+            },
             {
                "type":"extractFile",
                "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.0.rar",
@@ -1660,7 +1660,7 @@
                "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_3.0.rar",
                "output":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.0.rar",
                "type":"downloadFile"
-            }
+            },
             {
                "type":"extractFile",
                "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.0.rar",
