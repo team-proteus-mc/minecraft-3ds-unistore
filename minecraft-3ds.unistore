@@ -4813,6 +4813,121 @@
                }
             ]
          }
+      },
+      {
+         "info":{
+            "title":"GenSpace Mod",
+            "author":"DarkForPresident, czx.",
+            "version":"1",
+            "category":[
+               "textures"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Very nice addition to the game.",
+            "license":"unknown",
+            "releasenotes": "Put the credits folder in luma>titles>00040000001B8700>romfs\nPut the client folder in luma>titles>00040000001B8700>romfs>resourcepacks>vanilla",
+            "screenshots": [
+               {
+                  "description": "screenshot",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/genspace.png"
+               }
+            ],
+            "icon_index":49,
+            "sheet_index":0,
+            "last_updated":"2022-12-22 at 00:00 (CST)"
+         },
+         "GenSpace Mod (USA)":{
+            "size":"72.9 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Genspace_Mod_1.zip",
+                  "output": "sdmc:/Minecraft 3DS/Genspace_Mod_1.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Genspace_Mod_1.zip",
+                  "input": "GenSpace mod/credits/credits.txt",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/credits/credits.txt"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Genspace_Mod_1.zip",
+                  "input": "GenSpace mod/client/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/Genspace_Mod_1.zip"
+               }
+            ]
+         },
+         "GenSpace Mod (EUR)":{
+            "size":"72.9 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Genspace_Mod_1.zip",
+                  "output": "sdmc:/Minecraft 3DS/Genspace_Mod_1.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Genspace_Mod_1.zip",
+                  "input": "GenSpace mod/credits/credits.txt",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/credits/credits.txt"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Genspace_Mod_1.zip",
+                  "input": "GenSpace mod/client/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/Genspace_Mod_1.zip"
+               }
+            ]
+         },
+         "GenSpace Mod (JPN)":{
+            "size":"72.9 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Genspace_Mod_1.zip",
+                  "output": "sdmc:/Minecraft 3DS/Genspace_Mod_1.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Genspace_Mod_1.zip",
+                  "input": "GenSpace mod/credits/credits.txt",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/credits/credits.txt"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Genspace_Mod_1.zip",
+                  "input": "GenSpace mod/client/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/Genspace_Mod_1.zip"
+               }
+            ]
+         }
       }
    ]
 }
