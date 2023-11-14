@@ -4928,6 +4928,42 @@
                }
             ]
          }
+      },
+      {
+         "info":{
+            "title":"STB-MC3DS",
+            "author":"STBUniverse",
+            "version":"22",
+            "category":[
+               "unistore",
+               "misc"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"STB MC3DS - A store to find things made by STBUniverse for the MC 3DS Edition",
+            "license":"unknown",
+            "releasenotes":"stb-mc3ds-unistore\n\nQR Code for the UniStore:\n\nhttps://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/qr-code.png",
+            "screenshots": [
+               {
+                  "description": "No image is available. Sorry.",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+               }
+            ],
+            "icon_index":50,
+            "sheet_index":0,
+            "last_updated":"2023-11-01 at 19:38 (PDT)"
+         },
+         "STB-MC3DS Unistore":{
+            "size":"15.3 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/misc/stb-mc3ds.unistore",
+                  "output": "sdmc:/3ds/Universal-Updater/stores/stb-mc3ds.unistore"
+               }
+            ]
+         }
       }
    ]
 }
