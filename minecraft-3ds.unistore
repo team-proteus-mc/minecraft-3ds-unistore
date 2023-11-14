@@ -4946,7 +4946,7 @@
             "releasenotes":"stb-mc3ds-unistore\n\nQR Code for the UniStore:\n\nhttps://github.com/STBrian/stb-mc3ds-unistore/raw/main/assets/qr-code.png",
             "screenshots": [
                {
-                  "description": "No image is available. Sorry.",
+                  "description": "Unistore Preview",
                   "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/stb-unistore.png"
                }
             ],
