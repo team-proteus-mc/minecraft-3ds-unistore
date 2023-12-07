@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":44,
+      "revision":45,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -760,7 +760,7 @@
          "info":{
             "title":"Wewelsburg",
             "author":"ThorMode9",
-            "version":"0.0.2",
+            "version":"0.0.3",
             "category":[
                "worlds"
             ],
@@ -769,46 +769,74 @@
             ],
             "description":"This map is an ongoing project loosely inspired by the architecture of German Renaissance castle.",
             "license":"unknown",
-            "releasenotes": "This map is an ongoing project loosely inspired by the architecture of German Renaissance castle, Wewelsburg, located in the village of Wewelsburg, which is a district of the town of Büren, Westphalia, in the Landkreis of Paderborn in the northeast of North Rhine-Westphalia, Germany. The castle walls bear a rich occult history filled with many mysteries and centuries old horrors portrayed throughout this build.\n\nCreator - ThorMode9",
+            "releasenotes": "This map is an ongoing project loosely inspired by the architecture of German Renaissance castle, Wewelsburg, located in the village of Wewelsburg, which is a district of the town of Büren, Westphalia, in the Landkreis of Paderborn in the northeast of North Rhine-Westphalia, Germany. The castle walls bear a rich occult history filled with many mysteries and centuries old horrors portrayed throughout this build.\n\nCreator - ThorMode9\n\n-----\n\nMinecraft - New Nintendo 3DS Edition (v1.9.19)\nWewelsburg v0.003 (2016 × 2016)\n\nThis map is an ongoing project loosely inspired by the architecture of German Renaissance castle, Wewelsburg, located in the village of Wewelsburg, which is a district of the town of Büren, Westphalia, in the Landkreis of Paderborn in the northeast of North Rhine-Westphalia, Germany.\n_______________________________________________________________________________\n\nUpdates:\n\nAdded more structures. \n\nExpansion of massive caves and cliffs.\n\nRain and lightning frequency decreased.\n_______________________________________________________________________________\n\nBuild\nBy: ThorMode9",
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg2-a.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-a.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg2-b.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-b.png"
                },
                {
                   "description": "Image #3",
-                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg2-c.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-c.png"
                },
                {
                   "description": "Image #4",
-                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg2-d.png"
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-d.png"
+               },
+               {
+                  "description": "Image #5",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-e.png"
+               },
+               {
+                  "description": "Image #6",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-f.png"
+               },
+               {
+                  "description": "Image #7",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-g.png"
+               },
+               {
+                  "description": "Image #8",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-h.png"
+               },
+               {
+                  "description": "Image #9",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-i.png"
+               },
+               {
+                  "description": "Image #10",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-j.png"
                }
             ],
             "icon_index":0,
             "sheet_index":0,
-            "last_updated":"2023-07-04 at 13:44 (UTC)"
+            "last_updated":"2023-12-05 at 22:43 (UTC)"
          },
          "Wewelsburg":{
-            "size":"12.86 MB",
+            "size":"16.1 MB",
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/wewelsburg-2.zip",
-                  "output": "sdmc:/Minecraft 3DS/worlds/wewelsburg-2.zip"
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Wewelsburg_v0.003_12-5-23.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Wewelsburg_v0.003_12-5-23.zip"
                },
                {
                   "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/worlds/wewelsburg-2.zip",
-                  "input": "Minecraft 3DS Wewelsburg (Original) 2023 New/",
-                  "output": "sdmc:/Minecraft 3DS/worlds/Wewelsburg v0.0.2/"
+                  "file": "sdmc:/Minecraft 3DS/worlds/Wewelsburg_v0.003_12-5-23.zip",
+                  "input": "Wewelsburg (12-5-23)/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Wewelsburg v0.0.3/"
                },
                {
                   "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/worlds/wewelsburg-2.zip"
+                  "file": "sdmc:/Minecraft 3DS/worlds/Wewelsburg v0.0.3/README.txt"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/Wewelsburg_v0.003_12-5-23.zip"
                },
                {
                   "type": "promptMessage",
