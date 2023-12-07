@@ -66,6 +66,8 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * Better Creepers mod
 * Ruff64
     * The Dropper: 3DS Remaster
+* STBUniverse
+    * STB-MC3DS Unistore
 * susbaconhairman
     * kharrii2 texture pack port
     * New Default Skins port
