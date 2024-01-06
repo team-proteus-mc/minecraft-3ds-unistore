@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":49,
+      "revision":50,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -5027,6 +5027,10 @@
                },
                {
                   "type": "installCia",
+                  "file": "sdmc:/Minecraft 3DS/MC3DS-MAC.cia"
+               },
+               {
+                  "type": "deleteFile",
                   "file": "sdmc:/Minecraft 3DS/MC3DS-MAC.cia"
                }
             ]
