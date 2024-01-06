@@ -35,6 +35,8 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * Stampy's Lovely World map port
 * CleetusMcfarln
     * DanTDM's Lab
+* Cracko298
+    * MC3DS-MAC
 * CZX
     * The Dropper: 3DS Remaster
     * GenSpace Mod
