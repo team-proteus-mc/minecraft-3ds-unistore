@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":62,
+      "revision":63,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -1638,13 +1638,13 @@
             {
                "type":"extractFile",
                "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.1.rar",
-               "input":"Cleann'slick_GUI_3.1/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/map/",
+               "input":"Cleann'slickGUI/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/map/",
                "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/map/"
             },
             {
                "type":"extractFile",
                "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.1.rar",
-               "input":"Cleann'slick_GUI_3.1/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/",
+               "input":"Cleann'slickGUI/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/",
                "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/"
             },
             {
@@ -1671,13 +1671,13 @@
             {
                "type":"extractFile",
                "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.1.rar",
-               "input":"Cleann'slick_GUI_3.1/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/map/",
+               "input":"Cleann'slickGUI/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/map/",
                "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/map/"
             },
             {
                "type":"extractFile",
                "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.1.rar",
-               "input":"Cleann'slick_GUI_3.1/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/",
+               "input":"Cleann'slickGUI/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/",
                "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/"
             },
             {
@@ -1704,13 +1704,13 @@
             {
                "type":"extractFile",
                "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.1.rar",
-               "input":"Cleann'slick_GUI_3.1/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/map/",
+               "input":"Cleann'slickGUI/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/map/",
                "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/map/"
             },
             {
                "type":"extractFile",
                "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.1.rar",
-               "input":"Cleann'slick_GUI_3.1/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/gui/",
+               "input":"Cleann'slickGUI/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/gui/",
                "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/gui/"
             },
             {
