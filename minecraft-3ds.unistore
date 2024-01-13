@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":60,
+      "revision":61,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -1533,9 +1533,9 @@
       },
       {
          "info":{
-            "title":"New GUI",
+            "title":"Cleann'slick GUI",
             "author":"TheRustico36",
-            "version":"3.0",
+            "version":"3.1",
             "category":[
                "texture pack",
                "textures"
@@ -1545,8 +1545,20 @@
             ],
             "description":"This texture pack adds a new, darker look to Minecraft 3DS.",
             "license":"unknown",
-            "releasenotes": "This texture pack adds a new, darker look to Minecraft 3DS.\n\nCreator - TheRustico36",
+            "releasenotes": "#Cleann'slick GUI 3.1\n\nChanges-\n- Changed map background as well as the nether one\n- little plus in the anvil GUI turns green (it was a blurry mess in 3.0)\n\nThis is a New GUI for Minecraft- New Nintendo 3ds.\n\nIf you're new to Minecraft- New Nintendo 3ds modding, then use these instructions-\n\n- You'll need a Homebrewed 3ds\n- And you'll need the game, of course\n\n1. Put the file with your corresponding game's region under- /luma/titles\n\nTitle IDs-\n\n00040000001B8700 (USA)\n000400000017CA00 (Europe)\n000400000017FD00 (Japan)\n\n2. If you don't have certain foulders, create them with their corresponding name. It will not work if you mispell them.\n\n12. Safely eject the microSD card, remove the microSD card from your adapter,\nthen stick said storage card back into your New Nintendo 3DS/2DS XL. Press and\nhold Select, power the system on while still holding Select to access the\nLuma3DS configuration menu. In here you will want to make sure that 'Enable Game\nPatching' is set to enabled (indicated by an (x) to the left of the option). Press\nStart to save the configuration settings.\n\nI would really appreciate it if you left a review on the site!! -)\nThanks for downloding my pack!\n\nAnd if you need help, join the discord Minecraft 3ds Discord or Direct message me-\n\nDiscord- https-//discord.gg/6JsHyxk3    Creator- therustico (TheRustico36#8987)",
             "screenshots": [
+               {
+                  "description": "3.1, A",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gui31a.png"
+               },
+               {
+                  "description": "3.1, B",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gui31b.png"
+               },
+               {
+                  "description": "3.1, C",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gui31c.png"
+               },
                {
                   "description": "3.0, A",
                   "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gui-3-a.png"
@@ -1610,8 +1622,107 @@
             ],
             "icon_index":10,
             "sheet_index":0,
-            "last_updated":"2023-08-08 at 11:09 (CST)"
+            "last_updated":"2023-01-13 at 11:12 (CST)"
          },
+         "New GUI 3.1 (USA)":[
+            {
+               "type":"promptMessage",
+               "message":"Make sure you install this AFTER installing\na full texture pack, otherwise this will\n be overwritten by the new textures.",
+               "count":1
+            },
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_3.1.rar",
+               "output":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.1.rar",
+               "type":"downloadFile"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.1.rar",
+               "input":"Cleann'slick_GUI_3.1/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/map/",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/map/"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.1.rar",
+               "input":"Cleann'slick_GUI_3.1/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.1.rar"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "New GUI 3.1 (EUR)":[
+            {
+               "type":"promptMessage",
+               "message":"Make sure you install this AFTER installing\na full texture pack, otherwise this will\n be overwritten by the new textures.",
+               "count":1
+            },
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_3.1.rar",
+               "output":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.1.rar",
+               "type":"downloadFile"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.1.rar",
+               "input":"Cleann'slick_GUI_3.1/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/map/",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/map/"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.1.rar",
+               "input":"Cleann'slick_GUI_3.1/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.1.rar"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "New GUI 3.1 (JPN)":[
+            {
+               "type":"promptMessage",
+               "message":"Make sure you install this AFTER installing\na full texture pack, otherwise this will\n be overwritten by the new textures.",
+               "count":1
+            },
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_3.1.rar",
+               "output":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.1.rar",
+               "type":"downloadFile"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.1.rar",
+               "input":"Cleann'slick_GUI_3.1/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/map/",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/map/"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.1.rar",
+               "input":"Cleann'slick_GUI_3.1/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/gui/",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/gui/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.1.rar"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
          "New GUI 3.0 (USA)":[
             {
                "type":"promptMessage",
