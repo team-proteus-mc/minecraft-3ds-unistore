@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":52,
+      "revision":53,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -4041,7 +4041,7 @@
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/worlds/dropper.zip",
                   "input": "TheDropper3DS/",
-                  "output": "sdmc:/Minecraft 3DS/worlds/The Dropper: 3DS Remaster/"
+                  "output": "sdmc:/Minecraft 3DS/worlds/The Dropper - 3DS Remaster/"
                },
                {
                   "type": "deleteFile",
