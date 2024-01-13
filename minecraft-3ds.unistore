@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":61,
+      "revision":62,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -1622,7 +1622,7 @@
             ],
             "icon_index":10,
             "sheet_index":0,
-            "last_updated":"2023-01-13 at 11:12 (CST)"
+            "last_updated":"2024-01-13 at 11:12 (CST)"
          },
          "New GUI 3.1 (USA)":[
             {
