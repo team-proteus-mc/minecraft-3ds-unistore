@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":64,
+      "revision":65,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -5228,6 +5228,87 @@
                {
                   "type": "deleteFile",
                   "file": "sdmc:/Minecraft 3DS/worlds/skyblock-21.zip"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"Kreideprinz's City World",
+            "author":"Kreideprinz",
+            "version":"0.1",
+            "category":[
+               "worlds"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"This map is an ongoing project of a city world.",
+            "license":"unknown",
+            "releasenotes": "This map is an ongoing project of a city world. Creator: Kreideprinz",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/Kreideprinza.png"
+               },
+               {
+                  "description": "Image #2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/Kreideprinzb.png"
+               },
+               {
+                  "description": "Image #3",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/Kreideprinzc.png"
+               },
+               {
+                  "description": "Image #4",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/Kreideprinzd.png"
+               },
+               {
+                  "description": "Image #5",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/Kreideprinze.png"
+               }
+            ],
+            "icon_index":53,
+            "sheet_index":0,
+            "last_updated":"2023-12-23 at 14:09 (CST)"
+         },
+         "Kreideprinz's City World":{
+            "size":"48.7 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Kreideprinz1.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Kreideprinz1.zip"
+               },
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Kreideprinz2.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Kreideprinz2.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/Kreideprinz1.zip",
+                  "input": "split1/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Kreideprinz City World v0.1/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/Kreideprinz2.zip",
+                  "input": "split2/db/cdb/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Kreideprinz City World v0.1/db/cdb/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/Kreideprinz1.zip"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/Kreideprinz2.zip"
                },
                {
                   "type": "promptMessage",
