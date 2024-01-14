@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":65,
+      "revision":66,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -5317,6 +5317,168 @@
                }
             ]
          }
+      },
+      {
+         "info":{
+            "title":"Norse Mythology Mash Up",
+            "author":"ThorMode9",
+            "version":"0.1",
+            "category":[
+               "textures"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"The long-awaited texture pack is finally here, after many months of blood, sweat, and tears!",
+            "license":"none",
+            "releasenotes": "Minecraft - New Nintendo 3DS Edition (v1.9.19)\nNorse Mythology Mash-up (32x) (v0.1)\n________________________________________________________________\n\nAre you heroic enough to enter the Great Hall, Valhalla? Find\nout in the Norse Mythology Mash-up! Compose your own grand saga\nas you voyage through the 9 realms, from the treetops of\nYggdrasil, down into the mines of Svartalfheim and the depths\nof Hel!\n\n(This early release version of this port may be missing certain\nelements or may not appear as intended.)\n________________________________________________________________\n\nOriginal textures by:\n4J Studios\n\nPorted by:\nThorMode9\n\nSpecial thanks to:\nDarkForPresident, DeadSkullzJr, ENDERMANYK, susbaconhairman,\nTheRustico, WeegeeFan1\n________________________________________________________________\n\nContents:\nNorse Mythology Mash-up (32x) (v0.1)\n________________________________________________________________\n\nInstructions:\nPlace the appropriate contents provided based on your region\ninto the 'titles' folder on your New Nintendo 3DS/2DS micro SD\ncard as shown below:\n\nSD:/luma/titles/00040000001B8700 (USA)\nSD:/luma/titles/000400000017CA00 (Europe)\nSD:/luma/titles/000400000017FD00 (Japan)\n\nInsert the micro SD into your New Nintendo 3DS/2DS.\n\nTo enable game patching, power the system on while holding\n'Select' to access the Luma3DS configuration menu. Highlight\n'Enable Game Patching' and press 'A' to enable. Press 'Start'\nto save the configuration settings.\n\nOpen Minecraft - New Nintendo 3DS Edition to access the updated\ncontent.\n\n* Minecraft - New Nintendo 3DS Edition DLC is required to play\nNorse Mythology Mash-up.",
+            "screenshots": [
+               {
+                  "description": "No Image is available. Sorry.",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+               }
+            ],
+            "icon_index":48,
+            "sheet_index":0,
+            "last_updated":"2024-01-13 at 22:15 (CST)"
+         },
+         "Norse Mythology Textures (USA)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/norse01.zip",
+               "output":"sdmc:/Minecraft 3DS/norse01.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/norse01.zip",
+               "input":"romfs/resourcepacks/natural/",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/natural/"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/norse01.zip",
+               "input":"romfs/loc/",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/loc/"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/norse01.zip",
+               "input":"romfs/atlas/atlas.items.meta_7976E89A_0.3dst",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/atlas/atlas.items.meta_7976E89A_0.3dst"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/norse01.zip",
+               "input":"romfs/atlas/atlas.terrain.meta_7976E89A_0.3dst",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/atlas/atlas.terrain.meta_7976E89A_0.3dst"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/norse01.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            },
+            {
+               "type":"promptMessage",
+               "message":"You will need to select this pack in the textures\nselection in your world's edit menu for this to work.",
+               "count":1
+            }
+         ]
+      },
+      "Norse Mythology Textures (EUR)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/norse01.zip",
+               "output":"sdmc:/Minecraft 3DS/norse01.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/norse01.zip",
+               "input":"romfs/resourcepacks/natural/",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/natural/"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/norse01.zip",
+               "input":"romfs/loc/",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/loc/"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/norse01.zip",
+               "input":"romfs/atlas/atlas.items.meta_7976E89A_0.3dst",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/atlas/atlas.items.meta_7976E89A_0.3dst"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/norse01.zip",
+               "input":"romfs/atlas/atlas.terrain.meta_7976E89A_0.3dst",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/atlas/atlas.terrain.meta_7976E89A_0.3dst"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/norse01.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            },
+            {
+               "type":"promptMessage",
+               "message":"You will need to select this pack in the textures\nselection in your world's edit menu for this to work.",
+               "count":1
+            }
+         ]
+      },
+      "Norse Mythology Textures (JPN)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/norse01.zip",
+               "output":"sdmc:/Minecraft 3DS/norse01.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/norse01.zip",
+               "input":"romfs/resourcepacks/natural/",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/natural/"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/norse01.zip",
+               "input":"romfs/loc/",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/loc/"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/norse01.zip",
+               "input":"romfs/atlas/atlas.items.meta_7976E89A_0.3dst",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/atlas/atlas.items.meta_7976E89A_0.3dst"
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/norse01.zip",
+               "input":"romfs/atlas/atlas.terrain.meta_7976E89A_0.3dst",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/atlas/atlas.terrain.meta_7976E89A_0.3dst"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/norse01.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            },
+            {
+               "type":"promptMessage",
+               "message":"You will need to select this pack in the textures\nselection in your world's edit menu for this to work.",
+               "count":1
+            }
+         ]
       }
    ]
 }
