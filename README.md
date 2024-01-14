@@ -94,8 +94,6 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * Norse Mythology Mash-Up port
 * UnknownLoser
     * DualFlow
-* Various, currently unknown people
-    * 3DSMP worlds
 * Vicrtl345
     * SkyDen map port
 * Virtual Overtime
@@ -103,6 +101,9 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * FNAF Hide and Seek map
 * WaterMelon
     * The Dropper: 3DS Remaster
+
+* People involved in the 3DSMP (too lazy to do each name individually)
+    * DarkForPresident, czx, DeadSkulllzJr, TheRustico36, Breadbug, Nikki (Swapscribble), pipi00pipi, Shark, Abdullah39, Aether, Bruhndles, c, C4SBry, Choppy, Eevee 17, Fall, GenSpace, Grim reaper OP, HgMd, i_suck_at_sleeping, Jaxe, minimariottv, oliverimcDISC, PandJa, Proteus, Salmonchy, Silbver 35, SoulSeeker, techno?, ThE oNe, TheHauntedAttic, Tops, UnknownLoser, xSaigez
  
 ### Seed submitters
 * Balloon911
