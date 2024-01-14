@@ -60,6 +60,8 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * The Dropper: 3DS Remaster
 * Glonk
     * Broken Stronghold Chest Fix
+* Kreideprinz
+    * Kreideprinz's City World
 * oliverimcDISC
     * LoCity map
 * PanguinBoi
@@ -81,7 +83,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * Customization remover
     * Vanilla Remastered
 * TheRustico36
-    * New GUI
+    * Cleann'slick GUI
     * New Base Skins port
     * Legacy Console Default skin pack port
 * ThorMode9
@@ -89,9 +91,11 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * Realistic 200% Larger Sun + Moon Collection
     * Superflat Survival
     * Better Clouds port
-    * Norse Mythology Texture Pack and Skins port
+    * Norse Mythology Mash-Up port
 * UnknownLoser
     * DualFlow
+* Various, currently unknown people
+    * 3DSMP worlds
 * Vicrtl345
     * SkyDen map port
 * Virtual Overtime
