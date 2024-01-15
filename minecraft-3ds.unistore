@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":67,
+      "revision":68,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -5483,6 +5483,256 @@
                   "type":"promptMessage",
                   "message":"You will need to select this pack in the textures\nselection in your world's edit menu for this to work.",
                   "count":1
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"3DSMP Archive",
+            "author":"Various people",
+            "version":"11",
+            "category":[
+               "worlds"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Play some of the 3DSMP worlds!",
+            "license":"unknown",
+            "releasenotes": "Only 7 out of the 11 known revisions of the 3DSMP are available.\n\nList of the 3DSMP crew:\nDarkForPresident, czx, DeadSkulllzJr, TheRustico36, Breadbug, Nikki (Swapscribble), pipi00pipi, Shark, Abdullah39, Aether, Bruhndles, c, C4SBry, Choppy, Eevee 17, Fall, GenSpace, Grim reaper OP, HgMd, i_suck_at_sleeping, Jaxe, minimariottv, oliverimcDISC, PandJa, Proteus, Salmonchy, Silbver 35, SoulSeeker, techno?, ThE oNe, TheHauntedAttic, Tops, UnknownLoser, xSaigez",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/3dsmp-a.png"
+               },
+               {
+                  "description": "Image #2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/3dsmp-b.png"
+               },
+               {
+                  "description": "Image #3",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/3dsmp-c.png"
+               },
+               {
+                  "description": "Image #4",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/3dsmp-d.png"
+               },
+               {
+                  "description": "Image #5",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/3dsmp-e.png"
+               },
+               {
+                  "description": "Image #6",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/3dsmp-f.png"
+               }
+            ],
+            "icon_index":54,
+            "sheet_index":0,
+            "last_updated":"2023-05-07 at 20:31 (CST)"
+         },
+         "Revision 2":{
+            "size":"1.66 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/3dsmp2.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/3dsmp2.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dsmp2.zip",
+                  "input": "Community 3DSMP/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/3DSMP Rev 2/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dsmp2.zip"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         },
+         "Revision 3":{
+            "size":"5.64 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/3dsmp3.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/3dsmp3.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dsmp3.zip",
+                  "input": "Community_3DSMP_Save_3/Community 3DSMP/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/3DSMP Rev 3/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dsmp3.zip"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         },
+         "Revision 4":{
+            "size":"6.64 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/3dsmp4.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/3dsmp4.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dsmp4.zip",
+                  "input": "Community_3DSMP_Save_4/Community 3DSMP/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/3DSMP Rev 4/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dsmp4.zip"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         },
+         "Revision 5":{
+            "size":"23.0 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/3dsmp5.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/3dsmp5.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dsmp5.zip",
+                  "input": "Community_3DSMP_Save_5/Community_3DSMP_Save_5/Community 3DSMP/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/3DSMP Rev 5/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dsmp5.zip"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         },
+         "Revision 7":{
+            "size":"22.5 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/3dsmp7.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/3dsmp7.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dsmp7.zip",
+                  "input": "Community 3DSMP/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/3DSMP Rev 7/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dsmp7.zip"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         },
+         "Revision 9":{
+            "size":"26.4 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/3dsmp9a.7z",
+                  "output": "sdmc:/Minecraft 3DS/worlds/3dsmp9a.7z"
+               },
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/3dsmp9b.7z",
+                  "output": "sdmc:/Minecraft 3DS/worlds/3dsmp9b.7z"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dsmp9a.7z",
+                  "input": "3dsmp91/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/3DSMP Rev 9/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dsmp9b.7z",
+                  "input": "3dsmp92/db/cdb/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/3DSMP Rev 9/db/cdb"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dsmp9a.7z"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dsmp9b.7z"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         },
+         "Revision 11":{
+            "size":"30.3 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/3dsmp11a.7z",
+                  "output": "sdmc:/Minecraft 3DS/worlds/3dsmp11a.7z"
+               },
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/3dsmp11b.7z",
+                  "output": "sdmc:/Minecraft 3DS/worlds/3dsmp11b.7z"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dsmp11a.7z",
+                  "input": "3dsmp11a/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/3DSMP Rev 11/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dsmp11b.7z",
+                  "input": "3dsmp11b/db/cdb/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/3DSMP Rev 11/db/cdb/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dsmp11a.7z"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dsmp11b.7z"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
                }
             ]
          }
