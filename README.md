@@ -37,6 +37,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * DanTDM's Lab
 * Cracko298
     * MC3DS-MAC
+    * MC3DS-Options
 * CZX
     * The Dropper: 3DS Remaster
     * GenSpace Mod
@@ -53,6 +54,8 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * Randoms map demo
     * Frequently Asked Questions
     * GenSpace Mod
+* Duckan
+    * Maryland Mixup skins
 * ENDERMANYK
     * Shaders
 * GenSpace
