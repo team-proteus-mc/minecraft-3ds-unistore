@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":70,
+      "revision":71,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -5798,6 +5798,112 @@
                }
             ]
          }
+      },
+      {
+         "info":{
+            "title":"Maryland Mixup Skins",
+            "author":"Duckan",
+            "version":"1",
+            "category":[
+               "skin pack"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"This pack includes 8 skins, and replaces some of the PVP Warrior skins.",
+            "license":"unknown",
+            "releasenotes": "Maryland Mixpack\nBy Duckan - Lucia\nCollection of skins\n\nThis pack includes 8 skins, and replaces some of the PVP Warrior skins.\n\nHere is a list of them and what skin they replace in-game -\n\nLucia - Desert_Archer\nKris - Desert_Brawler\nTrans Icon Herobrine (with better pants)(by Anon1449) - Desert_Brewer\nTrans Icon Herobrine (with better pants) but he is responibly self isolating (by Anon1449) - Desert_Engineer\nbicon herobrine (by Anon1449) - Desert_Griefer\nTheo (Celeste)(LovelyCelery)- Desert_Hunter\nMadeline (Celeste)(LovelyCelery) - Desert_Husk\nBadeline (Celeste)(LovelyCelery)- Desert_Tamer\n",
+            "screenshots": [
+               {
+                  "description": "No image is available. Sorry.",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+               }
+            ], 
+            "icon_index":56,
+            "sheet_index":0,
+            "last_updated":"2024-01-15 at 00:45 (CST)"
+         },
+         "Maryland Mixup (USA)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/Maryland_Mixup.zip",
+               "output":"sdmc:/Minecraft 3DS/Maryland_Mixup.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/PVP_Warriors",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/Maryland_Mixup.zip",
+               "input":"Maryland Mixup/PVP_Warriors",
+               "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/PVP_Warriors/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/Maryland_Mixup.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "Maryland Mixup (EUR)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/Maryland_Mixup.zip",
+               "output":"sdmc:/Minecraft 3DS/Maryland_Mixup.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/PVP_Warriors",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/Maryland_Mixup.zip",
+               "input":"Maryland Mixup/PVP_Warriors",
+               "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/PVP_Warriors/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/Maryland_Mixup.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ],
+         "Maryland Mixup (JPN)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/Maryland_Mixup.zip",
+               "output":"sdmc:/Minecraft 3DS/Maryland_Mixup.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/PVP_Warriors",
+               "required":false
+            },
+            {
+               "type":"extractFile",
+               "file":"sdmc:/Minecraft 3DS/Maryland_Mixup.zip",
+               "input":"Maryland Mixup/PVP_Warriors",
+               "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/PVP_Warriors/"
+            },
+            {
+               "type":"deleteFile",
+               "file":"sdmc:/Minecraft 3DS/Maryland_Mixup.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+               "count":1
+            }
+         ]
       }
    ]
 }
