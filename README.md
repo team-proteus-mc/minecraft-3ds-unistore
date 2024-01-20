@@ -1,5 +1,3 @@
-# Minecraft 3DS UniStore
-
 # HAPPY 1 YEAR OF THE MINECRAFT 3DS UNISTORE!
 
 The OFFICIAL Minecraft 3DS Community UniStore, and the #1 place to get custom content for the game.
