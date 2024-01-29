@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":77,
+      "revision":78,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -5942,6 +5942,110 @@
                "type":"promptMessage",
                "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
                "count":1
+            }
+         ]
+      },
+      {
+         "info":{
+            "title":"Nuclear Creeper",
+            "author":"Cracko298",
+            "version":"1",
+            "category":[
+               "mod"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"A mod that stretches MC-3DS to its' Absolute Limits. Just try to avoid the creepers at all Costs.",
+            "license":"unknown",
+            "releasenotes": "A mod that stretches MC-3DS to its' Absolute Limits. Just try to avoid the creepers at all Costs.",
+            "screenshots": [
+               {
+                  "description": "Image 1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/creeper-nuke-a.png"
+               },
+               {
+                  "description": "Image 2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/creeper-nuke-b.png"
+               },
+               {
+                  "description": "Image 3",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/creeper-nuke-c.png"
+               },
+               {
+                  "description": "Image 4",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/creeper-nuke-d.png"
+               }
+            ], 
+            "icon_index":58,
+            "sheet_index":0,
+            "last_updated":"2024-01-28 at 17:09 (CST)"
+         },
+         "Nuclear Creeper (USA)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/creeper.json",
+               "output":"sdmc:/luma/00040000001B8700/romfs/resourcepacks/vanilla/server/entities/",
+               "type":"downloadFile"
+            }
+         ],
+         "Nuclear Creeper (EUR)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/creeper.json",
+               "output":"sdmc:/luma/000400000017CA00/romfs/resourcepacks/vanilla/server/entities/",
+               "type":"downloadFile"
+            }
+         ],
+         "Nuclear Creeper (JPN)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/creeper.json",
+               "output":"sdmc:/luma/000400000017FD00/romfs/resourcepacks/vanilla/server/entities/",
+               "type":"downloadFile"
+            }
+         ]
+      },
+      {
+         "info":{
+            "title":"Bat Bombs",
+            "author":"Cracko298",
+            "version":"1",
+            "category":[
+               "mod"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"A Mod based off of the May 15th 1943 disaster, brings you a whole new game mechanic (Good luck mining).",
+            "license":"unknown",
+            "releasenotes": "A Mod based off of the May 15th 1943 disaster, brings you a whole new game mechanic (Good luck mining).\n\nhttps://github.com/Cracko298/MC3DS-BatBomb",
+            "screenshots": [
+               {
+                  "description": "No image is available. Sorry.",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+               }
+            ], 
+            "icon_index":57,
+            "sheet_index":0,
+            "last_updated":"2024-01-28 at 15:36 (CST)"
+         },
+         "Bat Bombs (USA)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/bat.json",
+               "output":"sdmc:/luma/00040000001B8700/romfs/resourcepacks/vanilla/server/entities/",
+               "type":"downloadFile"
+            }
+         ],
+         "Bat Bombs (EUR)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/bat.json",
+               "output":"sdmc:/luma/000400000017CA00/romfs/resourcepacks/vanilla/server/entities/",
+               "type":"downloadFile"
+            }
+         ],
+         "Bat Bombs (JPN)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/bat.json",
+               "output":"sdmc:/luma/000400000017FD00/romfs/resourcepacks/vanilla/server/entities/",
+               "type":"downloadFile"
             }
          ]
       }
