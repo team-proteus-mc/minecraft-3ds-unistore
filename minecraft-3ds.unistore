@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":81,
+      "revision":82,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -6048,6 +6048,127 @@
                "type":"downloadFile"
             }
          ]
+      },
+      {
+         "info":{
+            "title":"Mojangles Font",
+            "author":"Cracko298",
+            "version":"1",
+            "category":[
+               "texture",
+               "mod"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"The old font ported to the latest patch (v1.9).",
+            "license":"none",
+            "releasenotes": "The old font ported to the latest patch (v1.9)",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mojangles-a.png"
+               },
+               {
+                  "description": "Image #2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mojangles-b.png"
+               },
+               {
+                  "description": "Image #3",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mojangles-c.png"
+               },
+               {
+                  "description": "Image #4",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mojangles-d.png"
+               },
+               {
+                  "description": "Image #5",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mojangles-e.png"
+               },
+               {
+                  "description": "Image #6",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mojangles-f.png"
+               }
+            ],
+            "icon_index":59,
+            "sheet_index":0,
+            "last_updated":"2024-01-29 at 19:15 (CST)"
+         },
+         "Mojangles Font (USA)":{
+            "size":"1.25 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/mc3ds_oldfont.zip",
+                  "output": "sdmc:/Minecraft 3DS/mc3ds_oldfont.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/mc3ds_oldfont.zip",
+                  "input": "",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/3ds/font/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/mc3ds_oldfont.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ]
+         },
+         "Mojangles Font (EUR)":{
+            "size":"1.25 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/mc3ds_oldfont.zip",
+                  "output": "sdmc:/Minecraft 3DS/mc3ds_oldfont.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/mc3ds_oldfont.zip",
+                  "input": "",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/3ds/font/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/mc3ds_oldfont.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ]
+         },
+         "Mojangles Font (JPN)":{
+            "size":"1.25 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/mc3ds_oldfont.zip",
+                  "output": "sdmc:/Minecraft 3DS/mc3ds_oldfont.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/mc3ds_oldfont.zip",
+                  "input": "",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/3ds/font/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/mc3ds_oldfont.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ]
+         }
       }
    ]
 }
