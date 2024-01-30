@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":82,
+      "revision":83,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -6105,7 +6105,6 @@
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/mc3ds_oldfont.zip",
-                  "input": "",
                   "output": "sdmc:/luma/titles/00040000001B8700/romfs/3ds/font/"
                },
                {
@@ -6130,7 +6129,6 @@
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/mc3ds_oldfont.zip",
-                  "input": "",
                   "output": "sdmc:/luma/titles/000400000017CA00/romfs/3ds/font/"
                },
                {
@@ -6155,7 +6153,6 @@
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/mc3ds_oldfont.zip",
-                  "input": "",
                   "output": "sdmc:/luma/titles/000400000017FD00/romfs/3ds/font/"
                },
                {
