@@ -42,6 +42,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * MC3DS-Options
     * Nuclear Creeper
     * Bat Bombs
+    * Mojangles Font
 * CZX
     * The Dropper: 3DS Remaster
     * GenSpace Mod
