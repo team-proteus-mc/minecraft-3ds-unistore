@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":89,
+      "revision":90,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -6403,6 +6403,246 @@
                   "type": "promptMessage",
                   "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
                   "count": 1
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"PC Gamer Cow",
+            "author":"WaterMelon",
+            "version":"1",
+            "category":[
+               "texture",
+               "port"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Makes all cows look like the ones from the PC Gamer Demo version of Java Edition.",
+            "license":"none",
+            "releasenotes":"erhtsyjtyfilukydutjrshae",
+            "screenshots": [
+               {
+                  "description": "Image",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/pcgcow.png"
+               }
+            ],
+            "icon_index":61,
+            "sheet_index":0,
+            "last_updated":"2022-11-03 at 13:33 (CST)"
+         },
+         "PC Gamer Cow (USA)":{
+            "size":"1.51 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/PC_Gamer_Cow.zip",
+                  "output": "sdmc:/Minecraft 3DS/PC_Gamer_Cow.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/PC_Gamer_Cow.zip",
+                  "input": "PC Gamer Cow/vanilla/client/textures/entity/cow/cow.3dst",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/entity/cow/cow.3dst"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/PC_Gamer_Cow.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ]
+         },
+         "PC Gamer Cow (EUR)":{
+            "size":"1.51 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/PC_Gamer_Cow.zip",
+                  "output": "sdmc:/Minecraft 3DS/PC_Gamer_Cow.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/PC_Gamer_Cow.zip",
+                  "input": "PC Gamer Cow/vanilla/client/textures/entity/cow/cow.3dst",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/entity/cow/cow.3dst"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/PC_Gamer_Cow.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ]
+         },
+         "PC Gamer Cow (JPN)":{
+            "size":"1.51 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/PC_Gamer_Cow.zip",
+                  "output": "sdmc:/Minecraft 3DS/PC_Gamer_Cow.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/PC_Gamer_Cow.zip",
+                  "input": "PC Gamer Cow/vanilla/client/textures/entity/cow/cow.3dst",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/entity/cow/cow.3dst"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/PC_Gamer_Cow.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"The Dropper - WaterMelon's Submission",
+            "author":"WaterMelon",
+            "version":"1",
+            "category":[
+               "world",
+               "wip"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"WaterMelon's submission for The Dropper collaboration.",
+            "license":"none",
+            "releasenotes":"erhtsyjtyfilukydutjrshae",
+            "screenshots": [
+               {
+                  "description": "Image",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/dropperw1.png"
+               },
+               {
+                  "description": "Image 2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/dropperw2.png"
+               }
+            ],
+            "icon_index":64,
+            "sheet_index":0,
+            "last_updated":"2022-11-03 at 13:33 (CST)"
+         },
+         "The Dropper Submission":{
+            "size":"1.36 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Dropper_Submission.zip",
+                  "output": "sdmc:/Minecraft 3DS/Dropper_Submission.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Dropper_Submission.zip",
+                  "input": "cy4AAGNCTQY=/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/WaterMelon's The Dropper Submission/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/Dropper_Submission.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count":1
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"Debug Mode 3D",
+            "author":"WaterMelon",
+            "version":"1.0.1",
+            "category":[
+               "world",
+               "wip"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Helps people make textures.",
+            "license":"none",
+            "releasenotes":"erhtsyjtyfilukydutjrshae",
+            "screenshots": [
+               {
+                  "description": "Image 1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/debugw.png"
+               },
+               {
+                  "description": "Image 2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/debugw1.png"
+               },
+               {
+                  "description": "Image 3",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/debugw2.png"
+               }
+            ],
+            "icon_index":62,
+            "sheet_index":0,
+            "last_updated":"2024-02-18 at 21:54 (CST)"
+         },
+         "v1.0.0":{
+            "size":"276 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Debug_Mode_3D.zip",
+                  "output": "sdmc:/Minecraft 3DS/Debug_Mode_3D.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Debug_Mode_3D.zip",
+                  "input": "Debug Mode 3D/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Debug Mode 3D v1.0.0/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/Debug_Mode_3D.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count":1
+               }
+            ]
+         },
+         "v1.0.1":{
+            "size":"261 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Debug_Mode_3D1.0.1.zip",
+                  "output": "sdmc:/Minecraft 3DS/Debug_Mode_3D1.0.1.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Debug_Mode_3D1.0.1.zip",
+                  "input": "Debug Mode 3D/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Debug Mode 3D v1.0.1/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/Debug_Mode_3D1.0.1.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count":1
                }
             ]
          }
