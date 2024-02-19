@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":88,
+      "revision":89,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -6166,6 +6166,243 @@
                   "type":"promptMessage",
                   "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
                   "count":1
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"Blind Mazes",
+            "author":"WaterMelon",
+            "version":"1.0.4",
+            "category":[
+               "worlds"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Play the first ever maze map for Minecraft 3DS!",
+            "license":"unknown",
+            "releasenotes": "nothing to see here.",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/Blind1.png"
+               },
+               {
+                  "description": "Image #2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/Blind2.png"
+               },
+               {
+                  "description": "Image #3",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/blind3.png"
+               },
+               {
+                  "description": "Image #4",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/blind4.png"
+               }
+            ],
+            "icon_index":63,
+            "sheet_index":0,
+            "last_updated":"2024-02-18 at 22:57 (CST)"
+         },
+         "Prerelease":{
+            "size":"3.59 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/BlindMazesPrerelease.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/BlindMazesPrerelease.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/BlindMazesPrerelease.zip",
+                  "input": "BlindMazePre/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Blind Mazes Prerelease/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/BlindMazesPrerelease.zip"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         },
+         "v1.0.0":{
+            "size":"3.35 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Blind_Mazes.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Blind_Mazes.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/Blind_Mazes.zip",
+                  "input": "Blind Mazes/MazeBlind/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Blind Mazes v1.0.0/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/Blind_Mazes.zip"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         },
+         "v1.0.0.5":{
+            "size":"4.60 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/BlindMazesfix.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/BlindMazesfix.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/BlindMazesfix.zip",
+                  "input": "BlindMazes1.0.1/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Blind Mazes v1.0.0.5/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/BlindMazesfix.zip"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         },
+         "v1.0.1":{
+            "size":"4.60 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Blind_Mazes1.0.1.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Blind_Mazes1.0.1.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/Blind_Mazes1.0.1.zip",
+                  "input": "Blind Mazes/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Blind Mazes v1.0.1/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/Blind_Mazes1.0.1.zip"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         },
+         "v1.0.2":{
+            "size":"5.22 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/BlindMazes1.0.2.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/BlindMazes1.0.2.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/BlindMazes1.0.2.zip",
+                  "input": "BlindMazes1.0.2/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Blind Mazes v1.0.2/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/BlindMazes1.0.2.zip"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         },
+         "v1.0.3":{
+            "size":"8.43 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Blind_Mazes1.0.3.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Blind_Mazes1.0.3.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/Blind_Mazes1.0.3.zip",
+                  "input": "Blind Mazes/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Blind Mazes v1.0.3/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dsmp9a.7z"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         },
+         "v1.0.4":{
+            "size":"5.85 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Blind_Mazes1.0.4.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Blind_Mazes1.0.4.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/Blind_Mazes1.0.4.zip",
+                  "input": "Blind Mazes/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Blind Mazes v1.0.4/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/Blind_Mazes1.0.4.zip"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         },
+         "v1.0.4.1":{
+            "size":"5.85 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Blind_Mazes1.0.4.1.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Blind_Mazes1.0.4.1.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/Blind_Mazes1.0.4.1.zip",
+                  "input": "Blind Mazes/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Blind Mazes v1.0.4.1/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/Blind_Mazes1.0.4.1.zip"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
                }
             ]
          }
