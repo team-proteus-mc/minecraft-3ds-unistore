@@ -1,12 +1,12 @@
-# HAPPY 1 YEAR OF THE MINECRAFT 3DS UNISTORE!
-![Minecraft 3DS UniStore 1 Year Anniversary](https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/blob/main/img/1year.png?raw=true)
+# THE MINECRAFT 3DS UNISTORE
+![Minecraft 3DS UniStore 1 Year Anniversary](https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/blob/main/img/logo.png?raw=true)
 
 The OFFICIAL Minecraft 3DS Community UniStore, and the #1 place to get custom content for the game.
 
 Thank you [@zoogie](https://github.com/zoogie) for starring this repository, we love you!
 
 ## QR Code for installing on the Universal Updater
-![Minecraft 3DS UniStore QR Code](https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/blob/main/img/unistore-qr-logo-anniversary.png?raw=true)
+![Minecraft 3DS UniStore QR Code](https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/blob/main/img/unistore-qr-logo-375.png?raw=true)
 
 ## Information
 
@@ -70,6 +70,8 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * Broken Stronghold Chest Fix
 * Kreideprinz
     * Kreideprinz's City World
+* linuxwizard
+    * Mipmapping patch
 * oliverimcDISC
     * LoCity map
 * PanguinBoi
