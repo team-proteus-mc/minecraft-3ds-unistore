@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":96,
+      "revision":97,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -6763,6 +6763,153 @@
                   "type":"promptMessage",
                   "message":"DISCLAIMER:\n\nThis mod is a work in progress, and may not\nwork as intended.",
                   "count":1
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"Festive World Override",
+            "author":"Cracko298",
+            "version":"0.1",
+            "category":[
+               "world",
+               "wip",
+               "poc"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"A proof of concept mod that doesn't take up any space on the World Saving Menu.",
+            "license":"none",
+            "releasenotes":"A proof of concept mod that doesn't take up any space on the World Saving Menu. It's a custom World that replaces the Festive World.\nhttps://github.com/Cracko298/MC3DS-World-Injection\nThanks to STBUniverse for making the panoramas.",
+            "screenshots": [
+               {
+                  "description": "Image 1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/festive1.png"
+               },
+               {
+                  "description": "Image 2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/festive2.png"
+               },
+               {
+                  "description": "Image 3",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/festive3.png"
+               },
+               {
+                  "description": "Image 4",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/festive4.png"
+               },
+               {
+                  "description": "Image 5",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/festive5.png"
+               },
+               {
+                  "description": "Image 6",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/festive6.png"
+               },
+               {
+                  "description": "Image 7",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/festive7.png"
+               }
+            ],
+            "icon_index":66,
+            "sheet_index":0,
+            "last_updated":"2024-02-22 at 23:45 (CST)"
+         },
+         "v0.1 (USA)":{
+            "size":"4.17 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Custom_FestiveWorldTest.zip",
+                  "output": "sdmc:/Minecraft 3DS/Custom_FestiveWorldTest.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Custom_FestiveWorldTest.zip",
+                  "input": "loc/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/loc/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Custom_FestiveWorldTest.zip",
+                  "input": "templates/festive/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/templates/festive/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Custom_FestiveWorldTest.zip",
+                  "input": "resourcepacks/festive/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/festive/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/Custom_FestiveWorldTest.zip"
+               }
+            ]
+         },
+         "v0.1 (EUR)":{
+            "size":"4.17 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Custom_FestiveWorldTest.zip",
+                  "output": "sdmc:/Minecraft 3DS/Custom_FestiveWorldTest.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Custom_FestiveWorldTest.zip",
+                  "input": "loc/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/loc/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Custom_FestiveWorldTest.zip",
+                  "input": "templates/festive/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/templates/festive/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Custom_FestiveWorldTest.zip",
+                  "input": "resourcepacks/festive/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/festive/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/Custom_FestiveWorldTest.zip"
+               }
+            ]
+         },
+         "v0.1 (JPN)":{
+            "size":"4.17 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Custom_FestiveWorldTest.zip",
+                  "output": "sdmc:/Minecraft 3DS/Custom_FestiveWorldTest.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Custom_FestiveWorldTest.zip",
+                  "input": "loc/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/loc/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Custom_FestiveWorldTest.zip",
+                  "input": "templates/festive/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/templates/festive/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Custom_FestiveWorldTest.zip",
+                  "input": "resourcepacks/festive/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/festive/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/Custom_FestiveWorldTest.zip"
                }
             ]
          }
