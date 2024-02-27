@@ -71,6 +71,8 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * Broken Stronghold Chest Fix
 * Kreideprinz
     * Kreideprinz's City World
+* KrftRV249
+    Random Loot mod
 * linuxwizard
     * Mipmapping patch
 * oliverimcDISC
