@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":97,
+      "revision":98,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -6910,6 +6910,95 @@
                {
                   "type": "deleteFile",
                   "file": "sdmc:/Minecraft 3DS/Custom_FestiveWorldTest.zip"
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"Random Loot",
+            "author":"KrftRV249",
+            "version":"1",
+            "category":[
+               "mod"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Random Loot makes all the mob drops swapped.",
+            "license":"none",
+            "releasenotes":"Random Loot makes all the mob drops swapped.\n\nDISCLAIMER! Your 3ds must be modded for this to work. For more info, vist 3ds.hacks.guide .\n\nInfo:\n\nBaby varaiants of each mob will not drop anything except xp.\n\nMobs who normally drop nothing are not affected.\n\nIt might seem like multiple mobs drop zombie drops, but these are just the drops of the other zombie variants.\n\nIt does not randomize it everytime you start a world.\n\nInstructions: Extract the folder. Then, the files from the entities folder go in luma/titles/titleIDgoeshere/romfs/resourcepacks/vanilla/server/entities.\n\nPlease let me know of any bugs. You can contact me at @KrftRV249 on discord.",
+            "screenshots": [
+               {
+                  "description": "Image 1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/randomloot1.png"
+               },
+               {
+                  "description": "Image 2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/randomloot2.png"
+               }
+            ],
+            "icon_index":67,
+            "sheet_index":0,
+            "last_updated":"2024-02-26 at 20:07 (CST)"
+         },
+         "Random Loot (USA)":{
+            "size":"214 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/random_loot.zip",
+                  "output": "sdmc:/Minecraft 3DS/random_loot.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/random_loot.zip",
+                  "input": "entities/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/random_loot.zip"
+               }
+            ]
+         },
+         "Random Loot (EUR)":{
+            "size":"214 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/random_loot.zip",
+                  "output": "sdmc:/Minecraft 3DS/random_loot.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/random_loot.zip",
+                  "input": "entities/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/entities/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/random_loot.zip"
+               }
+            ]
+         },
+         "Random Loot (JPN)":{
+            "size":"214 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/random_loot.zip",
+                  "output": "sdmc:/Minecraft 3DS/random_loot.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/random_loot.zip",
+                  "input": "entities/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/entities/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/random_loot.zip"
                }
             ]
          }
