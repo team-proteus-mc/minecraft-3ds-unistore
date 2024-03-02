@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":98,
+      "revision":99,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -6999,6 +6999,164 @@
                {
                   "type": "deleteFile",
                   "file": "sdmc:/Minecraft 3DS/random_loot.zip"
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"Amplified World Generation",
+            "author":"Cracko298",
+            "version":"1",
+            "category":[
+               "mod",
+               "worlds"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"This is a mod that Enables Amplified World Generation, and adds Brand New structure too the game.",
+            "license":"none",
+            "releasenotes":"This is a mod that Enables Amplified World Generation, and adds Brand New structure to the game. All of which are randomly generated and based on the SEED (includes more features than listed here).\n\nhttps://github.com/Cracko298/MC3DS-AWG",
+            "screenshots": [
+               {
+                  "description": "Image 1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ampgen1.png"
+               },
+               {
+                  "description": "Image 2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ampgen2.png"
+               },
+               {
+                  "description": "Image 3",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ampgen3.png"
+               },
+               {
+                  "description": "Image 4",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ampgen4.png"
+               },
+               {
+                  "description": "Image 5",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ampgen5.png"
+               },
+               {
+                  "description": "Image 6",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ampgen6.png"
+               },
+               {
+                  "description": "Image 7",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ampgen7.png"
+               },
+               {
+                  "description": "Image 8",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ampgen8.png"
+               },
+               {
+                  "description": "Image 9",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ampgen9.png"
+               },
+               {
+                  "description": "Image 10",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ampgen10.png"
+               }
+            ],
+            "icon_index":68,
+            "sheet_index":0,
+            "last_updated":"2024-02-29 at 22:33 (CST)"
+         },
+         "Amplified World Generation (USA)":{
+            "size":"18.26 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/Amplified_Worlds.zip",
+                  "output": "sdmc:/Minecraft 3DS/Amplified_Worlds.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds.zip",
+                  "input": "loc/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/loc/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds.zip",
+                  "input": "templates/festive/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/templates/festive/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds.zip",
+                  "input": "resourcepacks/festive/textures/ui/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/festive/textures/ui/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds.zip"
+               }
+            ]
+         },
+         "Amplified World Generation (EUR)":{
+            "size":"18.26 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/Amplified_Worlds.zip",
+                  "output": "sdmc:/Minecraft 3DS/Amplified_Worlds.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds.zip",
+                  "input": "loc/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/loc/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds.zip",
+                  "input": "templates/festive/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/templates/festive/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds.zip",
+                  "input": "resourcepacks/festive/textures/ui/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/festive/textures/ui/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds.zip"
+               }
+            ]
+         },
+         "Amplified World Generation (JPN)":{
+            "size":"18.26 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/Amplified_Worlds.zip",
+                  "output": "sdmc:/Minecraft 3DS/Amplified_Worlds.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds.zip",
+                  "input": "loc/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/loc/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds.zip",
+                  "input": "templates/festive/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/templates/festive/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds.zip",
+                  "input": "resourcepacks/festive/textures/ui/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/festive/textures/ui/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds.zip"
                }
             ]
          }
