@@ -44,6 +44,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * Bat Bombs
     * Mojangles Font
     * Festive World Override
+    * Amplified World Generation
 * CZX
     * The Dropper: 3DS Remaster
     * GenSpace Mod
