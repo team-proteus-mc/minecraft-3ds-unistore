@@ -1,0 +1,2 @@
+cd /opt/devkitpro/tools/bin/
+./tex3ds -i ~/Downloads/sprites/atlas.t3s -o ~/Downloads/atlas.t3x
