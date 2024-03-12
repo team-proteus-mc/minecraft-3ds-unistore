@@ -96,6 +96,8 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * LEGO Minecraft Dragon Slayer skin port
     * Customization remover
     * Vanilla Remastered
+* Toaster
+    * SD Card Dropper Map
 * TheRustico36
     * Cleann'slick GUI
     * New Base Skins port
