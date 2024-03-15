@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":103,
+      "revision":104,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -5412,11 +5412,19 @@
                {
                   "description": "Image #8",
                   "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack8.png"
+               },
+               {
+                  "description": "Norse panorama",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack9.png"
+               },
+               {
+                  "description": "Norse panorama 2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack10.png"
                }
             ],
             "icon_index":48,
             "sheet_index":0,
-            "last_updated":"2024-02-06 at 14:30 (CST)"
+            "last_updated":"2024-03-14 at 22:04 (CST)"
          },
          "Norse Mythology Textures (USA)":{
             "size":"5.34 MB",
@@ -5540,6 +5548,81 @@
                {
                   "type":"promptMessage",
                   "message":"You will need to select this pack in the textures\nselection in your world's edit menu for this to work.",
+                  "count":1
+               }
+            ]
+         },
+         "Norse Mythology Panorama (USA)":{
+            "size":"578 KB",
+            "script":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/norsepans.zip",
+                  "output":"sdmc:/Minecraft 3DS/norsepans.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/norsepans.zip",
+                  "input":"background/",
+                  "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/norsepans.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ]
+         },
+         "Norse Mythology Panorama (EUR)":{
+            "size":"578 KB",
+            "script":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/norsepans.zip",
+                  "output":"sdmc:/Minecraft 3DS/norsepans.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/norsepans.zip",
+                  "input":"background/",
+                  "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/norsepans.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ]
+         },
+         "Norse Mythology Panorama (JPN)":{
+            "size":"578 KB",
+            "script":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/norsepans.zip",
+                  "output":"sdmc:/Minecraft 3DS/norsepans.zip",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/norsepans.zip",
+                  "input":"background/",
+                  "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/gui/background/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/norsepans.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
                   "count":1
                }
             ]
