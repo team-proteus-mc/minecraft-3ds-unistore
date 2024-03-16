@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":105,
+      "revision":106,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -4900,7 +4900,7 @@
          "info":{
             "title":"Vanilla Remastered",
             "author":"susbaconhairman",
-            "version":"2",
+            "version":"3",
             "category":[
                "texture",
                "texture pack"
@@ -4908,7 +4908,7 @@
             "console":[
                "3DS"
             ],
-            "description":"This pack improves some elements of the game.",
+            "description":"This pack improves some graphical elements of the game.",
             "license":"none",
             "releasenotes":"Vanilla Remastered\nVersion 2\nBy susbaconhairman\n--------------------\nInstallation (Computer/mobile only):\n\n1. Extract the archive\n2. Copy the 'achievements.3dst', 'sdcard_icon.3dst', and 'spritesheet.3dst' files from the '/romfs/resourcepacks/vanilla/client/textures/gui/' folder in the extracted archive\n3. Paste the files to '/luma/titles/XXXX/romfs/resourcepacks/vanilla/client/textures/gui/'\nReplace 'XXXX' in the directory path with one of the following:\n'00040000001B8700' for USA-region consoles\n'000400000017CA00' for European-region consoles\n'000400000017FD00' for Japanese-region consoles\n4. Make sure Game Patching is enabled in the Luma Configuration Settings!\n--------------------\nCredits:\n\nOhana3DS for texture conversion\nPixlr and Piskel for image manipulation\nMinecraft Privacy Prodigy world for the SD card icon\nMinecraft Wiki for other images\nMinecraft: New Nintendo 3DS Edition sprites for reference\n7-Zip for archiving\npaint.net for image manipulation too\nSteve Jobs I guess\nWindows for doing stuff\nMinecraft 3DS Community for support\nAnd you for downloading this, thanks!",
             "screenshots": [
@@ -4931,25 +4931,25 @@
             ],
             "icon_index":47,
             "sheet_index":0,
-            "last_updated":"2024-01-07 at 16:28 (CST)"
+            "last_updated":"2024-03-16 at 14:05 (CST)"
          },
          "Vanilla Remastered (USA)":{
             "size":"2.25 MB",
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/vanilla-remastered2.zip",
-                  "output": "sdmc:/Minecraft 3DS/vanilla-remastered2.zip"
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/vanillaremastered3.zip",
+                  "output": "sdmc:/Minecraft 3DS/vanillaremastered3.zip"
                },
                {
                   "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/vanilla-remastered2.zip",
-                  "input": "romfs/resourcepacks/vanilla/client/textures/gui/",
+                  "file": "sdmc:/Minecraft 3DS/vanillaremastered3.zip",
+                  "input": "gui/",
                   "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/gui/"
                },
                {
                   "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/vanilla-remastered2.zip"
+                  "file": "sdmc:/Minecraft 3DS/vanillaremastered3.zip"
                },
                {
                   "type":"promptMessage",
@@ -4959,22 +4959,22 @@
             ]
          },
          "Vanilla Remastered (EUR)":{
-            "size":"2.0 MB",
+            "size":"2.25 MB",
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/vanilla-remastered2.zip",
-                  "output": "sdmc:/Minecraft 3DS/vanilla-remastered2.zip"
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/vanillaremastered3.zip",
+                  "output": "sdmc:/Minecraft 3DS/vanillaremastered3.zip"
                },
                {
                   "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/vanilla-remastered2.zip",
-                  "input": "romfs/resourcepacks/vanilla/client/textures/gui/",
+                  "file": "sdmc:/Minecraft 3DS/vanillaremastered3.zip",
+                  "input": "gui/",
                   "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/gui/"
                },
                {
                   "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/vanilla-remastered2.zip"
+                  "file": "sdmc:/Minecraft 3DS/vanillaremastered3.zip"
                },
                {
                   "type":"promptMessage",
@@ -4984,22 +4984,22 @@
             ]
          },
          "Vanilla Remastered (JPN)":{
-            "size":"2.0 MB",
+            "size":"2.25 MB",
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/vanilla-remastered2.zip",
-                  "output": "sdmc:/Minecraft 3DS/vanilla-remastered2.zip"
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/vanillaremastered3.zip",
+                  "output": "sdmc:/Minecraft 3DS/vanillaremastered3.zip"
                },
                {
                   "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/vanilla-remastered2.zip",
-                  "input": "romfs/resourcepacks/vanilla/client/textures/gui/",
+                  "file": "sdmc:/Minecraft 3DS/vanillaremastered3.zip",
+                  "input": "gui/",
                   "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/gui/"
                },
                {
                   "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/vanilla-remastered2.zip"
+                  "file": "sdmc:/Minecraft 3DS/vanillaremastered3.zip"
                },
                {
                   "type":"promptMessage",
