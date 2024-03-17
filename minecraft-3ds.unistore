@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":107,
+      "revision":108,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -5374,7 +5374,7 @@
          "info":{
             "title":"Norse Mythology Mash Up",
             "author":"ThorMode9",
-            "version":"0.2",
+            "version":"0.3",
             "category":[
                "textures"
             ],
@@ -5424,41 +5424,65 @@
                {
                   "description": "Norse panorama 2",
                   "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack10.png"
+               },
+               {
+                  "description": "Norse Particles 1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/norsepart1.png"
+               },
+               {
+                  "description": "Norse Particles 2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/norsepart2.png"
+               },
+               {
+                  "description": "Norse Particles 3",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/norsepart3.png"
+               },
+               {
+                  "description": "Norse Particles 4",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/norsepart4.png"
+               },
+               {
+                  "description": "Norse Particles 5",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/norsepart5.png"
+               },  
+               {
+                  "description": "Norse Particles 6",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/norsepart6.png"
                }
             ],
             "icon_index":48,
             "sheet_index":0,
-            "last_updated":"2024-03-14 at 22:04 (CST)"
+            "last_updated":"2024-03-16 at 18:40 (CST)"
          },
          "Norse Mythology Textures (USA)":{
-            "size":"5.34 MB",
+            "size":"5.30 MB",
             "script":[
                {
-                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/norse02.zip",
-                  "output":"sdmc:/Minecraft 3DS/norse02.zip",
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/norse03.zip",
+                  "output":"sdmc:/Minecraft 3DS/norse03.zip",
                   "type":"downloadFile"
                },
                {
                   "type":"extractFile",
-                  "file":"sdmc:/Minecraft 3DS/norse02.zip",
-                  "input":"norse02/romfs/resourcepacks/natural/",
+                  "file":"sdmc:/Minecraft 3DS/norse03.zip",
+                  "input":"resourcepacks/natural/",
                   "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/natural/"
                },
                {
                   "type":"extractFile",
-                  "file":"sdmc:/Minecraft 3DS/norse02.zip",
-                  "input":"norse02/romfs/loc/",
+                  "file":"sdmc:/Minecraft 3DS/norse03.zip",
+                  "input":"loc/",
                   "output":"sdmc:/luma/titles/00040000001B8700/romfs/loc/"
                },
                {
                   "type":"extractFile",
-                  "file":"sdmc:/Minecraft 3DS/norse02.zip",
-                  "input":"norse02/romfs/atlas/",
+                  "file":"sdmc:/Minecraft 3DS/norse03.zip",
+                  "input":"atlas/",
                   "output":"sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
                },
                {
                   "type":"deleteFile",
-                  "file":"sdmc:/Minecraft 3DS/norse02.zip"
+                  "file":"sdmc:/Minecraft 3DS/norse03.zip"
                },
                {
                   "type":"promptMessage",
@@ -5473,34 +5497,34 @@
             ]
          },
          "Norse Mythology Textures (EUR)":{
-            "size":"5.34 MB",
+            "size":"5.30 MB",
             "script":[
                {
-                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/norse02.zip",
-                  "output":"sdmc:/Minecraft 3DS/norse02.zip",
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/norse03.zip",
+                  "output":"sdmc:/Minecraft 3DS/norse03.zip",
                   "type":"downloadFile"
                },
                {
                   "type":"extractFile",
-                  "file":"sdmc:/Minecraft 3DS/norse02.zip",
-                  "input":"norse02/romfs/resourcepacks/natural/",
+                  "file":"sdmc:/Minecraft 3DS/norse03.zip",
+                  "input":"resourcepacks/natural/",
                   "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/natural/"
                },
                {
                   "type":"extractFile",
-                  "file":"sdmc:/Minecraft 3DS/norse02.zip",
-                  "input":"norse02/romfs/loc/",
+                  "file":"sdmc:/Minecraft 3DS/norse03.zip",
+                  "input":"loc/",
                   "output":"sdmc:/luma/titles/000400000017CA00/romfs/loc/"
                },
                {
                   "type":"extractFile",
-                  "file":"sdmc:/Minecraft 3DS/norse02.zip",
-                  "input":"norse02/romfs/atlas/",
+                  "file":"sdmc:/Minecraft 3DS/norse03.zip",
+                  "input":"atlas/",
                   "output":"sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
                },
                {
                   "type":"deleteFile",
-                  "file":"sdmc:/Minecraft 3DS/norse02.zip"
+                  "file":"sdmc:/Minecraft 3DS/norse03.zip"
                },
                {
                   "type":"promptMessage",
@@ -5515,34 +5539,34 @@
             ]
          },
          "Norse Mythology Textures (JPN)":{
-            "size":"5.34 MB",
+            "size":"5.30 MB",
             "script":[
                {
-                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/norse02.zip",
-                  "output":"sdmc:/Minecraft 3DS/norse02.zip",
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/norse03.zip",
+                  "output":"sdmc:/Minecraft 3DS/norse03.zip",
                   "type":"downloadFile"
                },
                {
                   "type":"extractFile",
-                  "file":"sdmc:/Minecraft 3DS/norse02.zip",
-                  "input":"norse02/romfs/resourcepacks/natural/",
+                  "file":"sdmc:/Minecraft 3DS/norse03.zip",
+                  "input":"resourcepacks/natural/",
                   "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/natural/"
                },
                {
                   "type":"extractFile",
-                  "file":"sdmc:/Minecraft 3DS/norse02.zip",
-                  "input":"norse02/romfs/loc/",
+                  "file":"sdmc:/Minecraft 3DS/norse03.zip",
+                  "input":"loc/",
                   "output":"sdmc:/luma/titles/000400000017FD00/romfs/loc/"
                },
                {
                   "type":"extractFile",
-                  "file":"sdmc:/Minecraft 3DS/norse02.zip",
-                  "input":"norse02/romfs/atlas/",
+                  "file":"sdmc:/Minecraft 3DS/norse03.zip",
+                  "input":"atlas/",
                   "output":"sdmc:/luma/titles/000400000017FD00/romfs/atlas/"
                },
                {
                   "type":"deleteFile",
-                  "file":"sdmc:/Minecraft 3DS/norse02.zip"
+                  "file":"sdmc:/Minecraft 3DS/norse03.zip"
                },
                {
                   "type":"promptMessage",
@@ -5623,6 +5647,81 @@
                {
                   "type":"deleteFile",
                   "file":"sdmc:/Minecraft 3DS/norsepans.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ]
+         },
+         "Norse Mythology Rune Particles (USA)":{
+            "size":"1.26 MB",
+            "script":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Minecraft_3DS_Norse_Mythology_Mash-Up_Rune_Particle_Add-On.7z",
+                  "output":"sdmc:/Minecraft 3DS/Minecraft_3DS_Norse_Mythology_Mash-Up_Rune_Particle_Add-On.7z",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/Minecraft_3DS_Norse_Mythology_Mash-Up_Rune_Particle_Add-On.7z",
+                  "input":"Minecraft 3DS Norse Mythology Mash-Up Rune Particle Add-On (Release)/00040000001B8700/romfs/resourcepacks/natural/textures/particle/",
+                  "output":"sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/natural/client/textures/particle/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/Minecraft_3DS_Norse_Mythology_Mash-Up_Rune_Particle_Add-On.7z"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ]
+         },
+         "Norse Mythology Rune Particles (EUR)":{
+            "size":"1.26 MB",
+            "script":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Minecraft_3DS_Norse_Mythology_Mash-Up_Rune_Particle_Add-On.7z",
+                  "output":"sdmc:/Minecraft 3DS/Minecraft_3DS_Norse_Mythology_Mash-Up_Rune_Particle_Add-On.7z",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/Minecraft_3DS_Norse_Mythology_Mash-Up_Rune_Particle_Add-On.7z",
+                  "input":"Minecraft 3DS Norse Mythology Mash-Up Rune Particle Add-On (Release)/000400000017CA00/romfs/resourcepacks/natural/textures/particle/",
+                  "output":"sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/natural/client/textures/particle/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/Minecraft_3DS_Norse_Mythology_Mash-Up_Rune_Particle_Add-On.7z"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure you enable Game Patching in\nthe Luma Configuration Menu for this to work!",
+                  "count":1
+               }
+            ]
+         },
+         "Norse Mythology Rune Particles (JPN)":{
+            "size":"1.26 MB",
+            "script":[
+               {
+                  "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/Minecraft_3DS_Norse_Mythology_Mash-Up_Rune_Particle_Add-On.7z",
+                  "output":"sdmc:/Minecraft 3DS/Minecraft_3DS_Norse_Mythology_Mash-Up_Rune_Particle_Add-On.7z",
+                  "type":"downloadFile"
+               },
+               {
+                  "type":"extractFile",
+                  "file":"sdmc:/Minecraft 3DS/Minecraft_3DS_Norse_Mythology_Mash-Up_Rune_Particle_Add-On.7z",
+                  "input":"Minecraft 3DS Norse Mythology Mash-Up Rune Particle Add-On (Release)/000400000017FD00/romfs/resourcepacks/natural/textures/particle/",
+                  "output":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/natural/client/textures/particle/"
+               },
+               {
+                  "type":"deleteFile",
+                  "file":"sdmc:/Minecraft 3DS/Minecraft_3DS_Norse_Mythology_Mash-Up_Rune_Particle_Add-On.7z"
                },
                {
                   "type":"promptMessage",
