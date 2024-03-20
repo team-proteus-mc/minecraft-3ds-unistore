@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":108,
+      "revision":109,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -7536,6 +7536,82 @@
                }
             ]
          }
+      },
+      {
+         "info":{
+            "title":"Zombie Apocalypse",
+            "author":"Cracko298",
+            "version":"1",
+            "category":[
+               "mod"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"A Mod that turns Villages into a Dangerous Place.",
+            "license":"unknown",
+            "releasenotes": "A Mod that turns Villages into a Dangerous Place.",
+            "screenshots": [
+               {
+                  "description": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/apocalypse.png"
+               }
+            ], 
+            "icon_index":71,
+            "sheet_index":0,
+            "last_updated":"2024-03-19 at 22:39 (CST)"
+         },
+         "Bat Bombs (USA)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/apocalypse.zip",
+               "output":"sdmc:/Minecraft 3DS/apocalypse.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type": "extractFile",
+               "file": "sdmc:/Minecraft 3DS/apocalypse.zip",
+               "input": "shitstain/",
+               "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities/"
+            },
+            {
+               "type": "deleteFile",
+               "file": "sdmc:/Minecraft 3DS/apocalypse.zip"
+            }
+         ],
+         "Bat Bombs (EUR)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/apocalypse.zip",
+               "output":"sdmc:/Minecraft 3DS/apocalypse.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type": "extractFile",
+               "file": "sdmc:/Minecraft 3DS/apocalypse.zip",
+               "input": "shitstain/",
+               "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/entities/"
+            },
+            {
+               "type": "deleteFile",
+               "file": "sdmc:/Minecraft 3DS/apocalypse.zip"
+            }
+         ],
+         "Bat Bombs (JPN)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/apocalypse.zip",
+               "output":"sdmc:/Minecraft 3DS/apocalypse.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type": "extractFile",
+               "file": "sdmc:/Minecraft 3DS/apocalypse.zip",
+               "input": "shitstain/",
+               "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/entities/"
+            },
+            {
+               "type": "deleteFile",
+               "file": "sdmc:/Minecraft 3DS/apocalypse.zip"
+            }
+         ]
       }
    ]
 }
