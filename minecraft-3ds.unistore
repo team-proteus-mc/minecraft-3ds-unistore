@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":109,
+      "revision":110,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -253,7 +253,7 @@
          "info":{
             "title":"Remove Customization",
             "author":"susbaconhairman",
-            "version":"4",
+            "version":"5",
             "category":[
                "misc"
             ],
@@ -267,47 +267,11 @@
                {
                   "description": "No image is available. Sorry.",
                   "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
-               },
-               {
-                  "description": "TEST 1",
-                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/test1.gif"
-               },
-               {
-                  "description": "TEST 2",
-                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/test2.gif"
-               },
-               {
-                  "description": "TEST 3",
-                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/test3.gif"
-               },
-               {
-                  "description": "TEST 4",
-                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/test4.gif"
-               },
-               {
-                  "description": "TEST 5",
-                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/test5.png"
-               },
-               {
-                  "description": "TEST 6",
-                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/test6.png"
-               },
-               {
-                  "description": "TEST 7",
-                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/test7.png"
-               },
-               {
-                  "description": "TEST 8",
-                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/test8.png"
-               },
-               {
-                  "description": "TEST 9",
-                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/test9.png"
                }
             ],
             "icon_index":7,
             "sheet_index":0,
-            "last_updated":"2023-02-19 at 15:55 (CST)"
+            "last_updated":"2024-03-20 at 21:42 (CST)"
          },
          "Remove ALL content (USA)":[
             {
@@ -465,6 +429,90 @@
             {
                "type":"rmdir",
                "directory":"sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server",
+               "required":false
+            }
+         ],
+         "Remove World Injections (USA)":[
+            {
+               "type":"promptMessage",
+               "message":"This will remove ALL injected\nworlds from the game",
+               "count":1
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/romfs/templates",
+               "required":false
+            }
+         ],
+         "Remove World Injections (EUR)":[
+            {
+               "type":"promptMessage",
+               "message":"This will remove ALL injected\nworlds from the game",
+               "count":1
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/romfs/templates",
+               "required":false
+            }
+         ],
+         "Remove World Injections (JPN)":[
+            {
+               "type":"promptMessage",
+               "message":"This will remove ALL injected\nworlds from the game",
+               "count":1
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/romfs/templates",
+               "required":false
+            }
+         ],
+         "Remove language edits (USA)":[
+            {
+               "type":"promptMessage",
+               "message":"This will remove installed\nlanguage edits from the game",
+               "count":1
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/loc",
+               "required":false
+            }
+         ],
+         "Remove language edits (EUR)":[
+            {
+               "type":"promptMessage",
+               "message":"This will remove installed\nlanguage edits from the game",
+               "count":1
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/loc",
+               "required":false
+            }
+         ],
+         "Remove language edits (JPN)":[
+            {
+               "type":"promptMessage",
+               "message":"This will remove installed\nlanguage edits from the game",
+               "count":1
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/loc",
+               "required":false
+            }
+         ],
+         "Remove Downloaded Worlds":[
+            {
+               "type":"promptMessage",
+               "message":"This will remove ALL downloaded\nworlds for the game",
+               "count":1
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/Minecraft 3DS/worlds",
                "required":false
             }
          ]
