@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":110,
+      "revision":111,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -7609,7 +7609,7 @@
             "sheet_index":0,
             "last_updated":"2024-03-19 at 22:39 (CST)"
          },
-         "Bat Bombs (USA)":[
+         "Zombie Apocalypse (USA)":[
             {
                "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/apocalypse.zip",
                "output":"sdmc:/Minecraft 3DS/apocalypse.zip",
@@ -7626,7 +7626,7 @@
                "file": "sdmc:/Minecraft 3DS/apocalypse.zip"
             }
          ],
-         "Bat Bombs (EUR)":[
+         "Zombie Apocalypse (EUR)":[
             {
                "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/apocalypse.zip",
                "output":"sdmc:/Minecraft 3DS/apocalypse.zip",
@@ -7643,7 +7643,7 @@
                "file": "sdmc:/Minecraft 3DS/apocalypse.zip"
             }
          ],
-         "Bat Bombs (JPN)":[
+         "Zombie Apocalypse (JPN)":[
             {
                "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/apocalypse.zip",
                "output":"sdmc:/Minecraft 3DS/apocalypse.zip",
