@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":111,
+      "revision":112,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -6305,7 +6305,7 @@
          "info":{
             "title":"Mojangles Font",
             "author":"Cracko298",
-            "version":"1",
+            "version":"1.0.1",
             "category":[
                "texture",
                "mod"
@@ -6340,29 +6340,61 @@
                {
                   "description": "Image #6",
                   "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mojangles-f.png"
+               },
+               {
+                  "description": "Image #7",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mojanglesa.png"
+               },
+               {
+                  "description": "Image #8",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mojanglesb.png"
+               },
+               {
+                  "description": "Image #9",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mojanglesc.png"
+               },
+               {
+                  "description": "Image #10",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mojanglesd.png"
+               },
+               {
+                  "description": "Image #11",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mojanglese.png"
+               },
+               {
+                  "description": "Image #12",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mojanglesf.png"
+               },
+               {
+                  "description": "Image #13",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mojanglesg.png"
+               },
+               {
+                  "description": "Image #14",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mojanglesh.png"
                }
             ],
             "icon_index":59,
             "sheet_index":0,
-            "last_updated":"2024-01-29 at 19:15 (CST)"
+            "last_updated":"2024-03-24 at 16:01 (CST)"
          },
          "Mojangles Font (USA)":{
-            "size":"1.25 MB",
+            "size":"703 KB",
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/mc3ds_oldfont.zip",
-                  "output": "sdmc:/Minecraft 3DS/mc3ds_oldfont.zip"
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/Mojangles_v1.0.1.zip",
+                  "output": "sdmc:/Minecraft 3DS/Mojangles_v1.0.1.zip"
                },
                {
                   "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/mc3ds_oldfont.zip",
-                  "input": "mojangles/",
+                  "file": "sdmc:/Minecraft 3DS/Mojangles_v1.0.1.zip",
+                  "input": "Mojangles_v1.0.1/",
                   "output": "sdmc:/luma/titles/00040000001B8700/romfs/3ds/font/"
                },
                {
                   "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/mc3ds_oldfont.zip"
+                  "file": "sdmc:/Minecraft 3DS/Mojangles_v1.0.1.zip"
                },
                {
                   "type":"promptMessage",
@@ -6372,22 +6404,22 @@
             ]
          },
          "Mojangles Font (EUR)":{
-            "size":"1.25 MB",
+            "size":"703 KB",
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/mc3ds_oldfont.zip",
-                  "output": "sdmc:/Minecraft 3DS/mc3ds_oldfont.zip"
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/Mojangles_v1.0.1.zip",
+                  "output": "sdmc:/Minecraft 3DS/Mojangles_v1.0.1.zip"
                },
                {
                   "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/mc3ds_oldfont.zip",
-                  "input": "mojangles/",
+                  "file": "sdmc:/Minecraft 3DS/Mojangles_v1.0.1.zip",
+                  "input": "Mojangles_v1.0.1/",
                   "output": "sdmc:/luma/titles/000400000017CA00/romfs/3ds/font/"
                },
                {
                   "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/mc3ds_oldfont.zip"
+                  "file": "sdmc:/Minecraft 3DS/Mojangles_v1.0.1.zip"
                },
                {
                   "type":"promptMessage",
@@ -6397,22 +6429,22 @@
             ]
          },
          "Mojangles Font (JPN)":{
-            "size":"1.25 MB",
+            "size":"703 KB",
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/mc3ds_oldfont.zip",
-                  "output": "sdmc:/Minecraft 3DS/mc3ds_oldfont.zip"
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/Mojangles_v1.0.1.zip",
+                  "output": "sdmc:/Minecraft 3DS/Mojangles_v1.0.1.zip"
                },
                {
                   "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/mc3ds_oldfont.zip",
-                  "input": "mojangles/",
+                  "file": "sdmc:/Minecraft 3DS/Mojangles_v1.0.1.zip",
+                  "input": "Mojangles_v1.0.1/",
                   "output": "sdmc:/luma/titles/000400000017FD00/romfs/3ds/font/"
                },
                {
                   "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/mc3ds_oldfont.zip"
+                  "file": "sdmc:/Minecraft 3DS/Mojangles_v1.0.1.zip"
                },
                {
                   "type":"promptMessage",
