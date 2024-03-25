@@ -73,6 +73,8 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * The Dropper: 3DS Remaster
 * Glonk
     * Broken Stronghold Chest Fix
+* JakerBricksYT
+    * Hide and go Seek map
 * Kreideprinz
     * Kreideprinz's City World
 * KrftRV249
