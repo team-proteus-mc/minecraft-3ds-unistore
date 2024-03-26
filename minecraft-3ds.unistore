@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":117,
+      "revision":118,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -7759,6 +7759,70 @@
                }
             ]
          }
+      },
+      {
+         "info":{
+            "title":"DevWorld v2",
+            "author":"Cracko298",
+            "version":"1",
+            "category":[
+               "world",
+               "wip"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"A World that allows users to build and develop their own Minecraft Maps in the Void.",
+            "license":"unknown",
+            "releasenotes": "A World that allows users to build and develop their own Minecraft Maps in the Void. This is a recreation of the Development World that was made by DeadSkullzJr.\n\nhttps://github.com/Cracko298/MC3DS-Development-World",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/devworld1.png"
+               },
+               {
+                  "description": "Image #2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/devworld2.png"
+               },
+               {
+                  "description": "Image #3",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/devworld3.png"
+               },
+               {
+                  "description": "Image #4",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/devworld4.png"
+               },
+               {
+                  "description": "Image #5",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/devworld5.png"
+               }
+            ], 
+            "icon_index":73,
+            "sheet_index":0,
+            "last_updated":"2024-03-26 at 10:24 (CST)"
+         },
+         "DevWorld v2":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/DevWorld_v2.zip",
+               "output":"sdmc:/Minecraft 3DS/worlds/DevWorld_v2.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type": "extractFile",
+               "file": "sdmc:/Minecraft 3DS/DevWorld_v2.zip",
+               "input": "DevWorld_v2/",
+               "output": "sdmc:/Minecraft 3DS/worlds/DevWorld v2/"
+            },
+            {
+               "type": "deleteFile",
+               "file": "sdmc:/Minecraft 3DS/DevWorld_v2.zip"
+            },
+            {
+               "type":"promptMessage",
+               "message":"To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+               "count":1
+            }
+         ]
       }
    ]
 }
