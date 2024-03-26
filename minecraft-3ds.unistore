@@ -765,7 +765,7 @@
             "last_updated":"2023-04-23 at 13:50 (CST)"
          },
          "Default Skins (USA)":{
-            "size": "309.24 KB, 2 blocks",
+            "size": "309 KB",
             "script":[
                {
                   "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/new-default-skins.zip",
@@ -790,7 +790,7 @@
             ]
          },
          "Default Skins (EUR)":{
-            "size": "309.24 KB, 2 blocks",
+            "size": "309 KB",
             "script":[
                {
                   "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/new-default-skins.zip",
@@ -815,7 +815,7 @@
             ]
          },
          "Default Skins (JPN)":{
-            "size": "309.24 KB, 2 blocks",
+            "size": "309 KB",
             "script":[
                {
                   "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/new-default-skins.zip",
@@ -1183,7 +1183,7 @@
             ]
          },
          "Realistic 200% Larger Sun + Full Blood Moon Every Night (USA)":{
-            "size":"772.4 KB",
+            "size":"772 KB",
             "script":[
                {
                   "type": "downloadFile",
@@ -1219,7 +1219,7 @@
             ]
          },
          "Realistic 200% Larger Sun + Full Blood Moon Every Night (EUR)":{
-            "size":"772.4 KB",
+            "size":"772 KB",
             "script":[
                {
                   "type": "downloadFile",
@@ -1255,7 +1255,7 @@
             ]
          },
          "Realistic 200% Larger Sun + Full Blood Moon Every Night (JPN)":{
-            "size":"772.4 KB",
+            "size":"772 KB",
             "script":[
                {
                   "type": "downloadFile",
@@ -2211,7 +2211,7 @@
             "last_updated":"2023-07-04 at 09:38 (UTC)"
          },
          "Superflat Survival":{
-            "size":"351.93 KB",
+            "size":"351 KB",
             "script":[
                {
                   "type": "downloadFile",
@@ -3673,7 +3673,7 @@
             "last_updated":"2022-10-28 at 00:16 (UTC)"
          },
          "GenSpace's Skyblock":{
-            "size":"353.9 KB",
+            "size":"353 KB",
             "script":[
                {
                   "type": "downloadFile",
@@ -3897,7 +3897,7 @@
             "last_updated":"2022-10-28 at 00:16 (UTC)"
          },
          "3DSpleef":{
-            "size":"373.9 KB",
+            "size":"373 KB",
             "script":[
                {
                   "type": "downloadFile",
@@ -4059,7 +4059,7 @@
             "last_updated":"2022-01-24 at 09:12 (UTC)"
          },
          "LavaCity PVP":{
-            "size":"172.9 KB",
+            "size":"173 KB",
             "script":[
                {
                   "type": "downloadFile",
@@ -4113,7 +4113,7 @@
             "last_updated":"2022-01-27 at 12:05 (UTC)"
          },
          "FNaF Hide and Seek":{
-            "size":"277.3 KB",
+            "size":"277 KB",
             "script":[
                {
                   "type": "downloadFile",
@@ -4171,7 +4171,7 @@
             "last_updated":"2022-10-07 at 10:46 (UTC)"
          },
          "SkyDen":{
-            "size":"518.7 KB",
+            "size":"519 KB",
             "script":[
                {
                   "type": "downloadFile",
@@ -4416,7 +4416,7 @@
             "last_updated":"2022-03-07 at 12:02 (UTC)"
          },
          "Building Time":{
-            "size":"244.8 KB",
+            "size":"245 KB",
             "script":[
                {
                   "type": "downloadFile",
@@ -4466,7 +4466,7 @@
             "last_updated":"2022-11-05 at 04:22 (UTC)"
          },
          "Randoms Demo":{
-            "size":"317.7 KB",
+            "size":"318 KB",
             "script":[
                {
                   "type": "downloadFile",
@@ -4869,7 +4869,7 @@
             "last_updated":"2023-08-09 at 16:14 (CST)"
          },
          "Better Clouds (USA)":{
-            "size":"21.3 KB",
+            "size":"21 KB",
             "script":[
                {
                   "type": "downloadFile",
@@ -4894,7 +4894,7 @@
             ]
          },
          "Better Clouds (EUR)":{
-            "size":"21.3 KB",
+            "size":"21 KB",
             "script":[
                {
                   "type": "downloadFile",
@@ -4919,7 +4919,7 @@
             ]
          },
          "Better Clouds (JPN)":{
-            "size":"21.3 KB",
+            "size":"21 KB",
             "script":[
                {
                   "type": "downloadFile",
@@ -5086,7 +5086,7 @@
             "last_updated":"2022-12-22 at 00:00 (CST)"
          },
          "GenSpace Mod (USA)":{
-            "size":"72.9 MB",
+            "size":"73 KB",
             "script":[
                {
                   "type": "downloadFile",
@@ -5116,7 +5116,7 @@
             ]
          },
          "GenSpace Mod (EUR)":{
-            "size":"72.9 MB",
+            "size":"73 KB",
             "script":[
                {
                   "type": "downloadFile",
@@ -5146,7 +5146,7 @@
             ]
          },
          "GenSpace Mod (JPN)":{
-            "size":"72.9 MB",
+            "size":"73 KB",
             "script":[
                {
                   "type": "downloadFile",
@@ -5206,7 +5206,7 @@
             "last_updated":"2024-03-25 at 23:58 (CDT)"
          },
          "STB-MC3DS Unistore":{
-            "size":"15.5 KB",
+            "size":"142 KB",
             "script":[
                {
                   "type": "downloadFile",
@@ -5792,7 +5792,7 @@
             ],
             "description":"Play some of the 3DSMP worlds!",
             "license":"unknown",
-            "releasenotes": "Only 7 out of the 11 known revisions of the 3DSMP are available.\n\nList of the 3DSMP crew:\nDarkForPresident, czx, DeadSkulllzJr, TheRustico36, Breadbug, Nikki (Swapscribble), pipi00pipi, Shark, Abdullah39, Aether, Bruhndles, c, C4SBry, Choppy, Eevee 17, Fall, GenSpace, Grim reaper OP, HgMd, i_suck_at_sleeping, Jaxe, minimariottv, oliverimcDISC, PandJa, Proteus, Salmonchy, Silbver 35, SoulSeeker, techno?, ThE oNe, TheHauntedAttic, Tops, UnknownLoser, xSaigez",
+            "releasenotes": "Only 7 out of the 11 known revisions of the 3DSMP are available.\n\nList of the 3DSMP crew:\nDarkForPresident, czx, DeadSkulllzJr, TheRustico36, Breadbug, Nikki (Swapscribble), pipi00pipi, Shark, Abdullah39, Aether, Bruhndles, c, C4SBry, Choppy, Eevee 17, Fall, GenSpace, Grim reaper OP, HgMd, i_suck_at_sleeping, Jaxe, minimariottv, oliverimcDISC, PandJa, Proteus, Salmonchy, Silbver 35, SoulSeeker, techno?, ThE oNe, TheHauntedAttic, Tops, UnknownLoser, xSaigez\n\nIt is not confirmed if all of these people have actually contributed to any worlds.",
             "screenshots": [
                {
                   "description": "Image #1",
