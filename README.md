@@ -28,7 +28,7 @@ skribbler#1095, DarkForPresident, various people from the Minecraft 3DS Communit
 https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code editor, [Ohana3DS](https://gbatemp.net/attachments/ohana3ds-zip.99223/) for texture conversion, Piskel and Pixlr for image editing, Tex3DS for spritesheet compilation, https://codepen.io/jsnelders/pen/qBByqQy for turning line breaks into "\n"'s, PineTools for their (batch) image flipper, https://www.airtightinteractive.com/demos/js/imageglitcher/ for image glitcher, and https://redketchup.io/image-compressor for image compressor.
 
 ## Item creators
-* ちげえのたす
+* ちげえのたす (kakuremino)
     * Experience Minecraft world
 * ArcModzzz
     * World in Jar 3DS
