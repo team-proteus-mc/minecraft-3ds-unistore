@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":116,
+      "revision":117,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -7697,7 +7697,7 @@
          "info":{
             "title":"Hide and go Seek",
             "author":"JakerBricksYT",
-            "version":"1",
+            "version":"1.2",
             "category":[
                "world",
                "wip"
@@ -7732,25 +7732,25 @@
             ],
             "icon_index":72,
             "sheet_index":0,
-            "last_updated":"2024-03-25 at 13:23 (CST)"
+            "last_updated":"2024-03-26 at 00:29 (CST)"
          },
          "Hide and go Seek Map":{
             "size":"1.99 MB",
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/qQQAAKQEBQA.zip",
-                  "output": "sdmc:/Minecraft 3DS/worlds/qQQAAKQEBQA.zip"
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/3ds_Hide_And_seek_ver._1.2.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/3ds_Hide_And_seek_ver._1.2.zip"
                },
                {
                   "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/worlds/qQQAAKQEBQA.zip",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3ds_Hide_And_seek_ver._1.2.zip",
                   "input": "qQQAAKQEBQA/",
                   "output": "sdmc:/Minecraft 3DS/worlds/Hide and go Seek/"
                },
                {
                   "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/worlds/qQQAAKQEBQA.zip"
+                  "file": "sdmc:/Minecraft 3DS/worlds/3ds_Hide_And_seek_ver._1.2.zip"
                },
                {
                   "type":"promptMessage",
