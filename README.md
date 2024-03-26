@@ -93,6 +93,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * The Dropper: 3DS Remaster
 * STBUniverse
     * STB-MC3DS Unistore
+    * Vanilla 1.20 textures port
 * susbaconhairman
     * kharrii2 texture pack port
     * New Default Skins port
