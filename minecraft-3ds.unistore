@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":114,
+      "revision":115,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -7705,9 +7705,9 @@
             "console":[
                "3DS"
             ],
-            "description":"Hide and go seek map.",
+            "description":"In this map you can hide have the seeker find you and have fun you can play single player or multiplayer",
             "license":"none",
-            "releasenotes":"erhtsyjtyfilukydutjrshae",
+            "releasenotes":"Welcome to Hide and Seek In this map you can hide have the seeker find you and have fun you can play single player or multiplayer Take this game to the limits by playing every Map.\nMultiplayer reccomended.\n\nShowcasing video: https://www.youtube.com/watch?v=6kGaVU7icnk\n\nhttps://sites.google.com/view/3ds-maps/hide-and-seek",
             "screenshots": [
                {
                   "description": "Image 1",
