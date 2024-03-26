@@ -48,6 +48,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * Festive World Override
     * Amplified World Generation
     * Zombie Apocalypse
+    * DevWorld v2
 * CZX
     * The Dropper: 3DS Remaster
     * GenSpace Mod
