@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":123,
+      "revision":124,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -7732,7 +7732,7 @@
             ],
             "icon_index":72,
             "sheet_index":0,
-            "last_updated":"2024-03-26 at 00:29 (CST)"
+            "last_updated":"2024-03-26 at 20:55 (CST)"
          },
          "Hide and go Seek Map":{
             "size":"147 KB",
