@@ -49,6 +49,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * Amplified World Generation
     * Zombie Apocalypse
     * DevWorld v2
+    * Rare Bones
 * CZX
     * The Dropper: 3DS Remaster
     * GenSpace Mod
