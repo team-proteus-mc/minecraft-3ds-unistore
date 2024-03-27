@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":120,
+      "revision":122,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -7735,22 +7735,22 @@
             "last_updated":"2024-03-26 at 00:29 (CST)"
          },
          "Hide and go Seek Map":{
-            "size":"1.99 MB",
+            "size":"147 KB",
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/3ds_Hide_And_seek_ver._1.2.zip",
-                  "output": "sdmc:/Minecraft 3DS/worlds/3ds_Hide_And_seek_ver._1.2.zip"
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/3ds_Hide_and_seek_ver._1.3.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/3ds_Hide_and_seek_ver._1.3.zip"
                },
                {
                   "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/worlds/3ds_Hide_And_seek_ver._1.2.zip",
-                  "input": "qQQAAKQEBQA/",
-                  "output": "sdmc:/Minecraft 3DS/worlds/Hide and go Seek/"
+                  "file": "sdmc:/Minecraft 3DS/worlds/3ds_Hide_and_seek_ver._1.3.zip",
+                  "input": "qQQAAKQEBQA=/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Hide and go Seek v1.3/"
                },
                {
                   "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/worlds/3ds_Hide_And_seek_ver._1.2.zip"
+                  "file": "sdmc:/Minecraft 3DS/worlds/3ds_Hide_and_seek_ver._1.3.zip"
                },
                {
                   "type":"promptMessage",
@@ -7821,6 +7821,83 @@
                "type":"promptMessage",
                "message":"To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
                "count":1
+            }
+         ]
+      },
+      {
+         "info":{
+            "title":"Rare Bones",
+            "author":"Cracko298",
+            "version":"1",
+            "category":[
+               "mod",
+               "wip"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Replaces Fossil (bone blocks) with diamond blocks",
+            "license":"unknown",
+            "releasenotes": "Replaces Fossil (bone blocks) with diamond blocks",
+            "screenshots": [
+               {
+                  "description": "No image is available. Sorry.",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+               }
+            ], 
+            "icon_index":74,
+            "sheet_index":0,
+            "last_updated":"2024-03-26 at 18:55 (CST)"
+         },
+         "Rare Bones (USA)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/FossilModv1.zip",
+               "output":"sdmc:/Minecraft 3DS/FossilModv1.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type": "extractFile",
+               "file": "sdmc:/Minecraft 3DS/FossilModv1.zip",
+               "input": "FossilModv1/",
+               "output": "sdmc:/luma/titles/00040000001B8700/romfs/structures/fossils/"
+            },
+            {
+               "type": "deleteFile",
+               "file": "sdmc:/Minecraft 3DS/FossilModv1.zip"
+            }
+         ],
+         "Rare Bones (EUR)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/FossilModv1.zip",
+               "output":"sdmc:/Minecraft 3DS/FossilModv1.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type": "extractFile",
+               "file": "sdmc:/Minecraft 3DS/FossilModv1.zip",
+               "input": "FossilModv1/",
+               "output": "sdmc:/luma/titles/000400000017CA00/romfs/structures/fossils/"
+            },
+            {
+               "type": "deleteFile",
+               "file": "sdmc:/Minecraft 3DS/FossilModv1.zip"
+            }
+         ]
+         "Rare Bones (JPN)":[
+            {
+               "file":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/FossilModv1.zip",
+               "output":"sdmc:/Minecraft 3DS/FossilModv1.zip",
+               "type":"downloadFile"
+            },
+            {
+               "type": "extractFile",
+               "file": "sdmc:/Minecraft 3DS/FossilModv1.zip",
+               "input": "FossilModv1/",
+               "output": "sdmc:/luma/titles/000400000017FD00/romfs/structures/fossils/"
+            },
+            {
+               "type": "deleteFile",
+               "file": "sdmc:/Minecraft 3DS/FossilModv1.zip"
             }
          ]
       }
