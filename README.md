@@ -80,7 +80,8 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
 * Kreideprinz
     * Kreideprinz's City World
 * KrftRV249
-    Random Loot mod
+    * Random Loot mod
+    * Guns mod
 * linuxwizard
     * Mipmapping patch
 * oliverimcDISC
