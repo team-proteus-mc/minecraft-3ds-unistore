@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":127,
+      "revision":128,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -7930,11 +7930,11 @@
                   "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gunmod2.png"
                }
             ],
-            "icon_index":72,
+            "icon_index":75,
             "sheet_index":0,
             "last_updated":"2024-03-30 at 15:47 (CST)"
          },
-         "Guns Mod (USA)":{
+         "Gun Mod (USA)":{
             "size":"484 KB",
             "script":[
                {
@@ -7965,7 +7965,7 @@
                }
             ]
          },
-         "Guns Mod (EUR)":{
+         "Gun Mod (EUR)":{
             "size":"484 KB",
             "script":[
                {
@@ -7996,7 +7996,7 @@
                }
             ]
          },
-         "Guns Mod (JPN)":{
+         "Gun Mod (JPN)":{
             "size":"484 KB",
             "script":[
                {
