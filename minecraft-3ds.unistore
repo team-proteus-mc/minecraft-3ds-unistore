@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":126,
+      "revision":127,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -7904,6 +7904,129 @@
                "file": "sdmc:/Minecraft 3DS/FossilModv1.zip"
             }
          ]
+      },
+      {
+         "info":{
+            "title":"Gun Mod",
+            "author":"KrftRV249",
+            "version":"1",
+            "category":[
+               "mod",
+               "guns"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Replaces the bow with a gun.",
+            "license":"none",
+            "releasenotes":"Replaces the bow with a gun. I couldn't figure out how to edit the texture of arrows in walls, so dm if you want to help. :P",
+            "screenshots": [
+               {
+                  "description": "Image 1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gunmod1.png"
+               },
+               {
+                  "description": "Image 2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/gunmod2.png"
+               }
+            ],
+            "icon_index":72,
+            "sheet_index":0,
+            "last_updated":"2024-03-30 at 15:47 (CST)"
+         },
+         "Guns Mod (USA)":{
+            "size":"484 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/Gun_Mod.zip",
+                  "output": "sdmc:/Minecraft 3DS/Gun_Mod.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Gun_Mod.zip",
+                  "input": "Gun Mod/atlas/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Gun_Mod.zip",
+                  "input": "Gun Mod/server/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/Gun_Mod.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure Game Patching is enabled\nin the Luma configuration settings!",
+                  "count":1
+               }
+            ]
+         },
+         "Guns Mod (EUR)":{
+            "size":"484 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/Gun_Mod.zip",
+                  "output": "sdmc:/Minecraft 3DS/Gun_Mod.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Gun_Mod.zip",
+                  "input": "Gun Mod/atlas/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Gun_Mod.zip",
+                  "input": "Gun Mod/server/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/Gun_Mod.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure Game Patching is enabled\nin the Luma configuration settings!",
+                  "count":1
+               }
+            ]
+         },
+         "Guns Mod (JPN)":{
+            "size":"484 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/Gun_Mod.zip",
+                  "output": "sdmc:/Minecraft 3DS/Gun_Mod.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Gun_Mod.zip",
+                  "input": "Gun Mod/atlas/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/atlas/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Gun_Mod.zip",
+                  "input": "Gun Mod/server/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/Gun_Mod.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure Game Patching is enabled\nin the Luma configuration settings!",
+                  "count":1
+               }
+            ]
+         }
       }
    ]
 }
