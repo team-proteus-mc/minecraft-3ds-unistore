@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":128,
+      "revision":129,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -8019,6 +8019,107 @@
                {
                   "type": "deleteFile",
                   "file": "sdmc:/Minecraft 3DS/Gun_Mod.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure Game Patching is enabled\nin the Luma configuration settings!",
+                  "count":1
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"April Fools Mod",
+            "author":"Cracko298",
+            "version":"1",
+            "category":[
+               "mod",
+               "april fucks"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"April Fools mod that is very special.",
+            "license":"none",
+            "releasenotes":"Why are you here?",
+            "screenshots": [
+               {
+                  "description": "Merry April Fools",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/april-fucks.png"
+               }
+            ],
+            "icon_index":76,
+            "sheet_index":0,
+            "last_updated":"2024-04-01 at 18:16 (CST)"
+         },
+         "April Fools Mod (USA)":{
+            "size":"21 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/AprilFoolsMod_CC3D_FTW.zip",
+                  "output": "sdmc:/Minecraft 3DS/AprilFoolsMod_CC3D_FTW.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/AprilFoolsMod_CC3D_FTW.zip",
+                  "input": "resourcepacks/vanilla/client/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/AprilFoolsMod_CC3D_FTW.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure Game Patching is enabled\nin the Luma configuration settings!",
+                  "count":1
+               }
+            ]
+         },
+         "April Fools Mod (EUR)":{
+            "size":"21 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/AprilFoolsMod_CC3D_FTW.zip",
+                  "output": "sdmc:/Minecraft 3DS/AprilFoolsMod_CC3D_FTW.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/AprilFoolsMod_CC3D_FTW.zip",
+                  "input": "resourcepacks/vanilla/client/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/AprilFoolsMod_CC3D_FTW.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure Game Patching is enabled\nin the Luma configuration settings!",
+                  "count":1
+               }
+            ]
+         },
+         "April Fools Mod (JPN)":{
+            "size":"21 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/AprilFoolsMod_CC3D_FTW.zip",
+                  "output": "sdmc:/Minecraft 3DS/AprilFoolsMod_CC3D_FTW.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/AprilFoolsMod_CC3D_FTW.zip",
+                  "input": "resourcepacks/vanilla/client/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/AprilFoolsMod_CC3D_FTW.zip"
                },
                {
                   "type":"promptMessage",
