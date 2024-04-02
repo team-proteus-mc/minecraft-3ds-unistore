@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":131,
+      "revision":132,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -8120,6 +8120,137 @@
                {
                   "type": "deleteFile",
                   "file": "sdmc:/Minecraft 3DS/AprilFoolsMod_CC3D_FTW.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure Game Patching is enabled\nin the Luma configuration settings!",
+                  "count":1
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"Festive Textures as Default",
+            "author":"Cracko298",
+            "version":"1",
+            "category":[
+               "mod",
+               "textures"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Changes the Default World Resource Pack to the Festive Pack, allows saving while still having that Christmas Cheer.",
+            "license":"none",
+            "releasenotes":"Changes the Default World Resource Pack to the Festive Pack, allows saving while still having that Christmas Cheer.",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/festivedef1.png"
+               },
+               {
+                  "description": "Image #2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/festivedef2.png"
+               },
+               {
+                  "description": "Image #3",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/festivedef3.png"
+               },
+               {
+                  "description": "Image #4",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/festivedef4.png"
+               }
+            ],
+            "icon_index":77,
+            "sheet_index":0,
+            "last_updated":"2024-04-01 at 18:48 (CST)"
+         },
+         "Festive Textures (USA)":{
+            "size":"3.46 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/FestiveWorldAsDefualt.zip",
+                  "output": "sdmc:/Minecraft 3DS/FestiveWorldAsDefualt.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/FestiveWorldAsDefualt.zip",
+                  "input": "atlas/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/FestiveWorldAsDefualt.zip",
+                  "input": "resourcepacks/vanilla/client/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/FestiveWorldAsDefualt.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure Game Patching is enabled\nin the Luma configuration settings!",
+                  "count":1
+               }
+            ]
+         },
+         "Festive Textures (EUR)":{
+            "size":"3.46 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/FestiveWorldAsDefualt.zip",
+                  "output": "sdmc:/Minecraft 3DS/FestiveWorldAsDefualt.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/FestiveWorldAsDefualt.zip",
+                  "input": "atlas/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/FestiveWorldAsDefualt.zip",
+                  "input": "resourcepacks/vanilla/client/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/FestiveWorldAsDefualt.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"Make sure Game Patching is enabled\nin the Luma configuration settings!",
+                  "count":1
+               }
+            ]
+         },
+         "Festive Textures (JPN)":{
+            "size":"3.46 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/FestiveWorldAsDefualt.zip",
+                  "output": "sdmc:/Minecraft 3DS/FestiveWorldAsDefualt.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/FestiveWorldAsDefualt.zip",
+                  "input": "atlas/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/atlas/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/FestiveWorldAsDefualt.zip",
+                  "input": "resourcepacks/vanilla/client/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/FestiveWorldAsDefualt.zip"
                },
                {
                   "type":"promptMessage",
