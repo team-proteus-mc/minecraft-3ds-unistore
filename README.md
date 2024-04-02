@@ -51,6 +51,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * DevWorld v2
     * Rare Bones
     * April Fools mod
+    * Festive as Default Textures
 * CZX
     * The Dropper: 3DS Remaster
     * GenSpace Mod
