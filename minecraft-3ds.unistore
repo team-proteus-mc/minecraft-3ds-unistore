@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":134,
+      "revision":135,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -7324,105 +7324,113 @@
                {
                   "description": "Image 10",
                   "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/ampgen10.png"
+               },
+               {
+                  "description": "Image 11",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/New-Images.png"
+               },
+               {
+                  "description": "Image 12",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/Newerer-Images.png"
                }
             ],
             "icon_index":68,
             "sheet_index":0,
-            "last_updated":"2024-03-10 at 13:52 (CST)"
+            "last_updated":"2024-04-03 at 10:30 (CST)"
          },
          "Amplified World Generation (USA)":{
-            "size":"18.4 MB",
+            "size":"19.2 MB",
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Amplified_Worlds_v114.zip",
-                  "output": "sdmc:/Minecraft 3DS/Amplified_Worlds_v114.zip"
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Amplified_Worlds_v116.zip",
+                  "output": "sdmc:/Minecraft 3DS/Amplified_Worlds_v116.zip"
                },
                {
                   "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v114.zip",
+                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v116.zip",
                   "input": "loc/",
                   "output": "sdmc:/luma/titles/00040000001B8700/romfs/loc/"
                },
                {
                   "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v114.zip",
+                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v116.zip",
                   "input": "templates/festive/",
                   "output": "sdmc:/luma/titles/00040000001B8700/romfs/templates/festive/"
                },
                {
                   "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v114.zip",
+                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v116.zip",
                   "input": "resourcepacks/festive/textures/ui/",
                   "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/festive/textures/ui/"
                },
                {
                   "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v114.zip"
+                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v116.zip"
                }
             ]
          },
          "Amplified World Generation (EUR)":{
-            "size":"18.4 MB",
+            "size":"19.2 MB",
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Amplified_Worlds_v114.zip",
-                  "output": "sdmc:/Minecraft 3DS/Amplified_Worlds_v114.zip"
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Amplified_Worlds_v116.zip",
+                  "output": "sdmc:/Minecraft 3DS/Amplified_Worlds_v116.zip"
                },
                {
                   "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v114.zip",
+                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v116.zip",
                   "input": "loc/",
                   "output": "sdmc:/luma/titles/000400000017CA00/romfs/loc/"
                },
                {
                   "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v114.zip",
+                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v116.zip",
                   "input": "templates/festive/",
                   "output": "sdmc:/luma/titles/000400000017CA00/romfs/templates/festive/"
                },
                {
                   "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v114.zip",
+                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v116.zip",
                   "input": "resourcepacks/festive/textures/ui/",
                   "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/festive/textures/ui/"
                },
                {
                   "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v114.zip"
+                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v116.zip"
                }
             ]
          },
          "Amplified World Generation (JPN)":{
-            "size":"18.4 MB",
+            "size":"19.2 MB",
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Amplified_Worlds_v114.zip",
-                  "output": "sdmc:/Minecraft 3DS/Amplified_Worlds_v114.zip"
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Amplified_Worlds_v116.zip",
+                  "output": "sdmc:/Minecraft 3DS/Amplified_Worlds_v116.zip"
                },
                {
                   "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v114.zip",
+                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v116.zip",
                   "input": "loc/",
                   "output": "sdmc:/luma/titles/000400000017FD00/romfs/loc/"
                },
                {
                   "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v114.zip",
+                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v116.zip",
                   "input": "templates/festive/",
                   "output": "sdmc:/luma/titles/000400000017FD00/romfs/templates/festive/"
                },
                {
                   "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v114.zip",
+                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v116.zip",
                   "input": "resourcepacks/festive/textures/ui/",
                   "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/festive/textures/ui/"
                },
                {
                   "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v114.zip"
+                  "file": "sdmc:/Minecraft 3DS/Amplified_Worlds_v116.zip"
                }
             ]
          }
@@ -8255,6 +8263,57 @@
                {
                   "type":"promptMessage",
                   "message":"Make sure Game Patching is enabled\nin the Luma configuration settings!",
+                  "count":1
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"Kakuremino's Debug Mode 3D",
+            "author":"ちげえのたす (kakuremino)",
+            "version":"1",
+            "category":[
+               "world",
+               "wip"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"A fork of Watermelon's Debug Mode 3D with unused blocks in the game.",
+            "license":"none",
+            "releasenotes":"A fork of Watermelon's Debug Mode 3D with unused blocks in the game.",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/debugk.png"
+               }
+            ],
+            "icon_index":78,
+            "sheet_index":0,
+            "last_updated":"2024-04-02 at 16:43 (CST)"
+         },
+         "Debug Mode 3D Fork":{
+            "size":"2.21 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/DebugK.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/DebugK.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/DebugK.zip",
+                  "input": "Debug/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Kakuremino's Debug Mode 3D"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/DebugK.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
                   "count":1
                }
             ]
