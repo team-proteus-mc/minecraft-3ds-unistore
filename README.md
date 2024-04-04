@@ -30,6 +30,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
 ## Item creators
 * ちげえのたす (kakuremino)
     * Experience Minecraft world
+    * Debug Mode 3D world
 * ArcModzzz
     * World in Jar 3DS
     * Find the Button
@@ -107,6 +108,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * LEGO Minecraft Dragon Slayer skin port
     * Customization remover
     * Vanilla Remastered
+    * Simple Suits skins port
 * Toaster
     * SD Card Dropper Map
 * TheRustico36
