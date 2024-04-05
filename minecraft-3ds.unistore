@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":135,
+      "revision":136,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -8315,6 +8315,110 @@
                   "type":"promptMessage",
                   "message":"To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
                   "count":1
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"Simple Suits",
+            "author":"susbaconhairman",
+            "version":"1",
+            "category":[
+               "skins",
+               "port"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Port of the Simple Suits skinpack by CandiedCat.",
+            "license":"none",
+            "releasenotes":"Port of the Simple Suits skinpack by CandiedCat.\n\n'Stylish outfits for the simplest of people.'\nThis skinpack includes 12 unique designs for you to choose from, enjoy!\n\nhttps://candiedcat.itch.io/simple-suits",
+            "screenshots": [
+               {
+                  "description": "Preview",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/simplesuits.png"
+               }
+            ],
+            "icon_index":80,
+            "sheet_index":0,
+            "last_updated":"2024-04-03 at 17:52 (CST)"
+         },
+         "Simple Suits (USA)":{
+            "size":"281 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/Simple_Suits_3DS.zip",
+                  "output": "sdmc:/Minecraft 3DS/Simple_Suits_3DS.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Simple_Suits_3DS.zip",
+                  "input": "suits/BattleAndBeasts/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/BattleAndBeasts/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Simple_Suits_3DS.zip",
+                  "input": "suits/en_US-pocket.blang",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/loc/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/Simple_Suits_3DS.zip"
+               }
+            ]
+         },
+         "Simple Suits (EUR)":{
+            "size":"281 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/Simple_Suits_3DS.zip",
+                  "output": "sdmc:/Minecraft 3DS/Simple_Suits_3DS.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Simple_Suits_3DS.zip",
+                  "input": "suits/BattleAndBeasts/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/BattleAndBeasts/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Simple_Suits_3DS.zip",
+                  "input": "suits/en_US-pocket.blang",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/loc/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/Simple_Suits_3DS.zip"
+               }
+            ]
+         },
+         "Simple Suits (JPN)":{
+            "size":"281 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/Simple_Suits_3DS.zip",
+                  "output": "sdmc:/Minecraft 3DS/Simple_Suits_3DS.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Simple_Suits_3DS.zip",
+                  "input": "suits/BattleAndBeasts/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/BattleAndBeasts/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Simple_Suits_3DS.zip",
+                  "input": "suits/en_US-pocket.blang",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/loc/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/Simple_Suits_3DS.zip"
                }
             ]
          }
