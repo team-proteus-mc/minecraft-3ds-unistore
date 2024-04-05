@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":136,
+      "revision":137,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -8331,9 +8331,9 @@
             "console":[
                "3DS"
             ],
-            "description":"Port of the Simple Suits skinpack by CandiedCat.",
+            "description":"Port of the Simple Suits skinpack by CandiedCat. Replaces some of the Battle and Beasts skins.",
             "license":"none",
-            "releasenotes":"Port of the Simple Suits skinpack by CandiedCat.\n\n'Stylish outfits for the simplest of people.'\nThis skinpack includes 12 unique designs for you to choose from, enjoy!\n\nhttps://candiedcat.itch.io/simple-suits",
+            "releasenotes":"Port of the Simple Suits skinpack by CandiedCat. Replaces some of the Battle and Beasts skins.\n\n'Stylish outfits for the simplest of people.'\nThis skinpack includes 12 unique designs for you to choose from, enjoy!\n\nhttps://candiedcat.itch.io/simple-suits",
             "screenshots": [
                {
                   "description": "Preview",
@@ -8362,7 +8362,7 @@
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/Simple_Suits_3DS.zip",
                   "input": "suits/en_US-pocket.blang",
-                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/loc/"
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/loc/en_US-pocket.blang"
                },
                {
                   "type": "deleteFile",
@@ -8388,7 +8388,7 @@
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/Simple_Suits_3DS.zip",
                   "input": "suits/en_US-pocket.blang",
-                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/loc/"
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/loc/en_US-pocket.blang"
                },
                {
                   "type": "deleteFile",
@@ -8414,7 +8414,7 @@
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/Simple_Suits_3DS.zip",
                   "input": "suits/en_US-pocket.blang",
-                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/loc/"
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/loc/en_US-pocket.blang"
                },
                {
                   "type": "deleteFile",
