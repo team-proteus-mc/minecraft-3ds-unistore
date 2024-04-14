@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":139,
+      "revision":140,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -8443,6 +8443,10 @@
             "license":"none",
             "releasenotes":"A Minecraft 3DS Mod that adds a new Entity to the Game. They Mimic TNT Blocks, they're highly aggressive, and very explosive. They replace Shulkers, but are planned to become their own Entity Soon.",
             "screenshots": [
+               {
+                  "description": "Banner",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/tntmimic5.png"
+               },
                {
                   "description": "1",
                   "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/tntmimic1.png"
