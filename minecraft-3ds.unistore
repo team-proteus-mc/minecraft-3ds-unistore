@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":138,
+      "revision":139,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -8423,6 +8423,158 @@
                {
                   "type": "deleteFile",
                   "file": "sdmc:/Minecraft 3DS/Simple_Suits_3DS.zip"
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"TNT Mimics",
+            "author":"Cracko298",
+            "version":"1",
+            "category":[
+               "mods",
+               "mobs"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"A Minecraft 3DS Mod that adds a new Entity to the Game. They Mimic TNT Blocks, they're highly aggressive, and very explosive.",
+            "license":"none",
+            "releasenotes":"A Minecraft 3DS Mod that adds a new Entity to the Game. They Mimic TNT Blocks, they're highly aggressive, and very explosive. They replace Shulkers, but are planned to become their own Entity Soon.",
+            "screenshots": [
+               {
+                  "description": "1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/tntmimic1.png"
+               },
+               {
+                  "description": "2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/tntmimic2.png"
+               },
+               {
+                  "description": "3",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/tntmimic3.png"
+               },
+               {
+                  "description": "4",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/tntmimic4.png"
+               }
+            ],
+            "icon_index":81,
+            "sheet_index":0,
+            "last_updated":"2024-04-13 at 09:28 (CST)"
+         },
+         "TNT Mimic (USA)":{
+            "size":"294 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/TNT_Mimics.zip",
+                  "output": "sdmc:/Minecraft 3DS/TNT_Mimics.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/TNT_Mimics.zip",
+                  "input": "atlas/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/TNT_Mimics.zip",
+                  "input": "loc/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/loc/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/TNT_Mimics.zip",
+                  "input": "resourcepacks/vanilla/client/textures/entity/shulker/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/entity/shulker/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/TNT_Mimics.zip",
+                  "input": "resourcepacks/vanilla/server/entities/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/entities/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/TNT_Mimics.zip"
+               }
+            ]
+         },
+         "TNT Mimic (EUR)":{
+            "size":"294 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/TNT_Mimics.zip",
+                  "output": "sdmc:/Minecraft 3DS/TNT_Mimics.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/TNT_Mimics.zip",
+                  "input": "atlas/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/TNT_Mimics.zip",
+                  "input": "loc/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/loc/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/TNT_Mimics.zip",
+                  "input": "resourcepacks/vanilla/client/textures/entity/shulker/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/entity/shulker/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/TNT_Mimics.zip",
+                  "input": "resourcepacks/vanilla/server/entities/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/entities/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/TNT_Mimics.zip"
+               }
+            ]
+         },
+         "TNT Mimic (JPN)":{
+            "size":"294 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/TNT_Mimics.zip",
+                  "output": "sdmc:/Minecraft 3DS/TNT_Mimics.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/TNT_Mimics.zip",
+                  "input": "atlas/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/atlas/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/TNT_Mimics.zip",
+                  "input": "loc/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/loc/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/TNT_Mimics.zip",
+                  "input": "resourcepacks/vanilla/client/textures/entity/shulker/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/entity/shulker/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/TNT_Mimics.zip",
+                  "input": "resourcepacks/vanilla/server/entities/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/entities/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/TNT_Mimics.zip"
                }
             ]
          }
