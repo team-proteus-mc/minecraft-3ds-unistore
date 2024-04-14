@@ -53,6 +53,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * Rare Bones
     * April Fools mod
     * Festive as Default Textures
+    * TNT Mimic
 * CZX
     * The Dropper: 3DS Remaster
     * GenSpace Mod
