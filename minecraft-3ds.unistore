@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":141,
+      "revision":142,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -8305,7 +8305,7 @@
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/worlds/DebugK.zip",
                   "input": "Debug/",
-                  "output": "sdmc:/Minecraft 3DS/worlds/Kakuremino's Debug Mode 3D"
+                  "output": "sdmc:/Minecraft 3DS/worlds/Kakuremino's Debug Mode 3D/"
                },
                {
                   "type": "deleteFile",
@@ -8579,6 +8579,70 @@
                {
                   "type": "deleteFile",
                   "file": "sdmc:/Minecraft 3DS/TNT_Mimics.zip"
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"Farlandia",
+            "author":"Cracko298",
+            "version":"1",
+            "category":[
+               "world",
+               "wip"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Traverse through the Farlands in Minecraft 3DS.",
+            "license":"none",
+            "releasenotes":"Traverse through the Farlands in Minecraft 3DS.",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/farlands1.png"
+               },
+               {
+                  "description": "Image #2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/farlands2.png"
+               },
+               {
+                  "description": "Image #3",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/farlands3.png"
+               }
+            ],
+            "icon_index":82,
+            "sheet_index":0,
+            "last_updated":"2024-04-14 at 16:21 (CST)"
+         },
+         "Farlandia":{
+            "size":"5.60 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/Farlandia.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Farlandia.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/Farlandia.zip",
+                  "input": "/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Farlandia/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/Farlandia.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count":1
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"IMPORTANT NOTICE:\n\nThis should only be played on an emualtor, such as\nCitra, as it is very laggy.\nAlso, in the world, you have to turn to a\n45 degree angle and push the keys in the opposite\ndirection and the way you want.",
+                  "count":1
                }
             ]
          }
