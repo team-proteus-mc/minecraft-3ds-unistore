@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":142,
+      "revision":143,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -8643,6 +8643,212 @@
                   "type":"promptMessage",
                   "message":"IMPORTANT NOTICE:\n\nThis should only be played on an emualtor, such as\nCitra, as it is very laggy.\nAlso, in the world, you have to turn to a\n45 degree angle and push the keys in the opposite\ndirection and the way you want.",
                   "count":1
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"Remove Clouds, Skybox, and Creative Mode Block Break",
+            "author":"Cracko298",
+            "version":"1",
+            "category":[
+               "mods",
+               "shaders"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Remove Clouds, Remove Skybox, and Creative Mode Block Break with this.",
+            "license":"none",
+            "releasenotes":"stuff",
+            "screenshots": [
+               {
+                  "description": "Image",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/noclouds.png"
+               }
+            ],
+            "icon_index":83,
+            "sheet_index":0,
+            "last_updated":"2024-04-28 at 12:56 (CST)"
+         },
+         "Remove Clouds (USA)":{
+            "size":"719 Bytes",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/RemoveClouds.zip",
+                  "output": "sdmc:/Minecraft 3DS/RemoveClouds.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/RemoveClouds.zip",
+                  "input": "cloud.shbin",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/shaders/3DS/cloud.shbin"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/RemoveClouds.zip"
+               }
+            ]
+         },
+         "Remove Clouds (EUR)":{
+            "size":"719 Bytes",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/RemoveClouds.zip",
+                  "output": "sdmc:/Minecraft 3DS/RemoveClouds.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/RemoveClouds.zip",
+                  "input": "cloud.shbin",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/shaders/3DS/cloud.shbin"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/RemoveClouds.zip"
+               }
+            ]
+         },
+         "Remove Clouds (JPN)":{
+            "size":"719 Bytes",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/RemoveClouds.zip",
+                  "output": "sdmc:/Minecraft 3DS/RemoveClouds.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/RemoveClouds.zip",
+                  "input": "cloud.shbin",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/shaders/3DS/cloud.shbin"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/RemoveClouds.zip"
+               }
+            ]
+         },
+         "Remove Skybox (USA)":{
+            "size":"715 Bytes",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/RemoveSkybox.zip",
+                  "output": "sdmc:/Minecraft 3DS/RemoveSkybox.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/RemoveSkybox.zip",
+                  "input": "sky.shbin",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/shaders/3DS/sky.shbin"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/RemoveSkybox.zip"
+               }
+            ]
+         },
+         "Remove Skybox (EUR)":{
+            "size":"715 Bytes",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/RemoveSkybox.zip",
+                  "output": "sdmc:/Minecraft 3DS/RemoveSkybox.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/RemoveSkybox.zip",
+                  "input": "sky.shbin",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/shaders/3DS/sky.shbin"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/RemoveSkybox.zip"
+               }
+            ]
+         },
+         "Remove Skybox (JPN)":{
+            "size":"715 Bytes",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/RemoveSkybox.zip",
+                  "output": "sdmc:/Minecraft 3DS/RemoveSkybox.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/RemoveSkybox.zip",
+                  "input": "sky.shbin",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/shaders/3DS/sky.shbin"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/RemoveSkybox.zip"
+               }
+            ]
+         },
+         "Creative Mode Block Break (USA)":{
+            "size":"735 Bytes",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/CreativeModeBlockBreaking.zip",
+                  "output": "sdmc:/Minecraft 3DS/CreativeModeBlockBreaking.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/CreativeModeBlockBreaking.zip",
+                  "input": "block_overlay.shbin",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/shaders/3DS/block_overlay.shbin"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/CreativeModeBlockBreaking.zip"
+               }
+            ]
+         },
+         "Creative Mode Block Break (EUR)":{
+            "size":"735 Bytes",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/CreativeModeBlockBreaking.zip",
+                  "output": "sdmc:/Minecraft 3DS/CreativeModeBlockBreaking.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/CreativeModeBlockBreaking.zip",
+                  "input": "block_overlay.shbin",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/shaders/3DS/block_overlay.shbin"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/CreativeModeBlockBreaking.zip"
+               }
+            ]
+         },
+         "Creative Mode Block Break (JPN)":{
+            "size":"735 Bytes",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/CreativeModeBlockBreaking.zip",
+                  "output": "sdmc:/Minecraft 3DS/CreativeModeBlockBreaking.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/CreativeModeBlockBreaking.zip",
+                  "input": "block_overlay.shbin",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/shaders/3DS/block_overlay.shbin"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/CreativeModeBlockBreaking.zip"
                }
             ]
          }
