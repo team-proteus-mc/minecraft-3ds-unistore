@@ -55,6 +55,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * Festive as Default Textures
     * TNT Mimic
     * Farlandia world
+    * Remove Clouds, Remove Skybox, and Creative Mode Block Break
 * CZX
     * The Dropper: 3DS Remaster
     * GenSpace Mod
