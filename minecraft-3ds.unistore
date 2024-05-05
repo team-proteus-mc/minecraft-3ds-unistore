@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":143,
+      "revision":144,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -8849,6 +8849,151 @@
                {
                   "type": "deleteFile",
                   "file": "sdmc:/Minecraft 3DS/CreativeModeBlockBreaking.zip"
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"Colt Python",
+            "author":"susbaconhairman",
+            "version":"1",
+            "category":[
+               "mods",
+               "texture",
+               "audio"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Have you ever wanted a Colt Python in Minecraft 3DS? Well, now you can have it!",
+            "license":"none",
+            "releasenotes":"Audio from pond5.com",
+            "screenshots": [
+               {
+                  "description": "Image 1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/python1.png"
+               },
+               {
+                  "description": "Image 2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/python2.png"
+               }
+            ],
+            "icon_index":84,
+            "sheet_index":0,
+            "last_updated":"2024-05-05 at 12:49 (CST)"
+         },
+         "Python mod (USA)":{
+            "size":"1.60 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/pythonmod.zip",
+                  "output": "sdmc:/Minecraft 3DS/pythonmod.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/pythonmod.zip",
+                  "input": "atlas.items.meta_79954554_0.3dst",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/atlas.items.meta_79954554_0.3dst"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/pythonmod.zip",
+                  "input": "entity/arrows.3dst",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/entity/arrows.3dst"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/pythonmod.zip",
+                  "input": "items/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/items/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/pythonmod.zip",
+                  "input": "sounds/random/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/sounds/random/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/pythonmod.zip"
+               }
+            ]
+         },
+         "Python mod (EUR)":{
+            "size":"1.60 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/pythonmod.zip",
+                  "output": "sdmc:/Minecraft 3DS/pythonmod.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/pythonmod.zip",
+                  "input": "atlas.items.meta_79954554_0.3dst",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/atlas/atlas.items.meta_79954554_0.3dst"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/pythonmod.zip",
+                  "input": "entity/arrows.3dst",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/entity/arrows.3dst"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/pythonmod.zip",
+                  "input": "items/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/items/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/pythonmod.zip",
+                  "input": "sounds/random/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/sounds/random/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/pythonmod.zip"
+               }
+            ]
+         },
+         "Python mod (JPN)":{
+            "size":"1.60 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/pythonmod.zip",
+                  "output": "sdmc:/Minecraft 3DS/pythonmod.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/pythonmod.zip",
+                  "input": "atlas.items.meta_79954554_0.3dst",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/atlas/atlas.items.meta_79954554_0.3dst"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/pythonmod.zip",
+                  "input": "entity/arrows.3dst",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/entity/arrows.3dst"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/pythonmod.zip",
+                  "input": "items/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/items/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/pythonmod.zip",
+                  "input": "sounds/random/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/sounds/random/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/pythonmod.zip"
                }
             ]
          }
