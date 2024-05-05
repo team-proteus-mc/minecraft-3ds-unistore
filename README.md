@@ -112,6 +112,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * Customization remover
     * Vanilla Remastered
     * Simple Suits skins port
+    * Colt Python mod
 * Toaster
     * SD Card Dropper Map
 * TheRustico36
