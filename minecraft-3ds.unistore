@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":145,
+      "revision":146,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -9079,6 +9079,122 @@
                {
                   "type": "deleteFile",
                   "file": "sdmc:/Minecraft 3DS/Instant_Eating.zip"
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"Remove Mob Cap",
+            "author":"Cracko298",
+            "version":"1",
+            "category":[
+               "mods"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Removes the mob cap in-game.",
+            "license":"none",
+            "releasenotes":"Removes the mob cap in-game.",
+            "screenshots": [
+               {
+                  "description": "Image 1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/nomobcap.png"
+               },
+               {
+                  "description": "Image 2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/nomobcap2.png"
+               },
+               {
+                  "description": "Image 3",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/nomobcap3.png"
+               },
+               {
+                  "description": "Image 4",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/nomobcap4.png"
+               },
+               {
+                  "description": "Image 5",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/nomobcap5.png"
+               }
+            ],
+            "icon_index":86,
+            "sheet_index":0,
+            "last_updated":"2024-05-05 at 15:26 (CST)"
+         },
+         "Remove Mob Cap (USA)":{
+            "size":"154 Bytes",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/nomobcap.zip",
+                  "output": "sdmc:/Minecraft 3DS/nomobcap.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/nomobcap.zip",
+                  "input": "00040000001B8700.txt",
+                  "output": "sdmc:/cheats/00040000001B8700.txt"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/nomobcap.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"To use this mod, load up Minecraft 3DS, and open\nthe Rosalina Menu or CTRPF 7.X and click 'cheats'\nor 'action replay' respectively.",
+                  "count":1
+               }
+            ]
+         },
+         "Remove Mob Cap (EUR)":{
+            "size":"154 Bytes",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/nomobcap.zip",
+                  "output": "sdmc:/Minecraft 3DS/nomobcap.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/nomobcap.zip",
+                  "input": "000400000017CA00.txt",
+                  "output": "sdmc:/cheats/000400000017CA00.txt"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/nomobcap.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"To use this mod, load up Minecraft 3DS, and open\nthe Rosalina Menu or CTRPF 7.X and click 'cheats'\nor 'action replay' respectively.",
+                  "count":1
+               }
+            ]
+         },
+         "Remove Mob Cap (JPN)":{
+            "size":"154 Bytes",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/nomobcap.zip",
+                  "output": "sdmc:/Minecraft 3DS/nomobcap.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/nomobcap.zip",
+                  "input": "000400000017FD00.txt",
+                  "output": "sdmc:/cheats/000400000017FD00.txt"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/nomobcap.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"To use this mod, load up Minecraft 3DS, and open\nthe Rosalina Menu or CTRPF 7.X and click 'cheats'\nor 'action replay' respectively.",
+                  "count":1
                }
             ]
          }
