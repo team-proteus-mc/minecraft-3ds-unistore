@@ -56,6 +56,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * TNT Mimic
     * Farlandia world
     * Remove Clouds, Remove Skybox, and Creative Mode Block Break
+    * Remove Mob Cap mod
 * CZX
     * The Dropper: 3DS Remaster
     * GenSpace Mod
