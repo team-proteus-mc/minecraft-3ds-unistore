@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":148,
+      "revision":149,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -9087,7 +9087,7 @@
          "info":{
             "title":"Remove Mob Cap",
             "author":"Cracko298",
-            "version":"1.1",
+            "version":"1.2",
             "category":[
                "mods"
             ],
@@ -9128,18 +9128,18 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/nomobcap2.zip",
-                  "output": "sdmc:/Minecraft 3DS/nomobcap2.zip"
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/nomobcap3.zip",
+                  "output": "sdmc:/Minecraft 3DS/nomobcap3.zip"
                },
                {
                   "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/nomobcap2.zip",
+                  "file": "sdmc:/Minecraft 3DS/nomobcap3.zip",
                   "input": "00040000001B8700.txt",
                   "output": "sdmc:/cheats/00040000001B8700.txt"
                },
                {
                   "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/nomobcap2.zip"
+                  "file": "sdmc:/Minecraft 3DS/nomobcap3.zip"
                },
                {
                   "type":"promptMessage",
@@ -9153,18 +9153,18 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/nomobcap2.zip",
-                  "output": "sdmc:/Minecraft 3DS/nomobcap2.zip"
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/nomobcap3.zip",
+                  "output": "sdmc:/Minecraft 3DS/nomobcap3.zip"
                },
                {
                   "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/nomobcap2.zip",
+                  "file": "sdmc:/Minecraft 3DS/nomobcap3.zip",
                   "input": "000400000017CA00.txt",
                   "output": "sdmc:/cheats/000400000017CA00.txt"
                },
                {
                   "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/nomobcap2.zip"
+                  "file": "sdmc:/Minecraft 3DS/nomobcap3.zip"
                },
                {
                   "type":"promptMessage",
@@ -9178,18 +9178,18 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/nomobcap2.zip",
-                  "output": "sdmc:/Minecraft 3DS/nomobcap2.zip"
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/nomobcap3.zip",
+                  "output": "sdmc:/Minecraft 3DS/nomobcap3.zip"
                },
                {
                   "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/nomobcap2.zip",
+                  "file": "sdmc:/Minecraft 3DS/nomobcap3.zip",
                   "input": "000400000017FD00.txt",
                   "output": "sdmc:/cheats/000400000017FD00.txt"
                },
                {
                   "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/nomobcap2.zip"
+                  "file": "sdmc:/Minecraft 3DS/nomobcap3.zip"
                },
                {
                   "type":"promptMessage",
