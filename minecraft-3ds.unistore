@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":150,
+      "revision":151,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -9165,6 +9165,181 @@
                   "type":"promptMessage",
                   "message":"To use this mod, load up Minecraft 3DS, and open\nthe Rosalina Menu or CTRPF 7.X and click 'cheats'\nor 'action replay' respectively.",
                   "count":1
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"Tricky Trials OST 320kHz",
+            "author":"Cracko298",
+            "version":"1",
+            "category":[
+               "mods"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Replaces the menu music with high quality new music from Minecraft 1.21.",
+            "license":"none",
+            "releasenotes":"Replaces the menu music with high quality new music from Minecraft 1.21.",
+            "screenshots": [
+               {
+                  "description": "No image available. Sorry.",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+               }
+            ],
+            "icon_index":87,
+            "sheet_index":0,
+            "last_updated":"2024-05-05 at 13:27 (CST)"
+         },
+         "Tricky Trials OST (USA)":{
+            "size":"197 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/audio/trickytrialspt1.zip",
+                  "output": "sdmc:/Minecraft 3DS/trickytrialspt1.zip"
+               },
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/audio/trickytrialspt2.zip",
+                  "output": "sdmc:/Minecraft 3DS/trickytrialspt2.zip"
+               },
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/audio/trickytrialspt3.zip",
+                  "output": "sdmc:/Minecraft 3DS/trickytrialspt3.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/trickytrialspt1.zip",
+                  "input": "",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/sounds/music/menu/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/trickytrialspt2.zip",
+                  "input": "",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/sounds/music/menu/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/trickytrialspt3.zip",
+                  "input": "",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/sounds/music/menu/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/trickytrialspt1.zip"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/trickytrialspt2.zip"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/trickytrialspt3.zip"
+               }
+            ]
+         },
+         "Tricky Trials OST (EUR)":{
+            "size":"197 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/audio/trickytrialspt1.zip",
+                  "output": "sdmc:/Minecraft 3DS/trickytrialspt1.zip"
+               },
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/audio/trickytrialspt2.zip",
+                  "output": "sdmc:/Minecraft 3DS/trickytrialspt2.zip"
+               },
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/audio/trickytrialspt3.zip",
+                  "output": "sdmc:/Minecraft 3DS/trickytrialspt3.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/trickytrialspt1.zip",
+                  "input": "",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/sounds/music/menu/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/trickytrialspt2.zip",
+                  "input": "",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/sounds/music/menu/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/trickytrialspt3.zip",
+                  "input": "",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/sounds/music/menu/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/trickytrialspt1.zip"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/trickytrialspt2.zip"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/trickytrialspt3.zip"
+               }
+            ]
+         },
+         "Tricky Trials OST (JPN)":{
+            "size":"197 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/audio/trickytrialspt1.zip",
+                  "output": "sdmc:/Minecraft 3DS/trickytrialspt1.zip"
+               },
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/audio/trickytrialspt2.zip",
+                  "output": "sdmc:/Minecraft 3DS/trickytrialspt2.zip"
+               },
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/audio/trickytrialspt3.zip",
+                  "output": "sdmc:/Minecraft 3DS/trickytrialspt3.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/trickytrialspt1.zip",
+                  "input": "",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/sounds/music/menu/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/trickytrialspt2.zip",
+                  "input": "",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/sounds/music/menu/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/trickytrialspt3.zip",
+                  "input": "",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/sounds/music/menu/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/trickytrialspt1.zip"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/trickytrialspt2.zip"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/trickytrialspt3.zip"
                }
             ]
          }
