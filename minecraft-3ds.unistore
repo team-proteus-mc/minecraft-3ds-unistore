@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":149,
+      "revision":150,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -5781,7 +5781,7 @@
       },
       {
          "info":{
-            "title":"3DSMP Archive",
+            "title":"3DSMP Archives",
             "author":"Various people",
             "version":"11",
             "category":[
@@ -5949,37 +5949,22 @@
             ]
          },
          "Revision 9":{
-            "size":"26.4 MB",
+            "size":"25.3 MB",
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/3dsmp9a.7z",
-                  "output": "sdmc:/Minecraft 3DS/worlds/3dsmp9a.7z"
-               },
-               {
-                  "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/3dsmp9b.7z",
-                  "output": "sdmc:/Minecraft 3DS/worlds/3dsmp9b.7z"
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/3dsmp-9.7z",
+                  "output": "sdmc:/Minecraft 3DS/worlds/3dsmp-9.7z"
                },
                {
                   "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/worlds/3dsmp9a.7z",
-                  "input": "3dsmp91/",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dsmp-9.7z",
+                  "input": "Community 3DSMP/",
                   "output": "sdmc:/Minecraft 3DS/worlds/3DSMP Rev 9/"
                },
                {
-                  "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/worlds/3dsmp9b.7z",
-                  "input": "3dsmp92/db/cdb/",
-                  "output": "sdmc:/Minecraft 3DS/worlds/3DSMP Rev 9/db/cdb"
-               },
-               {
                   "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/worlds/3dsmp9a.7z"
-               },
-               {
-                  "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/worlds/3dsmp9b.7z"
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dsmp-9.7z"
                },
                {
                   "type": "promptMessage",
@@ -5989,37 +5974,22 @@
             ]
          },
          "Revision 11":{
-            "size":"30.3 MB",
+            "size":"48.4 MB",
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/3dsmp11a.7z",
-                  "output": "sdmc:/Minecraft 3DS/worlds/3dsmp11a.7z"
-               },
-               {
-                  "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/3dsmp11b.7z",
-                  "output": "sdmc:/Minecraft 3DS/worlds/3dsmp11b.7z"
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/3dsmp-11.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/3dsmp-11.zip"
                },
                {
                   "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/worlds/3dsmp11a.7z",
-                  "input": "3dsmp11a/",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dsmp-11.zip",
+                  "input": "Community3DSMP/",
                   "output": "sdmc:/Minecraft 3DS/worlds/3DSMP Rev 11/"
                },
                {
-                  "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/worlds/3dsmp11b.7z",
-                  "input": "3dsmp11b/db/cdb/",
-                  "output": "sdmc:/Minecraft 3DS/worlds/3DSMP Rev 11/db/cdb/"
-               },
-               {
                   "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/worlds/3dsmp11a.7z"
-               },
-               {
-                  "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/worlds/3dsmp11b.7z"
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dsmp-11.zip"
                },
                {
                   "type": "promptMessage",
