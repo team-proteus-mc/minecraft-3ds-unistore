@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":157,
+      "revision":158,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -9335,6 +9335,227 @@
                {
                   "type": "deleteFile",
                   "file": "sdmc:/Minecraft 3DS/eshopost.zip"
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"Skyblock Plus",
+            "author":"Cracko298",
+            "version":"1",
+            "category":[
+               "world",
+               "wip"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"A clone/recreation of @DeadSkullzJr's Skyblock Port.",
+            "license":"none",
+            "releasenotes":"A clone/recreation of @DeadSkullzJr's Skyblock Port.\n\nFWO Loading, and yes, you can still install it like traditional Maps.",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/skyplus1.png"
+               },
+               {
+                  "description": "Image #2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/skyplus2.png"
+               },
+               {
+                  "description": "Image #3",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/skyplus3.png"
+               },
+               {
+                  "description": "Image #4",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/skyplus4.png"
+               },
+               {
+                  "description": "Image #5",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/skyplus5.png"
+               },
+               {
+                  "description": "Image #6",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/skyplus6.png"
+               }
+            ],
+            "icon_index":89,
+            "sheet_index":0,
+            "last_updated":"2024-06-09 at 10:17 (CST)"
+         },
+         "Skyblock Plus":{
+            "size":"398 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/SkyblockPlus_World.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/SkyblockPlus_World.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/SkyblockPlus_World.zip",
+                  "input": "Skyblock+/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Skyblock Plus/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/SkyblockPlus_World.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count":1
+               }
+            ]
+         },
+         "Skyblock Plus FWO (USA)":{
+            "size":"374 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/SkyblockPlus_FWO.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/SkyblockPlus_FWO.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/SkyblockPlus_FWO.zip",
+                  "input": "templates/festive/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/templates/festive/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/SkyblockPlus_FWO.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"To play, select 'New Festive World' in\nthe world selection menu.",
+                  "count":1
+               }
+            ]
+         },
+         "Skyblock Plus FWO (EUR)":{
+            "size":"374 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/SkyblockPlus_FWO.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/SkyblockPlus_FWO.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/SkyblockPlus_FWO.zip",
+                  "input": "templates/festive/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/templates/festive/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/SkyblockPlus_FWO.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"To play, select 'New Festive World' in\nthe world selection menu.",
+                  "count":1
+               }
+            ]
+         },
+         "Skyblock Plus FWO (JPN)":{
+            "size":"374 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/SkyblockPlus_FWO.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/SkyblockPlus_FWO.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/SkyblockPlus_FWO.zip",
+                  "input": "templates/festive/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/templates/festive/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/SkyblockPlus_FWO.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"To play, select 'New Festive World' in\nthe world selection menu.",
+                  "count":1
+               }
+            ]
+         },
+         "Skyblock Plus FWO NO DLC (USA)":{
+            "size":"1.18 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/SkyblockPlus_FWO_NO_DLC.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/SkyblockPlus_FWO_NO_DLC.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/SkyblockPlus_FWO_NO_DLC.zip",
+                  "input": "templates/mario/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/templates/mario/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/SkyblockPlus_FWO_NO_DLC.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"To play, select 'New Mario World' in\nthe world selection menu.",
+                  "count":1
+               }
+            ]
+         },
+         "Skyblock Plus FWO NO DLC (EUR)":{
+            "size":"1.18 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/SkyblockPlus_FWO_NO_DLC.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/SkyblockPlus_FWO_NO_DLC.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/SkyblockPlus_FWO_NO_DLC.zip",
+                  "input": "templates/mario/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/templates/mario/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/SkyblockPlus_FWO_NO_DLC.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"To play, select 'New Mario World' in\nthe world selection menu.",
+                  "count":1
+               }
+            ]
+         },
+         "Skyblock Plus FWO NO DLC (JPN)":{
+            "size":"1.18 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/SkyblockPlus_FWO_NO_DLC.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/SkyblockPlus_FWO_NO_DLC.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/SkyblockPlus_FWO_NO_DLC.zip",
+                  "input": "templates/mario/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/templates/mario/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/SkyblockPlus_FWO_NO_DLC.zip"
+               },
+               {
+                  "type":"promptMessage",
+                  "message":"To play, select 'New Mario World' in\nthe world selection menu.",
+                  "count":1
                }
             ]
          }
