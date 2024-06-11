@@ -58,6 +58,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * Remove Clouds, Remove Skybox, and Creative Mode Block Break
     * Remove Mob Cap mod
     * Tricky Trials OST 320kHz
+    * Skyblock Plus world
 * CZX
     * The Dropper: 3DS Remaster
     * GenSpace Mod
