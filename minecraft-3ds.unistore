@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":158,
+      "revision":159,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -9556,6 +9556,148 @@
                   "type":"promptMessage",
                   "message":"To play, select 'New Mario World' in\nthe world selection menu.",
                   "count":1
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"GenSpace Textures",
+            "author":"Watermelon",
+            "version":"0.2",
+            "category":[
+               "textures",
+               "wip"
+            ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Replaces every texture with GenSpace's head.",
+            "license":"none",
+            "releasenotes":"Did you not read the description?",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/allgen1.png"
+               },
+               {
+                  "description": "Image #2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/allgen2.png"
+               },
+               {
+                  "description": "Image #3",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/allgen3.png"
+               },
+               {
+                  "description": "Image #4",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/allgen4.png"
+               },
+               {
+                  "description": "Image #5",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/allgen5.png"
+               },
+               {
+                  "description": "Image #6",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/allgen6.png"
+               }
+            ],
+            "icon_index":90,
+            "sheet_index":0,
+            "last_updated":"2024-06-03 at 20:31 (CST)"
+         },
+         "GenSpace Textures (USA)":{
+            "size":"51 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/whyamigamingdev.zip",
+                  "output": "sdmc:/Minecraft 3DS/whyamigamingdev.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/whyamigamingdev.zip",
+                  "input": "genspace/atlas/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/whyamigamingdev.zip",
+                  "input": "genspace/blocks.txt",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/blocks/blocks.txt"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/whyamigamingdev.zip",
+                  "input": "genspace/items.txt",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/blocks/items.txt"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/whyamigamingdev.zip"
+               }
+            ]
+         },
+         "GenSpace Textures (EUR)":{
+            "size":"51 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/whyamigamingdev.zip",
+                  "output": "sdmc:/Minecraft 3DS/whyamigamingdev.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/whyamigamingdev.zip",
+                  "input": "genspace/atlas/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/whyamigamingdev.zip",
+                  "input": "genspace/blocks.txt",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/blocks/blocks.txt"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/whyamigamingdev.zip",
+                  "input": "genspace/items.txt",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/blocks/items.txt"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/whyamigamingdev.zip"
+               }
+            ]
+         },
+         "GenSpace Textures (JPN)":{
+            "size":"51 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/whyamigamingdev.zip",
+                  "output": "sdmc:/Minecraft 3DS/whyamigamingdev.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/whyamigamingdev.zip",
+                  "input": "genspace/atlas/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/atlas/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/whyamigamingdev.zip",
+                  "input": "genspace/blocks.txt",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/blocks/blocks.txt"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/whyamigamingdev.zip",
+                  "input": "genspace/items.txt",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/blocks/items.txt"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/whyamigamingdev.zip"
                }
             ]
          }
