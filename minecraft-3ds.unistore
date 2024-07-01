@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":161,
+      "revision":162,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -271,7 +271,7 @@
             ],
             "icon_index":7,
             "sheet_index":0,
-            "last_updated":"2024-03-20 at 21:42 (CST)"
+            "last_updated":"2024-07-01 at 05:54 (CST)"
          },
          "Remove ALL content (USA)":[
             {
@@ -513,6 +513,78 @@
             {
                "type":"rmdir",
                "directory":"sdmc:/Minecraft 3DS/worlds",
+               "required":false
+            }
+         ],
+         "Remove audios (USA)":[
+            {
+               "type":"promptMessage",
+               "message":"This will remove installed\ncustom audios from the game",
+               "count":1
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/sounds/",
+               "required":false
+            }
+         ],
+         "Remove audios (EUR)":[
+            {
+               "type":"promptMessage",
+               "message":"This will remove installed\ncustom audios from the game",
+               "count":1
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/sounds/",
+               "required":false
+            }
+         ],
+         "Remove audios (JPN)":[
+            {
+               "type":"promptMessage",
+               "message":"This will remove installed\ncustom audios from the game",
+               "count":1
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/sounds/",
+               "required":false
+            }
+         ],
+         "Remove SFX (USA)":[
+            {
+               "type":"promptMessage",
+               "message":"This will remove installed\ncustom sound effects from the game\n(CombinedAudio.bin)",
+               "count":1
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/sounds/CombinedAudio.bin",
+               "required":false
+            }
+         ],
+         "Remove SFX (EUR)":[
+            {
+               "type":"promptMessage",
+               "message":"This will remove installed\ncustom sound effects from the game\n(CombinedAudio.bin)",
+               "count":1
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/sounds/CombinedAudio.bin",
+               "required":false
+            }
+         ],
+         "Remove SFX (JPN)":[
+            {
+               "type":"promptMessage",
+               "message":"This will remove installed\ncustom sound effects from the game\n(CombinedAudio.bin)",
+               "count":1
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/sounds/CombinedAudio.bin",
                "required":false
             }
          ]
