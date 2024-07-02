@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":162,
+      "revision":163,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -8691,7 +8691,7 @@
       },
       {
          "info":{
-            "title":"Remove Clouds, Skybox, and Creative Mode Block Break",
+            "title":"Cracko's Experimental Mods",
             "author":"Cracko298",
             "version":"1",
             "category":[
@@ -8701,7 +8701,7 @@
             "console":[
                "3DS"
             ],
-            "description":"Remove Clouds, Remove Skybox, and Creative Mode Block Break with this.",
+            "description":"A bunch of experimental mods from Cracko298, including Xray Shaders, Remove Clouds, Remove Skybox, and Creative Mode Block Break.",
             "license":"none",
             "releasenotes":"stuff",
             "screenshots": [
@@ -8891,6 +8891,66 @@
                {
                   "type": "deleteFile",
                   "file": "sdmc:/Minecraft 3DS/CreativeModeBlockBreaking.zip"
+               }
+            ]
+         },
+         "Xray Shaders (USA)":{
+            "size":"1.28 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/xray-shader.zip",
+                  "output": "sdmc:/Minecraft 3DS/xray-shader.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/xray-shader.zip",
+                  "input": "renderchunk.shbin",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/shaders/3DS/renderchunk.shbin"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/xray-shader.zip"
+               }
+            ]
+         },
+         "Xray Shaders (EUR)":{
+            "size":"1.28 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/xray-shader.zip",
+                  "output": "sdmc:/Minecraft 3DS/xray-shader.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/xray-shader.zip",
+                  "input": "renderchunk.shbin",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/shaders/3DS/renderchunk.shbin"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/xray-shader.zip"
+               }
+            ]
+         },
+         "Xray Shaders (JPN)":{
+            "size":"1.28 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/xray-shader.zip",
+                  "output": "sdmc:/Minecraft 3DS/xray-shader.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/xray-shader.zip",
+                  "input": "renderchunk.shbin",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/shaders/3DS/renderchunk.shbin"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/xray-shader.zip"
                }
             ]
          }
