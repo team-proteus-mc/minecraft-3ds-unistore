@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":164,
+      "revision":165,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -559,9 +559,8 @@
                "count":1
             },
             {
-               "type":"rmdir",
-               "directory":"sdmc:/luma/titles/00040000001B8700/sounds/CombinedAudio.bin",
-               "required":false
+               "type":"deleteFile",
+               "directory":"sdmc:/luma/titles/00040000001B8700/sounds/CombinedAudio.bin"
             }
          ],
          "Remove SFX (EUR)":[
@@ -571,9 +570,8 @@
                "count":1
             },
             {
-               "type":"rmdir",
-               "directory":"sdmc:/luma/titles/000400000017CA00/sounds/CombinedAudio.bin",
-               "required":false
+               "type":"deleteFile",
+               "directory":"sdmc:/luma/titles/000400000017CA00/sounds/CombinedAudio.bin"
             }
          ],
          "Remove SFX (JPN)":[
@@ -583,8 +581,43 @@
                "count":1
             },
             {
+               "type":"deleteFile",
+               "directory":"sdmc:/luma/titles/000400000017FD00/sounds/CombinedAudio.bin"
+            }
+         ],
+         "Remove shaders (USA)":[
+            {
+               "type":"promptMessage",
+               "message":"This will remove installed\nshaders from the game!",
+               "count":1
+            },
+            {
                "type":"rmdir",
-               "directory":"sdmc:/luma/titles/000400000017FD00/sounds/CombinedAudio.bin",
+               "directory":"sdmc:/luma/titles/00040000001B8700/shaders/",
+               "required":false
+            }
+         ],
+         "Remove shaders (EUR)":[
+            {
+               "type":"promptMessage",
+               "message":"This will remove installed\nshaders from the game!",
+               "count":1
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/shaders/",
+               "required":false
+            }
+         ],
+         "Remove shaders (JPN)":[
+            {
+               "type":"promptMessage",
+               "message":"This will remove installed\nshaders from the game!",
+               "count":1
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/shaders/",
                "required":false
             }
          ]
