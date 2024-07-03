@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":165,
+      "revision":166,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -251,9 +251,9 @@
       },
       {
          "info":{
-            "title":"Remove Customization",
+            "title":"Customization Removal Tool",
             "author":"susbaconhairman",
-            "version":"5",
+            "version":"6",
             "category":[
                "misc"
             ],
@@ -271,7 +271,7 @@
             ],
             "icon_index":7,
             "sheet_index":0,
-            "last_updated":"2024-07-01 at 05:54 (CST)"
+            "last_updated":"2024-07-02 at 21:41 (CST)"
          },
          "Remove ALL content (USA)":[
             {
