@@ -57,6 +57,9 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * Remove Mob Cap mod
     * Tricky Trials OST 320kHz
     * Skyblock Plus world
+* CryptedData
+    * FNaF 1 map
+    * FNaF 2 map
 * CZX
     * The Dropper: 3DS Remaster
     * GenSpace Mod
