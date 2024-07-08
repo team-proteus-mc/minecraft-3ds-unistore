@@ -60,6 +60,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
 * CryptedData
     * FNaF 1 map
     * FNaF 2 map
+    * Halloween map
 * CZX
     * The Dropper: 3DS Remaster
     * GenSpace Mod
