@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":168,
+      "revision":169,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -9925,46 +9925,46 @@
          }
       },
       {
-      "info":{
-         "title":"FNaF 2 Map",
-         "author":"CryptedData",
-         "version":"1",
-         "category":[
-         "worlds"
+         "info":{
+            "title":"FNaF 2 Map",
+            "author":"CryptedData",
+            "version":"1",
+            "category":[
+            "worlds"
+               ],
+            "console":[
+               "3DS"
             ],
-         "console":[
-            "3DS"
-         ],
-         "description":"Five Nights at Freddy's 2 map.",
-         "license":"unknown",
-         "releasenotes": "e",
-         "screenshots": [
-            {
-               "description": "Image #1",
-               "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/fnaf2.png"
-            },
-            {
-               "description": "Image #2",
-               "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/fnaf2a.png"
-            },
-            {
-               "description": "Image #3",
-               "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/fnaf2b.png"
-            },
-            {
-               "description": "Image #4",
-               "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/fnaf2c.png"
-            },
-            {
-               "description": "Image #5",
-               "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/fnaf2d.png"
-            }
-         ],
-         "icon_index":92,
-         "sheet_index":0,
-         "last_updated":"2024-04-09 at 12:52 (CST)"
-      },
-      "FNaF 2":{
+            "description":"Five Nights at Freddy's 2 map.",
+            "license":"unknown",
+            "releasenotes": "e",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/fnaf2.png"
+               },
+               {
+                  "description": "Image #2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/fnaf2a.png"
+               },
+               {
+                  "description": "Image #3",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/fnaf2b.png"
+               },
+               {
+                  "description": "Image #4",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/fnaf2c.png"
+               },
+               {
+                  "description": "Image #5",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/fnaf2d.png"
+               }
+            ],
+            "icon_index":92,
+            "sheet_index":0,
+            "last_updated":"2024-04-09 at 12:52 (CST)"
+         },
+         "FNaF 2":{
             "size":"215 KB",
             "script":[
                {
@@ -9981,6 +9981,64 @@
                {
                   "type": "deleteFile",
                   "file": "sdmc:/Minecraft 3DS/worlds/Fnaf_2.zip"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"Halloween Map",
+            "author":"CryptedData",
+            "version":"1",
+            "category":[
+            "worlds"
+               ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Halloween map.",
+            "license":"unknown",
+            "releasenotes": "e",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/halloween1.png"
+               },
+               {
+                  "description": "Image #2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/halloween2.png"
+               },
+               {
+                  "description": "Image #3",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/halloween3.png"
+               }
+            ],
+            "icon_index":93,
+            "sheet_index":0,
+            "last_updated":"2024-04-09 at 12:55 (CST)"
+         },
+         "Halloween Map":{
+            "size":"6.12 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/5wsAAO8fGAA_1.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/5wsAAO8fGAA_1.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/5wsAAO8fGAA_1.zip",
+                  "input": "5wsAAO8fGAA=/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Halloween Map/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/5wsAAO8fGAA_1.zip"
                },
                {
                   "type": "promptMessage",
