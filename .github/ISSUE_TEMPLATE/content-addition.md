@@ -32,3 +32,5 @@ assignees: ''
 
 
 **The developers and maintainers of this Unistore may have to modify the content for the store (such as resizing screenshots or changing the content so it may be able to be downloaded properly, etc.)**
+
+**MAKE SURE YOU HAVE READ THE TERMS TO SUBMITTING HERE: https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/blob/main/manual.md#requesting-content-to-be-added**
