@@ -47,7 +47,15 @@ To remove installed content from your device, you can either find the directorie
 
 If you would like to have content added to the store, please contact me, or open a request on GitHub: https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/issues/new?assignees=&labels=&projects=&template=content-addition.md&title=
 
-You will need to submit a description, author, screenshots, title, icon, the modification, what type of mod it is, and if you got permission to request the content to be hosted on the store (you can ignore this if you are the author of course). At the bare minimum, you could just submit the mod, it's title and author, and I could figure out the rest.
+You will need to follow the terms listed below:
+- Submit a description, author, screenshots, title, icon, the modification, what type of mod it is, and if you got permission to request the content to be hosted on the store (you can ignore this if you are the author of course). At the bare minimum, you could just submit the mod, it's title and author, and I could figure out the rest.
+- Any stolen or plagiarized content will not be allowed.
+   - Adding on to this, **any** AI generated content is not encouraged. An AI generated description, title, or icon may be okay, but any code or actual modification to the game that has been made by AI will not be allowed.
+- Any content that is, contains, or supports homophobia, racism, nazism, extreme violence, p 0 r n ography, p e d 0 philia, or distains someone or a party without an apparent reason will not be allowed.
+- Do not lie about what your content is.
+- Do not submit information that may reveal any person or parties personal information without their consent.
+- Do not send anything that directly leads to something sketchy, ridden with ads or has malware. If it is absolutely necessary (such as citing it in credits) then it will be allowed, but a warning will be put next to it.
+- If your item has been approved and it is later found out to have broken any of the rules listed above, then you will be banned from submitting any content to the store, unless you appeal by contacting me.
 
 ## Troubleshooting
 
