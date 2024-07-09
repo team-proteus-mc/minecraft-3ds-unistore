@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":171,
+      "revision":172,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -10050,8 +10050,8 @@
       },
       {
          "info":{
-            "title":"Blue 3GX's Modpack",
-            "author":"Blue 3GX",
+            "title":"Blue 3dx's Modpack",
+            "author":"Blue 3dx",
             "version":"5.4 beta",
             "category":[
             "mod",
@@ -10077,7 +10077,7 @@
             "sheet_index":0,
             "last_updated":"2024-07-08 at 19:14 (CST)"
          },
-         "3GX's Modpack (USA)":{
+         "3dx's Modpack (USA)":{
             "size":"3.62 MB",
             "script":[
                {
@@ -10115,7 +10115,7 @@
                }
             ]
          },
-         "3GX's Modpack (EUR)":{
+         "3dx's Modpack (EUR)":{
             "size":"3.62 MB",
             "script":[
                {
@@ -10153,7 +10153,7 @@
                }
             ]
          },
-         "3GX's Modpack (JPN)":{
+         "3dx's Modpack (JPN)":{
             "size":"3.62 MB",
             "script":[
                {
