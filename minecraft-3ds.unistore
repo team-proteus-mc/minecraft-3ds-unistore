@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":169,
+      "revision":170,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -10044,6 +10044,150 @@
                   "type": "promptMessage",
                   "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
                   "count": 1
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"Blue 3GX's Modpack",
+            "author":"Blue 3GX",
+            "version":"5.4 beta",
+            "category":[
+            "mod",
+            "modpack"
+               ],
+            "console":[
+               "3DS"
+            ],
+            "description":"A Minecraft 3ds Modpack! Replaces: Tools/Weapons/Armors Textures/Replaces Mobs And Blocks+items textures And Characters textures",
+            "license":"IDK",
+            "releasenotes": "A Minecraft 3ds Modpack! Replaces: Tools/Weapons/Armors Textures/Replaces Mobs And Blocks+items textures And Characters textures",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/3gxmod1.png"
+               },
+               {
+                  "description": "Image #2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/3gxmod2.png"
+               }
+            ],
+            "icon_index":94,
+            "sheet_index":0,
+            "last_updated":"2024-07-08 at 19:14 (CST)"
+         },
+         "3GX's Modpack (USA)":{
+            "size":"3.62 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/3dxmodpack.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/3dxmodpack.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dxmodpack.zip",
+                  "input": "atlas/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dxmodpack.zip",
+                  "input": "resourcepacks/skins/skinpacks/Base/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dxmodpack.zip",
+                  "input": "resourcepacks/vanilla/server/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/server/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dxmodpack.zip",
+                  "input": "resourcepacks/vanilla/client/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dxmodpack.zip"
+               }
+            ]
+         },
+         "3GX's Modpack (EUR)":{
+            "size":"3.62 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/3dxmodpack.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/3dxmodpack.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dxmodpack.zip",
+                  "input": "atlas/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dxmodpack.zip",
+                  "input": "resourcepacks/skins/skinpacks/Base/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dxmodpack.zip",
+                  "input": "resourcepacks/vanilla/server/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/server/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dxmodpack.zip",
+                  "input": "resourcepacks/vanilla/client/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dxmodpack.zip"
+               }
+            ]
+         },
+         "3GX's Modpack (JPN)":{
+            "size":"3.62 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/3dxmodpack.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/3dxmodpack.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dxmodpack.zip",
+                  "input": "atlas/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/atlas/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dxmodpack.zip",
+                  "input": "resourcepacks/skins/skinpacks/Base/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Base/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dxmodpack.zip",
+                  "input": "resourcepacks/vanilla/server/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/server/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dxmodpack.zip",
+                  "input": "resourcepacks/vanilla/client/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/3dxmodpack.zip"
                }
             ]
          }
