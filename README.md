@@ -36,6 +36,8 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * Ender Dragon Elytra
     * Lapiz's Funland map
     * Stampy's Lovely World map port
+* Blue 3dx
+    * Blue 3dx's Modpack
 * CleetusMcfarln
     * DanTDM's Lab
 * Cracko298
