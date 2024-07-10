@@ -61,6 +61,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * Remove Mob Cap mod
     * Tricky Trials OST 320kHz
     * Skyblock Plus world
+    * Mob Tower structure
 * CryptedData
     * FNaF 1 map
     * FNaF 2 map
