@@ -3,6 +3,8 @@
 
 The OFFICIAL Minecraft 3DS Community UniStore, and the #1 place to get custom content for the game.
 
+Featured on the Universal Updater's list of recommended Unistores.
+
 Thank you [@zoogie](https://github.com/zoogie) for starring this repository, we love you!
 
 ## QR Code for installing on the Universal Updater
