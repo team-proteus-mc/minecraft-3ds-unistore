@@ -82,6 +82,8 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * Randoms map demo
     * Frequently Asked Questions
     * GenSpace Mod
+* dexxioballs
+    * New Glass textures
 * Duckan
     * Maryland Mixup skins
 * ENDERMANYK
