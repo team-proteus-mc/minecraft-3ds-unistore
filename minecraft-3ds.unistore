@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":179,
+      "revision":180,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -9430,91 +9430,6 @@
                {
                   "type": "deleteFile",
                   "file": "sdmc:/Minecraft 3DS/NewTrickyTrialsOST320Khz.zip"
-               }
-            ]
-         }
-      },
-      {
-         "info":{
-            "title":"Nintendo eShop Music",
-            "author":"susbaconhairman",
-            "version":"1",
-            "category":[
-               "audio"
-            ],
-            "console":[
-               "3DS"
-            ],
-            "description":"Replaces the vanilla in-game music with music from the Nintendo 3DS and Wii U eShops, as well as some other audios from other consoles/software.",
-            "license":"none",
-            "releasenotes":"These audios are used:\n\nDSiWare Main\nJune 2011 eShop\nWiiWare Main\n3DS Theme Shop Main\n3DS eShop Wishlist\nDecember 2013 eShop\nSeptember 2013 eShop\nNovember 2012 eShop\nMay 2019 eShop\nMay 2016 eShop\nJanuary 2016 eShop\nDecember 2015 eShop\nSeptember 2015 eShop\nJune 2015 eShop\nJanuary 2015 eShop\nJuly 2014 eShop\nApril 2014 eShop\nJanuary 2014 eShop\neShop - Initial Setup\neShop - Purachse Software\neShop - Wishlist\neShop - Rating\neShop - Settings\neShop - Settings and Other\n3DS Settings - Main Theme\n3DS Settings - Internet Settings\n3DS Settings - Nintendo DS Profile\n3DS Camera - Slideshow (Pop)\n3DS Camera - Slideshow (Funk)\n3DS Amiibo Settings\n\nAll audios are from khinsider.com",
-            "screenshots": [
-               {
-                  "description": "No image available. Sorry.",
-                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
-               }
-            ],
-            "icon_index":88,
-            "sheet_index":0,
-            "last_updated":"2024-05-22 at 22:52 (CST)"
-         },
-         "eShop Music (USA)":{
-            "size":"841 MB",
-            "script":[
-               {
-                  "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/audios/eshopost.zip",
-                  "output": "sdmc:/Minecraft 3DS/eshopost.zip"
-               },
-               {
-                  "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/eshopost.zip",
-                  "input": "sounds/music/",
-                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/sounds/music/"
-               },
-               {
-                  "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/eshopost.zip"
-               }
-            ]
-         },
-         "eShop Music (EUR)":{
-            "size":"841 MB",
-            "script":[
-               {
-                  "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/audios/eshopost.zip",
-                  "output": "sdmc:/Minecraft 3DS/eshopost.zip"
-               },
-               {
-                  "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/eshopost.zip",
-                  "input": "sounds/music/",
-                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/sounds/music/"
-               },
-               {
-                  "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/eshopost.zip"
-               }
-            ]
-         },
-         "eShop Music (JPN)":{
-            "size":"841 MB",
-            "script":[
-               {
-                  "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/audios/eshopost.zip",
-                  "output": "sdmc:/Minecraft 3DS/eshopost.zip"
-               },
-               {
-                  "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/eshopost.zip",
-                  "input": "sounds/music/",
-                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/sounds/music/"
-               },
-               {
-                  "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/eshopost.zip"
                }
             ]
          }
