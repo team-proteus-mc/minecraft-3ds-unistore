@@ -53,6 +53,7 @@ You will need to follow the terms listed below:
 - Submit a description, author, screenshots, title, icon, the modification, what type of mod it is, and if you got permission to request the content to be hosted on the store (you can ignore this if you are the author of course). At the bare minimum, you could just submit the mod, it's title and author, and I could figure out the rest.
 - Any stolen or plagiarized content will not be allowed.
    - Adding on to this, **any** AI generated content is not encouraged. An AI generated description, title, or icon may be okay, but any code or actual modification to the game that has been made by AI will not be allowed.
+   - Anything that enables piracy is not allowed.
 - Any content that is, contains, or supports homophobia, racism, nazism, extreme violence, pornography, pedophilia, or distains someone or a party without an apparent reason will not be allowed.
 - Do not lie about what your content is.
 - Do not submit information that may reveal any person or parties personal information without their consent.
