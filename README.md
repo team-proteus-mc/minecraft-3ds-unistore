@@ -129,7 +129,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * Vanilla Remastered
     * Simple Suits skins port
     * Colt Python mod
-    * Nintendo 3DS and Wii U eShop OST
+    * Nintendo 3DS and Wii U eShop OST (temporarily removed)
 * Toaster
     * SD Card Dropper Map
 * TheRustico36
