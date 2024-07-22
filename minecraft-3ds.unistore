@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":181,
+      "revision":182,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -10495,7 +10495,7 @@
             "sheet_index":0,
             "last_updated":"2024-07-20 at 23:34 (CST)"
          },
-         "Enhanced Particles (USA)":{
+         "Enhanced Particles (USA ONLY)":{
             "size":"164 Bytes",
             "script":[
                {
@@ -10520,70 +10520,6 @@
                   "file": "sdmc:/Minecraft 3DS/enpart.zip",
                   "input": "code.ips",
                   "output": "sdmc:/luma/titles/00040000001B8700/code.ips"
-               },
-               {
-                  "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/enpart.zip"
-               }
-            ]
-         },
-         "Enhanced Particles (EUR)":{
-            "size":"164 Bytes",
-            "script":[
-               {
-                  "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/enpart.zip",
-                  "output": "sdmc:/Minecraft 3DS/enpart.zip"
-               },
-               {
-                  "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/enpart.zip",
-                  "input": "code.ips",
-                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/code.ips"
-               },
-               {
-                  "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/enpart.zip",
-                  "input": "code.ips",
-                  "output": "sdmc:/luma/titles/000400000017CA00/exefs/code.ips"
-               },
-               {
-                  "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/enpart.zip",
-                  "input": "code.ips",
-                  "output": "sdmc:/luma/titles/000400000017CA00/code.ips"
-               },
-               {
-                  "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/enpart.zip"
-               }
-            ]
-         },
-         "Enhanced Particles (JPN)":{
-            "size":"164 Bytes",
-            "script":[
-               {
-                  "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/enpart.zip",
-                  "output": "sdmc:/Minecraft 3DS/enpart.zip"
-               },
-               {
-                  "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/enpart.zip",
-                  "input": "code.ips",
-                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/code.ips"
-               },
-               {
-                  "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/enpart.zip",
-                  "input": "code.ips",
-                  "output": "sdmc:/luma/titles/000400000017FD00/exefs/code.ips"
-               },
-               {
-                  "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/enpart.zip",
-                  "input": "code.ips",
-                  "output": "sdmc:/luma/titles/000400000017FD00/code.ips"
                },
                {
                   "type": "deleteFile",
