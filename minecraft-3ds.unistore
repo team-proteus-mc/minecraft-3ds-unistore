@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":180,
+      "revision":181,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -10302,6 +10302,292 @@
                {
                   "type": "deleteFile",
                   "file": "sdmc:/Minecraft 3DS/newglass.zip"
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"Super Mario Bros. 1-1",
+            "author":"ちげえのたす (kakuremino)",
+            "version":"1",
+            "category":[
+            "world"
+               ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Super Mario Bros. level 1-1 in Minecraft 3DS.",
+            "license":"unknown",
+            "releasenotes": "I'm using Cracko298's DevWorld v2",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/sm11a.png"
+               },
+               {
+                  "description": "Image #2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/sm11b.png"
+               },
+               {
+                  "description": "Image #3",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/sm11c.png"
+               }
+            ],
+            "icon_index":98,
+            "sheet_index":0,
+            "last_updated":"2024-07-21 at 22:47 (CST)"
+         },
+         "Super Mario Bros. 1-1":{
+            "size":"2.18 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/worlds/smb1-1-1.zip",
+                  "output": "sdmc:/Minecraft 3DS/worlds/smb1-1-1.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/smb1-1-1.zip",
+                  "input": "smb1 1-1/",
+                  "output": "sdmc:/Minecraft 3DS/worlds/Super Mario Bros. 1-1/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/worlds/newglass.zip"
+               },
+               {
+                  "type": "promptMessage",
+                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
+                  "count": 1
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"Blocky Skin",
+            "author":"Cracko298",
+            "version":"1",
+            "category":[
+            "skin"
+               ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Adds a 'Blocky' Character to Game. His name is Block, everyone is Block.",
+            "license":"unknown",
+            "releasenotes": "Adds a 'Blocky' Character to Game. His name is Block, everyone is Block.\n\nIt's more of a corruption/demon than anything...\nBut yeah\nblock.",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/block1.png"
+               },
+               {
+                  "description": "Image #2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/block2.png"
+               }
+            ],
+            "icon_index":97,
+            "sheet_index":0,
+            "last_updated":"2024-07-21 at 23:05 (CST)"
+         },
+         "Blocky skin (USA)":{
+            "size":"103 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/Block.zip",
+                  "output": "sdmc:/Minecraft 3DS/Block.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Block.zip",
+                  "input": "loc/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/loc/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Block.zip",
+                  "input": "resourcepacks/skins/skinpacks/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/Block.zip"
+               }
+            ]
+         },
+         "Blocky skin (EUR)":{
+            "size":"103 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/Block.zip",
+                  "output": "sdmc:/Minecraft 3DS/Block.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Block.zip",
+                  "input": "loc/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/loc/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Block.zip",
+                  "input": "resourcepacks/skins/skinpacks/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/Block.zip"
+               }
+            ]
+         },
+         "Blocky skin (JPN)":{
+            "size":"103 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/skins/Block.zip",
+                  "output": "sdmc:/Minecraft 3DS/Block.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Block.zip",
+                  "input": "loc/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/loc/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Block.zip",
+                  "input": "resourcepacks/skins/skinpacks/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/Block.zip"
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"Cracko298's Game Patches",
+            "author":"Cracko298",
+            "version":"1",
+            "category":[
+            "mods"
+               ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Game patches by Cracko298.",
+            "license":"unknown",
+            "releasenotes": "Enhanced Particles:\nFixes some partical lag, and overall enhances how the game feels for certain stuff.\n\nhttps://github.com/Cracko298/MC3DS-ROMHACKS/tree/main",
+            "screenshots": [
+               {
+                  "description": "No image is available. Sorry.",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+               }
+            ],
+            "icon_index":99,
+            "sheet_index":0,
+            "last_updated":"2024-07-20 at 23:34 (CST)"
+         },
+         "Enhanced Particles (USA)":{
+            "size":"164 Bytes",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/enpart.zip",
+                  "output": "sdmc:/Minecraft 3DS/enpart.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/enpart.zip",
+                  "input": "code.ips",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/code.ips"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/enpart.zip",
+                  "input": "code.ips",
+                  "output": "sdmc:/luma/titles/00040000001B8700/exefs/code.ips"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/enpart.zip",
+                  "input": "code.ips",
+                  "output": "sdmc:/luma/titles/00040000001B8700/code.ips"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/enpart.zip"
+               }
+            ]
+         },
+         "Enhanced Particles (EUR)":{
+            "size":"164 Bytes",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/enpart.zip",
+                  "output": "sdmc:/Minecraft 3DS/enpart.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/enpart.zip",
+                  "input": "code.ips",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/code.ips"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/enpart.zip",
+                  "input": "code.ips",
+                  "output": "sdmc:/luma/titles/000400000017CA00/exefs/code.ips"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/enpart.zip",
+                  "input": "code.ips",
+                  "output": "sdmc:/luma/titles/000400000017CA00/code.ips"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/enpart.zip"
+               }
+            ]
+         },
+         "Enhanced Particles (JPN)":{
+            "size":"164 Bytes",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/enpart.zip",
+                  "output": "sdmc:/Minecraft 3DS/enpart.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/enpart.zip",
+                  "input": "code.ips",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/code.ips"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/enpart.zip",
+                  "input": "code.ips",
+                  "output": "sdmc:/luma/titles/000400000017FD00/exefs/code.ips"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/enpart.zip",
+                  "input": "code.ips",
+                  "output": "sdmc:/luma/titles/000400000017FD00/code.ips"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/enpart.zip"
                }
             ]
          }
