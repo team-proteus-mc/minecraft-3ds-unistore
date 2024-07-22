@@ -31,6 +31,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
 * ちげえのたす (kakuremino)
     * Experience Minecraft world
     * Debug Mode 3D world
+    * Super Mario Bros. 1-1 world
 * ArcModzzz
     * World in Jar 3DS
     * Find the Button
@@ -62,6 +63,8 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * Tricky Trials OST 320kHz
     * Skyblock Plus world
     * Mob Tower structure
+    * Enhanced Particles
+    * Block skin
 * CryptedData
     * FNaF 1 map
     * FNaF 2 map
