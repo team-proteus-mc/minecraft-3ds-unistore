@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":183,
+      "revision":184,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -7021,7 +7021,7 @@
             ],
             "description":"Patches out mipmapping from the game, which promises a performance boost.",
             "license":"none",
-            "releasenotes":"erhtsyjtyfilukydutjrshae",
+            "releasenotes":"For use only with the US base game (1.0)",
             "screenshots": [
                {
                   "description": "Image",
@@ -7032,7 +7032,7 @@
             "sheet_index":0,
             "last_updated":"2024-02-16 at 10:14 (CST)"
          },
-         "Mipmapping patch (USA)":{
+         "Mipmapping patch (1.0 USA ONLY)":{
             "size":"17 Bytes",
             "script":[
                {
@@ -7041,68 +7041,8 @@
                   "output": "sdmc:/luma/titles/00040000001B8700/code.ips"
                },
                {
-                  "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/code.ips",
-                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/code.ips"
-               },
-               {
-                  "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/code.ips",
-                  "output": "sdmc:/luma/titles/00040000001B8700/exefs/code.ips"
-               },
-               {
                   "type":"promptMessage",
-                  "message":"DISCLAIMER:\n\nThis mod is a work in progress, and may not\nwork as intended.",
-                  "count":1
-               }
-            ]
-         },
-         "Mipmapping patch (EUR)":{
-            "size":"17 Bytes",
-            "script":[
-               {
-                  "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/code.ips",
-                  "output": "sdmc:/luma/titles/000400000017CA00/code.ips"
-               },
-               {
-                  "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/code.ips",
-                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/code.ips"
-               },
-               {
-                  "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/code.ips",
-                  "output": "sdmc:/luma/titles/000400000017CA00/exefs/code.ips"
-               },
-               {
-                  "type":"promptMessage",
-                  "message":"DISCLAIMER:\n\nThis mod is a work in progress, and may not\nwork as intended.",
-                  "count":1
-               }
-            ]
-         },
-         "Mipmapping patch (JPN)":{
-            "size":"17 Bytes",
-            "script":[
-               {
-                  "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/code.ips",
-                  "output": "sdmc:/luma/titles/000400000017FD00/code.ips"
-               },
-               {
-                  "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/code.ips",
-                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/code.ips"
-               },
-               {
-                  "type": "downloadFile",
-                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/mods/code.ips",
-                  "output": "sdmc:/luma/titles/000400000017FD00/exefs/code.ips"
-               },
-               {
-                  "type":"promptMessage",
-                  "message":"DISCLAIMER:\n\nThis mod is a work in progress, and may not\nwork as intended.",
+                  "message":"DISCLAIMER:\n\nThis mod is a work in progress, and may not\nwork as intended.\n\nThis is also only for use with the\nUS base game (1.0).",
                   "count":1
                }
             ]
