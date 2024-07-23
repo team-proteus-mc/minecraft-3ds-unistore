@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":184,
+      "revision":185,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -618,6 +618,42 @@
             {
                "type":"rmdir",
                "directory":"sdmc:/luma/titles/000400000017FD00/shaders/",
+               "required":false
+            }
+         ],
+         "Remove IPS patches (USA)":[
+            {
+               "type":"promptMessage",
+               "message":"This will remove installed\nIPS patches from the game!",
+               "count":1
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/00040000001B8700/code.ips",
+               "required":false
+            }
+         ],
+         "Remove IPS patches (EUR)":[
+            {
+               "type":"promptMessage",
+               "message":"This will remove installed\nIPS patches from the game!",
+               "count":1
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017CA00/code.ips",
+               "required":false
+            }
+         ],
+         "Remove IPS patches (JPN)":[
+            {
+               "type":"promptMessage",
+               "message":"This will remove installed\nIPS patches from the game!",
+               "count":1
+            },
+            {
+               "type":"rmdir",
+               "directory":"sdmc:/luma/titles/000400000017FD00/code.ips",
                "required":false
             }
          ]
