@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":186,
+      "revision":187,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -4695,7 +4695,7 @@
             ],
             "description":"A simple dropper recreated in Minecraft 3DS.",
             "license":"unknown",
-            "releasenotes": "A simple dropper recreated in Minecraft 3DS.\n\nCreator - Unknown",
+            "releasenotes": "A simple dropper recreated in Minecraft 3DS.\n\nCreator - Vance",
             "screenshots": [
                {
                   "description": "Image #1",
