@@ -76,7 +76,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
 * CZX
     * The Dropper: 3DS Remaster
     * GenSpace Mod
-* DarkForPresident
+* DarkForPresident/Vance
     * Technoblade Skin
     * Technoblade's Crown
     * Skyblock map port
@@ -89,6 +89,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * Randoms map demo
     * Frequently Asked Questions
     * GenSpace Mod
+    * Mega Dropper
 * dexxioballs
     * New Glass textures
 * Duckan
