@@ -1,3 +1,5 @@
+# VANCE, UNBAN SUSBACONHAIRMAN SKRIBBLER FROM THE MAIN SERVER!
+
 # THE MINECRAFT 3DS UNISTORE
 ![Minecraft 3DS UniStore](https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/blob/main/img/logo.png?raw=true)
 
