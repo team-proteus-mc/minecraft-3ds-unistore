@@ -109,6 +109,8 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * Instant Eating mod
 * linuxwizard
     * Mipmapping patch
+* MidnightMystic
+    * Castle of Shadowmere world
 * oliverimcDISC
     * LoCity map
 * PanguinBoi
