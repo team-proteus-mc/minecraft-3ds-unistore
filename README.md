@@ -18,6 +18,10 @@ Thank you [@zoogie](https://github.com/zoogie) for starring this repository, we 
 
 **If you want to know how to use this store, read the manual here: https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/blob/main/manual.md**
 
+**If you wish to add content to the Store, then please fill out an issue: https://github.com/susbaconhairman/minecraft-3ds-unistore/issues/new?assignees=&labels=&projects=&template=content-addition.md&title=**
+
+**If you wish to have something removed from the Store, then please fill out this issue: https://github.com/susbaconhairman/minecraft-3ds-unistore/issues/new?assignees=&labels=&projects=&template=content-removal.md&title=**
+
 ## Credits
 
 ### Support
