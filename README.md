@@ -139,6 +139,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * Simple Suits skins port
     * Colt Python mod
     * Nintendo 3DS and Wii U eShop OST (temporarily removed)
+    * No Particles mod
 * Toaster
     * SD Card Dropper Map
 * TheRustico36
