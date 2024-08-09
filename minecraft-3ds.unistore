@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":189,
+      "revision":190,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -10617,55 +10617,55 @@
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/nopart.zip",
                   "input": "textures/particle/particles.3dst",
-                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/cartoon/client/textures/particle/"
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/cartoon/client/textures/particle/particles.3dst"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/nopart.zip",
                   "input": "textures/particle/particles.3dst",
-                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/city/client/textures/particle/"
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/city/client/textures/particle/particles.3dst"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/nopart.zip",
                   "input": "textures/particle/particles.3dst",
-                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/fantasy/client/textures/particle/"
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/fantasy/client/textures/particle/particles.3dst"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/nopart.zip",
                   "input": "textures/particle/particles.3dst",
-                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/festive/client/textures/particle/"
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/festive/client/textures/particle/particles.3dst"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/nopart.zip",
                   "input": "textures/particle/particles.3dst",
-                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/mario/client/textures/particle/"
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/mario/client/textures/particle/particles.3dst"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/nopart.zip",
                   "input": "textures/particle/particles.3dst",
-                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/natural/client/textures/particle/"
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/natural/client/textures/particle/particles.3dst"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/nopart.zip",
                   "input": "textures/particle/particles.3dst",
-                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/plastic/client/textures/particle/"
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/plastic/client/textures/particle/particles.3dst"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/nopart.zip",
                   "input": "textures/particle/particles.3dst",
-                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/steampunk/client/textures/particle/"
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/steampunk/client/textures/particle/particles.3dst"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/nopart.zip",
                   "input": "textures/particle/particles.3dst",
-                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/particle/"
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/particle/particles.3dst"
                },
                {
                   "type": "deleteFile",
@@ -10691,55 +10691,55 @@
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/nopart.zip",
                   "input": "textures/particle/particles.3dst",
-                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/cartoon/client/textures/particle/"
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/cartoon/client/textures/particle/particles.3dst"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/nopart.zip",
                   "input": "textures/particle/particles.3dst",
-                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/city/client/textures/particle/"
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/city/client/textures/particle/particles.3dst"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/nopart.zip",
                   "input": "textures/particle/particles.3dst",
-                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/fantasy/client/textures/particle/"
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/fantasy/client/textures/particle/particles.3dst"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/nopart.zip",
                   "input": "textures/particle/particles.3dst",
-                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/festive/client/textures/particle/"
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/festive/client/textures/particle/particles.3dst"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/nopart.zip",
                   "input": "textures/particle/particles.3dst",
-                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/mario/client/textures/particle/"
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/mario/client/textures/particle/particles.3dst"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/nopart.zip",
                   "input": "textures/particle/particles.3dst",
-                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/natural/client/textures/particle/"
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/natural/client/textures/particle/particles.3dst"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/nopart.zip",
                   "input": "textures/particle/particles.3dst",
-                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/plastic/client/textures/particle/"
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/plastic/client/textures/particle/particles.3dst"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/nopart.zip",
                   "input": "textures/particle/particles.3dst",
-                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/steampunk/client/textures/particle/"
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/steampunk/client/textures/particle/particles.3dst"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/nopart.zip",
                   "input": "textures/particle/particles.3dst",
-                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/particle/"
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/particle/particles.3dst"
                },
                {
                   "type": "deleteFile",
@@ -10765,55 +10765,55 @@
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/nopart.zip",
                   "input": "textures/particle/particles.3dst",
-                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/cartoon/client/textures/particle/"
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/cartoon/client/textures/particle/particles.3dst"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/nopart.zip",
                   "input": "textures/particle/particles.3dst",
-                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/city/client/textures/particle/"
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/city/client/textures/particle/particles.3dst"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/nopart.zip",
                   "input": "textures/particle/particles.3dst",
-                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/fantasy/client/textures/particle/"
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/fantasy/client/textures/particle/particles.3dst"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/nopart.zip",
                   "input": "textures/particle/particles.3dst",
-                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/festive/client/textures/particle/"
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/festive/client/textures/particle/particles.3dst"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/nopart.zip",
                   "input": "textures/particle/particles.3dst",
-                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/mario/client/textures/particle/"
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/mario/client/textures/particle/particles.3dst"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/nopart.zip",
                   "input": "textures/particle/particles.3dst",
-                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/natural/client/textures/particle/"
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/natural/client/textures/particle/particles.3dst"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/nopart.zip",
                   "input": "textures/particle/particles.3dst",
-                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/plastic/client/textures/particle/"
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/plastic/client/textures/particle/particles.3dst"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/nopart.zip",
                   "input": "textures/particle/particles.3dst",
-                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/steampunk/client/textures/particle/"
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/steampunk/client/textures/particle/particles.3dst"
                },
                {
                   "type": "extractFile",
                   "file": "sdmc:/Minecraft 3DS/nopart.zip",
                   "input": "textures/particle/particles.3dst",
-                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/particle/"
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/particle/particles.3dst"
                },
                {
                   "type": "deleteFile",
