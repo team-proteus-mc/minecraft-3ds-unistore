@@ -54,7 +54,7 @@ You will need to follow the terms listed below:
 - Any stolen or plagiarized content will not be allowed.
    - Adding on to this, **any** AI generated content is not encouraged. An AI generated description, title, or icon may be okay, but any code or actual modification to the game that has been made by AI will not be allowed.
    - Anything that enables piracy is not allowed.
-- Any content that is or contains homophobia, racism, nazism, extreme violence, pornography, or pedophilia will not be allowed.
+- Any content that is or contains homophobia, racism, extreme violence, pornography, or pedophilia will not be allowed.
 - Do not lie about what your content is.
 - Do not submit information that may reveal any person or parties personal information without their consent.
 - Do not send anything that directly leads to something sketchy, ridden with ads or has malware. If it is absolutely necessary (such as citing it in credits) then it will be allowed, but a warning will be put next to it.
