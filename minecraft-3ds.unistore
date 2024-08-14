@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":190,
+      "revision":191,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -10818,6 +10818,534 @@
                {
                   "type": "deleteFile",
                   "file": "sdmc:/Minecraft 3DS/nopart.zip"
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"1.20 Mob Textures",
+            "author":"Zexlo",
+            "version":"1",
+            "category":[
+            "textures"
+               ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Ports (most) mobs textures from 1.20 to MC3DS",
+            "license":"unknown",
+            "releasenotes": "1.20 Mob texture port\n\nPorts (most) mobs textures from 1.20 to MC3DS including:\n\n-villagers\n\n-pig\n\n-cows\n\n-chickens\n\n-illagers\n\n-spiders\n\n-guardians\n\n- blazes\n\n-zombie pigmen\n\n-zombie villagers\n\nas well as a few others.",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mobtx1.png"
+               },
+               {
+                  "description": "Image #2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/mobtx2.png"
+               }
+            ],
+            "icon_index":105,
+            "sheet_index":0,
+            "last_updated":"2024-08-13 at 18:34 (CST)"
+         },
+         "1.20 Mob Textures (USA)":{
+            "size":"609 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/120mobtx.zip",
+                  "output": "sdmc:/Minecraft 3DS/120mobtx.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/120mobtx.zip",
+                  "input": "1.20 mob textures/romfs/resourcepacks/vanilla/client/textures/entity/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/entity/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/120mobtx.zip"
+               }
+            ]
+         },
+         "1.20 Mob Textures (EUR)":{
+            "size":"609 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/120mobtx.zip",
+                  "output": "sdmc:/Minecraft 3DS/120mobtx.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/120mobtx.zip",
+                  "input": "1.20 mob textures/romfs/resourcepacks/vanilla/client/textures/entity/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/entity/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/120mobtx.zip"
+               }
+            ]
+         },
+         "1.20 Mob Textures (JPN)":{
+            "size":"609 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/120mobtx.zip",
+                  "output": "sdmc:/Minecraft 3DS/120mobtx.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/120mobtx.zip",
+                  "input": "1.20 mob textures/romfs/resourcepacks/vanilla/client/textures/entity/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/entity/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/120mobtx.zip"
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"1.20 Lava",
+            "author":"Zexlo",
+            "version":"1",
+            "category":[
+            "textures"
+               ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Changes the in-game lava texture to 1.20's.",
+            "license":"unknown",
+            "releasenotes": "Changes the in-game lava texture to 1.20's.",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/120lava.png"
+               }
+            ],
+            "icon_index":102,
+            "sheet_index":0,
+            "last_updated":"2024-08-13 at 18:34 (CST)"
+         },
+         "1.20 Lava (USA)":{
+            "size":"98 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/120lava.zip",
+                  "output": "sdmc:/Minecraft 3DS/120lava.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/120lava.zip",
+                  "input": "1.20 lava/romfs/resourcepacks/vanilla/client/textures/blocks/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/blocks/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/120lava.zip"
+               }
+            ]
+         },
+         "1.20 Lava (EUR)":{
+            "size":"98 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/120lava.zip",
+                  "output": "sdmc:/Minecraft 3DS/120lava.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/120lava.zip",
+                  "input": "1.20 lava/romfs/resourcepacks/vanilla/client/textures/blocks/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/blocks/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/120lava.zip"
+               }
+            ]
+         },
+         "1.20 Lava (JPN)":{
+            "size":"98 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/120lava.zip",
+                  "output": "sdmc:/Minecraft 3DS/120lava.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/120lava.zip",
+                  "input": "1.20 lava/romfs/resourcepacks/vanilla/client/textures/blocks/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/blocks/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/120lava.zip"
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"Barebones Texture Pack",
+            "author":"Zexlo",
+            "version":"1",
+            "category":[
+            "textures"
+               ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Ports every texture from the Bare Bones 1.20 texture pack, replaces the Plastic textures.",
+            "license":"unknown",
+            "releasenotes": "Bare Bones for MC3DS\n\nPorts every texture from the Bare Bones 1.20 texture pack\n\n- almost every block and item has been ported\n\n- modern villager textures from BareBones 1.20\n\n- includes Bare Bones styled alex and steve over the original skins.",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/barebones1.png"
+               },
+               {
+                  "description": "Image #2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/barebones2.png"
+               },
+               {
+                  "description": "Image #3",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/barebones3.png"
+               }
+            ],
+            "icon_index":103,
+            "sheet_index":0,
+            "last_updated":"2024-08-13 at 18:34 (CST)"
+         },
+         "Barebones (USA)":{
+            "size":"3.13 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/barebones.zip",
+                  "output": "sdmc:/Minecraft 3DS/barebones.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/barebones.zip",
+                  "input": "barebones pack/romfs/resourcepacks/plastic/textures/blocks/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/plastic/textures/blocks/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/barebones.zip",
+                  "input": "barebones pack/romfs/resourcepacks/plastic/textures/entity/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/plastic/textures/entity/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/barebones.zip",
+                  "input": "barebones pack/romfs/resourcepacks/plastic/textures/gui/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/plastic/textures/gui/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/barebones.zip",
+                  "input": "barebones pack/romfs/resourcepacks/plastic/textures/items/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/plastic/textures/items/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/barebones.zip",
+                  "input": "barebones pack/romfs/resourcepacks/plastic/textures/painting/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/plastic/textures/painting/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/barebones.zip",
+                  "input": "barebones pack/romfs/atlas/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/barebones.zip",
+                  "input": "barebones pack/romfs/resourcepacks/skins/skinpacks/Base/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/skins/skinpacks/Base/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/barebones.zip"
+               }
+            ]
+         },
+         "Barebones (EUR)":{
+            "size":"3.13 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/barebones.zip",
+                  "output": "sdmc:/Minecraft 3DS/barebones.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/barebones.zip",
+                  "input": "barebones pack/romfs/resourcepacks/plastic/textures/blocks/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/plastic/textures/blocks/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/barebones.zip",
+                  "input": "barebones pack/romfs/resourcepacks/plastic/textures/entity/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/plastic/textures/entity/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/barebones.zip",
+                  "input": "barebones pack/romfs/resourcepacks/plastic/textures/gui/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/plastic/textures/gui/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/barebones.zip",
+                  "input": "barebones pack/romfs/resourcepacks/plastic/textures/items/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/plastic/textures/items/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/barebones.zip",
+                  "input": "barebones pack/romfs/resourcepacks/plastic/textures/painting/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/plastic/textures/painting/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/barebones.zip",
+                  "input": "barebones pack/romfs/atlas/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/barebones.zip",
+                  "input": "barebones pack/romfs/resourcepacks/skins/skinpacks/Base/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/skins/skinpacks/Base/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/barebones.zip"
+               }
+            ]
+         },
+         "Barebones (JPN)":{
+            "size":"3.13 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/barebones.zip",
+                  "output": "sdmc:/Minecraft 3DS/barebones.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/barebones.zip",
+                  "input": "barebones pack/romfs/resourcepacks/plastic/textures/blocks/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/plastic/textures/blocks/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/barebones.zip",
+                  "input": "barebones pack/romfs/resourcepacks/plastic/textures/entity/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/plastic/textures/entity/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/barebones.zip",
+                  "input": "barebones pack/romfs/resourcepacks/plastic/textures/gui/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/plastic/textures/gui/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/barebones.zip",
+                  "input": "barebones pack/romfs/resourcepacks/plastic/textures/items/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/plastic/textures/items/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/barebones.zip",
+                  "input": "barebones pack/romfs/resourcepacks/plastic/textures/painting/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/plastic/textures/painting/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/barebones.zip",
+                  "input": "barebones pack/romfs/atlas/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/atlas/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/barebones.zip",
+                  "input": "barebones pack/romfs/resourcepacks/skins/skinpacks/Base/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/skins/skinpacks/Base/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/barebones.zip"
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"1.20 Seamless Varied Textures",
+            "author":"Zexlo",
+            "version":"1",
+            "category":[
+            "textures"
+               ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Ports and-or reacreates various tweaks from vanilla tweaks to MC3DS.",
+            "license":"unknown",
+            "releasenotes": "Seemless-Varied texture tweaks 1.20\n\nPorts and/or reacreates various tweaks from vanilla tweaks to MC3D\n\nThis pack includes:\n\n- Seemless polished stone blocks\n\n- seemless and more varied bookshelf\n\n- more varied brick block\n\n- brighter and more saturated netherrack and bricks for easier visibility\n\n- borderless glass and glass panes\n\nOPTIONAL VERSION which includes the above as well as the doors with glass windows from vanilla tweaks.",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/slglass1.png"
+               },
+               {
+                  "description": "Image #2",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/slglass2.png"
+               },
+               {
+                  "description": "Image #3",
+                  "url": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/screenshots/slglass3.png"
+               }
+            ],
+            "icon_index":104,
+            "sheet_index":0,
+            "last_updated":"2024-08-13 at 18:34 (CST)"
+         },
+         "1.20 Seamless Varied Textures (USA)":{
+            "size":"1.31 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/120slvt.zip",
+                  "output": "sdmc:/Minecraft 3DS/120slvt.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/120slvt.zip",
+                  "input": "1.20 seamless_varied textures/romfs/atlas/atlas.terrain.meta_79954554_0.3dst",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/atlas.terrain.meta_79954554_0.3dst"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/120slvt.zip"
+               }
+            ]
+         },
+         "1.20 Seamless Varied Textures (EUR)":{
+            "size":"1.31 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/120slvt.zip",
+                  "output": "sdmc:/Minecraft 3DS/120slvt.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/120slvt.zip",
+                  "input": "1.20 seamless_varied textures/romfs/atlas/atlas.terrain.meta_79954554_0.3dst",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/atlas/atlas.terrain.meta_79954554_0.3dst"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/120slvt.zip"
+               }
+            ]
+         },
+         "1.20 Seamless Varied Textures (JPN)":{
+            "size":"1.31 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/120slvt.zip",
+                  "output": "sdmc:/Minecraft 3DS/120slvt.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/120slvt.zip",
+                  "input": "1.20 seamless_varied textures/romfs/atlas/atlas.terrain.meta_79954554_0.3dst",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/atlas/atlas.terrain.meta_79954554_0.3dst"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/120slvt.zip"
+               }
+            ]
+         },
+         "1.20 Seamless Varied Textures + Glass Doors (USA)":{
+            "size":"1.81 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/120slvtgd.zip",
+                  "output": "sdmc:/Minecraft 3DS/120slvtgd.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/120slvtgd.zip",
+                  "input": "1.20 seamless_varied textures + glass doors/romfs/atlas/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/120slvtgd.zip"
+               }
+            ]
+         },
+         "1.20 Seamless Varied Textures + Glass Doors (EUR)":{
+            "size":"1.81 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/120slvtgd.zip",
+                  "output": "sdmc:/Minecraft 3DS/120slvtgd.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/120slvtgd.zip",
+                  "input": "1.20 seamless_varied textures + glass doors/romfs/atlas/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/120slvtgd.zip"
+               }
+            ]
+         },
+         "1.20 Seamless Varied Textures + Glass Doors (JPN)":{
+            "size":"1.81 MB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/res/textures/120slvtgd.zip",
+                  "output": "sdmc:/Minecraft 3DS/120slvtgd.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/120slvtgd.zip",
+                  "input": "1.20 seamless_varied textures + glass doors/romfs/atlas/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/atlas/"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/120slvtgd.zip"
                }
             ]
          }
