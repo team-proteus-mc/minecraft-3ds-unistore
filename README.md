@@ -78,6 +78,8 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
 * CZX
     * The Dropper: 3DS Remaster
     * GenSpace Mod
+* Dale
+    * Modernization MegaPak (a majority of content in the pack was created by various other people)
 * DarkForPresident/Vance
     * Technoblade Skin
     * Technoblade's Crown
