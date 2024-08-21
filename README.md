@@ -1,5 +1,3 @@
-## I have transferred this repo out of the Minecraft 3DS Community organization so it is not affiliated with Vance anymore. Don't worry, everything should still work. If it doesn't, please contact me at susbaconhairman@gmail.com or on Discord, my username is skribbler#1095
-
 # THE MINECRAFT 3DS UNISTORE
 ![Minecraft 3DS UniStore](https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/blob/main/img/logo.png?raw=true)
 
