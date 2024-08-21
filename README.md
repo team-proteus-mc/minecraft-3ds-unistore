@@ -6,7 +6,7 @@ The REAL Minecraft 3DS Community UniStore, and the #1 place to get custom conten
 Thank you [@zoogie](https://github.com/zoogie) for starring this repository, we love you!
 
 ## QR Code for installing on the Universal Updater
-![Minecraft 3DS UniStore QR Code](https://github.com/mc-3ds-team/minecraft-3ds-unistore/blob/main/img/unistore-qr-logo-375.png?raw=true)
+![Minecraft 3DS UniStore QR Code](https://github.com/mc-3ds-team/minecraft-3ds-unistore/blob/main/img/new-qr.png?raw=true)
 
 ## Information
 
