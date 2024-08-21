@@ -99,6 +99,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * ~~Minecraft 3DS Modernization map~~
     * ~~The Dropper: 3DS Remaster~~
     * ~~GenSpace's Skyblock~~
+    * ~~SkyDen~~
 * Glonk
     * Broken Stronghold Chest Fix
 * JakerBricksYT
