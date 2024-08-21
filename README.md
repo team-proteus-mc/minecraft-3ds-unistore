@@ -1,24 +1,22 @@
 # THE MINECRAFT 3DS UNISTORE
-![Minecraft 3DS UniStore](https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/blob/main/img/logo.png?raw=true)
+![Minecraft 3DS UniStore](https://github.com/mc-3ds-team/minecraft-3ds-unistore/blob/main/img/logo.png?raw=true)
 
-The OFFICIAL Minecraft 3DS Community UniStore, and the #1 place to get custom content for the game.
-
-Featured on the Universal Updater's list of recommended Unistores.
+The REAL Minecraft 3DS Community UniStore, and the #1 place to get custom content for the game.
 
 Thank you [@zoogie](https://github.com/zoogie) for starring this repository, we love you!
 
 ## QR Code for installing on the Universal Updater
-![Minecraft 3DS UniStore QR Code](https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/blob/main/img/unistore-qr-logo-375.png?raw=true)
+![Minecraft 3DS UniStore QR Code](https://github.com/mc-3ds-team/minecraft-3ds-unistore/blob/main/img/unistore-qr-logo-375.png?raw=true)
 
 ## Information
 
 **If you have any other, older Minecraft 3DS UniStores on your console, made by susbaconhairman, then delete them because they no longer work/are outdated.**
 
-**If you want to know how to use this store, read the manual here: https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/blob/main/manual.md**
+**If you want to know how to use this store, read the manual here: https://github.com/mc-3ds-team/minecraft-3ds-unistore/blob/main/manual.md**
 
-**If you wish to add content to the Store, then please fill out an issue: https://github.com/susbaconhairman/minecraft-3ds-unistore/issues/new?assignees=&labels=&projects=&template=content-addition.md&title=**
+**If you wish to add content to the Store, then please fill out an issue: https://github.com/mc-3ds-team/minecraft-3ds-unistore/issues/new?assignees=&labels=&projects=&template=content-addition.md&title=**
 
-**If you wish to have something removed from the Store, then please fill out this issue: https://github.com/susbaconhairman/minecraft-3ds-unistore/issues/new?assignees=&labels=&projects=&template=content-removal.md&title=**
+**If you wish to have something removed from the Store, then please fill out this issue: https://github.com/mc-3ds-team/minecraft-3ds-unistore/issues/new?assignees=&labels=&projects=&template=content-removal.md&title=**
 
 ## Credits
 
@@ -76,31 +74,30 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
 * CZX
     * The Dropper: 3DS Remaster
     * GenSpace Mod
-* Dale
-    * Modernization MegaPak (a majority of content in the pack was created by various other people)
-* DarkForPresident/Vance
-    * Technoblade Skin
-    * Technoblade's Crown
-    * Skyblock map port
-    * Breaking Bad skins
-    * Sheeptastic mod port
-    * Giant Baby Zombie mod
-    * Broken Stronghold Chest Fix
-    * 3DSpleef
-    * Building Time map
-    * Randoms map demo
+* ~~Dale~~
+    * ~~Modernization MegaPak (a majority of content in the pack was created by various other people)~~
+* ~~DarkForPresident/Vance~~
+    * ~~Technoblade Skin~~
+    * ~~Technoblade's Crown~~
+    * ~~Skyblock map port~~
+    * ~~Breaking Bad skins~~
+    * ~~Sheeptastic mod port~~
+    * ~~Giant Baby Zombie mod~~
+    * ~~3DSpleef~~
+    * ~~Building Time map~~
+    * ~~Randoms map demo~~
     * Frequently Asked Questions
-    * GenSpace Mod
-    * Mega Dropper
+    * ~~GenSpace Mod~~
+    * ~~Mega Dropper~~
 * dexxioballs
     * New Glass textures
 * Duckan
     * Maryland Mixup skins
 * ENDERMANYK
     * Shaders
-* GenSpace
-    * Minecraft 3DS Modernization map
-    * The Dropper: 3DS Remaster
+* ~~GenSpace~~
+    * ~~Minecraft 3DS Modernization map~~
+    * ~~The Dropper: 3DS Remaster~~
 * Glonk
     * Broken Stronghold Chest Fix
 * JakerBricksYT
