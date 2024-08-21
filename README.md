@@ -1,6 +1,9 @@
 # THE MINECRAFT 3DS UNISTORE
 ![Minecraft 3DS UniStore](https://github.com/mc-3ds-team/minecraft-3ds-unistore/blob/main/img/logo.png?raw=true)
 
+Other Ocean and Mojang are the developers of the game, so therefore THEY get to decide what is official or not since they made it of course. VANCE do not get to decide that is official just because he made a Discord server and other stuff. Is that clear?
+He and I are both members of A community, NOT specifically his.
+
 The first Minecraft 3DS Unistore, and the #1 place to get custom content for the game.
 
 Thank you [@zoogie](https://github.com/zoogie) for starring this repository, we love you!
