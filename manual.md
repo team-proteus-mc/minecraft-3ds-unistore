@@ -11,11 +11,9 @@ In order for many game patches to work, Luma Game Patching needs to be enabled. 
 
 Finally, make sure any other Homebrew is up to date, mainly Luma3DS: https://github.com/LumaTeam/Luma3DS/releases
 
-Once you have read the prerequisites above and made sure everything is correct, open the Universal Updater, and once it has loaded, go to "Settings" (:settings:) > "Select UniStore...". Press the "Add" (:add:) button, then select the "Minecraft 3DS Customization Unistore" in the list of recommended Unistores. After the system downloads it, you should be able to go to the next step, which is using the store.
+Once you have read the prerequisites above and made sure everything is correct, open the Universal Updater, go to "Settings" (:settings:) > "Select UniStore...". Press the "Add" (:add:) button, then the "QR Code" (:qr_code:) button. Then, scan the QR Code found here: https://raw.githubusercontent.com/mc-3ds-team/minecraft-3ds-unistore/main/img/new-qr.png. It will download and install the Unistore.
 
-Otherwise, go to "Settings" (:settings:) > "Select UniStore...". Press the "Add" (:add:) button, then the "QR Code" (:qr_code:) button. Then, scan the QR Code found here: https://raw.githubusercontent.com/Minecraft-3DS-Community/minecraft-3ds-unistore/main/img/unistore-qr-logo-375.png. It will download and install the Unistore.
-
-Alternatively, if you are unable to scan the code, open Universal Updater, go into "Settings" (:settings:) > "Select UniStore..." > "Add" (:add:) > "Keyboard" (:keyboard~1:), and type this URL into the prompt: ```https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/raw/main/minecraft-3ds.unistore```
+Alternatively, if you are unable to scan the code, open Universal Updater, go into "Settings" (:settings:) > "Select UniStore..." > "Add" (:add:) > "Keyboard" (:keyboard~1:), and type this URL into the prompt: ```https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/minecraft-3ds.unistore```
 
 If the typing in the URL does not work, then you can download the Unistore files on another device and put them on your console's SD Card. On another device, go to https://github.com/Minecraft-3DS-Community/minecraft-3ds-unistore/tree/main, and download the "atlas.t3x" and "minecraft-3ds.unistore" files by clicking each of them in the code section, and pressing the "Download Raw File" (:dl:) button. One both have been downloaded, copy them to your 3DS' SD Card at this directory: ```sdmc:/3ds/Universal-Updater/stores/```
 
