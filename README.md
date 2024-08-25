@@ -89,7 +89,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * ~~3DSpleef~~
     * ~~Building Time map~~
     * ~~Randoms map demo~~
-    * Frequently Asked Questions
+    * ~~Frequently Asked Questions~~
     * ~~GenSpace Mod~~
     * ~~Mega Dropper~~
 * dexxioballs
