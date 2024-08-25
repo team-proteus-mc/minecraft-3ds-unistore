@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":193,
+      "revision":194,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -9098,95 +9098,6 @@
                {
                   "type": "deleteFile",
                   "file": "sdmc:/Minecraft 3DS/MobTower.zip"
-               }
-            ]
-         }
-      },
-      {
-         "info":{
-            "title":"New Glass",
-            "author":"dexxioballs",
-            "version":"1",
-            "category":[
-            "texture"
-               ],
-            "console":[
-               "3DS"
-            ],
-            "description":"Exchanges the 3DS glass texture for the newer one.",
-            "license":"unknown",
-            "releasenotes": "Version 1.1, fixes other blocks and shouldn't interfere with other textures. PLEASE NOTE THAT YOU CAN ONLY USE ONE SAME ATLAS PATCH AT A TIME WITHOUT MERGING!",
-            "screenshots": [
-               {
-                  "description": "Image #1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/newglass1.png"
-               },
-               {
-                  "description": "Image #2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/newglass2.png"
-               }
-            ],
-            "icon_index":96,
-            "sheet_index":0,
-            "last_updated":"2024-07-05 at 02:51 (GMT)"
-         },
-         "New Glass (USA)":{
-            "size":"6.13 MB",
-            "script":[
-               {
-                  "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/newglass.zip",
-                  "output": "sdmc:/Minecraft 3DS/newglass.zip"
-               },
-               {
-                  "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/newglass.zip",
-                  "input": "atlas/",
-                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
-               },
-               {
-                  "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/newglass.zip"
-               }
-            ]
-         },
-         "New Glass (EUR)":{
-            "size":"6.13 MB",
-            "script":[
-               {
-                  "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/newglass.zip",
-                  "output": "sdmc:/Minecraft 3DS/newglass.zip"
-               },
-               {
-                  "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/newglass.zip",
-                  "input": "atlas/",
-                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
-               },
-               {
-                  "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/newglass.zip"
-               }
-            ]
-         },
-         "New Glass (JPN)":{
-            "size":"6.13 MB",
-            "script":[
-               {
-                  "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/newglass.zip",
-                  "output": "sdmc:/Minecraft 3DS/newglass.zip"
-               },
-               {
-                  "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/newglass.zip",
-                  "input": "atlas/",
-                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/atlas/"
-               },
-               {
-                  "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/newglass.zip"
                }
             ]
          }
