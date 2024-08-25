@@ -93,7 +93,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * ~~GenSpace Mod~~
     * ~~Mega Dropper~~
 * dexxioballs
-    * New Glass textures
+    * ~~New Glass textures~~
 * Duckan
     * Maryland Mixup skins
 * ENDERMANYK
