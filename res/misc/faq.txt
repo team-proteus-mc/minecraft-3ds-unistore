@@ -1,11 +1,11 @@
 MINECRAFT 3DS FREQUENTLY ASKED QUESTIONS
-Revision 3
-ALL PROMPTS WERE TAKEN FROM THE MINECRAFT 3DS WEBSITE
+Revision 4
+SOME PROMPTS ARE BASED FROM THE MINECRAFT 3DS WEBSITE
 https://www.minecraft3ds.net/misc/faq/questions
 -------------------
 Where can I find a download link for Minecraft: New Nintendo 3DS Edition?
 
-The Minecraft 3DS Community does not condone any piracy unless it is literally impossible to officially purchase. If you want to play this version on a New 3DS/2DS, you need to purchase the cartridge. Otherwise, if you want to play this version on Citra or any other emulator, dump the game files yourself.
+You can either buy a phisical copy, or pirate it on the hShop.
 -------------------
 I have a non-USA system. What title ID do I use?
 
@@ -15,17 +15,13 @@ How can I play online multiplayer?
 
 Unfortunately, this version of Minecraft only has two-player local multiplayer player, which means online multiplayer is not possible. If you want to play with your friends on your New 3DS/2DS, you'll have to be in close proximity to them. If you're playing on Citra, however, you can use netplay to play online with your friends. However, this method of multiplayer is very unstable. It's also worth noting that a mod that adds online multiplayer would not work well (or at all, for that matter) due to the limitations of the New 3DS/2DS family of systems.
 -------------------
-How does the 3DSMP work?
-
-The Minecraft 3DSMP is not online multiplayer. The way it works is that someone plays, puts their inventory in a chest, and then uploads the world to the private Discord channel exclusively for members. Applications are currently closed, but you can join the Discord for updates.
--------------------
 How can I submit my own piece of Custom Content?
 
-Each Custom Content category's page has a button for submissions, aside from the Mods section. Pressing the submit button will send you to a page where you can fill out a Google Form with information about your custom content. This button and Google Form is currently absent from the Mod section's page due to the wide variety of mods that are possible and for quality control. Join the Discord server to ask a Staff member to add your Mod to the website.
+You can fill out a form here: https://github.com/mc-3ds-team/minecraft-3ds-unistore/issues/new?assignees=&labels=&projects=&template=content-addition.md&title=
 -------------------
 How advanced are the known modding capabilities?
 
-The current modification capabilities for Minecraft: New Nintendo 3DS Edition are not very advanced. Currently the most advanced mods possible are shader and mob behavior/loot table edits.
+The current modification capabilities for Minecraft: New Nintendo 3DS Edition are not that advanced. Currently the most advanced mods possible are JSON edits, shaders, textures, audio, and a few primitive code.bin patches.
 -------------------
 Is this game region locked?
 
@@ -37,11 +33,11 @@ The New Nintendo 3DS Edition of Minecraft was developed by Other Ocean Interacti
 -------------------
 What is Minecraft 3DS' closest version equivalent?
 
-Minecraft: New Nintendo 3DS Edition is closest to Minecraft: Pocket (now Bedrock) Edition version 1.1.7. It is essentially a port of that version.
+Minecraft: New Nintendo 3DS Edition is closest to Minecraft: Pocket (now Bedrock) Edition version 1.1.5. It is essentially a port of that version.
 -------------------
 What language is Minecraft 3DS coded in?
 
-This game was coded in C++ and ARM Assembly.
+This game was coded in C++ and ARM v6 Assembly.
 -------------------
 How does the local multiplayer work?
 
@@ -53,15 +49,11 @@ The block height limit it 128 blocks.
 -------------------
 What are the world sizes?
 
-'Small' worlds are 672x672 blocks, 'Medium' worlds are 1344x1344 blocks, and 'Large' worlds are 2016x2016 blocks. These sizes are even bigger than the Legacy Console world sizes. The size of your world cannot be changed in-game after creation.
+'Small' worlds are 672x672 blocks, 'Medium' worlds are 1344x1344 blocks, and 'Large' worlds are 2016x2016 blocks. The size of your world cannot be changed in-game after creation.
 -------------------
 What are the mob caps?
 
-The game can load 24 enemies, 24 animals, 16 squid, and 16 villagers at a time. These are much stricter than even the Legacy Console mob caps.
--------------------
-What is the FPS?
-
-This version of Minecraft aims for 60 FPS in normal worlds and 30 FPS in Mash-up worlds.
+The game can load 24 enemies, 24 animals, 16 squid, and 16 villagers at a time. These are much stricter than even the Legacy Console mob caps, as to conserve resources. However, there is a mod that gets rid of this cap in the Unistore, but it can be pretty unstable.
 -------------------
 How do the map and coordinates work?
 
@@ -81,7 +73,7 @@ To use the Woodland or Ocean Explorer map, you need to put it somewhere in your 
 -------------------
 What DLC packs were available?
 
-The New Nintendo 3DS Edition of Minecraft came bundled with 7 Skin packs (Standard, Biome Settlers Pack 1 + 2, Redstone Specialists, Journey to the West, Holiday 2015, and Super Mario Mash-Up), four Texture packs (Minecraft [Default], City, Plastic, and Super Mario Mash-Up), and one Mash-Up world (Super Mario Mash-up). Additionally, the store had 14 Skin packs (Campfire Tales, City Folk, Town Folk, Battle and Beasts, Star Wars Classic, Star Wars Rebels, Star Wars Prequel, Stranger Things, Villains, Strangers - Biome Settlers Pack 3, Moana, Mighty Morphin' Power Rangers, Magic: The Gathering, and Halloween Costume), 5 Texture packs (Cartoon, Fantasy, Candy, Natural, and Steampunk), and one Mash-up pack (Festive Mash-up). It is no longer possible to purchase any of these packs since the eShop was closed on 3/27/2023.
+The New Nintendo 3DS Edition of Minecraft came bundled with 7 Skin packs (Standard, Biome Settlers Pack 1 + 2, Redstone Specialists, Journey to the West, Holiday 2015, and Super Mario Mash-Up), four Texture packs (Minecraft [Default], City, Plastic, and Super Mario Mash-Up), and one Mash-Up world (Super Mario Mash-up). Additionally, the store had 14 Skin packs (Campfire Tales, City Folk, Town Folk, Battle and Beasts, Star Wars Classic, Star Wars Rebels, Star Wars Prequel, Stranger Things, Villains, Strangers - Biome Settlers Pack 3, Moana, Mighty Morphin' Power Rangers, Magic: The Gathering, and Halloween Costume), 5 Texture packs (Cartoon, Fantasy, Candy, Natural, and Steampunk), and one Mash-up pack (Festive Mash-up). It is no longer possible to purchase any of these packs since the eShop was closed on 3/27/2023. However, you can download the DLC on the hShop, then run the Minecraft 3DS DLC Unlocker.
 -------------------
 Why was I never able to buy the Power Rangers skin pack?
 
@@ -105,7 +97,7 @@ If your physical copy of Minecraft 3DS has an Amiibo icon, it is a misprint. The
 -------------------
 What's the newest update?
 
-Minecraft: New Nintendo 3DS Edition received its final update on January 15th, 2019 (in North America), with the 1.9.19 update. This update added features from the Discovery update. It was released in other countries the following day.
+Minecraft: New Nintendo 3DS Edition received its final update on January 15th, 2019 (in North America), with the 1.9.19 update. This update added features from the Discovery update. It was released for other regions the following day.
 -------------------
 What features did each update add?
 
@@ -164,28 +156,4 @@ The rest of the update changelogs will be added soon.
 -------------------
 Do I need to jailbreak my system to download Custom Content?
 
-Yes, your Nintendo 3DS/2DS needs to be homebrewed with Luma to download use any Custom Content. Use 3ds.hacks.guide to homebrew your system if you haven't already. It's a easy and simple process and unless you go out of your way to, you won't brick your system.
--------------------
-What seed do speedrunners use?
-
-Those who speedrun Minecraft 3DS in the 'Set Seed Glitched' category use the seed 1472235109. Set Seed Glitched means the speedrunner is allowed to use any seed they want and use any glitches/exploits they want. Those who speedrun Minecraft 3DS in the 'Set Seed Glitchless' category use the seed 149577394. Set Seed Glitchless means the speedrunner is allowed to use any seed they want but is not allowed to use any glitches/exploits.
--------------------
-What is the speedrun world record?
-
-The world record for the following categories are:
-- Set Seed Glitched - 4m 40s, achieved by CZX on 12/16/2022.
-- Set Seed Glitchless - 24m 54s, achieved by CZX on 5/27/2022
-- Random Seed Glitched - 18m 48s, achieved by CZX on 3/08/2022
-Random Seed Glitchess has no world record as nobody has completed a run. Maybe you could be the first!
--------------------
-What does 'RSG' mean?
-
-Minecraft speedrunners use the term 'RSG' to refer to Random Seed Glitchless. 'RS' is Random Seed Glitched, 'SSG' is Set Seed Glitchless, 'SS' is Set Seed Glitched, 'IL' is Individual Levels (Short categories, an example is 'Obtain Melon'), and 'CE' is Category Extensions (Medium categories, an example is 'Reach Closest Border').
--------------------
-Where can I download mods?
-
-To download mods like Sheeptastic, Better Creepers, and Giant Baby Zombie, navigate to our Mods section.
--------------------
-Where can I make mods?
-
-You can use our Mod Maker tool to create simple Mods that change the behavior of the mobs in the game. Navigate to our Mods section and press the 'Mod Maker' button to access it.
+Yes, your Nintendo 3DS/2DS needs to be homebrewed with Luma to download use any Custom Content. Use https://3ds.hacks.guide to homebrew your system if you haven't already. It's a easy and simple process and unless you go out of your way to, you won't brick your system.
