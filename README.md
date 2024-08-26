@@ -48,28 +48,28 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * Blue 3dx's Modpack
 * CleetusMcfarln
     * DanTDM's Lab
-* Cracko298
-    * MC3DS-MAC
-    * MC3DS-Options
-    * Nuclear Creeper
-    * Bat Bombs
-    * Mojangles Font
-    * Festive World Override
-    * Amplified World Generation
-    * Zombie Apocalypse
-    * DevWorld v2
-    * Rare Bones
-    * April Fools mod
-    * Festive as Default Textures
-    * TNT Mimic
-    * Farlandia world
-    * Xray Shader, Remove Clouds, Remove Skybox, and Creative Mode Block Break
-    * Remove Mob Cap mod
-    * Tricky Trials OST 320kHz
-    * Skyblock Plus world
-    * Mob Tower structure
-    * Enhanced Particles
-    * Block skin
+* ~~Cracko298~~
+    * ~~MC3DS-MAC~~
+    * ~~MC3DS-Options~~
+    * ~~Nuclear Creeper~~
+    * ~~Bat Bombs~~
+    * ~~Mojangles Font~~
+    * ~~Festive World Override~~
+    * ~~Amplified World Generation~~
+    * ~~Zombie Apocalypse~~
+    * ~~DevWorld v2~~
+    * ~~Rare Bones~~
+    * ~~April Fools mod~~
+    * ~~Festive as Default Textures~~
+    * ~~TNT Mimic~~
+    * ~~Farlandia world~~
+    * ~~Xray Shader, Remove Clouds, Remove Skybox, and Creative Mode Block Break~~
+    * ~~Remove Mob Cap mod~~
+    * ~~Tricky Trials OST 320kHz~~
+    * ~~Skyblock Plus world~~
+    * ~~Mob Tower structure~~
+    * ~~Enhanced Particles~~
+    * ~~Block skin~~
 * CryptedData
     * FNaF 1 map
     * FNaF 2 map
@@ -92,7 +92,7 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * ~~Frequently Asked Questions~~
     * ~~GenSpace Mod~~
     * ~~Mega Dropper~~
-* dexxioballs
+* ~~dexxioballs~~
     * ~~New Glass textures~~
 * Duckan
     * Maryland Mixup skins
