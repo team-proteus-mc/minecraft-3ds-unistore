@@ -163,13 +163,13 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
 * Virtual Overtime
     * LavaCity PVP map
     * FNAF Hide and Seek map
-* WaterMelon
-    * The Dropper: 3DS Remaster
-    * The Dropper Submission
-    * Debug Mode 3D
-    * Blind Mazes
-    * PC Gamer Cow
-    * GenSpace Textures
+* ~~WaterMelon~~~
+    * ~~The Dropper: 3DS Remaster~~
+    * ~~The Dropper Submission~~
+    * ~~Debug Mode 3D~~
+    * ~~Blind Mazes~~
+    * ~~PC Gamer Cow~~
+    * ~~GenSpace Textures~~
 * ~~Zexlo~~
     * ~~1.20 Lava textures~~
     * ~~1.20 Mob textures~~
