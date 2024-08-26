@@ -117,8 +117,8 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * Mipmapping patch
 * MidnightMystic
     * Castle of Shadowmere world
-* oliverimcDISC
-    * LoCity map
+* ~~oliverimcDISC~~
+    * ~~LoCity map~~
 * PanguinBoi
     * PanGames
 * PokéTube
