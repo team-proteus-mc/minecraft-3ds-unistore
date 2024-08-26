@@ -170,11 +170,11 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * Blind Mazes
     * PC Gamer Cow
     * GenSpace Textures
-* Zexlo
-    * 1.20 Lava textures
-    * 1.20 Mob textures
-    * 1.20 Seamless varied textures
-    * Barebones textures
+* ~~Zexlo~~
+    * ~~1.20 Lava textures~~
+    * ~~1.20 Mob textures~~
+    * ~~1.20 Seamless varied textures~~
+    * ~~Barebones textures~~
 * People involved in the 3DSMP (too lazy to do each name individually)
     * DarkForPresident, czx, DeadSkulllzJr, TheRustico36, Breadbug, Nikki (Swapscribble), pipi00pipi, Shark, Abdullah39, Aether, Bruhndles, c, C4SBry, Choppy, Eevee 17, Fall, GenSpace, Grim reaper OP, HgMd, i_suck_at_sleeping, Jaxe, minimariottv, oliverimcDISC, PandJa, Proteus, Salmonchy, Silbver 35, SoulSeeker, techno?, ThE oNe, TheHauntedAttic, Tops, UnknownLoser, xSaigez
  
