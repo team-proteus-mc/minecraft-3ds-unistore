@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":198,
+      "revision":199,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -2968,72 +2968,6 @@
                "count":1
             }
          ]
-      },
-      {
-         "info":{
-            "title":"LoCity",
-            "author":"oliverimcDISC",
-            "version":"1",
-            "category":[
-               "worlds"
-            ],
-            "console":[
-               "3DS"
-            ],
-            "description":"This is a city map! Have fun!",
-            "license":"unknown",
-            "releasenotes": "This is a city map! This map is better with the 1.17 textures, but it really doesn't matter. Have Fun!\n\nCreator - olverimcDISC",
-            "screenshots": [
-               {
-                  "description": "Image #1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/locity-a.png"
-               },
-               {
-                  "description": "Image #2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/locity-b.png"
-               },
-               {
-                  "description": "Image #3",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/locity-c.png"
-               },
-               {
-                  "description": "Image #4",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/locity-d.png"
-               },
-               {
-                  "description": "Image #5",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/locity-e.png"
-               }
-            ],
-            "icon_index":23,
-            "sheet_index":0,
-            "last_updated":"2023-07-07 at 09:12 (UTC)"
-         },
-         "Locity 1.0":{
-            "size":"3.92 MB",
-            "script":[
-               {
-                  "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/locity.zip",
-                  "output": "sdmc:/Minecraft 3DS/worlds/locity.zip"
-               },
-               {
-                  "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/worlds/locity.zip",
-                  "input": "LoCity 1.0/",
-                  "output": "sdmc:/Minecraft 3DS/worlds/LoCity 1.0/"
-               },
-               {
-                  "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/worlds/locity.zip"
-               },
-               {
-                  "type": "promptMessage",
-                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
-                  "count": 1
-               }
-            ]
-         }
       },
       {
          "info":{
