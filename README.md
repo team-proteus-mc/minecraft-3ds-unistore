@@ -125,8 +125,8 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * PokéTube City map
 * RetroRemade
     * Better Creepers mod
-* Ruff64
-    * The Dropper: 3DS Remaster
+* ~~Ruff64~~
+    * ~~The Dropper: 3DS Remaster~~
 * STBUniverse
     * STB-MC3DS Unistore
     * Vanilla 1.20 textures port
