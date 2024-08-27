@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":201,
+      "revision":202,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -6155,6 +6155,138 @@
                {
                   "type": "deleteFile",
                   "file": "sdmc:/Minecraft 3DS/nopart.zip"
+               }
+            ]
+         }
+      },
+      {
+         "info":{
+            "title":"Painterly Texture Pack",
+            "author":"SeveringHams",
+            "version":"1",
+            "category":[
+            "textures",
+            "pack"
+               ],
+            "console":[
+               "3DS"
+            ],
+            "description":"Painterly Pack by SeveringHams, based off of Rhodox's.",
+            "license":"unknown",
+            "releasenotes": "Original pack made by Rhodox, credit for original textures goes to him. Some textures made by SeveringHams.\nNOT COMPLETE, WORK IN PROGRESS!\nSend feedback to @SeveringHams on Discord",
+            "screenshots": [
+               {
+                  "description": "Image #1",
+                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/painterly1.png"
+               },
+               {
+                  "description": "Image #2",
+                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/painterly2.png"
+               },
+               {
+                  "description": "Image #3",
+                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/painterly3.png"
+               },
+               {
+                  "description": "Image #4",
+                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/painterly4.png"
+               },
+               {
+                  "description": "Image #5",
+                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/painterly5.png"
+               },
+               {
+                  "description": "Image #6",
+                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/painterly6.png"
+               },
+               {
+                  "description": "Image #7",
+                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/painterly7.png"
+               },
+               {
+                  "description": "Image #8",
+                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/painterly8.png"
+               }
+            ],
+            "icon_index":107,
+            "sheet_index":0,
+            "last_updated":"2024-08-26 at 18:20 (CST)"
+         },
+         "Painterly textures (USA)":{
+            "size":"444 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/Painterly.Pack.by.SeveringHams.zip",
+                  "output": "sdmc:/Minecraft 3DS/Painterly.Pack.by.SeveringHams.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Painterly.Pack.by.SeveringHams.zip",
+                  "input": "romfs/atlas/",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/atlas/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Painterly.Pack.by.SeveringHams.zip",
+                  "input": "romfs/resourcepacks/vanilla/client/blocks.json",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/blocks.json"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/Painterly.Pack.by.SeveringHams.zip"
+               }
+            ]
+         },
+         "Painterly textures (EUR)":{
+            "size":"444 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/Painterly.Pack.by.SeveringHams.zip",
+                  "output": "sdmc:/Minecraft 3DS/Painterly.Pack.by.SeveringHams.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Painterly.Pack.by.SeveringHams.zip",
+                  "input": "romfs/atlas/",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/atlas/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Painterly.Pack.by.SeveringHams.zip",
+                  "input": "romfs/resourcepacks/vanilla/client/blocks.json",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/blocks.json"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/Painterly.Pack.by.SeveringHams.zip"
+               }
+            ]
+         },
+         "Painterly textures (JPN)":{
+            "size":"444 KB",
+            "script":[
+               {
+                  "type": "downloadFile",
+                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/Painterly.Pack.by.SeveringHams.zip",
+                  "output": "sdmc:/Minecraft 3DS/Painterly.Pack.by.SeveringHams.zip"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Painterly.Pack.by.SeveringHams.zip",
+                  "input": "romfs/atlas/",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/atlas/"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Painterly.Pack.by.SeveringHams.zip",
+                  "input": "romfs/resourcepacks/vanilla/client/blocks.json",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/blocks.json"
+               },
+               {
+                  "type": "deleteFile",
+                  "file": "sdmc:/Minecraft 3DS/Painterly.Pack.by.SeveringHams.zip"
                }
             ]
          }
