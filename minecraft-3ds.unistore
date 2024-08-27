@@ -3,7 +3,7 @@
       "author":"susbaconhairman",
       "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":199,
+      "revision":200,
       "sheet":"atlas.t3x",
       "sheetURL":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
@@ -3375,68 +3375,6 @@
                {
                   "type": "deleteFile",
                   "file": "sdmc:/Minecraft 3DS/worlds/fnaf-hide-seek.zip"
-               },
-               {
-                  "type": "promptMessage",
-                  "message": "To install this world, follow this tutorial:\nhttps://youtu.be/SIXp33qHj58",
-                  "count": 1
-               }
-            ]
-         }
-      },
-      {
-         "info":{
-            "title":"The Dropper: 3DS Remaster",
-            "author":"GenSpace, CZX, DarkForPresident, WaterMelon, Ruff64",
-            "version":"1",
-            "category":[
-               "worlds"
-            ],
-            "console":[
-               "3DS"
-            ],
-            "description":"The Dropper: 3DS Remaster is all about trying to fall from the top of a map to the water at the bottom.",
-            "license":"unknown",
-            "releasenotes": "The Dropper: 3DS Remaster is all about trying to fall from the top of a map to the water at the bottom. Drop down 11 huge maps (plus 2 bonus maps) and make sure not to hit any of the obstacles!\n\nOriginal Creator - Bigre",
-            "screenshots": [
-               {
-                  "description": "Image #1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/dropper-a.png"
-               },
-               {
-                  "description": "Image #2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/dropper-b.png"
-               },
-               {
-                  "description": "Image #3",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/dropper-c.png"
-               },
-               {
-                  "description": "Image #4",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/dropper-d.png"
-               }
-            ],
-            "icon_index":35,
-            "sheet_index":0,
-            "last_updated":"2022-09-25 at 12:55 (UTC)"
-         },
-         "The Dropper: 3DS Remaster":{
-            "size":"1.78 MB",
-            "script":[
-               {
-                  "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/dropper.zip",
-                  "output": "sdmc:/Minecraft 3DS/worlds/dropper.zip"
-               },
-               {
-                  "type": "extractFile",
-                  "file": "sdmc:/Minecraft 3DS/worlds/dropper.zip",
-                  "input": "TheDropper3DS/",
-                  "output": "sdmc:/Minecraft 3DS/worlds/The Dropper - 3DS Remaster/"
-               },
-               {
-                  "type": "deleteFile",
-                  "file": "sdmc:/Minecraft 3DS/worlds/dropper.zip"
                },
                {
                   "type": "promptMessage",
