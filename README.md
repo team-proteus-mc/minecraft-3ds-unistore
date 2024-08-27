@@ -109,10 +109,10 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * Hide and go Seek map
 * Kreideprinz
     * Kreideprinz's City World
-* KrftRV249
-    * Random Loot mod
-    * Guns mod
-    * Instant Eating mod
+* ~~KrftRV249~~
+    * ~~Random Loot mod~~
+    * ~~Guns mod~~
+    * ~~Instant Eating mod~~
 * linuxwizard
     * Mipmapping patch
 * MidnightMystic
