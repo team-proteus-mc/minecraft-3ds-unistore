@@ -6210,14 +6210,14 @@
             ],
             "icon_index":107,
             "sheet_index":0,
-            "last_updated":"2024-08-26 at 18:20 (CST)"
+            "last_updated":"2024-08-28 at 14:20 (CST)"
          },
          "Painterly textures (USA)":{
             "size":"444 KB",
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/Painterly.Pack.by.SeveringHams.zip",
+                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/Painterly.Pack.by.SeveringHams.2.zip",
                   "output": "sdmc:/Minecraft 3DS/Painterly.Pack.by.SeveringHams.zip"
                },
                {
@@ -6231,6 +6231,12 @@
                   "file": "sdmc:/Minecraft 3DS/Painterly.Pack.by.SeveringHams.zip",
                   "input": "romfs/resourcepacks/vanilla/client/blocks.json",
                   "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/blocks.json"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Painterly.Pack.by.SeveringHams.zip",
+                  "input": "romfs/resourcepacks/vanilla/client/textures/entity/pistonarm",
+                  "output": "sdmc:/luma/titles/00040000001B8700/romfs/resourcepacks/vanilla/client/textures/entity/pistonarm"
                },
                {
                   "type": "deleteFile",
@@ -6259,6 +6265,12 @@
                   "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/blocks.json"
                },
                {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Painterly.Pack.by.SeveringHams.zip",
+                  "input": "romfs/resourcepacks/vanilla/client/textures/entity/pistonarm",
+                  "output": "sdmc:/luma/titles/000400000017CA00/romfs/resourcepacks/vanilla/client/textures/entity/pistonarm"
+               },
+               {
                   "type": "deleteFile",
                   "file": "sdmc:/Minecraft 3DS/Painterly.Pack.by.SeveringHams.zip"
                }
@@ -6283,6 +6295,12 @@
                   "file": "sdmc:/Minecraft 3DS/Painterly.Pack.by.SeveringHams.zip",
                   "input": "romfs/resourcepacks/vanilla/client/blocks.json",
                   "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/blocks.json"
+               },
+               {
+                  "type": "extractFile",
+                  "file": "sdmc:/Minecraft 3DS/Painterly.Pack.by.SeveringHams.zip",
+                  "input": "romfs/resourcepacks/vanilla/client/textures/entity/pistonarm",
+                  "output": "sdmc:/luma/titles/000400000017FD00/romfs/resourcepacks/vanilla/client/textures/entity/pistonarm"
                },
                {
                   "type": "deleteFile",
