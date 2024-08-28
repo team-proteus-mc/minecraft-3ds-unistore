@@ -131,6 +131,8 @@ https://jsonformatter.curiousconcept.com/ for JSON verification, GitHub code edi
     * Better Creepers mod
 * ~~Ruff64~~
     * ~~The Dropper: 3DS Remaster~~
+* SeveringHams
+    * Painterly texture pack
 * STBUniverse
     * STB-MC3DS Unistore
     * Vanilla 1.20 textures port
