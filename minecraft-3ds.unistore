@@ -6163,7 +6163,7 @@
          "info":{
             "title":"Painterly Texture Pack",
             "author":"SeveringHams",
-            "version":"1",
+            "version":"2",
             "category":[
             "textures",
             "pack"
@@ -6213,7 +6213,7 @@
             "last_updated":"2024-08-28 at 14:20 (CST)"
          },
          "Painterly textures (USA)":{
-            "size":"444 KB",
+            "size":"464 KB",
             "script":[
                {
                   "type": "downloadFile",
@@ -6245,11 +6245,11 @@
             ]
          },
          "Painterly textures (EUR)":{
-            "size":"444 KB",
+            "size":"464 KB",
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/Painterly.Pack.by.SeveringHams.zip",
+                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/Painterly.Pack.by.SeveringHams.2.zip",
                   "output": "sdmc:/Minecraft 3DS/Painterly.Pack.by.SeveringHams.zip"
                },
                {
@@ -6277,11 +6277,11 @@
             ]
          },
          "Painterly textures (JPN)":{
-            "size":"444 KB",
+            "size":"464 KB",
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/Painterly.Pack.by.SeveringHams.zip",
+                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/Painterly.Pack.by.SeveringHams.2.zip",
                   "output": "sdmc:/Minecraft 3DS/Painterly.Pack.by.SeveringHams.zip"
                },
                {
