@@ -1,3 +1,5 @@
+# The Unistore has been retired. Thank you for supporting us for almost 2 years. Please see the "official" Minecraft 3DS Community Unistore here: https://github.com/minecraft-3ds-community/minecraft-3ds-unistore
+
 # THE MINECRAFT 3DS UNISTORE
 ![Minecraft 3DS UniStore](https://github.com/mc-3ds-team/minecraft-3ds-unistore/blob/main/img/logo.png?raw=true)
 
