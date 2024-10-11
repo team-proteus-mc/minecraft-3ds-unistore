@@ -1,5 +1,5 @@
 # THE MINECRAFT 3DS UNISTORE
-![Minecraft 3DS UniStore](https://github.com/mc-3ds-team/minecraft-3ds-unistore/blob/main/img/logo.png?raw=true)
+![Minecraft 3DS UniStore](https://github.com/mc-3ds-team/minecraft-3ds-unistore/blob/main/img/teamproteusqr.png?raw=true)
 
 ## Please join the Discord server here: https://discord.gg/khD7nN2682
 
