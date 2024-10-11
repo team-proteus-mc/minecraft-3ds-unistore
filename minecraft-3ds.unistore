@@ -1,13 +1,13 @@
 {
    "storeInfo":{
-      "author":"susbaconhairman",
-      "description":"This is a UniStore for Minecraft: New Nintendo 3DS Edition custom content",
+      "author":"Team Proteus",
+      "description":"A UniStore for Minecraft: New Nintendo 3DS Edition custom content",
       "file":"minecraft-3ds.unistore",
-      "revision":204,
+      "revision":205,
       "sheet":"atlas.t3x",
-      "sheetURL":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/atlas.t3x",
+      "sheetURL":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/atlas.t3x",
       "title":"Minecraft 3DS Customization",
-      "url":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/minecraft-3ds.unistore",
+      "url":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/minecraft-3ds.unistore",
       "version":3
    },
    "storeContent":[
@@ -28,11 +28,11 @@
             "screenshots": [
                {
                   "description": "Textures show-off",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/kharri2-a.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/kharri2-a.png"
                },
                {
                   "description": "Texture's icon",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/kharri2-b.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/kharri2-b.png"
                }
             ],
             "icon_index":2,
@@ -41,7 +41,7 @@
          },
          "Kharrii2 Face Textures (USA)":[
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/kharrii2_textures.zip",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/kharrii2_textures.zip",
                "output":"sdmc:/Minecraft 3DS/kharrii2_textures.zip",
                "type":"downloadFile"
             },
@@ -79,7 +79,7 @@
          ],
          "Kharrii2 Face Textures (EUR)":[
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/kharrii2_textures.zip",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/kharrii2_textures.zip",
                "output":"sdmc:/Minecraft 3DS/kharrii2_textures.zip",
                "type":"downloadFile"
             },
@@ -117,7 +117,7 @@
          ],
          "Kharrii2 Face Textures (JPN)":[
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/kharrii2_textures.zip",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/kharrii2_textures.zip",
                "output":"sdmc:/Minecraft 3DS/kharrii2_textures.zip",
                "type":"downloadFile"
             },
@@ -171,11 +171,11 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/dragon-slayer-a.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/dragon-slayer-a.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/dragon-slayer-b.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/dragon-slayer-b.png"
                }
             ],
             "icon_index":6,
@@ -184,7 +184,7 @@
          },
          "LEGO Dragon Slayer Skin (USA)":[
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/skins/3DS-LEGO-Dragon-Slayer.zip",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/skins/3DS-LEGO-Dragon-Slayer.zip",
                "output":"sdmc:/Minecraft 3DS/3DS-LEGO-Dragon-Slayer.zip",
                "type":"downloadFile"
             },
@@ -206,7 +206,7 @@
          ],
          "LEGO Dragon Slayer Skin (EUR)":[
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/skins/3DS-LEGO-Dragon-Slayer.zip",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/skins/3DS-LEGO-Dragon-Slayer.zip",
                "output":"sdmc:/Minecraft 3DS/3DS-LEGO-Dragon-Slayer.zip",
                "type":"downloadFile"
             },
@@ -228,7 +228,7 @@
          ],
          "LEGO Dragon Slayer Skin (JPN)":[
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/skins/3DS-LEGO-Dragon-Slayer.zip",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/skins/3DS-LEGO-Dragon-Slayer.zip",
                "output":"sdmc:/Minecraft 3DS/3DS-LEGO-Dragon-Slayer.zip",
                "type":"downloadFile"
             },
@@ -266,7 +266,7 @@
             "screenshots": [
                {
                   "description": "No image is available. Sorry.",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
                }
             ],
             "icon_index":7,
@@ -675,15 +675,15 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/2b2t-skins-a.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/2b2t-skins-a.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/2b2t-skins-b.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/2b2t-skins-b.png"
                },
                {
                   "description": "Image #3",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/2b2t-skins-c.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/2b2t-skins-c.png"
                }
             ], 
             "icon_index":4,
@@ -692,7 +692,7 @@
          },
          "2b2t Legends (USA)":[
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/skins/2b2t_legends.zip",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/skins/2b2t_legends.zip",
                "output":"sdmc:/Minecraft 3DS/2b2t_legends.zip",
                "type":"downloadFile"
             },
@@ -719,7 +719,7 @@
          ],
          "2b2t Legends (EUR)":[
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/skins/2b2t_legends.zip",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/skins/2b2t_legends.zip",
                "output":"sdmc:/Minecraft 3DS/2b2t_legends.zip",
                "type":"downloadFile"
             },
@@ -746,7 +746,7 @@
          ],
          "2b2t Legends (JPN)":[
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/skins/2b2t_legends.zip",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/skins/2b2t_legends.zip",
                "output":"sdmc:/Minecraft 3DS/2b2t_legends.zip",
                "type":"downloadFile"
             },
@@ -790,11 +790,11 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/drones-a.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/drones-a.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/drones-b.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/drones-b.png"
                }
             ],
             "icon_index":5,
@@ -803,7 +803,7 @@
          },
          "Murder Drones (USA)":[
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/skins/murder-drones.zip",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/skins/murder-drones.zip",
                "output":"sdmc:/Minecraft 3DS/murder-drones.zip",
                "type":"downloadFile"
             },
@@ -825,7 +825,7 @@
          ],
          "Murder Drones (EUR)":[
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/skins/murder-drones.zip",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/skins/murder-drones.zip",
                "output":"sdmc:/Minecraft 3DS/murder-drones.zip",
                "type":"downloadFile"
             },
@@ -847,7 +847,7 @@
          ],
          "Murder Drones (JPN)":[
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/skins/murder-drones.zip",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/skins/murder-drones.zip",
                "output":"sdmc:/Minecraft 3DS/murder-drones.zip",
                "type":"downloadFile"
             },
@@ -886,19 +886,19 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/new-skins-a.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/new-skins-a.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/new-skins-b.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/new-skins-b.png"
                },
                {
                   "description": "Image #3",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/new-skins-c.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/new-skins-c.png"
                },
                {
                   "description": "Image #4",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/new-skins-d.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/new-skins-d.png"
                }
             ],
             "icon_index":3,
@@ -909,7 +909,7 @@
             "size": "309 KB",
             "script":[
                {
-                  "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/skins/new-default-skins.zip",
+                  "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/skins/new-default-skins.zip",
                   "output":"sdmc:/Minecraft 3DS/new-default-skins.zip",
                   "type":"downloadFile"
                },
@@ -934,7 +934,7 @@
             "size": "309 KB",
             "script":[
                {
-                  "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/skins/new-default-skins.zip",
+                  "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/skins/new-default-skins.zip",
                   "output":"sdmc:/Minecraft 3DS/new-default-skins.zip",
                   "type":"downloadFile"
                },
@@ -959,7 +959,7 @@
             "size": "309 KB",
             "script":[
                {
-                  "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/skins/new-default-skins.zip",
+                  "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/skins/new-default-skins.zip",
                   "output":"sdmc:/Minecraft 3DS/new-default-skins.zip",
                   "type":"downloadFile"
                },
@@ -998,43 +998,43 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-a.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-a.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-b.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-b.png"
                },
                {
                   "description": "Image #3",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-c.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-c.png"
                },
                {
                   "description": "Image #4",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-d.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-d.png"
                },
                {
                   "description": "Image #5",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-e.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-e.png"
                },
                {
                   "description": "Image #6",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-f.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-f.png"
                },
                {
                   "description": "Image #7",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-g.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-g.png"
                },
                {
                   "description": "Image #8",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-h.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-h.png"
                },
                {
                   "description": "Image #9",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-i.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-i.png"
                },
                {
                   "description": "Image #10",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-j.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/wewelsburg-3-j.png"
                }
             ],
             "icon_index":0,
@@ -1046,7 +1046,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/Wewelsburg_v0.003_12-5-23.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/Wewelsburg_v0.003_12-5-23.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/Wewelsburg_v0.003_12-5-23.zip"
                },
                {
@@ -1088,19 +1088,19 @@
             "screenshots": [
                {
                   "description": "200% larger sun",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/sun-moon-a.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/sun-moon-a.png"
                },
                {
                   "description": "200% larger moon",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/sun-moon-b.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/sun-moon-b.png"
                },
                {
                   "description": "Blood moon",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/sun-moon-c.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/sun-moon-c.png"
                },
                {
                   "description": "Full moon",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/sun-moon-d.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/sun-moon-d.png"
                }
             ],
             "icon_index":1,
@@ -1112,7 +1112,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-moon.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-moon.zip",
                   "output": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip"
                },
                {
@@ -1148,7 +1148,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-moon.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-moon.zip",
                   "output": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip"
                },
                {
@@ -1184,7 +1184,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-moon.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-moon.zip",
                   "output": "sdmc:/Minecraft 3DS/200-larger-sun-moon.zip"
                },
                {
@@ -1220,7 +1220,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-phases.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-phases.zip",
                   "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip"
                },
                {
@@ -1256,7 +1256,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-phases.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-phases.zip",
                   "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip"
                },
                {
@@ -1292,7 +1292,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-phases.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-phases.zip",
                   "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-phases.zip"
                },
                {
@@ -1328,7 +1328,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-full-moon.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-full-moon.zip",
                   "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip"
                },
                {
@@ -1364,7 +1364,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-full-moon.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-full-moon.zip",
                   "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip"
                },
                {
@@ -1400,7 +1400,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-full-moon.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-night-full-moon.zip",
                   "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-night-full-moon.zip"
                },
                {
@@ -1436,7 +1436,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-full-moon.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-full-moon.zip",
                   "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip"
                },
                {
@@ -1472,7 +1472,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-full-moon.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-full-moon.zip",
                   "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip"
                },
                {
@@ -1508,7 +1508,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-full-moon.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/200-larger-sun-blood-moon-every-full-moon.zip",
                   "output": "sdmc:/Minecraft 3DS/200-larger-sun-blood-moon-every-full-moon.zip"
                },
                {
@@ -1557,11 +1557,11 @@
             "screenshots": [
                {
                   "description": "Steve",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/new-base-skins-a.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/new-base-skins-a.png"
                },
                {
                   "description": "Alex",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/new-base-skins-b.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/new-base-skins-b.png"
                }
             ],
             "icon_index":9,
@@ -1570,7 +1570,7 @@
          },
          "New Base Skins (USA)":[
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/skins/new-base-skins.zip",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/skins/new-base-skins.zip",
                "output":"sdmc:/Minecraft 3DS/new-base-skins.zip",
                "type":"downloadFile"
             },
@@ -1597,7 +1597,7 @@
          ],
          "New Base Skins (EUR)":[
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/skins/new-base-skins.zip",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/skins/new-base-skins.zip",
                "output":"sdmc:/Minecraft 3DS/new-base-skins.zip",
                "type":"downloadFile"
             },
@@ -1624,7 +1624,7 @@
          ],
          "New Base Skins (JPN)":[
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/skins/new-base-skins.zip",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/skins/new-base-skins.zip",
                "output":"sdmc:/Minecraft 3DS/new-base-skins.zip",
                "type":"downloadFile"
             },
@@ -1667,7 +1667,7 @@
             "screenshots": [
                {
                   "description": "Some of the skins (sorry for poor quality, not my fault)",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/legacy-skins.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/legacy-skins.png"
                }
             ],
             "icon_index":8,
@@ -1676,7 +1676,7 @@
          },
          "Legacy Console Skins (USA)":[
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/skins/legacy_console_default.zip",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/skins/legacy_console_default.zip",
                "output":"sdmc:/Minecraft 3DS/legacy_console_default.zip",
                "type":"downloadFile"
             },
@@ -1703,7 +1703,7 @@
          ],
          "Legacy Console Skins (EUR)":[
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/skins/legacy_console_default.zip",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/skins/legacy_console_default.zip",
                "output":"sdmc:/Minecraft 3DS/legacy_console_default.zip",
                "type":"downloadFile"
             },
@@ -1730,7 +1730,7 @@
          ],
          "Legacy Console Skins (JPN)":[
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/skins/legacy_console_default.zip",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/skins/legacy_console_default.zip",
                "output":"sdmc:/Minecraft 3DS/legacy_console_default.zip",
                "type":"downloadFile"
             },
@@ -1774,75 +1774,75 @@
             "screenshots": [
                {
                   "description": "3.1, A",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/gui31a.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/gui31a.png"
                },
                {
                   "description": "3.1, B",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/gui31b.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/gui31b.png"
                },
                {
                   "description": "3.1, C",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/gui31c.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/gui31c.png"
                },
                {
                   "description": "3.0, A",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/gui-3-a.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/gui-3-a.png"
                },
                {
                   "description": "3.0, B",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/gui-3-b.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/gui-3-b.png"
                },
                {
                   "description": "3.0, C",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/gui-3-c.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/gui-3-c.png"
                },
                {
                   "description": "3.0, D",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/gui-3-d.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/gui-3-d.png"
                },
                {
                   "description": "3.0, E",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/gui-3-e.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/gui-3-e.png"
                },
                {
                   "description": "2.0, A",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/gui-a.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/gui-a.png"
                },
                {
                   "description": "2.0, B",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/gui-b.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/gui-b.png"
                },
                {
                   "description": "2.0, C",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/gui-c.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/gui-c.png"
                },
                {
                   "description": "2.0, D",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/gui-d.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/gui-d.png"
                },
                {
                   "description": "2.0, E",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/gui-e.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/gui-e.png"
                },
                {
                   "description": "1.0, A",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/new-gui-a.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/new-gui-a.png"
                },
                {
                   "description": "1.0, B",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/new-gui-b.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/new-gui-b.png"
                },
                {
                   "description": "1.0, C",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/new-gui-c.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/new-gui-c.png"
                },
                {
                   "description": "1.0, D",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/new-gui-d.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/new-gui-d.png"
                },
                {
                   "description": "1.0, E",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/new-gui-e.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/new-gui-e.png"
                }
             ],
             "icon_index":10,
@@ -1856,7 +1856,7 @@
                "count":1
             },
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_3.1.rar",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_3.1.rar",
                "output":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.1.rar",
                "type":"downloadFile"
             },
@@ -1889,7 +1889,7 @@
                "count":1
             },
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_3.1.rar",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_3.1.rar",
                "output":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.1.rar",
                "type":"downloadFile"
             },
@@ -1922,7 +1922,7 @@
                "count":1
             },
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_3.1.rar",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_3.1.rar",
                "output":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.1.rar",
                "type":"downloadFile"
             },
@@ -1955,7 +1955,7 @@
                "count":1
             },
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_3.0.rar",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_3.0.rar",
                "output":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.0.rar",
                "type":"downloadFile"
             },
@@ -1988,7 +1988,7 @@
                "count":1
             },
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_3.0.rar",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_3.0.rar",
                "output":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.0.rar",
                "type":"downloadFile"
             },
@@ -2021,7 +2021,7 @@
                "count":1
             },
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_3.0.rar",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_3.0.rar",
                "output":"sdmc:/Minecraft 3DS/Cleannslick_GUI_3.0.rar",
                "type":"downloadFile"
             },
@@ -2054,7 +2054,7 @@
                "count":1
             },
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_2.0.rar",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_2.0.rar",
                "output":"sdmc:/Minecraft 3DS/Cleannslick_GUI_2.0.rar",
                "type":"downloadFile"
             },
@@ -2086,7 +2086,7 @@
                "count":1
             },
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_2.0.rar",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_2.0.rar",
                "output":"sdmc:/Minecraft 3DS/Cleannslick_GUI_2.0.rar",
                "type":"downloadFile"
             },
@@ -2118,7 +2118,7 @@
                "count":1
             },
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_2.0.rar",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/Cleannslick_GUI_2.0.rar",
                "output":"sdmc:/Minecraft 3DS/Cleannslick_GUI_2.0.rar",
                "type":"downloadFile"
             },
@@ -2150,7 +2150,7 @@
                "count":1
             },
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/new-gui.zip",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/new-gui.zip",
                "output":"sdmc:/Minecraft 3DS/new-gui.zip",
                "type":"downloadFile"
             },
@@ -2182,7 +2182,7 @@
                "count":1
             },
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/new-gui.zip",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/new-gui.zip",
                "output":"sdmc:/Minecraft 3DS/new-gui.zip",
                "type":"downloadFile"
             },
@@ -2214,7 +2214,7 @@
                "count":1
             },
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/new-gui.zip",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/new-gui.zip",
                "output":"sdmc:/Minecraft 3DS/new-gui.zip",
                "type":"downloadFile"
             },
@@ -2259,23 +2259,23 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/shader.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/shader.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/endermanyk-a.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/endermanyk-a.png"
                },
                {
                   "description": "Image #3",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/endermanyk-b.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/endermanyk-b.png"
                },
                {
                   "description": "Image #4",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/endermanyk-c.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/endermanyk-c.png"
                },
                {
                   "description": "Image #5",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/endermanyk-d.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/endermanyk-d.png"
                }
             ],
             "icon_index":11,
@@ -2284,7 +2284,7 @@
          },
          "ENDERMANYK's Shaders (USA)":[
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/mods/renderchunk.shbin",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/mods/renderchunk.shbin",
                "output":"sdmc:/luma/titles/00040000001B8700/romfs/shaders/3DS/renderchunk.shbin",
                "type":"downloadFile"
             },
@@ -2296,7 +2296,7 @@
          ],
          "ENDERMANYK's Shaders (EUR)":[
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/mods/renderchunk.shbin",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/mods/renderchunk.shbin",
                "output":"sdmc:/luma/titles/000400000017CA00/romfs/shaders/3DS/renderchunk.shbin",
                "type":"downloadFile"
             },
@@ -2308,7 +2308,7 @@
          ],
          "ENDERMANYK's Shaders (JPN)":[
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/mods/renderchunk.shbin",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/mods/renderchunk.shbin",
                "output":"sdmc:/luma/titles/000400000017FD00/romfs/shaders/3DS/renderchunk.shbin",
                "type":"downloadFile"
             },
@@ -2336,15 +2336,15 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/superflat-survival.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/superflat-survival.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/superflatsurvival1.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/superflatsurvival1.png"
                },
                {
                   "description": "Image #3",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/superflatsurvival2.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/superflatsurvival2.png"
                }
             ],
             "icon_index":12,
@@ -2356,7 +2356,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/superflat-survival.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/superflat-survival.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/superflat-survival.zip"
                },
                {
@@ -2394,23 +2394,23 @@
             "screenshots": [
                {
                   "description": "PokeTube City v1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/poketube-a.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/poketube-a.png"
                },
                {
                   "description": "PokeTube City v1.1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/poketube-b.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/poketube-b.png"
                },
                {
                   "description": "PokeTube City v1.2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/poketube-c.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/poketube-c.png"
                },
                {
                   "description": "PokeTube City v1.3",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/poketube-d.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/poketube-d.png"
                },
                {
                   "description": "PokeTube City v1.4",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/poketube-14.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/poketube-14.png"
                }
             ],
             "icon_index":13,
@@ -2422,7 +2422,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/poketube-1.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/poketube-1.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/poketube-1.zip"
                },
                {
@@ -2447,7 +2447,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/poketube-11.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/poketube-11.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/poketube-11.zip"
                },
                {
@@ -2472,7 +2472,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/poketube-12.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/poketube-12.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/poketube-12.zip"
                },
                {
@@ -2497,7 +2497,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/poketube-13.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/poketube-13.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/poketube-13.zip"
                },
                {
@@ -2522,7 +2522,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/poketube-14.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/poketube-14.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/poketube-14.zip"
                },
                {
@@ -2560,7 +2560,7 @@
             "screenshots": [
                {
                   "description": "PokeTube City: Past",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/poketube-past.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/poketube-past.png"
                }
             ],
             "icon_index":14,
@@ -2572,7 +2572,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/poketube-past.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/poketube-past.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/poketube-past.zip"
                },
                {
@@ -2610,11 +2610,11 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/ender-elytra-a.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/ender-elytra-a.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/ender-elytra-b.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/ender-elytra-b.png"
                }
             ],
             "icon_index":18,
@@ -2623,7 +2623,7 @@
          },
          "Ender Dragon Elytra (USA)":[
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/dragon-elytra.zip",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/dragon-elytra.zip",
                "output":"sdmc:/Minecraft 3DS/dragon-elytra.zip",
                "type":"downloadFile"
             },
@@ -2668,7 +2668,7 @@
          ],
          "Ender Dragon Elytra (EUR)":[
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/dragon-elytra.zip",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/dragon-elytra.zip",
                "output":"sdmc:/Minecraft 3DS/dragon-elytra.zip",
                "type":"downloadFile"
             },
@@ -2713,7 +2713,7 @@
          ],
          "Ender Dragon Elytra (JPN)":[
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/dragon-elytra.zip",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/dragon-elytra.zip",
                "output":"sdmc:/Minecraft 3DS/dragon-elytra.zip",
                "type":"downloadFile"
             },
@@ -2774,7 +2774,7 @@
             "screenshots": [
                {
                   "description": "Creeper, aww... man.",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/better-creepers.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/better-creepers.png"
                }
             ],
             "icon_index":20,
@@ -2783,7 +2783,7 @@
          },
          "Better Creepers (USA)":[
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/mods/better_creepers.zip",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/mods/better_creepers.zip",
                "output":"sdmc:/Minecraft 3DS/mods/better_creepers.zip",
                "type":"downloadFile"
             },
@@ -2810,7 +2810,7 @@
          ],
          "Better Creepers (EUR)":[
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/mods/better_creepers.zip",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/mods/better_creepers.zip",
                "output":"sdmc:/Minecraft 3DS/mods/better_creepers.zip",
                "type":"downloadFile"
             },
@@ -2837,7 +2837,7 @@
          ],
          "Better Creepers (JPN)":[
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/mods/better_creepers.zip",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/mods/better_creepers.zip",
                "output":"sdmc:/Minecraft 3DS/mods/better_creepers.zip",
                "type":"downloadFile"
             },
@@ -2880,7 +2880,7 @@
             "screenshots": [
                {
                   "description": "No image is available. Sorry.",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
                }
             ],
             "icon_index":22,
@@ -2889,7 +2889,7 @@
          },
          "Broken Stronghold Chest Fix (USA)":[
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/mods/anti-map-crash.zip",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/mods/anti-map-crash.zip",
                "output":"sdmc:/Minecraft 3DS/mods/anti-map-crash.zip",
                "type":"downloadFile"
             },
@@ -2916,7 +2916,7 @@
          ],
          "Broken Stronghold Chest Fix (EUR)":[
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/mods/anti-map-crash.zip",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/mods/anti-map-crash.zip",
                "output":"sdmc:/Minecraft 3DS/mods/anti-map-crash.zip",
                "type":"downloadFile"
             },
@@ -2943,7 +2943,7 @@
          ],
          "Broken Stronghold Chest Fix (JPN)":[
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/mods/anti-map-crash.zip",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/mods/anti-map-crash.zip",
                "output":"sdmc:/Minecraft 3DS/mods/anti-map-crash.zip",
                "type":"downloadFile"
             },
@@ -2986,27 +2986,27 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/pangames-a.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/pangames-a.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/pangames-b.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/pangames-b.png"
                },
                {
                   "description": "Image #3",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/pangames-c.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/pangames-c.png"
                },
                {
                   "description": "Image #4",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/pangames-d.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/pangames-d.png"
                },
                {
                   "description": "Image #5",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/pangames-e.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/pangames-e.png"
                },
                {
                   "description": "Image #6",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/pangames-f.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/pangames-f.png"
                }
             ],
             "icon_index":24,
@@ -3018,7 +3018,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/pangames.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/pangames.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/pangames.zip"
                },
                {
@@ -3056,7 +3056,7 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/funwalk.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/funwalk.png"
                }
             ],
             "icon_index":25,
@@ -3068,7 +3068,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/funwalk.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/funwalk.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/funwalk.zip"
                },
                {
@@ -3106,11 +3106,11 @@
             "screenshots": [
                {
                   "description": "v1.0",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/lapiz-funland-a.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/lapiz-funland-a.png"
                },
                {
                   "description": "v1.1 - City and Snow",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/lapiz-funland-b.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/lapiz-funland-b.png"
                }
             ],
             "icon_index":28,
@@ -3122,7 +3122,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/lapiz-funland.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/lapiz-funland.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/lapiz-funland.zip"
                },
                {
@@ -3147,7 +3147,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/lapiz-funland-11.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/lapiz-funland-11.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/lapiz-funland-11.zip"
                },
                {
@@ -3185,11 +3185,11 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/world-in-jar-a.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/world-in-jar-a.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/world-in-jar-b.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/world-in-jar-b.png"
                }
             ],
             "icon_index":30,
@@ -3201,7 +3201,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/world-in-jar.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/world-in-jar.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/world-in-jar.zip"
                },
                {
@@ -3239,11 +3239,11 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/find-the-button-a.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/find-the-button-a.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/find-the-button-b.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/find-the-button-b.png"
                }
             ],
             "icon_index":31,
@@ -3255,7 +3255,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/find-the-button.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/find-the-button.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/find-the-button.zip"
                },
                {
@@ -3293,11 +3293,11 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/lavacity-pvp-a.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/lavacity-pvp-a.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/lavacity-pvp-b.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/lavacity-pvp-b.png"
                }
             ],
             "icon_index":32,
@@ -3309,7 +3309,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/lavacity-pvp.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/lavacity-pvp.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/lavacity-pvp.zip"
                },
                {
@@ -3347,11 +3347,11 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/fnaf-hide-seek-a.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/fnaf-hide-seek-a.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/fnaf-hide-seek-b.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/fnaf-hide-seek-b.png"
                }
             ],
             "icon_index":33,
@@ -3363,7 +3363,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/fnaf-hide-seek.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/fnaf-hide-seek.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/fnaf-hide-seek.zip"
                },
                {
@@ -3401,11 +3401,11 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/stampy-a.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/stampy-a.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/stampy-b.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/stampy-b.png"
                }
             ],
             "icon_index":36,
@@ -3417,7 +3417,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/stampys-world.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/stampys-world.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/stampys-world.zip"
                },
                {
@@ -3442,7 +3442,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/stampys-world-11-snap.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/stampys-world-11-snap.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/stampys-world-11-snap.zip"
                },
                {
@@ -3480,11 +3480,11 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/dantdm-a.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/dantdm-a.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/dantdm-b.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/dantdm-b.png"
                }
             ],
             "icon_index":37,
@@ -3496,7 +3496,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/dantdm-lab.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/dantdm-lab.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/dantdm-lab.zip"
                },
                {
@@ -3534,7 +3534,7 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/dualflow.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/dualflow.png"
                }
             ],
             "icon_index":40,
@@ -3546,7 +3546,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/dualflow-demo.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/dualflow-demo.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/dualflow-demo.zip"
                },
                {
@@ -3584,51 +3584,51 @@
             "screenshots": [
                {
                   "description": "Seed: 1047059101",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/seed-a.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/seed-a.png"
                },
                {
                   "description": "Seed: 992826707, Part 1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/seed-b1.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/seed-b1.png"
                },
                {
                   "description": "Seed: 992826707, Part 2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/seed-b2.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/seed-b2.png"
                },
                {
                   "description": "Seed: 992826707, Part 3",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/seed-b3.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/seed-b3.png"
                },
                {
                   "description": "Seed: 4049728941",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/seed-c.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/seed-c.png"
                },
                {
                   "description": "Seed: 907040147",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/seed-d.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/seed-d.png"
                },
                {
                   "description": "Seed: 3307311791",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/seed-e.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/seed-e.png"
                },
                {
                   "description": "Seed: 240274091",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/seed-f.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/seed-f.png"
                },
                {
                   "description": "Seed: 1005263763",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/seed-g.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/seed-g.png"
                },
                {
                   "description": "Seed: 3593409258",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/seed-h.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/seed-h.png"
                },
                {
                   "description": "Seed: 1869582515",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/seed-i.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/seed-i.png"
                },
                {
                   "description": "Seed: 66898262",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/seed-j.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/seed-j.png"
                }
             ],
             "icon_index":42,
@@ -3640,7 +3640,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/misc/seeds.txt",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/misc/seeds.txt",
                   "output": "sdmc:/Minecraft 3DS/seeds.txt"
                }
             ]
@@ -3663,19 +3663,19 @@
             "screenshots": [
                {
                   "description": "Duplication: https://youtu.be/xi4KImUx8y4",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/glitch-a.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/glitch-a.png"
                },
                {
                   "description": "Ice Boating: https://youtu.be/0i_lzyWyKI4",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/glitch-b.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/glitch-b.png"
                },
                {
                   "description": "Four Lines of Text",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/glitch-c.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/glitch-c.png"
                },
                {
                   "description": "Ender Dragon Boat",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/glitch-d.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/glitch-d.png"
                }
             ],
             "icon_index":43,
@@ -3687,7 +3687,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/misc/glitches.txt",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/misc/glitches.txt",
                   "output": "sdmc:/Minecraft 3DS/glitches.txt"
                }
             ]
@@ -3706,11 +3706,11 @@
             ],
             "description":"A list of frequently asked questions; see release notes.",
             "license":"unknown",
-            "releasenotes":"MINECRAFT 3DS FREQUENTLY ASKED QUESTIONS\nRevision 4\nSOME PROMPTS ARE BASED FROM THE MINECRAFT 3DS WEBSITE\nhttps://www.minecraft3ds.net/misc/faq/questions\n-------------------\nWhere can I find a download link for Minecraft: New Nintendo 3DS Edition?\n\nYou can either buy a phisical copy, or pirate it on the hShop.\n-------------------\nI have a non-USA system. What title ID do I use?\n\nThe USA title ID is 00040000001B8700, the EU title ID is 000400000017CA00, and the JP title ID is 000400000017FD00. \n-------------------\nHow can I play online multiplayer?\n\nUnfortunately, this version of Minecraft only has two-player local multiplayer player, which means online multiplayer is not possible. If you want to play with your friends on your New 3DS/2DS, you'll have to be in close proximity to them. If you're playing on Citra, however, you can use netplay to play online with your friends. However, this method of multiplayer is very unstable. It's also worth noting that a mod that adds online multiplayer would not work well (or at all, for that matter) due to the limitations of the New 3DS/2DS family of systems.\n-------------------\nHow can I submit my own piece of Custom Content?\n\nYou can fill out a form here: https://github.com/mc-3ds-team/minecraft-3ds-unistore/issues/new?assignees=&labels=&projects=&template=content-addition.md&title=\n-------------------\nHow advanced are the known modding capabilities?\n\nThe current modification capabilities for Minecraft: New Nintendo 3DS Edition are not that advanced. Currently the most advanced mods possible are JSON edits, shaders, textures, audio, and a few primitive code.bin patches.\n-------------------\nIs this game region locked?\n\nUnfortunately, Minecraft: New Nintendo 3DS Edition is region locked. Additionally, the only region with a cartridge release is North America. In Europe and Japan, the game was only ever available digitally.\n-------------------\nWho developed this version of the game?\n\nThe New Nintendo 3DS Edition of Minecraft was developed by Other Ocean Interactive's Emeryville studio in collaboration with Mojang.\n-------------------\nWhat is Minecraft 3DS' closest version equivalent?\n\nMinecraft: New Nintendo 3DS Edition is closest to Minecraft: Pocket (now Bedrock) Edition version 1.1.5. It is essentially a port of that version.\n-------------------\nWhat language is Minecraft 3DS coded in?\n\nThis game was coded in C++ and ARM v6 Assembly.\n-------------------\nHow does the local multiplayer work?\n\nThe local multiplayer in this version supports up to two players who are within a close range of each other. Each player needs their own copy of the game as it does not support Download play. It was added in version 1.4.\n-------------------\nWhat is the world height limit?\n\nThe block height limit it 128 blocks.\n-------------------\nWhat are the world sizes?\n\n'Small' worlds are 672x672 blocks, 'Medium' worlds are 1344x1344 blocks, and 'Large' worlds are 2016x2016 blocks. The size of your world cannot be changed in-game after creation.\n-------------------\nWhat are the mob caps?\n\nThe game can load 24 enemies, 24 animals, 16 squid, and 16 villagers at a time. These are much stricter than even the Legacy Console mob caps, as to conserve resources. However, there is a mod that gets rid of this cap in the Unistore, but it can be pretty unstable.\n-------------------\nHow do the map and coordinates work?\n\nThe player's coordinates and map are always displayed on the bottom screen, along with their hotbar. There are also buttons for inventory and crafting, plus a button to pause the game.\n-------------------\nWhat are the in-game controls?\n\nThe circle pad is used to move. The left and right d-pad buttons are used to navigate the hotbar. The up d-pad button is used to toggle camera perspectives. The down d-pad button is used to toggle sneaking. The A button is used to jump. The B button is used to drop items. The X button is used to open the crafting menu. The Y button is used to open the inventory. The start and select buttons are used to pause the game. The L button is used to place/use blocks. The R button is used to break blocks and attack mobs. The ZL and ZR buttons are used to navigate the hotbar.\n-------------------\nWhen was Minecraft 3DS released?\n\nMinecraft: New Nintendo 3DS Edition was released digitally in North America on September 13th, 2017, a day later in Japan, and later in Europe on September 20th 2018. It was released physically in North America on November 10th, 2017.\n-------------------\nHow do I use the Woodland and Ocean Explorer maps?\n\nTo use the Woodland or Ocean Explorer map, you need to put it somewhere in your hotbar. An icon will then display on your bottom screen map telling you where to go. You can get these maps from Cartographer villagers (the light gray ones).\n-------------------\nWhat DLC packs were available?\n\nThe New Nintendo 3DS Edition of Minecraft came bundled with 7 Skin packs (Standard, Biome Settlers Pack 1 + 2, Redstone Specialists, Journey to the West, Holiday 2015, and Super Mario Mash-Up), four Texture packs (Minecraft [Default], City, Plastic, and Super Mario Mash-Up), and one Mash-Up world (Super Mario Mash-up). Additionally, the store had 14 Skin packs (Campfire Tales, City Folk, Town Folk, Battle and Beasts, Star Wars Classic, Star Wars Rebels, Star Wars Prequel, Stranger Things, Villains, Strangers - Biome Settlers Pack 3, Moana, Mighty Morphin' Power Rangers, Magic: The Gathering, and Halloween Costume), 5 Texture packs (Cartoon, Fantasy, Candy, Natural, and Steampunk), and one Mash-up pack (Festive Mash-up). It is no longer possible to purchase any of these packs since the eShop was closed on 3/27/2023. However, you can download the DLC on the hShop, then run the Minecraft 3DS DLC Unlocker.\n-------------------\nWhy was I never able to buy the Power Rangers skin pack?\n\nMany players recall not being able to purchase Mighty Morphin' Power Rangers pack while the eShop was still up. While the reason is not known for sure, the most common theory is that a licensing contract expired. Some players were able to buy it in the months after it initially released, and the date it was taken down is unknown.  A similar situation occurred with the Stranger Things skin pack, where it was taken down from the store in the second half of 2022.\n-------------------\nI can't find fireworks in the item menu. Where are they?\n\nFirework rockets are unfortunately absent from this version. They were added to Minecraft: Pocket (now Bedrock) Edition in version 1.2, which is the update just after the update New Nintendo 3DS Edition is based on. To boost elytra flight, you can shoot yourself with an enchanted Punch bow.\n-------------------\nWhy doesn't this game have 3D support?\n\nSoon after release, the developers stated Minecraft: New Nintendo 3DS Edition would receive 3D support at some point in the future. Unfortunately, that never happened, and the game's updates stopped in January 2019.\n-------------------\nHow does the Totem of Undying work?\n\nTo use the Totem of Undying, you need to have it in any hotbar slot. If you die with it in your hotbar, you will be revived and receive extra hearts in addition to Resistance and Fire Resistance effects.\n-------------------\nMy physical copy has an Amiibo icon. How do I use them?\n\nIf your physical copy of Minecraft 3DS has an Amiibo icon, it is a misprint. The game has no Amiibo functionality.\n-------------------\nWhat's the newest update?\n\nMinecraft: New Nintendo 3DS Edition received its final update on January 15th, 2019 (in North America), with the 1.9.19 update. This update added features from the Discovery update. It was released for other regions the following day.\n-------------------\nWhat features did each update add?\n\nUpdate 0.1.0 was the base update included with the game. It was the only update to be prefixed with 0.\nUpdate 1.1.06 was released on November 8th (NA) / 9th (JP), 2017 and added:\n- Improved save/load times\n- More quick move functionality\n- Various UI tweaks\n- The ability to gain experience from smelting and trading\n- Smaller font for Roman alphabet languages\n- Various stability/performance improvements\n- Fixes to item stacking\n- Fixed crashes with various entities, including bottles o' enchanting\nUpdate 1.2.12 was released on December 22nd, 2017. It was the only update to be released in both NA and JP on the same day. It added:\n- Achievements\n- Effect icons and timers to the HUD\n- Various UI tweaks\n- Various stability/performance improvements\n- Fixed hardlock that occured sometimes with sleep mode\nUpdate 1.3.12 was released on January 29th (NA) / 30th (JP), 2018. It is generally referred to as the Boss Update. It added:\n- The Wither\n- Beacons\n- Nether Stars\n- Arrow, Potion, and Splash Potion of Decay.\n- Ocean Monuments\n- Elder Guardian (and Spawn Egg)\n- Guardian (and Spawn Egg)\n- Prismarine\n- Prismarine Bricks\n- Dark Prismarine\n- Prismarine Shards and Crystals\n- Wet Sponges\n- Sea Lanterns\n- Local Brewery Achievement\n- Repopulation Achievement\n- Pork Chop Achievement\n- Have a Shearful Day Achievement\n- Renewable Energy Achievement\n- Body Guard Achievement\n- Zombie Doctor Achievement\n- Lion Tamer Achievement\n- Saddle Up Achievement\n- Beaconator Achievement\n- Overpowered Achievement\n- The Beginning? Achievement\n- The Beginning. Achievement\n- Free Diver Achievement\n- Rabbit Season Achievement\n- The Deep End Achievement\n- Dry Spell Achievement\n- Super Fuel Achievement\n- Various stability/performance improvements\n- Improved visibility in caves\n- Improved view distance in the Nether\nThe rest of the update changelogs will be added soon.\n-------------------\nDo I need to jailbreak my system to download Custom Content?\n\nYes, your Nintendo 3DS/2DS needs to be homebrewed with Luma to download use any Custom Content. Use https://3ds.hacks.guide to homebrew your system if you haven't already. It's a easy and simple process and unless you go out of your way to, you won't brick your system.",
+            "releasenotes":"MINECRAFT 3DS FREQUENTLY ASKED QUESTIONS\nRevision 4\nSOME PROMPTS ARE BASED FROM THE MINECRAFT 3DS WEBSITE\nhttps://www.minecraft3ds.net/misc/faq/questions\n-------------------\nWhere can I find a download link for Minecraft: New Nintendo 3DS Edition?\n\nYou can either buy a phisical copy, or pirate it on the hShop.\n-------------------\nI have a non-USA system. What title ID do I use?\n\nThe USA title ID is 00040000001B8700, the EU title ID is 000400000017CA00, and the JP title ID is 000400000017FD00. \n-------------------\nHow can I play online multiplayer?\n\nUnfortunately, this version of Minecraft only has two-player local multiplayer player, which means online multiplayer is not possible. If you want to play with your friends on your New 3DS/2DS, you'll have to be in close proximity to them. If you're playing on Citra, however, you can use netplay to play online with your friends. However, this method of multiplayer is very unstable. It's also worth noting that a mod that adds online multiplayer would not work well (or at all, for that matter) due to the limitations of the New 3DS/2DS family of systems.\n-------------------\nHow can I submit my own piece of Custom Content?\n\nYou can fill out a form here: https://github.com/team-proteus-mc/minecraft-3ds-unistore/issues/new?assignees=&labels=&projects=&template=content-addition.md&title=\n-------------------\nHow advanced are the known modding capabilities?\n\nThe current modification capabilities for Minecraft: New Nintendo 3DS Edition are not that advanced. Currently the most advanced mods possible are JSON edits, shaders, textures, audio, and a few primitive code.bin patches.\n-------------------\nIs this game region locked?\n\nUnfortunately, Minecraft: New Nintendo 3DS Edition is region locked. Additionally, the only region with a cartridge release is North America. In Europe and Japan, the game was only ever available digitally.\n-------------------\nWho developed this version of the game?\n\nThe New Nintendo 3DS Edition of Minecraft was developed by Other Ocean Interactive's Emeryville studio in collaboration with Mojang.\n-------------------\nWhat is Minecraft 3DS' closest version equivalent?\n\nMinecraft: New Nintendo 3DS Edition is closest to Minecraft: Pocket (now Bedrock) Edition version 1.1.5. It is essentially a port of that version.\n-------------------\nWhat language is Minecraft 3DS coded in?\n\nThis game was coded in C++ and ARM v6 Assembly.\n-------------------\nHow does the local multiplayer work?\n\nThe local multiplayer in this version supports up to two players who are within a close range of each other. Each player needs their own copy of the game as it does not support Download play. It was added in version 1.4.\n-------------------\nWhat is the world height limit?\n\nThe block height limit it 128 blocks.\n-------------------\nWhat are the world sizes?\n\n'Small' worlds are 672x672 blocks, 'Medium' worlds are 1344x1344 blocks, and 'Large' worlds are 2016x2016 blocks. The size of your world cannot be changed in-game after creation.\n-------------------\nWhat are the mob caps?\n\nThe game can load 24 enemies, 24 animals, 16 squid, and 16 villagers at a time. These are much stricter than even the Legacy Console mob caps, as to conserve resources. However, there is a mod that gets rid of this cap in the Unistore, but it can be pretty unstable.\n-------------------\nHow do the map and coordinates work?\n\nThe player's coordinates and map are always displayed on the bottom screen, along with their hotbar. There are also buttons for inventory and crafting, plus a button to pause the game.\n-------------------\nWhat are the in-game controls?\n\nThe circle pad is used to move. The left and right d-pad buttons are used to navigate the hotbar. The up d-pad button is used to toggle camera perspectives. The down d-pad button is used to toggle sneaking. The A button is used to jump. The B button is used to drop items. The X button is used to open the crafting menu. The Y button is used to open the inventory. The start and select buttons are used to pause the game. The L button is used to place/use blocks. The R button is used to break blocks and attack mobs. The ZL and ZR buttons are used to navigate the hotbar.\n-------------------\nWhen was Minecraft 3DS released?\n\nMinecraft: New Nintendo 3DS Edition was released digitally in North America on September 13th, 2017, a day later in Japan, and later in Europe on September 20th 2018. It was released physically in North America on November 10th, 2017.\n-------------------\nHow do I use the Woodland and Ocean Explorer maps?\n\nTo use the Woodland or Ocean Explorer map, you need to put it somewhere in your hotbar. An icon will then display on your bottom screen map telling you where to go. You can get these maps from Cartographer villagers (the light gray ones).\n-------------------\nWhat DLC packs were available?\n\nThe New Nintendo 3DS Edition of Minecraft came bundled with 7 Skin packs (Standard, Biome Settlers Pack 1 + 2, Redstone Specialists, Journey to the West, Holiday 2015, and Super Mario Mash-Up), four Texture packs (Minecraft [Default], City, Plastic, and Super Mario Mash-Up), and one Mash-Up world (Super Mario Mash-up). Additionally, the store had 14 Skin packs (Campfire Tales, City Folk, Town Folk, Battle and Beasts, Star Wars Classic, Star Wars Rebels, Star Wars Prequel, Stranger Things, Villains, Strangers - Biome Settlers Pack 3, Moana, Mighty Morphin' Power Rangers, Magic: The Gathering, and Halloween Costume), 5 Texture packs (Cartoon, Fantasy, Candy, Natural, and Steampunk), and one Mash-up pack (Festive Mash-up). It is no longer possible to purchase any of these packs since the eShop was closed on 3/27/2023. However, you can download the DLC on the hShop, then run the Minecraft 3DS DLC Unlocker.\n-------------------\nWhy was I never able to buy the Power Rangers skin pack?\n\nMany players recall not being able to purchase Mighty Morphin' Power Rangers pack while the eShop was still up. While the reason is not known for sure, the most common theory is that a licensing contract expired. Some players were able to buy it in the months after it initially released, and the date it was taken down is unknown.  A similar situation occurred with the Stranger Things skin pack, where it was taken down from the store in the second half of 2022.\n-------------------\nI can't find fireworks in the item menu. Where are they?\n\nFirework rockets are unfortunately absent from this version. They were added to Minecraft: Pocket (now Bedrock) Edition in version 1.2, which is the update just after the update New Nintendo 3DS Edition is based on. To boost elytra flight, you can shoot yourself with an enchanted Punch bow.\n-------------------\nWhy doesn't this game have 3D support?\n\nSoon after release, the developers stated Minecraft: New Nintendo 3DS Edition would receive 3D support at some point in the future. Unfortunately, that never happened, and the game's updates stopped in January 2019.\n-------------------\nHow does the Totem of Undying work?\n\nTo use the Totem of Undying, you need to have it in any hotbar slot. If you die with it in your hotbar, you will be revived and receive extra hearts in addition to Resistance and Fire Resistance effects.\n-------------------\nMy physical copy has an Amiibo icon. How do I use them?\n\nIf your physical copy of Minecraft 3DS has an Amiibo icon, it is a misprint. The game has no Amiibo functionality.\n-------------------\nWhat's the newest update?\n\nMinecraft: New Nintendo 3DS Edition received its final update on January 15th, 2019 (in North America), with the 1.9.19 update. This update added features from the Discovery update. It was released for other regions the following day.\n-------------------\nWhat features did each update add?\n\nUpdate 0.1.0 was the base update included with the game. It was the only update to be prefixed with 0.\nUpdate 1.1.06 was released on November 8th (NA) / 9th (JP), 2017 and added:\n- Improved save/load times\n- More quick move functionality\n- Various UI tweaks\n- The ability to gain experience from smelting and trading\n- Smaller font for Roman alphabet languages\n- Various stability/performance improvements\n- Fixes to item stacking\n- Fixed crashes with various entities, including bottles o' enchanting\nUpdate 1.2.12 was released on December 22nd, 2017. It was the only update to be released in both NA and JP on the same day. It added:\n- Achievements\n- Effect icons and timers to the HUD\n- Various UI tweaks\n- Various stability/performance improvements\n- Fixed hardlock that occured sometimes with sleep mode\nUpdate 1.3.12 was released on January 29th (NA) / 30th (JP), 2018. It is generally referred to as the Boss Update. It added:\n- The Wither\n- Beacons\n- Nether Stars\n- Arrow, Potion, and Splash Potion of Decay.\n- Ocean Monuments\n- Elder Guardian (and Spawn Egg)\n- Guardian (and Spawn Egg)\n- Prismarine\n- Prismarine Bricks\n- Dark Prismarine\n- Prismarine Shards and Crystals\n- Wet Sponges\n- Sea Lanterns\n- Local Brewery Achievement\n- Repopulation Achievement\n- Pork Chop Achievement\n- Have a Shearful Day Achievement\n- Renewable Energy Achievement\n- Body Guard Achievement\n- Zombie Doctor Achievement\n- Lion Tamer Achievement\n- Saddle Up Achievement\n- Beaconator Achievement\n- Overpowered Achievement\n- The Beginning? Achievement\n- The Beginning. Achievement\n- Free Diver Achievement\n- Rabbit Season Achievement\n- The Deep End Achievement\n- Dry Spell Achievement\n- Super Fuel Achievement\n- Various stability/performance improvements\n- Improved visibility in caves\n- Improved view distance in the Nether\nThe rest of the update changelogs will be added soon.\n-------------------\nDo I need to jailbreak my system to download Custom Content?\n\nYes, your Nintendo 3DS/2DS needs to be homebrewed with Luma to download use any Custom Content. Use https://3ds.hacks.guide to homebrew your system if you haven't already. It's a easy and simple process and unless you go out of your way to, you won't brick your system.",
             "screenshots": [
                {
                   "description": "Image.",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/faq.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/faq.png"
                }
             ],
             "icon_index":44,
@@ -3722,7 +3722,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/misc/faq.txt",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/misc/faq.txt",
                   "output": "sdmc:/Minecraft 3DS/faq.txt"
                }
             ]
@@ -3745,55 +3745,55 @@
             "screenshots": [
                {
                   "description": "Mountain Goats",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-a.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-a.png"
                },
                {
                   "description": "Cut-off Portal",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-b.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-b.png"
                },
                {
                   "description": "The Death Hole",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-c.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-c.png"
                },
                {
                   "description": "Pumpkin Head",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-d.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-d.png"
                },
                {
                   "description": "Hello",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-e.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-e.png"
                },
                {
                   "description": "Normal Behavior",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-f.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-f.png"
                },
                {
                   "description": "Illuminated Cave",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-g.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-g.png"
                },
                {
                   "description": "Mushroom Cow",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-h.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-h.png"
                },
                {
                   "description": "Swamp",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-i.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-i.png"
                },
                {
                   "description": "Heck",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-j.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-j.png"
                },
                {
                   "description": "Stuck",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-k.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-k.png"
                },
                {
                   "description": "Funny",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-l.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-l.png"
                },
                {
                   "description": "Hatred and Sorrow",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-m.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/screenshot-m.png"
                }
             ],
             "icon_index":45,
@@ -3805,7 +3805,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/misc/screenshots.txt",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/misc/screenshots.txt",
                   "output": "sdmc:/Minecraft 3DS/screenshots.txt"
                }
             ]
@@ -3829,15 +3829,15 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/better-clouds-a.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/better-clouds-a.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/better-clouds-b.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/better-clouds-b.png"
                },
                {
                   "description": "Image #3",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/better-clouds-c.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/better-clouds-c.png"
                }
             ],
             "icon_index":46,
@@ -3849,7 +3849,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/better-clouds.7z",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/better-clouds.7z",
                   "output": "sdmc:/Minecraft 3DS/better-clouds.7z"
                },
                {
@@ -3874,7 +3874,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/better-clouds.7z",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/better-clouds.7z",
                   "output": "sdmc:/Minecraft 3DS/better-clouds.7z"
                },
                {
@@ -3899,7 +3899,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/better-clouds.7z",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/better-clouds.7z",
                   "output": "sdmc:/Minecraft 3DS/better-clouds.7z"
                },
                {
@@ -3938,23 +3938,23 @@
             "screenshots": [
                {
                   "description": "New saving icon",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/remaster1.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/remaster1.png"
                },
                {
                   "description": "Updated inventory icons and buttons",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/remaster2.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/remaster2.png"
                },
                {
                   "description": "Updated inventory icons and buttons again",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/remaster3.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/remaster3.png"
                },
                {
                   "description": "New achievement icons",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/remaster4.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/remaster4.png"
                },
                {
                   "description": "Updated buttons",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/remastered5.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/remastered5.png"
                }
             ],
             "icon_index":47,
@@ -3966,7 +3966,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/vanillaremastered31.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/vanillaremastered31.zip",
                   "output": "sdmc:/Minecraft 3DS/vanillaremastered31.zip"
                },
                {
@@ -3991,7 +3991,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/vanillaremastered31.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/vanillaremastered31.zip",
                   "output": "sdmc:/Minecraft 3DS/vanillaremastered31.zip"
                },
                {
@@ -4016,7 +4016,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/vanillaremastered31.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/vanillaremastered31.zip",
                   "output": "sdmc:/Minecraft 3DS/vanillaremastered31.zip"
                },
                {
@@ -4054,7 +4054,7 @@
             "screenshots": [
                {
                   "description": "screenshot",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/genspace.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/genspace.png"
                }
             ],
             "icon_index":49,
@@ -4066,7 +4066,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/Genspace_Mod_1.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/Genspace_Mod_1.zip",
                   "output": "sdmc:/Minecraft 3DS/Genspace_Mod_1.zip"
                },
                {
@@ -4096,7 +4096,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/Genspace_Mod_1.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/Genspace_Mod_1.zip",
                   "output": "sdmc:/Minecraft 3DS/Genspace_Mod_1.zip"
                },
                {
@@ -4126,7 +4126,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/Genspace_Mod_1.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/Genspace_Mod_1.zip",
                   "output": "sdmc:/Minecraft 3DS/Genspace_Mod_1.zip"
                },
                {
@@ -4170,11 +4170,11 @@
             "screenshots": [
                {
                   "description": "Unistore Preview",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/stb-unistore.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/stb-unistore.png"
                },
                {
                   "description": "Unistore Preview 2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/stb-unistore2.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/stb-unistore2.png"
                }
             ],
             "icon_index":50,
@@ -4214,23 +4214,23 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/Kreideprinza.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/Kreideprinza.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/Kreideprinzb.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/Kreideprinzb.png"
                },
                {
                   "description": "Image #3",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/Kreideprinzc.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/Kreideprinzc.png"
                },
                {
                   "description": "Image #4",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/Kreideprinzd.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/Kreideprinzd.png"
                },
                {
                   "description": "Image #5",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/Kreideprinze.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/Kreideprinze.png"
                }
             ],
             "icon_index":53,
@@ -4242,12 +4242,12 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/Kreideprinz1.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/Kreideprinz1.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/Kreideprinz1.zip"
                },
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/Kreideprinz2.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/Kreideprinz2.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/Kreideprinz2.zip"
                },
                {
@@ -4295,67 +4295,67 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack1.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack1.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack2.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack2.png"
                },
                {
                   "description": "Image #3",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack3.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack3.png"
                },
                {
                   "description": "Image #4",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack4.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack4.png"
                },
                {
                   "description": "Image #5",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack5.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack5.png"
                },
                {
                   "description": "Image #6",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack6.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack6.png"
                },
                {
                   "description": "Image #7",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack7.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack7.png"
                },
                {
                   "description": "Image #8",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack8.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack8.png"
                },
                {
                   "description": "Norse panorama",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack9.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack9.png"
                },
                {
                   "description": "Norse panorama 2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack10.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/norsepack10.png"
                },
                {
                   "description": "Norse Particles 1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/norsepart1.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/norsepart1.png"
                },
                {
                   "description": "Norse Particles 2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/norsepart2.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/norsepart2.png"
                },
                {
                   "description": "Norse Particles 3",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/norsepart3.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/norsepart3.png"
                },
                {
                   "description": "Norse Particles 4",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/norsepart4.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/norsepart4.png"
                },
                {
                   "description": "Norse Particles 5",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/norsepart5.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/norsepart5.png"
                },  
                {
                   "description": "Norse Particles 6",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/norsepart6.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/norsepart6.png"
                }
             ],
             "icon_index":48,
@@ -4366,7 +4366,7 @@
             "size":"5.30 MB",
             "script":[
                {
-                  "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/norse03.zip",
+                  "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/norse03.zip",
                   "output":"sdmc:/Minecraft 3DS/norse03.zip",
                   "type":"downloadFile"
                },
@@ -4408,7 +4408,7 @@
             "size":"5.30 MB",
             "script":[
                {
-                  "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/norse03.zip",
+                  "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/norse03.zip",
                   "output":"sdmc:/Minecraft 3DS/norse03.zip",
                   "type":"downloadFile"
                },
@@ -4450,7 +4450,7 @@
             "size":"5.30 MB",
             "script":[
                {
-                  "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/norse03.zip",
+                  "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/norse03.zip",
                   "output":"sdmc:/Minecraft 3DS/norse03.zip",
                   "type":"downloadFile"
                },
@@ -4492,7 +4492,7 @@
             "size":"578 KB",
             "script":[
                {
-                  "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/norsepans.zip",
+                  "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/norsepans.zip",
                   "output":"sdmc:/Minecraft 3DS/norsepans.zip",
                   "type":"downloadFile"
                },
@@ -4517,7 +4517,7 @@
             "size":"578 KB",
             "script":[
                {
-                  "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/norsepans.zip",
+                  "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/norsepans.zip",
                   "output":"sdmc:/Minecraft 3DS/norsepans.zip",
                   "type":"downloadFile"
                },
@@ -4542,7 +4542,7 @@
             "size":"578 KB",
             "script":[
                {
-                  "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/norsepans.zip",
+                  "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/norsepans.zip",
                   "output":"sdmc:/Minecraft 3DS/norsepans.zip",
                   "type":"downloadFile"
                },
@@ -4567,7 +4567,7 @@
             "size":"1.26 MB",
             "script":[
                {
-                  "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/Minecraft_3DS_Norse_Mythology_Mash-Up_Rune_Particle_Add-On.7z",
+                  "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/Minecraft_3DS_Norse_Mythology_Mash-Up_Rune_Particle_Add-On.7z",
                   "output":"sdmc:/Minecraft 3DS/Minecraft_3DS_Norse_Mythology_Mash-Up_Rune_Particle_Add-On.7z",
                   "type":"downloadFile"
                },
@@ -4592,7 +4592,7 @@
             "size":"1.26 MB",
             "script":[
                {
-                  "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/Minecraft_3DS_Norse_Mythology_Mash-Up_Rune_Particle_Add-On.7z",
+                  "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/Minecraft_3DS_Norse_Mythology_Mash-Up_Rune_Particle_Add-On.7z",
                   "output":"sdmc:/Minecraft 3DS/Minecraft_3DS_Norse_Mythology_Mash-Up_Rune_Particle_Add-On.7z",
                   "type":"downloadFile"
                },
@@ -4617,7 +4617,7 @@
             "size":"1.26 MB",
             "script":[
                {
-                  "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/Minecraft_3DS_Norse_Mythology_Mash-Up_Rune_Particle_Add-On.7z",
+                  "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/Minecraft_3DS_Norse_Mythology_Mash-Up_Rune_Particle_Add-On.7z",
                   "output":"sdmc:/Minecraft 3DS/Minecraft_3DS_Norse_Mythology_Mash-Up_Rune_Particle_Add-On.7z",
                   "type":"downloadFile"
                },
@@ -4656,27 +4656,27 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/3dsmp-a.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/3dsmp-a.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/3dsmp-b.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/3dsmp-b.png"
                },
                {
                   "description": "Image #3",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/3dsmp-c.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/3dsmp-c.png"
                },
                {
                   "description": "Image #4",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/3dsmp-d.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/3dsmp-d.png"
                },
                {
                   "description": "Image #5",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/3dsmp-e.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/3dsmp-e.png"
                },
                {
                   "description": "Image #6",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/3dsmp-f.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/3dsmp-f.png"
                }
             ],
             "icon_index":54,
@@ -4688,7 +4688,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/3dsmp2.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/3dsmp2.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/3dsmp2.zip"
                },
                {
@@ -4713,7 +4713,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/3dsmp3.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/3dsmp3.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/3dsmp3.zip"
                },
                {
@@ -4738,7 +4738,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/3dsmp4.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/3dsmp4.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/3dsmp4.zip"
                },
                {
@@ -4763,7 +4763,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/3dsmp5.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/3dsmp5.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/3dsmp5.zip"
                },
                {
@@ -4788,7 +4788,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/3dsmp7.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/3dsmp7.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/3dsmp7.zip"
                },
                {
@@ -4813,7 +4813,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/3dsmp-9.7z",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/3dsmp-9.7z",
                   "output": "sdmc:/Minecraft 3DS/worlds/3dsmp-9.7z"
                },
                {
@@ -4838,7 +4838,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/3dsmp-11.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/3dsmp-11.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/3dsmp-11.zip"
                },
                {
@@ -4876,7 +4876,7 @@
             "screenshots": [
                {
                   "description": "No image is available. Sorry.",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
                }
             ], 
             "icon_index":56,
@@ -4885,7 +4885,7 @@
          },
          "Maryland Mixup (USA)":[
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/skins/Maryland_Mixup.zip",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/skins/Maryland_Mixup.zip",
                "output":"sdmc:/Minecraft 3DS/Maryland_Mixup.zip",
                "type":"downloadFile"
             },
@@ -4912,7 +4912,7 @@
          ],
          "Maryland Mixup (EUR)":[
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/skins/Maryland_Mixup.zip",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/skins/Maryland_Mixup.zip",
                "output":"sdmc:/Minecraft 3DS/Maryland_Mixup.zip",
                "type":"downloadFile"
             },
@@ -4939,7 +4939,7 @@
          ],
          "Maryland Mixup (JPN)":[
             {
-               "file":"https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/skins/Maryland_Mixup.zip",
+               "file":"https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/skins/Maryland_Mixup.zip",
                "output":"sdmc:/Minecraft 3DS/Maryland_Mixup.zip",
                "type":"downloadFile"
             },
@@ -4984,7 +4984,7 @@
             "screenshots": [
                {
                   "description": "Image",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
                }
             ],
             "icon_index":65,
@@ -4996,7 +4996,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/mods/code.ips",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/mods/code.ips",
                   "output": "sdmc:/luma/titles/00040000001B8700/code.ips"
                },
                {
@@ -5025,15 +5025,15 @@
             "screenshots": [
                {
                   "description": "Image 1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/experience1.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/experience1.png"
                },
                {
                   "description": "Image 2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/experience2.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/experience2.png"
                },
                {
                   "description": "Image 3",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/experience3.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/experience3.png"
                }
             ],
             "icon_index":70,
@@ -5045,7 +5045,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/Experience_Minecraft.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/Experience_Minecraft.zip",
                   "output": "sdmc:/Minecraft 3DS/Experience_Minecraft.zip"
                },
                {
@@ -5084,27 +5084,27 @@
             "screenshots": [
                {
                   "description": "Image 1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/hideandseek1.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/hideandseek1.png"
                },
                {
                   "description": "Image 2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/hideandseek2.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/hideandseek2.png"
                },
                {
                   "description": "Image 3",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/hideandseek3.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/hideandseek3.png"
                },
                {
                   "description": "Image 4",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/hideandseek4.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/hideandseek4.png"
                },
                {
                   "description": "Image 5",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/hideandseek5.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/hideandseek5.png"
                },
                {
                   "description": "Image 6",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/hideandseek6.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/hideandseek6.png"
                }
             ],
             "icon_index":72,
@@ -5116,7 +5116,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/3ds_Hide_and_seek_ver._1.3.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/3ds_Hide_and_seek_ver._1.3.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/3ds_Hide_and_seek_ver._1.3.zip"
                },
                {
@@ -5155,7 +5155,7 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/debugk.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/debugk.png"
                }
             ],
             "icon_index":78,
@@ -5167,7 +5167,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/DebugK.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/DebugK.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/DebugK.zip"
                },
                {
@@ -5206,11 +5206,11 @@
             "screenshots": [
                {
                   "description": "Preview",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/simplesuits.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/simplesuits.png"
                },
                {
                   "description": "Preview 2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/simplesuitsb.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/simplesuitsb.png"
                }
             ],
             "icon_index":80,
@@ -5222,7 +5222,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/skins/Simple_Suits_3DS.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/skins/Simple_Suits_3DS.zip",
                   "output": "sdmc:/Minecraft 3DS/Simple_Suits_3DS.zip"
                },
                {
@@ -5248,7 +5248,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/skins/Simple_Suits_3DS.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/skins/Simple_Suits_3DS.zip",
                   "output": "sdmc:/Minecraft 3DS/Simple_Suits_3DS.zip"
                },
                {
@@ -5274,7 +5274,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/skins/Simple_Suits_3DS.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/skins/Simple_Suits_3DS.zip",
                   "output": "sdmc:/Minecraft 3DS/Simple_Suits_3DS.zip"
                },
                {
@@ -5315,11 +5315,11 @@
             "screenshots": [
                {
                   "description": "Image 1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/python1.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/python1.png"
                },
                {
                   "description": "Image 2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/python2.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/python2.png"
                }
             ],
             "icon_index":84,
@@ -5331,7 +5331,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/pythonmod.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/pythonmod.zip",
                   "output": "sdmc:/Minecraft 3DS/pythonmod.zip"
                },
                {
@@ -5369,7 +5369,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/pythonmod.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/pythonmod.zip",
                   "output": "sdmc:/Minecraft 3DS/pythonmod.zip"
                },
                {
@@ -5407,7 +5407,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/pythonmod.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/pythonmod.zip",
                   "output": "sdmc:/Minecraft 3DS/pythonmod.zip"
                },
                {
@@ -5458,7 +5458,7 @@
             "screenshots": [
                {
                "description": "Image #1",
-               "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/fnaf1.png"
+               "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/fnaf1.png"
                }
          ],
          "icon_index":91,
@@ -5470,7 +5470,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/Fnaf_1_1.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/Fnaf_1_1.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/Fnaf_1_1.zip"
                },
                {
@@ -5508,23 +5508,23 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/fnaf2.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/fnaf2.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/fnaf2a.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/fnaf2a.png"
                },
                {
                   "description": "Image #3",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/fnaf2b.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/fnaf2b.png"
                },
                {
                   "description": "Image #4",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/fnaf2c.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/fnaf2c.png"
                },
                {
                   "description": "Image #5",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/fnaf2d.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/fnaf2d.png"
                }
             ],
             "icon_index":92,
@@ -5536,7 +5536,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/Fnaf_2.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/Fnaf_2.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/Fnaf_2.zip"
                },
                {
@@ -5574,15 +5574,15 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/halloween1.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/halloween1.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/halloween2.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/halloween2.png"
                },
                {
                   "description": "Image #3",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/halloween3.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/halloween3.png"
                }
             ],
             "icon_index":93,
@@ -5594,7 +5594,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/5wsAAO8fGAA_1.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/5wsAAO8fGAA_1.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/5wsAAO8fGAA_1.zip"
                },
                {
@@ -5633,23 +5633,23 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/3dxpack2a.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/3dxpack2a.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/3dxpack2b.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/3dxpack2b.png"
                },
                {
                   "description": "Image #3",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/3dxpack2c.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/3dxpack2c.png"
                },
                {
                   "description": "Image #4",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/3dxpack2d.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/3dxpack2d.png"
                },
                {
                   "description": "Image #5",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/3dxpack2e.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/3dxpack2e.png"
                }
             ],
             "icon_index":94,
@@ -5661,7 +5661,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/mods/3dxpack2.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/mods/3dxpack2.zip",
                   "output": "sdmc:/Minecraft 3DS/3dxpack2.zip"
                },
                {
@@ -5699,7 +5699,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/mods/3dxpack2.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/mods/3dxpack2.zip",
                   "output": "sdmc:/Minecraft 3DS/3dxpack2.zip"
                },
                {
@@ -5737,7 +5737,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/mods/3dxpack2.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/mods/3dxpack2.zip",
                   "output": "sdmc:/Minecraft 3DS/3dxpack2.zip"
                },
                {
@@ -5788,15 +5788,15 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/sm11a.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/sm11a.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/sm11b.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/sm11b.png"
                },
                {
                   "description": "Image #3",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/sm11c.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/sm11c.png"
                }
             ],
             "icon_index":98,
@@ -5808,7 +5808,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/smb1-1-1.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/smb1-1-1.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/smb1-1-1.zip"
                },
                {
@@ -5846,39 +5846,39 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/shadowmere1.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/shadowmere1.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/shadowmere2.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/shadowmere2.png"
                },
                {
                   "description": "Image #3",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/shadowmere3.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/shadowmere3.png"
                },
                {
                   "description": "Image #4",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/shadowmere4.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/shadowmere4.png"
                },
                {
                   "description": "Image #5",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/shadowmere5.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/shadowmere5.png"
                },
                {
                   "description": "Image #6",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/shadowmere6.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/shadowmere6.png"
                },
                {
                   "description": "Image #7",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/shadowmere7.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/shadowmere7.png"
                },
                {
                   "description": "Image #8",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/shadowmere8.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/shadowmere8.png"
                },
                {
                   "description": "Image #9",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/shadowmere9.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/shadowmere9.png"
                }
             ],
             "icon_index":100,
@@ -5890,7 +5890,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/worlds/Shadowmere.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/worlds/Shadowmere.zip",
                   "output": "sdmc:/Minecraft 3DS/worlds/Shadowmere.zip"
                },
                {
@@ -5929,7 +5929,7 @@
             "screenshots": [
                {
                   "description": "No image is available. Sorry.",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/no-img.png"
                }
             ],
             "icon_index":101,
@@ -5941,7 +5941,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/mods/nopart.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/mods/nopart.zip",
                   "output": "sdmc:/Minecraft 3DS/nopart.zip"
                },
                {
@@ -6015,7 +6015,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/mods/nopart.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/mods/nopart.zip",
                   "output": "sdmc:/Minecraft 3DS/nopart.zip"
                },
                {
@@ -6089,7 +6089,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/mods/nopart.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/mods/nopart.zip",
                   "output": "sdmc:/Minecraft 3DS/nopart.zip"
                },
                {
@@ -6177,35 +6177,35 @@
             "screenshots": [
                {
                   "description": "Image #1",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/painterly1.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/painterly1.png"
                },
                {
                   "description": "Image #2",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/painterly2.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/painterly2.png"
                },
                {
                   "description": "Image #3",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/painterly3.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/painterly3.png"
                },
                {
                   "description": "Image #4",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/painterly4.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/painterly4.png"
                },
                {
                   "description": "Image #5",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/painterly5.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/painterly5.png"
                },
                {
                   "description": "Image #6",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/painterly6.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/painterly6.png"
                },
                {
                   "description": "Image #7",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/painterly7.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/painterly7.png"
                },
                {
                   "description": "Image #8",
-                  "url": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/screenshots/painterly8.png"
+                  "url": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/screenshots/painterly8.png"
                }
             ],
             "icon_index":107,
@@ -6217,7 +6217,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/Painterly.Pack.by.SeveringHams.2.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/Painterly.Pack.by.SeveringHams.2.zip",
                   "output": "sdmc:/Minecraft 3DS/Painterly.Pack.by.SeveringHams.zip"
                },
                {
@@ -6249,7 +6249,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/Painterly.Pack.by.SeveringHams.2.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/Painterly.Pack.by.SeveringHams.2.zip",
                   "output": "sdmc:/Minecraft 3DS/Painterly.Pack.by.SeveringHams.zip"
                },
                {
@@ -6281,7 +6281,7 @@
             "script":[
                {
                   "type": "downloadFile",
-                  "file": "https://github.com/mc-3ds-team/minecraft-3ds-unistore/raw/main/res/textures/Painterly.Pack.by.SeveringHams.2.zip",
+                  "file": "https://github.com/team-proteus-mc/minecraft-3ds-unistore/raw/main/res/textures/Painterly.Pack.by.SeveringHams.2.zip",
                   "output": "sdmc:/Minecraft 3DS/Painterly.Pack.by.SeveringHams.zip"
                },
                {
