@@ -11,7 +11,7 @@ The first Minecraft 3DS Unistore, and the #1 place to get custom content for the
 Thank you [@zoogie](https://github.com/zoogie) for starring this repository, we love you!
 
 ## QR Code for installing on the Universal Updater
-![Minecraft 3DS UniStore QR Code](https://github.com/mc-3ds-team/minecraft-3ds-unistore/blob/main/img/teamproteusqr.png?raw=true)
+![Minecraft 3DS UniStore QR Code](https://github.com/mc-3ds-team/minecraft-3ds-unistore/blob/main/img/proteusstoreqr.png?raw=true)
 
 To install this Unistore, open the Universal Updater, go to "Settings" (:settings:) > "Select UniStore...". Press the "Add" (:add:) button, then the "QR Code" (:qr_code:) button. Then, scan the QR Code. It will download and install the Unistore. Open it by selecting ```minecraft-3ds.unistore``` in the list of Unistores.
 
