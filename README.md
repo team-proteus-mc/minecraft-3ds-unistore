@@ -1,5 +1,5 @@
-# THE MINECRAFT 3DS UNISTORE
-![Minecraft 3DS UniStore](https://github.com/mc-3ds-team/minecraft-3ds-unistore/blob/main/img/teamproteusqr.png?raw=true)
+# THE TEAM PROTEUS MINECRAFT 3DS UNISTORE
+![Minecraft 3DS UniStore](https://github.com/mc-3ds-team/minecraft-3ds-unistore/blob/main/img/logo.png?raw=true)
 
 ## Please join the Discord server here: https://discord.gg/khD7nN2682
 
@@ -11,7 +11,7 @@ The first Minecraft 3DS Unistore, and the #1 place to get custom content for the
 Thank you [@zoogie](https://github.com/zoogie) for starring this repository, we love you!
 
 ## QR Code for installing on the Universal Updater
-![Minecraft 3DS UniStore QR Code](https://github.com/mc-3ds-team/minecraft-3ds-unistore/blob/main/img/new-qr.png?raw=true)
+![Minecraft 3DS UniStore QR Code](https://github.com/mc-3ds-team/minecraft-3ds-unistore/blob/main/img/teamproteusqr.png?raw=true)
 
 To install this Unistore, open the Universal Updater, go to "Settings" (:settings:) > "Select UniStore...". Press the "Add" (:add:) button, then the "QR Code" (:qr_code:) button. Then, scan the QR Code. It will download and install the Unistore. Open it by selecting ```minecraft-3ds.unistore``` in the list of Unistores.
 
@@ -19,11 +19,11 @@ To install this Unistore, open the Universal Updater, go to "Settings" (:setting
 
 **If you have any other, older Minecraft 3DS UniStores on your console, made by susbaconhairman, then delete them because they no longer work/are outdated.**
 
-**If you want to know how to use this store, read the manual here: https://github.com/mc-3ds-team/minecraft-3ds-unistore/blob/main/manual.md**
+**If you want to know how to use this store, read the manual here: https://github.com/team-proteus/minecraft-3ds-unistore/blob/main/manual.md**
 
-**If you wish to add content to the Store, then please fill out an issue: https://github.com/mc-3ds-team/minecraft-3ds-unistore/issues/new?assignees=&labels=&projects=&template=content-addition.md&title=**
+**If you wish to add content to the Store, then please fill out an issue: https://github.com/team-proteus/minecraft-3ds-unistore/issues/new?assignees=&labels=&projects=&template=content-addition.md&title=**
 
-**If you wish to have something removed from the Store, then please fill out this issue: https://github.com/mc-3ds-team/minecraft-3ds-unistore/issues/new?assignees=&labels=&projects=&template=content-removal.md&title=**
+**If you wish to have something removed from the Store, then please fill out this issue: https://github.com/team-proteus/minecraft-3ds-unistore/issues/new?assignees=&labels=&projects=&template=content-removal.md&title=**
 
 ## Credits
 
